@@ -16,12 +16,23 @@ ALWAYS_FETCH_CODES = ['550901', '550801']
 
 def clean_text(text):
     """
-    文字列からHTMLタグのような形式を正規表現で削除し、余分な空白を整理する
+    文字列からHTMLタグのような形式を正規表現で削除し、余分な空白を整理する。
+    NaNやNoneも空文字に変換する。
     """
-    if not text:
+    if text is None:
         return ""
+    
+    # pandasのNaN(浮動小数点)対策
+    if isinstance(text, float) and pd.isna(text):
+        return ""
+        
     # 文字列化
     text = str(text)
+    
+    # 文字列としての'nan'も除去（念のため）
+    if text.lower() == 'nan':
+        return ""
+
     # <...> の形式をすべて空文字に置換
     text = re.sub(r'<[^>]+>', '', text)
     # 連続する空白・改行を1つのスペースに置換
@@ -139,7 +150,7 @@ def fetch_and_parse_cards(series_code):
                 h3 = div_copy.find('h3')
                 if h3:
                     h3.decompose()
-                    # h3を削除できたなら、テキスト抽出して終了（replaceはしない）
+                    # h3を削除できたなら、テキスト抽出して終了
                     return get_text_with_alt(div_copy)
                 else:
                     # h3がない場合は、テキスト抽出後にラベルを削除（念のため）
@@ -151,7 +162,7 @@ def fetch_and_parse_cards(series_code):
             counter = get_value_cleaned('counter', 'カウンター')
             color = get_value_cleaned('color', '色')
             feature = get_value_cleaned('feature', '特徴')
-            block = get_value_cleaned('block', 'ブロックアイコン') # ブロックアイコン
+            block = get_value_cleaned('block', 'ブロックアイコン') 
             text = get_value_cleaned('text', 'テキスト')
             trigger = get_value_cleaned('trigger', 'トリガー')
             set_info = get_value_cleaned('getInfo', '入手情報')
@@ -236,10 +247,14 @@ def main():
     all_files = [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith('.csv')]
     
     if all_files:
-        df_list = [pd.read_csv(f) for f in all_files]
+        # 読み込み時に全て文字列として扱うことで意図しない型変換を防ぐ
+        df_list = [pd.read_csv(f, dtype=str) for f in all_files]
         df_all = pd.concat(df_list, ignore_index=True)
         
-        # 全データの文字クリーニングを念のため再実行
+        # 結合後にNaNを空文字に置換
+        df_all = df_all.fillna('')
+
+        # 全データの文字クリーニングを念のため再実行（nan文字列の除去含む）
         for col in df_all.columns:
              df_all[col] = df_all[col].apply(clean_text)
 

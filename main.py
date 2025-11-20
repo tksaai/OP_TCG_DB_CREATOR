@@ -3,6 +3,8 @@ import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+import re
+import copy
 
 # --- 設定 ---
 BASE_URL = 'https://www.onepiece-cardgame.com/cardlist/'
@@ -12,10 +14,45 @@ OUTPUT_FILE = 'OnePiece_Card_List_All.csv'
 # 毎回必ず取得するシリーズのコード（プロモーション、限定商品）
 ALWAYS_FETCH_CODES = ['550901', '550801']
 
+def clean_text(text):
+    """
+    文字列からHTMLタグのような形式を正規表現で削除し、余分な空白を整理する
+    """
+    if not text:
+        return ""
+    # 文字列化
+    text = str(text)
+    # <...> の形式をすべて空文字に置換
+    text = re.sub(r'<[^>]+>', '', text)
+    # 連続する空白・改行を1つのスペースに置換
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+def get_text_with_alt(element):
+    """
+    BeautifulSoup要素からテキストを抽出する際、
+    <img>タグをそのalt属性（アイコンの意味）に置き換え、
+    <br>タグをスペースに置き換える
+    """
+    if not element:
+        return ""
+    
+    # 元の要素を破壊しないようにコピーを作成
+    elem_copy = copy.copy(element)
+    
+    # imgタグをaltテキストに置換 (例: <img alt="打"> -> "打")
+    for img in elem_copy.find_all('img'):
+        alt_text = img.get('alt', '')
+        img.replace_with(alt_text)
+        
+    # brタグをスペースに置換
+    for br in elem_copy.find_all('br'):
+        br.replace_with(' ')
+
+    # テキスト抽出
+    return clean_text(elem_copy.get_text(strip=True))
+
 def get_all_series_list():
-    """
-    公式サイトからシリーズ（収録弾）のリストを取得する
-    """
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -31,7 +68,8 @@ def get_all_series_list():
             options = select_tag.find_all('option')
             for opt in options:
                 val = opt.get('value')
-                name = opt.get_text(strip=True)
+                # シリーズ名もクリーニングする
+                name = get_text_with_alt(opt)
                 if val and val.isdigit():
                     series_options.append({'code': val, 'name': name})
         
@@ -41,9 +79,6 @@ def get_all_series_list():
         return []
 
 def fetch_and_parse_cards(series_code):
-    """
-    指定されたシリーズコードのカードデータを取得・解析する
-    """
     url = f"{BASE_URL}?series={series_code}"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -66,10 +101,13 @@ def fetch_and_parse_cards(series_code):
             info_col = modal.find('dt').find('div', class_='infoCol')
             spans = info_col.find_all('span')
             
-            card_id = spans[0].get_text(strip=True)
-            rarity = spans[1].get_text(strip=True)
-            card_type = spans[2].get_text(strip=True)
-            card_name = modal.find('dt').find('div', class_='cardName').get_text(strip=True)
+            card_id = clean_text(spans[0].get_text(strip=True))
+            rarity = clean_text(spans[1].get_text(strip=True))
+            card_type = clean_text(spans[2].get_text(strip=True))
+            
+            # カード名
+            card_name_div = modal.find('dt').find('div', class_='cardName')
+            card_name = get_text_with_alt(card_name_div)
             
             # --- 詳細情報の取得 ---
             back_col = modal.find('dd').find('div', class_='backCol')
@@ -79,39 +117,44 @@ def fetch_and_parse_cards(series_code):
             cost_life_type = ""
             cost_life_value = ""
             if cost_life_div:
-                h3_tag = cost_life_div.find('h3')
+                div_copy = copy.copy(cost_life_div)
+                h3_tag = div_copy.find('h3')
                 if h3_tag:
-                    cost_life_type = h3_tag.get_text(strip=True)
-                    full_text = cost_life_div.get_text(strip=True)
-                    cost_life_value = full_text.replace(cost_life_type, '')
+                    cost_life_type = clean_text(h3_tag.get_text(strip=True))
+                    h3_tag.decompose() # h3タグを削除
+                    cost_life_value = get_text_with_alt(div_copy)
                 else:
-                    cost_life_value = cost_life_div.get_text(strip=True)
+                    cost_life_value = get_text_with_alt(div_copy)
 
-            # 属性
-            attribute_div = back_col.find('div', class_='attribute')
-            attribute_img = attribute_div.find('img')
-            attribute = attribute_img.get('alt', '') if attribute_img else attribute_div.get_text(strip=True).replace('属性', '')
-            
-            # その他パラメータの取得ヘルパー
-            def get_value(class_name, remove_str):
+            # ヘルパー関数: 特定クラスのdivから見出しを除去してテキスト化
+            def get_value_cleaned(class_name, label_text):
                 div = back_col.find('div', class_=class_name)
-                return div.get_text(strip=True).replace(remove_str, '') if div else ""
-            
-            # ブロックアイコン（見出し除去して取得）
-            block_div = back_col.find('div', class_='block')
-            block = ""
-            if block_div:
-                h3_block = block_div.find('h3')
-                block_label = h3_block.get_text(strip=True) if h3_block else "ブロックアイコン"
-                block = block_div.get_text(strip=True).replace(block_label, '')
+                if not div:
+                    return ""
+                
+                # 画像(alt)やbrタグの処理のためコピー
+                div_copy = copy.copy(div)
+                
+                # 見出し(h3)があれば削除
+                h3 = div_copy.find('h3')
+                if h3:
+                    h3.decompose()
+                    # h3を削除できたなら、テキスト抽出して終了（replaceはしない）
+                    return get_text_with_alt(div_copy)
+                else:
+                    # h3がない場合は、テキスト抽出後にラベルを削除（念のため）
+                    text = get_text_with_alt(div_copy)
+                    return text.replace(label_text, '')
 
-            power = get_value('power', 'パワー')
-            counter = get_value('counter', 'カウンター')
-            color = get_value('color', '色')
-            feature = get_value('feature', '特徴')
-            text = get_value('text', 'テキスト')
-            trigger = get_value('trigger', 'トリガー')
-            set_info = get_value('getInfo', '入手情報')
+            attribute = get_value_cleaned('attribute', '属性')
+            power = get_value_cleaned('power', 'パワー')
+            counter = get_value_cleaned('counter', 'カウンター')
+            color = get_value_cleaned('color', '色')
+            feature = get_value_cleaned('feature', '特徴')
+            block = get_value_cleaned('block', 'ブロックアイコン') # ブロックアイコン
+            text = get_value_cleaned('text', 'テキスト')
+            trigger = get_value_cleaned('trigger', 'トリガー')
+            set_info = get_value_cleaned('getInfo', '入手情報')
 
             row = {
                 'CardID': card_id,
@@ -141,9 +184,6 @@ def fetch_and_parse_cards(series_code):
     return pd.DataFrame(data)
 
 def process_duplicates(df):
-    """
-    重複判定ロジック
-    """
     if df.empty:
         return df
 
@@ -153,7 +193,7 @@ def process_duplicates(df):
     # ID順、次に優先度順で並び替え
     df_sorted = df.sort_values(by=['CardID', 'SortPriority']).reset_index(drop=True)
     
-    # 重複フラグ作成 (True/False)
+    # 重複フラグ作成
     df_sorted['IsDuplicate'] = df_sorted.duplicated(subset=['CardID'], keep='first')
     
     return df_sorted.drop(columns=['SortPriority'])
@@ -162,7 +202,6 @@ def main():
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
 
-    # 1. 全シリーズリストの取得
     series_list = get_all_series_list()
     if not series_list:
         print("No series found. Exiting.")
@@ -170,7 +209,6 @@ def main():
 
     print(f"Found {len(series_list)} series.")
 
-    # 2. 各シリーズのデータを取得・保存
     for series in series_list:
         code = series['code']
         name = series['name']
@@ -187,7 +225,6 @@ def main():
         df = fetch_and_parse_cards(code)
         
         if not df.empty:
-            # 保存時は一旦そのまま保存（結合時に整形するため）
             df.to_csv(file_path, index=False, encoding='utf-8-sig')
             print(f"  -> Saved {len(df)} cards to {file_path}")
         else:
@@ -195,7 +232,6 @@ def main():
         
         time.sleep(2)
 
-    # 3. 全データの結合と最終整形
     print("Merging all data...")
     all_files = [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith('.csv')]
     
@@ -203,13 +239,14 @@ def main():
         df_list = [pd.read_csv(f) for f in all_files]
         df_all = pd.concat(df_list, ignore_index=True)
         
-        # 重複判定
+        # 全データの文字クリーニングを念のため再実行
+        for col in df_all.columns:
+             df_all[col] = df_all[col].apply(clean_text)
+
         df_final = process_duplicates(df_all)
         
-        # フラグを文字列「重複」または空文字に変換
         df_final['IsDuplicate'] = df_final['IsDuplicate'].apply(lambda x: '重複' if x else '')
 
-        # カラム名の日本語化マッピング
         column_mapping = {
             'CardID': 'カード番号',
             'Name': 'カード名',
@@ -231,10 +268,8 @@ def main():
             'ImageFileID_small': 'ImageFileID_small'
         }
 
-        # カラム名を変更
         df_final.rename(columns=column_mapping, inplace=True)
         
-        # 出力カラムの順序を指定
         output_columns = [
             'カード番号', 'カード名', 'レアリティ', '種類', '色', 
             'コスト/ライフ種別', 'コスト/ライフ値', 'パワー', 'カウンター', '属性', 
@@ -242,10 +277,13 @@ def main():
             '重複フラグ', 'ImageFileID', 'ImageFileID_small'
         ]
         
-        # 指定順序で抽出（存在しないカラムがあればエラーになるためチェックは本来必要だが、今回は生成しているのでOK）
+        # 不足しているカラムがあれば追加（エラー回避）
+        for col in output_columns:
+            if col not in df_final.columns:
+                df_final[col] = ''
+
         df_final = df_final[output_columns]
         
-        # 保存
         df_final.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
         print(f"Done! Total {len(df_final)} cards saved to {OUTPUT_FILE}")
     else:

@@ -32,7 +32,6 @@ def get_all_series_list():
             for opt in options:
                 val = opt.get('value')
                 name = opt.get_text(strip=True)
-                # valueが空や"ALL"のものは除外
                 if val and val.isdigit():
                     series_options.append({'code': val, 'name': name})
         
@@ -63,7 +62,7 @@ def fetch_and_parse_cards(series_code):
     
     for modal in card_modals:
         try:
-            # 基本情報の取得
+            # --- 基本情報の取得 ---
             info_col = modal.find('dt').find('div', class_='infoCol')
             spans = info_col.find_all('span')
             
@@ -72,14 +71,24 @@ def fetch_and_parse_cards(series_code):
             card_type = spans[2].get_text(strip=True)
             card_name = modal.find('dt').find('div', class_='cardName').get_text(strip=True)
             
-            # 詳細情報の取得
+            # --- 詳細情報の取得 ---
             back_col = modal.find('dd').find('div', class_='backCol')
             
-            # コスト / ライフ判定
+            # コスト / ライフ (レイアウト通りに分割)
             cost_life_div = back_col.find('div', class_='cost')
-            cost_life_val = cost_life_div.get_text(strip=True).split('</h3>')[-1]
-            life = cost_life_val if 'ライフ' in cost_life_div.text else ""
-            cost = cost_life_val if 'コスト' in cost_life_div.text else ""
+            cost_life_type = ""
+            cost_life_value = ""
+            
+            if cost_life_div:
+                h3_tag = cost_life_div.find('h3')
+                if h3_tag:
+                    # h3タグの中身（例: "ライフ" や "コスト"）
+                    cost_life_type = h3_tag.get_text(strip=True)
+                    # 全体テキストからh3部分を除去して値を取得（例: "4"）
+                    full_text = cost_life_div.get_text(strip=True)
+                    cost_life_value = full_text.replace(cost_life_type, '')
+                else:
+                    cost_life_value = cost_life_div.get_text(strip=True)
 
             # 属性
             attribute_div = back_col.find('div', class_='attribute')
@@ -104,8 +113,8 @@ def fetch_and_parse_cards(series_code):
                 'Name': card_name,
                 'Rarity': rarity,
                 'Type': card_type,
-                'Life': life,
-                'Cost': cost,
+                'Cost_Life_Type': cost_life_type,   # コスト/ライフ種別
+                'Cost_Life_Value': cost_life_value, # コスト/ライフ値
                 'Attribute': attribute,
                 'Power': power,
                 'Counter': counter,
@@ -126,29 +135,23 @@ def fetch_and_parse_cards(series_code):
 
 def process_duplicates(df):
     """
-    重複判定ロジック:
-    1. レアリティに'SP'が含まれるものの優先度を下げる
-    2. CardIDでソートし、先頭（通常版）を正として残す
-    3. それ以外に重複フラグを立てる
+    重複判定ロジック
     """
     if df.empty:
         return df
 
-    # 優先度付け: SPを含む場合は 1、それ以外は 0 (小さいほうが優先)
+    # 優先度付け: SPを含む場合は 1、それ以外は 0
     df['SortPriority'] = df['Rarity'].apply(lambda x: 1 if 'SP' in str(x) else 0)
     
     # ID順、次に優先度順で並び替え
-    # これにより [CardID:OP01-001, Priority:0 (通常)] -> [CardID:OP01-001, Priority:1 (SP)] の順になる
     df_sorted = df.sort_values(by=['CardID', 'SortPriority']).reset_index(drop=True)
     
-    # 重複フラグ作成（最初の1つ以外はTrue）
+    # 重複フラグ作成
     df_sorted['IsDuplicate'] = df_sorted.duplicated(subset=['CardID'], keep='first')
     
-    # 一時的な優先度カラムを削除
     return df_sorted.drop(columns=['SortPriority'])
 
 def main():
-    # 保存用ディレクトリの作成
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
 
@@ -166,21 +169,17 @@ def main():
         name = series['name']
         file_path = os.path.join(DATA_DIR, f"{code}.csv")
         
-        # 取得するかどうかの判定
         is_always_fetch = code in ALWAYS_FETCH_CODES
         file_exists = os.path.exists(file_path)
 
         if not is_always_fetch and file_exists:
-            # 通常弾ですでにファイルがある場合はスキップ
             print(f"[Skip] {name} ({code}) - Already fetched.")
             continue
         
-        # 取得実行
         print(f"[Fetch] {name} ({code})...")
         df = fetch_and_parse_cards(code)
         
         if not df.empty:
-            # シリーズ情報を付与して保存
             df['SeriesCode'] = code
             df['SeriesName'] = name
             df.to_csv(file_path, index=False, encoding='utf-8-sig')
@@ -188,7 +187,6 @@ def main():
         else:
             print(f"  -> No data found for {code}")
         
-        # サーバー負荷軽減のための待機
         time.sleep(2)
 
     # 3. 全データの結合と重複判定
@@ -196,15 +194,11 @@ def main():
     all_files = [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith('.csv')]
     
     if all_files:
-        # 全ファイルを読み込んで結合
         df_list = [pd.read_csv(f) for f in all_files]
         df_all = pd.concat(df_list, ignore_index=True)
         
-        # 全体に対して重複判定ロジックを実行
-        # (これにより、別々の弾に含まれる同一IDカード間でも適切にフラグがつきます)
         df_final = process_duplicates(df_all)
         
-        # 最終結果を保存
         df_final.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
         print(f"Done! Total {len(df_final)} cards saved to {OUTPUT_FILE}")
     else:

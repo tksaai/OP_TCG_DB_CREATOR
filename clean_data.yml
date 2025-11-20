@@ -1,0 +1,37 @@
+name: Clean Data
+
+on:
+  # 手動実行のみ (誤作動防止のためスケジュール実行はなし)
+  workflow_dispatch:
+
+permissions:
+  contents: write # ファイル削除を反映させるために書き込み権限が必要
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 削除スクリプトを実行
+      - name: Run clean script
+        run: python clean_data.py
+
+      # 削除結果をリポジトリに反映 (コミット & プッシュ)
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # 削除されたファイルの変更をステージング
+          git add -u
+          
+          # 変更がある場合のみコミットしてプッシュ
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Clean up all data files" && git push)

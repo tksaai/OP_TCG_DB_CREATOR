@@ -31,5 +31,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add OnePiece_Card_List.csv
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update card list" && git push)
+          
+          # ここを変更: dataフォルダと集計ファイルをステージング
+          git add data/ OnePiece_Card_List_All.csv
+          
+          # 変更がある場合のみコミット
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update card list data" && git push)

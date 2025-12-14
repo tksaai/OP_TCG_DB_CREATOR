@@ -21,12 +21,29 @@ ALWAYS_FETCH_CODES = ['550901', '550801']
 # 環境変数からAPIキー取得
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
-# --- バージョン確認 (デバッグ用) ---
+# --- バージョン確認 ---
 try:
     genai_version = importlib.metadata.version("google-generativeai")
     print(f"google-generativeai version: {genai_version}")
 except:
-    print("google-generativeai version: unknown")
+    pass
+
+# --- APIキーとモデルの接続テスト (追加) ---
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+    print("Checking available models for this API key...")
+    try:
+        available_models = []
+        for m in genai.list_models():
+            if 'generateContent' in m.supported_generation_methods:
+                print(f" - Found model: {m.name}")
+                available_models.append(m.name)
+        
+        if not available_models:
+            print("WARNING: No models found! Please check 'Generative Language API' in Google Cloud Console.")
+    except Exception as e:
+        print(f"Error listing models: {e}")
+        print("Hint: Your API Key might be invalid or lacks permissions.")
 
 # --- テキストクリーニング関数 ---
 def clean_text(text):
@@ -204,7 +221,8 @@ def fetch_furigana_from_ai(card_names):
     genai.configure(api_key=GEMINI_API_KEY)
     
     # 試行するモデルリスト
-    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-001', 'gemini-pro']
+    # 自動検出したモデルがあればそれを優先、なければデフォルト
+    default_models = ['gemini-1.5-flash', 'gemini-1.5-flash-001', 'gemini-pro']
     
     new_readings = {}
     batch_size = 30 
@@ -220,7 +238,7 @@ def fetch_furigana_from_ai(card_names):
         正しい「読み仮名（全角カタカナ）」を答えてください。
         「芳香脚」は「パフューム・フェムル」のように、ルビ（当て字）を優先してください。
         
-        出力は以下のJSON形式のみを返してください。
+        出力は以下のJSON形式のみを返してください。マークダウン記法は不要です。
         {{
             "カード名": "ヨミガナ",
             ...
@@ -231,7 +249,7 @@ def fetch_furigana_from_ai(card_names):
         """
         
         success = False
-        for model_name in models_to_try:
+        for model_name in default_models:
             try:
                 model = genai.GenerativeModel(model_name)
                 response = model.generate_content(prompt)
@@ -244,15 +262,16 @@ def fetch_furigana_from_ai(card_names):
                 else:
                     print(f"Failed to parse JSON from {model_name}.")
             except Exception as e:
-                # 404エラーの場合はモデルが見つからないため、次のモデルを試す
-                if "404" in str(e):
-                    print(f"Model {model_name} not found (404). Trying next...")
+                # エラーメッセージを短縮して表示
+                err_msg = str(e).split('\n')[0]
+                if "404" in err_msg:
+                    print(f"Model {model_name} not found (404).")
                 else:
-                    print(f"Model {model_name} failed: {e}")
+                    print(f"Model {model_name} failed: {err_msg}")
                 continue
         
         if not success:
-            print(f"All models failed for batch starting at {i}.")
+            print(f"All models failed for batch starting at {i}. Skipping this batch.")
 
         time.sleep(4) 
 

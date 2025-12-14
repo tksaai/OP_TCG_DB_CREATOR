@@ -215,8 +215,12 @@ def fetch_furigana_from_ai(card_names):
         return {}
 
     genai.configure(api_key=GEMINI_API_KEY)
-    # 無料枠で使えるモデル
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    
+    # 試行するモデルのリスト（優先順）
+    # gemini-1.5-flash: 最新の軽量モデル
+    # gemini-1.5-flash-001: バージョン固定
+    # gemini-pro: 旧安定版
+    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-001', 'gemini-pro']
     
     new_readings = {}
     batch_size = 30 
@@ -242,20 +246,30 @@ def fetch_furigana_from_ai(card_names):
         {json.dumps(batch, ensure_ascii=False)}
         """
         
-        try:
-            response = model.generate_content(prompt)
-            # JSON抽出
-            match = re.search(r'\{.*\}', response.text, re.DOTALL)
-            if match:
-                res_json = json.loads(match.group(0))
-                new_readings.update(res_json)
-            else:
-                print("Failed to parse JSON from AI response.")
-            
-            time.sleep(4) # 無料枠制限対策 (15 RPM)
-        except Exception as e:
-            print(f"AI Error: {e}")
-            continue
+        # 複数のモデルで試行するリトライロジック
+        success = False
+        for model_name in models_to_try:
+            try:
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(prompt)
+                
+                # JSON抽出
+                match = re.search(r'\{.*\}', response.text, re.DOTALL)
+                if match:
+                    res_json = json.loads(match.group(0))
+                    new_readings.update(res_json)
+                    success = True
+                    break # 成功したら次のモデルは試さない
+                else:
+                    print(f"Failed to parse JSON from {model_name}.")
+            except Exception as e:
+                print(f"Model {model_name} failed: {e}")
+                continue # 次のモデルへ
+        
+        if not success:
+            print(f"All models failed for batch starting at {i}.")
+
+        time.sleep(4) # 無料枠制限対策
 
     return new_readings
 
@@ -315,8 +329,8 @@ def generate_card_json_from_df(df):
             "trigger": str(row['トリガー']).strip(),
             "getInfo": info,
             "seriesTitle": s_title,
-            "seriesCode": s_code,
-            "imageFileId": img_id 
+            "seriesCode": s_code
+            # imageFileId を削除
         }
         cards_list.append(card_obj)
     
@@ -356,9 +370,6 @@ def main():
     df_all = pd.concat(df_list, ignore_index=True).fillna('')
     
     # 重複処理
-    # ユーザー要件: 同じカード番号でも通常版を優先し、SP(スペシャル)版などを重複扱い(除外)にしたい
-    # 対応: SortPriorityを作成し、SPを含む行の優先度を下げ(1)、それ以外を上げ(0)てソートする。
-    # 結果として、リストの上位に「通常版(0)」が来るため、duplicated(keep='first')で通常版が採用される。
     df_all['SortPriority'] = df_all['Rarity'].apply(lambda x: 1 if 'SP' in str(x) else 0)
     df_all = df_all.sort_values(by=['CardID', 'SortPriority']).reset_index(drop=True)
     df_all['IsDuplicate'] = df_all.duplicated(subset=['CardID'], keep='first')

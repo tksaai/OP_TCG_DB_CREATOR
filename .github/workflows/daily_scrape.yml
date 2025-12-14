@@ -25,8 +25,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # main.pyの動作に必要な google-generativeai を追加
-          pip install pandas beautifulsoup4 requests openpyxl google-generativeai
+          # requirements.txt からライブラリを一括インストール
+          pip install -r requirements.txt
 
       - name: Run scraper script
         env:
@@ -39,9 +39,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # dataフォルダ、CSV、JSON、辞書ファイルをステージング
-          # cards.json (JSON) と furigana_dictionary.json (辞書) も忘れずに追加
-          git add data/ OnePiece_Card_List_All.csv cards.json furigana_dictionary.json
+          # 【修正箇所】
+          # ファイル名を指定すると存在しない場合にエラーになるため、
+          # 「-A」オプションですべての変更（新規作成・修正・削除）をまとめて追加します。
+          git add -A
           
           # 変更がある場合のみコミット
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update card list data and json [skip ci]" && git push)

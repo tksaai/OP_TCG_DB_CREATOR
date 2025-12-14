@@ -673,7 +673,7 @@
     "uniqueId": "EB01-027_dummy.gif",
     "cardNumber": "EB01-027",
     "cardName": "Mr.1(ダズ・ボーネス)",
-    "furigana": "",
+    "furigana": "ミスターワン ダズボーネス",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -801,7 +801,7 @@
     "uniqueId": "EB01-032_dummy.gif",
     "cardNumber": "EB01-032",
     "cardName": "軍隊ウルフ",
-    "furigana": "",
+    "furigana": "グンタイウルフ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -2199,7 +2199,7 @@
     "uniqueId": "EB02-026_dummy.gif",
     "cardNumber": "EB02-026",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -3113,7 +3113,7 @@
     "uniqueId": "EB03-001_dummy.gif",
     "cardNumber": "EB03-001",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "L",
     "cardType": "LEADER",
     "color": [
@@ -3699,7 +3699,7 @@
     "uniqueId": "EB03-024_dummy.gif",
     "cardNumber": "EB03-024",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -4507,7 +4507,7 @@
     "uniqueId": "EB03-056_dummy.gif",
     "cardNumber": "EB03-056",
     "cardName": "ベロ・ベティ",
-    "furigana": "",
+    "furigana": "ベロベティ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -6462,7 +6462,7 @@
     "uniqueId": "OP01-070_dummy.gif",
     "cardNumber": "OP01-070",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -6794,7 +6794,7 @@
     "uniqueId": "OP01-083_dummy.gif",
     "cardNumber": "OP01-083",
     "cardName": "Mr.1(ダズ・ボーネス)",
-    "furigana": "",
+    "furigana": "ミスターワン ダズボーネス",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -7483,7 +7483,7 @@
     "uniqueId": "OP01-110_dummy.gif",
     "cardNumber": "OP01-110",
     "cardName": "福ロクジュ",
-    "furigana": "",
+    "furigana": "フクロクジュ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -8921,7 +8921,7 @@
     "uniqueId": "OP02-045_dummy.gif",
     "cardNumber": "OP02-045",
     "cardName": "三刀流 鬼斬り",
-    "furigana": "",
+    "furigana": "サントウリュウ オニギリ",
     "rarity": "C",
     "cardType": "EVENT",
     "color": [
@@ -9180,7 +9180,7 @@
     "uniqueId": "OP02-055_dummy.gif",
     "cardNumber": "OP02-055",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -9387,7 +9387,7 @@
     "uniqueId": "OP02-063_dummy.gif",
     "cardNumber": "OP02-063",
     "cardName": "Mr.1(ダズ・ボーネス)",
-    "furigana": "",
+    "furigana": "ミスターワン ダズボーネス",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -10254,7 +10254,7 @@
     "uniqueId": "OP02-097_dummy.gif",
     "cardNumber": "OP02-097",
     "cardName": "コーミル",
-    "furigana": "",
+    "furigana": "コーミル",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -10681,7 +10681,7 @@
     "uniqueId": "OP02-114_dummy.gif",
     "cardNumber": "OP02-114",
     "cardName": "ボルサリーノ",
-    "furigana": "",
+    "furigana": "ボルサリーノ",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -11699,7 +11699,7 @@
     "uniqueId": "OP03-033_dummy.gif",
     "cardNumber": "OP03-033",
     "cardName": "はっちゃん",
-    "furigana": "",
+    "furigana": "ハッチャン",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -12857,7 +12857,7 @@
     "uniqueId": "OP03-078_dummy.gif",
     "cardNumber": "OP03-078",
     "cardName": "イッショウ",
-    "furigana": "",
+    "furigana": "イッショウ",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -13058,7 +13058,7 @@
     "uniqueId": "OP03-086_dummy.gif",
     "cardNumber": "OP03-086",
     "cardName": "スパンダム",
-    "furigana": "",
+    "furigana": "スパンダム",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -13083,7 +13083,7 @@
     "uniqueId": "OP03-087_dummy.gif",
     "cardNumber": "OP03-087",
     "cardName": "ネロ",
-    "furigana": "",
+    "furigana": "ネロ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -13108,7 +13108,7 @@
     "uniqueId": "OP03-088_dummy.gif",
     "cardNumber": "OP03-088",
     "cardName": "フクロウ",
-    "furigana": "",
+    "furigana": "フクロウ",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -14014,7 +14014,7 @@
     "uniqueId": "OP04-001_dummy.gif",
     "cardNumber": "OP04-001",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "L",
     "cardType": "LEADER",
     "color": [
@@ -14504,7 +14504,7 @@
     "uniqueId": "OP04-020_dummy.gif",
     "cardNumber": "OP04-020",
     "cardName": "イッショウ",
-    "furigana": "",
+    "furigana": "イッショウ",
     "rarity": "L",
     "cardType": "LEADER",
     "color": [
@@ -14732,7 +14732,7 @@
     "uniqueId": "OP04-029_dummy.gif",
     "cardNumber": "OP04-029",
     "cardName": "デリンジャー",
-    "furigana": "",
+    "furigana": "デリンジャー",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -14934,7 +14934,7 @@
     "uniqueId": "OP04-037_dummy.gif",
     "cardNumber": "OP04-037",
     "cardName": "羽撃糸",
-    "furigana": "",
+    "furigana": "バードストライク",
     "rarity": "UC",
     "cardType": "EVENT",
     "color": [
@@ -16997,7 +16997,7 @@
     "uniqueId": "OP04-118_dummy.gif",
     "cardNumber": "OP04-118",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "SEC",
     "cardType": "CHARACTER",
     "color": [
@@ -17074,7 +17074,7 @@
     "uniqueId": "OP05-002_dummy.gif",
     "cardNumber": "OP05-002",
     "cardName": "ベロ・ベティ",
-    "furigana": "",
+    "furigana": "ベロベティ",
     "rarity": "L",
     "cardType": "LEADER",
     "color": [
@@ -17402,7 +17402,7 @@
     "uniqueId": "OP05-015_dummy.gif",
     "cardNumber": "OP05-015",
     "cardName": "ベロ・ベティ",
-    "furigana": "",
+    "furigana": "ベロベティ",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -18085,7 +18085,7 @@
     "uniqueId": "OP05-042_dummy.gif",
     "cardNumber": "OP05-042",
     "cardName": "イッショウ",
-    "furigana": "",
+    "furigana": "イッショウ",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -18313,7 +18313,7 @@
     "uniqueId": "OP05-051_dummy.gif",
     "cardNumber": "OP05-051",
     "cardName": "ボルサリーノ",
-    "furigana": "",
+    "furigana": "ボルサリーノ",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -18918,7 +18918,7 @@
     "uniqueId": "OP05-075_dummy.gif",
     "cardNumber": "OP05-075",
     "cardName": "Mr.1(ダズ・ボーネス)",
-    "furigana": "",
+    "furigana": "ミスターワン ダズボーネス",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -19194,7 +19194,7 @@
     "uniqueId": "OP05-086_dummy.gif",
     "cardNumber": "OP05-086",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -19422,7 +19422,7 @@
     "uniqueId": "OP05-095_dummy.gif",
     "cardNumber": "OP05-095",
     "cardName": "竜の鉤爪",
-    "furigana": "",
+    "furigana": "ドラゴンズクロー",
     "rarity": "C",
     "cardType": "EVENT",
     "color": [
@@ -20132,7 +20132,7 @@
     "uniqueId": "OP06-004_dummy.gif",
     "cardNumber": "OP06-004",
     "cardName": "オマツリ男爵",
-    "furigana": "",
+    "furigana": "オマツリダンシャク",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -20341,7 +20341,7 @@
     "uniqueId": "OP06-012_dummy.gif",
     "cardNumber": "OP06-012",
     "cardName": "ベアキング",
-    "furigana": "",
+    "furigana": "ベアキング",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -20705,7 +20705,7 @@
     "uniqueId": "OP06-026_dummy.gif",
     "cardNumber": "OP06-026",
     "cardName": "コウシロウ",
-    "furigana": "",
+    "furigana": "コウシロウ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -20755,7 +20755,7 @@
     "uniqueId": "OP06-028_dummy.gif",
     "cardNumber": "OP06-028",
     "cardName": "ゼオ",
-    "furigana": "",
+    "furigana": "ゼオ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -20833,7 +20833,7 @@
     "uniqueId": "OP06-031_dummy.gif",
     "cardNumber": "OP06-031",
     "cardName": "はっちゃん",
-    "furigana": "",
+    "furigana": "ハッチャン",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -21419,7 +21419,7 @@
     "uniqueId": "OP06-054_dummy.gif",
     "cardNumber": "OP06-054",
     "cardName": "ボルサリーノ",
-    "furigana": "",
+    "furigana": "ボルサリーノ",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -24137,7 +24137,7 @@
     "uniqueId": "OP07-041_dummy.gif",
     "cardNumber": "OP07-041",
     "cardName": "グロリオーサ(ニョン婆)",
-    "furigana": "",
+    "furigana": "グロリオーサ（ニョンバ）",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -24214,7 +24214,7 @@
     "uniqueId": "OP07-044_dummy.gif",
     "cardNumber": "OP07-044",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -25281,7 +25281,7 @@
     "uniqueId": "OP07-086_dummy.gif",
     "cardNumber": "OP07-086",
     "cardName": "スパンダム",
-    "furigana": "",
+    "furigana": "スパンダム",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -25482,7 +25482,7 @@
     "uniqueId": "OP07-094_dummy.gif",
     "cardNumber": "OP07-094",
     "cardName": "剃",
-    "furigana": "",
+    "furigana": "ソリ",
     "rarity": "UC",
     "cardType": "EVENT",
     "color": [
@@ -29082,7 +29082,7 @@
     "uniqueId": "OP08-116_dummy.gif",
     "cardNumber": "OP08-116",
     "cardName": "燃焼砲",
-    "furigana": "",
+    "furigana": "ブレイズ",
     "rarity": "C",
     "cardType": "EVENT",
     "color": [
@@ -30395,7 +30395,7 @@
     "uniqueId": "OP09-048_dummy.gif",
     "cardNumber": "OP09-048",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -30572,7 +30572,7 @@
     "uniqueId": "OP09-055_dummy.gif",
     "cardNumber": "OP09-055",
     "cardName": "Mr.1(ダズ・ボーネス)",
-    "furigana": "",
+    "furigana": "ミスターワン ダズボーネス",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -32018,7 +32018,7 @@
     "uniqueId": "OP09-112_dummy.gif",
     "cardNumber": "OP09-112",
     "cardName": "ベロ・ベティ",
-    "furigana": "",
+    "furigana": "ベロベティ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -32794,7 +32794,7 @@
     "uniqueId": "OP10-023_dummy.gif",
     "cardNumber": "OP10-023",
     "cardName": "イッショウ",
-    "furigana": "",
+    "furigana": "イッショウ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -32954,7 +32954,7 @@
     "uniqueId": "OP10-029_dummy.gif",
     "cardNumber": "OP10-029",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -35643,7 +35643,7 @@
     "uniqueId": "OP11-014_dummy.gif",
     "cardNumber": "OP11-014",
     "cardName": "ボルサリーノ",
-    "furigana": "",
+    "furigana": "ボルサリーノ",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -35983,7 +35983,7 @@
     "uniqueId": "OP11-027_dummy.gif",
     "cardNumber": "OP11-027",
     "cardName": "ギョロ目",
-    "furigana": "",
+    "furigana": "ギョロメ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -36165,7 +36165,7 @@
     "uniqueId": "OP11-034_dummy.gif",
     "cardNumber": "OP11-034",
     "cardName": "はっちゃん",
-    "furigana": "",
+    "furigana": "ハッチャン",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -36810,7 +36810,7 @@
     "uniqueId": "OP11-059_dummy.gif",
     "cardNumber": "OP11-059",
     "cardName": "ゴムゴムの王蛇",
-    "furigana": "",
+    "furigana": "ゴムゴムノキングコブラ",
     "rarity": "C",
     "cardType": "EVENT",
     "color": [
@@ -38668,7 +38668,7 @@
     "uniqueId": "OP12-013_dummy.gif",
     "cardNumber": "OP12-013",
     "cardName": "はっちゃん",
-    "furigana": "",
+    "furigana": "ハッチャン",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -39029,7 +39029,7 @@
     "uniqueId": "OP12-027_dummy.gif",
     "cardNumber": "OP12-027",
     "cardName": "コウシロウ",
-    "furigana": "",
+    "furigana": "コウシロウ",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -39108,7 +39108,7 @@
     "uniqueId": "OP12-030_dummy.gif",
     "cardNumber": "OP12-030",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -39697,7 +39697,7 @@
     "uniqueId": "OP12-053_dummy.gif",
     "cardNumber": "OP12-053",
     "cardName": "ボルサリーノ",
-    "furigana": "",
+    "furigana": "ボルサリーノ",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -40439,7 +40439,7 @@
     "uniqueId": "OP12-082_dummy.gif",
     "cardNumber": "OP12-082",
     "cardName": "イッショウ",
-    "furigana": "",
+    "furigana": "イッショウ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -40644,7 +40644,7 @@
     "uniqueId": "OP12-090_dummy.gif",
     "cardNumber": "OP12-090",
     "cardName": "ベロ・ベティ",
-    "furigana": "",
+    "furigana": "ベロベティ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -41705,7 +41705,7 @@
     "uniqueId": "OP13-012_dummy.gif",
     "cardNumber": "OP13-012",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -45005,7 +45005,7 @@
     "uniqueId": "OP14-020_dummy.gif",
     "cardNumber": "OP14-020",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "L",
     "cardType": "LEADER",
     "color": [
@@ -45030,7 +45030,7 @@
     "uniqueId": "OP14-021_dummy.gif",
     "cardNumber": "OP14-021",
     "cardName": "イッショウ",
-    "furigana": "",
+    "furigana": "イッショウ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -45808,7 +45808,7 @@
     "uniqueId": "OP14-051_dummy.gif",
     "cardNumber": "OP14-051",
     "cardName": "はっちゃん",
-    "furigana": "",
+    "furigana": "ハッチャン",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -46221,7 +46221,7 @@
     "uniqueId": "OP14-067_dummy.gif",
     "cardNumber": "OP14-067",
     "cardName": "デリンジャー",
-    "furigana": "",
+    "furigana": "デリンジャー",
     "rarity": "UC",
     "cardType": "CHARACTER",
     "color": [
@@ -46500,7 +46500,7 @@
     "uniqueId": "OP14-078_dummy.gif",
     "cardNumber": "OP14-078",
     "cardName": "弾糸",
-    "furigana": "",
+    "furigana": "ストリング",
     "rarity": "C",
     "cardType": "EVENT",
     "color": [
@@ -46805,7 +46805,7 @@
     "uniqueId": "OP14-090_dummy.gif",
     "cardNumber": "OP14-090",
     "cardName": "Mr.1(ダズ・ボーネス)",
-    "furigana": "",
+    "furigana": "ミスターワン ダズボーネス",
     "rarity": "R",
     "cardType": "CHARACTER",
     "color": [
@@ -47135,7 +47135,7 @@
     "uniqueId": "OP14-103_dummy.gif",
     "cardNumber": "OP14-103",
     "cardName": "グロリオーサ(ニョン婆)",
-    "furigana": "",
+    "furigana": "グロリオーサ（ニョンバ）",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -47540,7 +47540,7 @@
     "uniqueId": "OP14-119_dummy.gif",
     "cardNumber": "OP14-119",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "SEC",
     "cardType": "CHARACTER",
     "color": [
@@ -47874,7 +47874,7 @@
     "uniqueId": "P-012_dummy.gif",
     "cardNumber": "P-012",
     "cardName": "クラゲ海賊団",
-    "furigana": "",
+    "furigana": "クラゲカイゾクダン",
     "rarity": "P",
     "cardType": "CHARACTER",
     "color": [
@@ -48900,7 +48900,7 @@
     "uniqueId": "P-052_dummy.gif",
     "cardNumber": "P-052",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "P",
     "cardType": "CHARACTER",
     "color": [
@@ -49642,7 +49642,7 @@
     "uniqueId": "P-081_dummy.gif",
     "cardNumber": "P-081",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "P",
     "cardType": "CHARACTER",
     "color": [
@@ -51313,7 +51313,7 @@
     "uniqueId": "ST01-009_dummy.gif",
     "cardNumber": "ST01-009",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -52085,7 +52085,7 @@
     "uniqueId": "ST03-005_dummy.gif",
     "cardNumber": "ST03-005",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -54304,7 +54304,7 @@
     "uniqueId": "ST08-007_dummy.gif",
     "cardNumber": "ST08-007",
     "cardName": "ネフェルタリ・ビビ",
-    "furigana": "",
+    "furigana": "ネフェルタリ・ビビ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [
@@ -55518,7 +55518,7 @@
     "uniqueId": "ST12-003_dummy.gif",
     "cardNumber": "ST12-003",
     "cardName": "ジュラキュール・ミホーク",
-    "furigana": "",
+    "furigana": "ジュラキュール・ミホーク",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -57296,7 +57296,7 @@
     "uniqueId": "ST18-005_dummy.gif",
     "cardNumber": "ST18-005",
     "cardName": "ルフィ太郎",
-    "furigana": "",
+    "furigana": "ルフィタロウ",
     "rarity": "SR",
     "cardType": "CHARACTER",
     "color": [
@@ -58186,7 +58186,7 @@
     "uniqueId": "ST22-008_dummy.gif",
     "cardNumber": "ST22-008",
     "cardName": "ディカルバン兄弟",
-    "furigana": "",
+    "furigana": "ディカルバンキョウダイ",
     "rarity": "C",
     "cardType": "CHARACTER",
     "color": [

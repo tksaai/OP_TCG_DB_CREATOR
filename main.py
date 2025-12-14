@@ -356,6 +356,9 @@ def main():
     df_all = pd.concat(df_list, ignore_index=True).fillna('')
     
     # 重複処理
+    # ユーザー要件: 同じカード番号でも通常版を優先し、SP(スペシャル)版などを重複扱い(除外)にしたい
+    # 対応: SortPriorityを作成し、SPを含む行の優先度を下げ(1)、それ以外を上げ(0)てソートする。
+    # 結果として、リストの上位に「通常版(0)」が来るため、duplicated(keep='first')で通常版が採用される。
     df_all['SortPriority'] = df_all['Rarity'].apply(lambda x: 1 if 'SP' in str(x) else 0)
     df_all = df_all.sort_values(by=['CardID', 'SortPriority']).reset_index(drop=True)
     df_all['IsDuplicate'] = df_all.duplicated(subset=['CardID'], keep='first')

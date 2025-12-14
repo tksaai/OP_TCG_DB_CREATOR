@@ -18,7 +18,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          # main.pyの環境に合わせて3.10にします
+          python-version: '3.10'
 
       # 削除スクリプトを実行
       - name: Run clean script
@@ -30,7 +31,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 削除されたファイルの変更をステージング
+          # 削除されたファイルの変更をステージング (update)
           git add -u
           
           # 変更がある場合のみコミットしてプッシュ

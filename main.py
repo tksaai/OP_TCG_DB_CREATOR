@@ -8,6 +8,7 @@ import re
 import copy
 import uuid
 import google.generativeai as genai
+import importlib.metadata
 
 # --- 設定 ---
 BASE_URL = 'https://www.onepiece-cardgame.com/cardlist/'
@@ -15,15 +16,20 @@ DATA_DIR = 'data'
 OUTPUT_CSV = 'OnePiece_Card_List_All.csv'
 OUTPUT_JSON = 'cards.json'
 FURIGANA_DICT_FILE = 'furigana_dictionary.json'
-# 更新頻度が高いシリーズ（プロモなど）は毎回取得する
 ALWAYS_FETCH_CODES = ['550901', '550801'] 
 
 # 環境変数からAPIキー取得
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
+# --- バージョン確認 (デバッグ用) ---
+try:
+    genai_version = importlib.metadata.version("google-generativeai")
+    print(f"google-generativeai version: {genai_version}")
+except:
+    print("google-generativeai version: unknown")
+
 # --- テキストクリーニング関数 ---
 def clean_text(text):
-    """HTMLタグ除去、空白整理"""
     if text is None: return ""
     if isinstance(text, float) and pd.isna(text): return ""
     text = str(text)
@@ -33,30 +39,24 @@ def clean_text(text):
     return text
 
 def get_text_with_alt(element):
-    """imgタグをaltテキストに変換してテキスト抽出"""
     if not element: return ""
     elem_copy = copy.copy(element)
-    # imgタグをaltテキストに置換 (例: <img alt="打"> -> "打")
     for img in elem_copy.find_all('img'):
         alt_text = img.get('alt', '')
         img.replace_with(alt_text)
-    # brタグをスペースに置換
     for br in elem_copy.find_all('br'):
         br.replace_with(' ')
     return clean_text(elem_copy.get_text(strip=True))
 
 def extract_image_id(img_tag):
-    """画像のsrcからファイル名を抽出 (例: OP01-001.png)"""
     if not img_tag: return ""
     src = img_tag.get('src', '')
     if not src: return ""
-    # srcパスの最後を取得
     filename = os.path.basename(src)
     return filename
 
 # --- スクレイピング関連 ---
 def get_all_series_list():
-    """全シリーズのリストを取得"""
     headers = {'User-Agent': 'Mozilla/5.0 (compatible; Bot/1.0)'}
     try:
         response = requests.get(BASE_URL, headers=headers)
@@ -78,14 +78,9 @@ def get_all_series_list():
         return []
 
 def fetch_cards_from_series(series_code):
-    """
-    指定シリーズのカードを全ページ取得する
-    ページネーションに対応
-    """
     all_cards = []
     page = 1
     has_next = True
-    
     headers = {'User-Agent': 'Mozilla/5.0 (compatible; Bot/1.0)'}
 
     while has_next:
@@ -98,13 +93,11 @@ def fetch_cards_from_series(series_code):
             soup = BeautifulSoup(response.text, 'html.parser')
             
             card_modals = soup.find_all('dl', class_='modalCol')
-            
             if not card_modals:
-                break # カードがなければ終了
+                break
 
             for modal in card_modals:
                 try:
-                    # 基本情報
                     dt = modal.find('dt')
                     info_col = dt.find('div', class_='infoCol')
                     spans = info_col.find_all('span')
@@ -116,15 +109,12 @@ def fetch_cards_from_series(series_code):
                     card_name_div = dt.find('div', class_='cardName')
                     card_name = get_text_with_alt(card_name_div)
                     
-                    # 画像ID取得
-                    img_tag = modal.find('img') # 最初のimgタグ（通常は表面）
+                    img_tag = modal.find('img')
                     image_file_id = extract_image_id(img_tag)
                     
-                    # 詳細情報
                     dd = modal.find('dd')
                     back_col = dd.find('div', class_='backCol')
                     
-                    # コスト/ライフ
                     cost_life_div = back_col.find('div', class_='cost')
                     cost_life_type = ""
                     cost_life_value = ""
@@ -136,7 +126,6 @@ def fetch_cards_from_series(series_code):
                             h3.decompose()
                         cost_life_value = get_text_with_alt(cl_copy)
 
-                    # 各パラメータ取得ヘルパー
                     def get_val(cls, label):
                         div = back_col.find('div', class_=cls)
                         if not div: return ""
@@ -172,7 +161,7 @@ def fetch_cards_from_series(series_code):
                         'Trigger': trigger,
                         'SetInfo': set_info,
                         'ImageFileID': image_file_id,
-                        'ImageFileID_small': '' # 必要ならサムネ用ロジックを追加
+                        'ImageFileID_small': ''
                     }
                     all_cards.append(row)
 
@@ -180,11 +169,10 @@ def fetch_cards_from_series(series_code):
                     print(f"Skipping card parse error: {e}")
                     continue
             
-            # ページネーション判定
             pager = soup.find('div', class_='pager')
             if pager and 'NEXT' in pager.get_text():
                 page += 1
-                time.sleep(1) # 負荷対策
+                time.sleep(1)
             else:
                 has_next = False
                 
@@ -209,17 +197,13 @@ def save_furigana_dict(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def fetch_furigana_from_ai(card_names):
-    """AIに未登録のフリガナを問い合わせる"""
     if not GEMINI_API_KEY:
         print("Warning: GEMINI_API_KEY not set. Skipping AI furigana.")
         return {}
 
     genai.configure(api_key=GEMINI_API_KEY)
     
-    # 試行するモデルのリスト（優先順）
-    # gemini-1.5-flash: 最新の軽量モデル
-    # gemini-1.5-flash-001: バージョン固定
-    # gemini-pro: 旧安定版
+    # 試行するモデルリスト
     models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-001', 'gemini-pro']
     
     new_readings = {}
@@ -236,7 +220,7 @@ def fetch_furigana_from_ai(card_names):
         正しい「読み仮名（全角カタカナ）」を答えてください。
         「芳香脚」は「パフューム・フェムル」のように、ルビ（当て字）を優先してください。
         
-        出力は以下のJSON形式のみを返してください。マークダウン記法は不要です。
+        出力は以下のJSON形式のみを返してください。
         {{
             "カード名": "ヨミガナ",
             ...
@@ -246,56 +230,53 @@ def fetch_furigana_from_ai(card_names):
         {json.dumps(batch, ensure_ascii=False)}
         """
         
-        # 複数のモデルで試行するリトライロジック
         success = False
         for model_name in models_to_try:
             try:
                 model = genai.GenerativeModel(model_name)
                 response = model.generate_content(prompt)
-                
-                # JSON抽出
                 match = re.search(r'\{.*\}', response.text, re.DOTALL)
                 if match:
                     res_json = json.loads(match.group(0))
                     new_readings.update(res_json)
                     success = True
-                    break # 成功したら次のモデルは試さない
+                    break
                 else:
                     print(f"Failed to parse JSON from {model_name}.")
             except Exception as e:
-                print(f"Model {model_name} failed: {e}")
-                continue # 次のモデルへ
+                # 404エラーの場合はモデルが見つからないため、次のモデルを試す
+                if "404" in str(e):
+                    print(f"Model {model_name} not found (404). Trying next...")
+                else:
+                    print(f"Model {model_name} failed: {e}")
+                continue
         
         if not success:
             print(f"All models failed for batch starting at {i}.")
 
-        time.sleep(4) # 無料枠制限対策
+        time.sleep(4) 
 
     return new_readings
 
-# --- JSON生成 (GAS互換) ---
+# --- JSON生成 ---
 def generate_card_json_from_df(df):
     cards_list = []
     seen_ids = set()
 
     for _, row in df.iterrows():
-        # 重複行はJSONに含めない
         if row.get('重複フラグ') == '重複':
             continue
 
         c_num = str(row['カード番号']).strip()
         if not c_num: continue
 
-        # 画像IDと重複チェック
         img_id = str(row.get('ImageFileID', '')).strip()
-        # uniqueId生成ルール
         unique_suffix = img_id if img_id else str(uuid.uuid4())
         unique_id = f"{c_num}_{unique_suffix}"
         
         if unique_id in seen_ids: continue
         seen_ids.add(unique_id)
 
-        # シリーズコード抽出
         info = str(row['入手情報']).strip()
         s_title = info
         s_code = ''
@@ -314,7 +295,7 @@ def generate_card_json_from_df(df):
             "uniqueId": unique_id,
             "cardNumber": c_num,
             "cardName": str(row['カード名']).strip(),
-            "furigana": str(row.get('フリガナ', '')).strip(), # フリガナ
+            "furigana": str(row.get('フリガナ', '')).strip(),
             "rarity": str(row['レアリティ']).strip(),
             "cardType": str(row['種類']).strip(),
             "color": [c.strip() for c in str(row['色']).split('/') if c.strip()],
@@ -330,7 +311,6 @@ def generate_card_json_from_df(df):
             "getInfo": info,
             "seriesTitle": s_title,
             "seriesCode": s_code
-            # imageFileId を削除
         }
         cards_list.append(card_obj)
     
@@ -349,7 +329,6 @@ def main():
         name = s['name']
         fpath = os.path.join(DATA_DIR, f"{code}.csv")
         
-        # 既存チェック
         if code not in ALWAYS_FETCH_CODES and os.path.exists(fpath):
             print(f"[Skip] {name}")
             continue
@@ -369,14 +348,12 @@ def main():
     df_list = [pd.read_csv(f, dtype=str) for f in files]
     df_all = pd.concat(df_list, ignore_index=True).fillna('')
     
-    # 重複処理
     df_all['SortPriority'] = df_all['Rarity'].apply(lambda x: 1 if 'SP' in str(x) else 0)
     df_all = df_all.sort_values(by=['CardID', 'SortPriority']).reset_index(drop=True)
     df_all['IsDuplicate'] = df_all.duplicated(subset=['CardID'], keep='first')
     df_all['IsDuplicate'] = df_all['IsDuplicate'].apply(lambda x: '重複' if x else '')
     df_all = df_all.drop(columns=['SortPriority'])
 
-    # カラム名マッピング
     col_map = {
         'CardID': 'カード番号', 'Name': 'カード名', 'Rarity': 'レアリティ',
         'Type': '種類', 'Color': '色', 'Cost_Life_Type': 'コスト/ライフ種別',

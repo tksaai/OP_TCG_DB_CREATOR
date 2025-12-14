@@ -39,9 +39,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 【修正箇所】
-          # ファイル名を指定すると存在しない場合にエラーになるため、
-          # 「-A」オプションですべての変更（新規作成・修正・削除）をまとめて追加します。
+          # 【重要】ファイルが存在しなくてもエラーにならないよう、全変更を追加(-A)する
           git add -A
           
           # 変更がある場合のみコミット

@@ -221,8 +221,18 @@ def fetch_furigana_from_ai(card_names):
     genai.configure(api_key=GEMINI_API_KEY)
     
     # 試行するモデルリスト
-    # 自動検出したモデルがあればそれを優先、なければデフォルト
-    default_models = ['gemini-1.5-flash', 'gemini-1.5-flash-001', 'gemini-pro']
+    # ユーザー環境で確認された最新モデルを優先的に指定
+    default_models = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-flash-latest']
+
+    # さらに、APIから取得できるモデルも動的に候補に追加（確実性を高めるため）
+    try:
+        for m in genai.list_models():
+            if 'generateContent' in m.supported_generation_methods:
+                model_name = m.name.replace('models/', '')
+                if model_name not in default_models:
+                    default_models.append(model_name)
+    except Exception as e:
+        print(f"Warning: Could not auto-detect models: {e}")
     
     new_readings = {}
     batch_size = 30 

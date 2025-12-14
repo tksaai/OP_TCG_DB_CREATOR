@@ -224,7 +224,7 @@ def fetch_furigana_from_ai(card_names):
     # ユーザー環境で確認された最新モデルを優先的に指定
     default_models = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-flash-latest']
 
-    # さらに、APIから取得できるモデルも動的に候補に追加（確実性を高めるため）
+    # APIから取得できるモデルも動的に候補に追加
     try:
         for m in genai.list_models():
             if 'generateContent' in m.supported_generation_methods:
@@ -235,7 +235,8 @@ def fetch_furigana_from_ai(card_names):
         print(f"Warning: Could not auto-detect models: {e}")
     
     new_readings = {}
-    batch_size = 30 
+    # 【対策1】バッチサイズを 30 -> 10 に減らし、負荷を分散
+    batch_size = 10 
     
     unique_names = list(set(card_names))
     
@@ -258,32 +259,49 @@ def fetch_furigana_from_ai(card_names):
         {json.dumps(batch, ensure_ascii=False)}
         """
         
+        # 【対策2】リトライロジック強化 (Exponential Backoff)
+        max_retries = 3
+        retry_delay = 10 # 初回待機時間
         success = False
-        for model_name in default_models:
-            try:
-                model = genai.GenerativeModel(model_name)
-                response = model.generate_content(prompt)
-                match = re.search(r'\{.*\}', response.text, re.DOTALL)
-                if match:
-                    res_json = json.loads(match.group(0))
-                    new_readings.update(res_json)
-                    success = True
-                    break
-                else:
-                    print(f"Failed to parse JSON from {model_name}.")
-            except Exception as e:
-                # エラーメッセージを短縮して表示
-                err_msg = str(e).split('\n')[0]
-                if "404" in err_msg:
-                    print(f"Model {model_name} not found (404).")
-                else:
-                    print(f"Model {model_name} failed: {err_msg}")
-                continue
-        
-        if not success:
-            print(f"All models failed for batch starting at {i}. Skipping this batch.")
 
-        time.sleep(4) 
+        for attempt in range(max_retries):
+            # モデルごとの試行
+            for model_name in default_models:
+                try:
+                    model = genai.GenerativeModel(model_name)
+                    response = model.generate_content(prompt)
+                    match = re.search(r'\{.*\}', response.text, re.DOTALL)
+                    if match:
+                        res_json = json.loads(match.group(0))
+                        new_readings.update(res_json)
+                        success = True
+                        break # 成功したらモデルループを抜ける
+                except Exception as e:
+                    err_msg = str(e)
+                    # 429 (Resource Exhausted) の場合は、モデルを変えるのではなく待機が必要
+                    if "429" in err_msg or "quota" in err_msg.lower():
+                         print(f"Rate limit hit on {model_name}. Waiting...")
+                         break # モデルループを抜けて、外側のリトライループで待機する
+                    elif "404" in err_msg:
+                        # モデルが見つからない場合は次のモデルへ即座に移行
+                        continue
+                    else:
+                        print(f"Model {model_name} failed: {err_msg}")
+                        continue
+            
+            if success:
+                break
+            
+            # 失敗時は待機してからリトライ
+            print(f"Retry {attempt + 1}/{max_retries} after {retry_delay} seconds...")
+            time.sleep(retry_delay)
+            retry_delay *= 2 # 待機時間を倍にする (10s -> 20s -> 40s)
+
+        if not success:
+            print(f"All retries failed for batch starting at {i}. Skipping this batch.")
+
+        # 【対策3】成功時の基本待機時間を 4s -> 10s に延長 (RPM制限対策)
+        time.sleep(10) 
 
     return new_readings
 

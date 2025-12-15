@@ -22,10 +22,9 @@ UNVERIFIED_FILE = 'unverified_cards.json'   # 【未完】処理待ちキュー
 ALWAYS_FETCH_CODES = ['550901', '550801'] 
 
 # 1回の実行でProモデル処理を行うカード数の上限
-# 初回は多いですが、毎日自動実行で少しずつ消化します
 MAX_VERIFY_PER_RUN = 50 
 
-# 優先処理キーワード (あくまで優先順位を決めるだけで、これ以外もチェックされます)
+# 校正優先キーワード
 REFINE_KEYWORDS = [
     "ゴムゴム", "火拳", "神避", "芳香脚", "悪魔風脚", "大秘宝", "超新星", 
     "王下七武海", "海賊団", "一味", "拳銃", "業火", "龍", "覇気", "獅子"
@@ -225,6 +224,45 @@ def sync_unverified_list(all_card_names):
     else:
         print("Queue sync: No new cards found.")
 
+# --- フリガナのクリーニング関数 ---
+def normalize_furigana(reading):
+    """
+    フリガナから記号やスペースを除去し、正規化する。
+    ただし中黒(・)は残す。
+    """
+    if not reading: return ""
+    # 空白、全角空白、記号（中黒以外）を除去
+    # ここでは英数字、ひらがな、カタカナ、漢字、中黒以外を削除対象とする例
+    # 必要に応じて調整してください。今回は「記号やスペースは除外」に従い、
+    # 英数字・かな・カナ・漢字・中黒(・)を残す方針にします。
+    
+    # 制御文字や空白を削除
+    cleaned = re.sub(r'[\s\u3000]', '', reading)
+    
+    # 特定の記号を削除 (例: !, ?, %, など。中黒は残す)
+    # \w は英数字+アンダースコア。日本語文字も含めるため、否定で削除する文字を指定したほうが安全かもしれません。
+    # ここではシンプルに「スペースと一般的な記号」を削除します。
+    cleaned = re.sub(r'[!！?？"”#＃$＄%％&＆\'’(（)）*＊+＋,，-－.．/／:：;；<＜=＝>＞@＠[［\\￥\]］^＾_＿`｀{｛|｜}｝~～]', '', cleaned)
+    
+    return cleaned
+
+# --- フリガナのチェック関数 ---
+def is_valid_furigana(reading):
+    """
+    フリガナが「すべてカタカナと・」または「すべて平仮名と・」のみで構成されているかチェック
+    """
+    if not reading: return False
+    
+    # カタカナと中黒のみ
+    is_katakana = re.fullmatch(r'[ァ-ヶー・]+', reading)
+    if is_katakana: return True
+    
+    # 平仮名と中黒のみ
+    is_hiragana = re.fullmatch(r'[ぁ-んー・]+', reading)
+    if is_hiragana: return True
+    
+    return False
+
 # --- Proモデルによるフリガナ生成関数 ---
 def generate_furigana_with_pro(current_dict):
     """
@@ -248,13 +286,50 @@ def generate_furigana_with_pro(current_dict):
 
     # 1. 未処理リストの読み込み
     unverified_set = load_json_list(UNVERIFIED_FILE)
+    verified_set = load_json_list(VERIFIED_FILE) # チェック済みリストも読み込む
     
     if not unverified_set:
         print("Unverified queue is empty. All cards are up to date!")
         return current_dict
 
-    # 2. 優先度付け (未生成 > 漢字残り > キーワード > その他)
+    # 2. 優先度付け (辞書にないもの、キーワード入りを先に)
     unverified_list = list(unverified_set)
+    
+    # 事前チェック: 既にきれいなフリガナがあるものはスキップして完了済みに移動
+    to_verify_now = []
+    to_process_ai = []
+    
+    for name in unverified_list:
+        reading = current_dict.get(name, "")
+        cleaned_reading = normalize_furigana(reading)
+        
+        # フリガナを正規化して更新（もし変わっていれば）
+        if reading != cleaned_reading:
+            current_dict[name] = cleaned_reading
+            
+        # チェック: カタカナのみ or 平仮名のみならAI処理スキップ
+        if is_valid_furigana(cleaned_reading):
+            to_verify_now.append(name)
+        else:
+            to_process_ai.append(name)
+            
+    # チェック済みを一括移動
+    if to_verify_now:
+        print(f"Skipping AI for {len(to_verify_now)} cards (valid format). Moving to verified...")
+        verified_set.update(to_verify_now)
+        save_json_list(VERIFIED_FILE, verified_set)
+        
+        # 未処理リストから削除
+        new_unverified = set(unverified_list) - set(to_verify_now)
+        save_json_list(UNVERIFIED_FILE, new_unverified)
+        
+        # リストを更新して続行
+        unverified_list = list(new_unverified)
+
+    if not unverified_list:
+        print("All cards in queue were valid. No AI processing needed.")
+        return current_dict
+
     def get_priority(name):
         score = 0
         current_reading = current_dict.get(name, "")
@@ -302,7 +377,9 @@ def generate_furigana_with_pro(current_dict):
                 if match:
                     updates = json.loads(match.group(0))
                     if updates:
-                        generated_updates.update(updates)
+                        # 生成されたフリガナもクリーニングしてから登録
+                        cleaned_updates = {k: normalize_furigana(v) for k, v in updates.items()}
+                        generated_updates.update(cleaned_updates)
                     batch_success = True
                     break
             except Exception as e:
@@ -333,7 +410,10 @@ def generate_furigana_with_pro(current_dict):
         save_json_list(VERIFIED_FILE, verified_set)
         
         # 未処理リストから削除
-        new_unverified = set(unverified_list) - set(processed_keys)
+        # 注意: unverified_list は途中で更新されている可能性があるので、ファイルを再読み込みして削除するのが安全だが
+        # ここでは単純にメモリ上のリストから削除して保存
+        current_unverified = load_json_list(UNVERIFIED_FILE)
+        new_unverified = current_unverified - set(processed_keys)
         save_json_list(UNVERIFIED_FILE, new_unverified)
         
         print(f"Verification progress: {len(processed_keys)} cards moved to verified list.")
@@ -431,7 +511,9 @@ def main():
     save_furigana_dict(f_dict)
 
     # 5. フリガナ適用
+    # DataFrame適用時にもクリーニングを実施
     df_all['フリガナ'] = df_all['カード名'].map(f_dict).fillna('')
+    df_all['フリガナ'] = df_all['フリガナ'].apply(normalize_furigana)
     
     # CSV保存
     cols = [

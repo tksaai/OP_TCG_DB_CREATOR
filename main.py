@@ -13,37 +13,30 @@ import importlib.metadata
 # --- 設定 ---
 BASE_URL = 'https://www.onepiece-cardgame.com/cardlist/'
 DATA_DIR = 'data'
+PROMPT_DIR = 'prompts'
 OUTPUT_CSV = 'OnePiece_Card_List_All.csv'
 OUTPUT_JSON = 'cards.json'
 FURIGANA_DICT_FILE = 'furigana_dictionary.json'
+VERIFIED_FILE = 'verified_cards.json'       # 【完了】Proモデルチェック済み
+UNVERIFIED_FILE = 'unverified_cards.json'   # 【未完】処理待ちキュー
 ALWAYS_FETCH_CODES = ['550901', '550801'] 
+
+# 1回の実行でProモデル処理を行うカード数の上限
+# 初回は多いですが、毎日自動実行で少しずつ消化します
+MAX_VERIFY_PER_RUN = 50 
+
+# 優先処理キーワード (あくまで優先順位を決めるだけで、これ以外もチェックされます)
+REFINE_KEYWORDS = [
+    "ゴムゴム", "火拳", "神避", "芳香脚", "悪魔風脚", "大秘宝", "超新星", 
+    "王下七武海", "海賊団", "一味", "拳銃", "業火", "龍", "覇気", "獅子"
+]
 
 # 環境変数からAPIキー取得
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
-# --- バージョン確認 ---
-try:
-    genai_version = importlib.metadata.version("google-generativeai")
-    print(f"google-generativeai version: {genai_version}")
-except:
-    pass
-
-# --- APIキーとモデルの接続テスト (追加) ---
+# --- API設定とモデル確認 ---
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    print("Checking available models for this API key...")
-    try:
-        available_models = []
-        for m in genai.list_models():
-            if 'generateContent' in m.supported_generation_methods:
-                print(f" - Found model: {m.name}")
-                available_models.append(m.name)
-        
-        if not available_models:
-            print("WARNING: No models found! Please check 'Generative Language API' in Google Cloud Console.")
-    except Exception as e:
-        print(f"Error listing models: {e}")
-        print("Hint: Your API Key might be invalid or lacks permissions.")
 
 # --- テキストクリーニング関数 ---
 def clean_text(text):
@@ -72,6 +65,40 @@ def extract_image_id(img_tag):
     filename = os.path.basename(src)
     return filename
 
+# --- ヘルパー関数 ---
+def load_prompt_template(filename):
+    path = os.path.join(PROMPT_DIR, filename)
+    if not os.path.exists(path):
+        print(f"Error: Prompt file not found at {path}")
+        return ""
+    with open(path, 'r', encoding='utf-8') as f:
+        return f.read()
+
+def load_json_list(filename):
+    if os.path.exists(filename):
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return set(data) if isinstance(data, list) else set()
+        except: return set()
+    return set()
+
+def save_json_list(filename, data):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(list(data), f, ensure_ascii=False, indent=2)
+
+def load_furigana_dict():
+    if os.path.exists(FURIGANA_DICT_FILE):
+        try:
+            with open(FURIGANA_DICT_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except: return {}
+    return {}
+
+def save_furigana_dict(data):
+    with open(FURIGANA_DICT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
 # --- スクレイピング関連 ---
 def get_all_series_list():
     headers = {'User-Agent': 'Mozilla/5.0 (compatible; Bot/1.0)'}
@@ -79,7 +106,6 @@ def get_all_series_list():
         response = requests.get(BASE_URL, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
-        
         series_options = []
         select_tag = soup.find('select', {'name': 'series'})
         if select_tag:
@@ -103,15 +129,12 @@ def fetch_cards_from_series(series_code):
     while has_next:
         url = f"{BASE_URL}?series={series_code}&page={page}"
         print(f"  Fetching Page {page}...")
-        
         try:
             response = requests.get(url, headers=headers)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
-            
             card_modals = soup.find_all('dl', class_='modalCol')
-            if not card_modals:
-                break
+            if not card_modals: break
 
             for modal in card_modals:
                 try:
@@ -122,13 +145,10 @@ def fetch_cards_from_series(series_code):
                     card_id = clean_text(spans[0].get_text(strip=True)) if len(spans) > 0 else ""
                     rarity = clean_text(spans[1].get_text(strip=True)) if len(spans) > 1 else ""
                     card_type = clean_text(spans[2].get_text(strip=True)) if len(spans) > 2 else ""
-                    
                     card_name_div = dt.find('div', class_='cardName')
                     card_name = get_text_with_alt(card_name_div)
-                    
                     img_tag = modal.find('img')
                     image_file_id = extract_image_id(img_tag)
-                    
                     dd = modal.find('dd')
                     back_col = dd.find('div', class_='backCol')
                     
@@ -162,26 +182,13 @@ def fetch_cards_from_series(series_code):
                     set_info = get_val('getInfo', '入手情報')
 
                     row = {
-                        'CardID': card_id,
-                        'Name': card_name,
-                        'Rarity': rarity,
-                        'Type': card_type,
-                        'Color': color,
-                        'Cost_Life_Type': cost_life_type,
-                        'Cost_Life_Value': cost_life_value,
-                        'Power': power,
-                        'Counter': counter,
-                        'Attribute': attribute,
-                        'Feature': feature,
-                        'Block': block,
-                        'Text': text,
-                        'Trigger': trigger,
-                        'SetInfo': set_info,
-                        'ImageFileID': image_file_id,
-                        'ImageFileID_small': ''
+                        'CardID': card_id, 'Name': card_name, 'Rarity': rarity, 'Type': card_type,
+                        'Color': color, 'Cost_Life_Type': cost_life_type, 'Cost_Life_Value': cost_life_value,
+                        'Power': power, 'Counter': counter, 'Attribute': attribute, 'Feature': feature,
+                        'Block': block, 'Text': text, 'Trigger': trigger, 'SetInfo': set_info,
+                        'ImageFileID': image_file_id, 'ImageFileID_small': ''
                     }
                     all_cards.append(row)
-
                 except Exception as e:
                     print(f"Skipping card parse error: {e}")
                     continue
@@ -190,196 +197,200 @@ def fetch_cards_from_series(series_code):
             if pager and 'NEXT' in pager.get_text():
                 page += 1
                 time.sleep(1)
-            else:
-                has_next = False
-                
+            else: has_next = False
         except Exception as e:
             print(f"Error fetching page {page}: {e}")
             has_next = False
-
     return pd.DataFrame(all_cards)
 
-# --- フリガナ (Gemini API) 関連 ---
-def load_furigana_dict():
-    if os.path.exists(FURIGANA_DICT_FILE):
-        try:
-            with open(FURIGANA_DICT_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except:
-            return {}
-    return {}
+# --- 未チェックリストの同期 ---
+def sync_unverified_list(all_card_names):
+    """
+    全カードの中で「チェック済み(Verified)」に含まれていないものを
+    すべて「未処理(Unverified)」キューに追加する
+    """
+    verified_set = load_json_list(VERIFIED_FILE)
+    unverified_set = load_json_list(UNVERIFIED_FILE)
+    
+    new_cards = []
+    for name in all_card_names:
+        # 名前があり、かつチェック済みリストになく、まだキューにもない場合
+        if name and name not in verified_set and name not in unverified_set:
+            new_cards.append(name)
+            
+    if new_cards:
+        unverified_set.update(new_cards)
+        save_json_list(UNVERIFIED_FILE, unverified_set)
+        print(f"Synced queue: Added {len(new_cards)} new cards to unverified list.")
+    else:
+        print("Queue sync: No new cards found.")
 
-def save_furigana_dict(data):
-    with open(FURIGANA_DICT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-def fetch_furigana_from_ai(card_names):
-    if not GEMINI_API_KEY:
-        print("Warning: GEMINI_API_KEY not set. Skipping AI furigana.")
-        return {}
+# --- Proモデルによるフリガナ生成関数 ---
+def generate_furigana_with_pro(current_dict):
+    """
+    未処理リスト(UNVERIFIED_FILE)から少しずつカードを取り出し、
+    Proモデルでフリガナを生成して辞書に登録する。
+    """
+    if not GEMINI_API_KEY: 
+        print("Warning: GEMINI_API_KEY not set. Skipping AI generation.")
+        return current_dict
 
     genai.configure(api_key=GEMINI_API_KEY)
     
-    # 試行するモデルリスト
-    # ユーザー環境で確認された最新モデルを優先的に指定
-    default_models = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-flash-latest']
-
-    # APIから取得できるモデルも動的に候補に追加
-    try:
-        for m in genai.list_models():
-            if 'generateContent' in m.supported_generation_methods:
-                model_name = m.name.replace('models/', '')
-                if model_name not in default_models:
-                    default_models.append(model_name)
-    except Exception as e:
-        print(f"Warning: Could not auto-detect models: {e}")
+    # 精度重視のモデル順
+    pro_models = ['gemini-3-pro-preview', 'gemini-2.5-pro', 'gemini-1.5-pro']
     
-    new_readings = {}
-    # 【対策1】バッチサイズを 30 -> 10 に減らし、負荷を分散
+    # 新規生成用のプロンプトを使う
+    prompt_template = load_prompt_template('generation_prompt.txt')
+    if not prompt_template: 
+        print("Error: generation_prompt.txt missing.")
+        return current_dict
+
+    # 1. 未処理リストの読み込み
+    unverified_set = load_json_list(UNVERIFIED_FILE)
+    
+    if not unverified_set:
+        print("Unverified queue is empty. All cards are up to date!")
+        return current_dict
+
+    # 2. 優先度付け (未生成 > 漢字残り > キーワード > その他)
+    unverified_list = list(unverified_set)
+    def get_priority(name):
+        score = 0
+        current_reading = current_dict.get(name, "")
+        
+        # 辞書にまだない(完全新規) -> 最優先
+        if name not in current_dict: 
+            score += 20
+        # 既に辞書にあるが、フリガナに漢字が含まれている(生成失敗の可能性) -> 優先
+        elif re.search(r'[一-龥]', current_reading):
+            score += 10
+            
+        # 難読キーワードが含まれる -> 優先
+        if any(k in name for k in REFINE_KEYWORDS): 
+            score += 5
+            
+        return -score
+
+    unverified_list.sort(key=get_priority)
+
+    # 3. 今回処理する分だけ切り出す
+    targets_list = unverified_list[:MAX_VERIFY_PER_RUN]
+    
+    print(f"Processing {len(targets_list)} cards with Pro model (Remaining in queue: {len(unverified_list) - len(targets_list)})...")
+    
+    # 4. バッチ処理
+    # Proモデルのトークン制限を考慮し、少なめのバッチサイズで回す
     batch_size = 10 
+    processed_keys = [] 
+    generated_updates = {}
+
+    for i in range(0, len(targets_list), batch_size):
+        batch_keys = targets_list[i:i+batch_size]
+        print(f"  AI Generation batch {i+1}/{len(targets_list)}...")
+
+        # プロンプトの構築
+        prompt = prompt_template.replace("{{JSON_DATA}}", json.dumps(batch_keys, ensure_ascii=False))
+        
+        batch_success = False
+        for model_name in pro_models:
+            try:
+                model = genai.GenerativeModel(model_name)
+                # 創造性より正確性を重視
+                response = model.generate_content(prompt, generation_config={"temperature": 0.1})
+                match = re.search(r'\{.*\}', response.text, re.DOTALL)
+                if match:
+                    updates = json.loads(match.group(0))
+                    if updates:
+                        generated_updates.update(updates)
+                    batch_success = True
+                    break
+            except Exception as e:
+                err_msg = str(e)
+                if "429" in err_msg or "quota" in err_msg.lower():
+                    print(f"    Rate limit on {model_name}. Waiting 20s...")
+                    time.sleep(20) 
+                elif "404" in err_msg: continue
+                else: print(f"    Error with {model_name}: {err_msg.splitlines()[0]}")
+        
+        if batch_success:
+            # 成功したら、レスポンスに含まれていなくても処理済みとみなす(エラーで止まらないように)
+            processed_keys.extend(batch_keys)
+        else:
+            print(f"    Batch failed. Skipping these cards for now.")
+        
+        time.sleep(10) # インターバル
+
+    # 5. 結果の保存
+    if generated_updates:
+        current_dict.update(generated_updates)
+        print(f"Successfully generated/updated {len(generated_updates)} readings.")
     
-    unique_names = list(set(card_names))
+    if processed_keys:
+        # チェック済みリストに追加
+        verified_set = load_json_list(VERIFIED_FILE)
+        verified_set.update(processed_keys)
+        save_json_list(VERIFIED_FILE, verified_set)
+        
+        # 未処理リストから削除
+        new_unverified = set(unverified_list) - set(processed_keys)
+        save_json_list(UNVERIFIED_FILE, new_unverified)
+        
+        print(f"Verification progress: {len(processed_keys)} cards moved to verified list.")
     
-    for i in range(0, len(unique_names), batch_size):
-        batch = unique_names[i:i+batch_size]
-        print(f"Asking AI for furigana ({i+1}/{len(unique_names)})...")
-        
-        prompt = f"""
-        あなたはワンピースカードゲームの専門家です。以下のカード名のリストについて、
-        正しい「読み仮名（全角カタカナ）」を答えてください。
-        「芳香脚」は「パフューム・フェムル」のように、ルビ（当て字）を優先してください。
-        
-        出力は以下のJSON形式のみを返してください。マークダウン記法は不要です。
-        {{
-            "カード名": "ヨミガナ",
-            ...
-        }}
-
-        リスト:
-        {json.dumps(batch, ensure_ascii=False)}
-        """
-        
-        # 【対策2】リトライロジック強化 (Exponential Backoff)
-        max_retries = 3
-        retry_delay = 10 # 初回待機時間
-        success = False
-
-        for attempt in range(max_retries):
-            # モデルごとの試行
-            for model_name in default_models:
-                try:
-                    model = genai.GenerativeModel(model_name)
-                    response = model.generate_content(prompt)
-                    match = re.search(r'\{.*\}', response.text, re.DOTALL)
-                    if match:
-                        res_json = json.loads(match.group(0))
-                        new_readings.update(res_json)
-                        success = True
-                        break # 成功したらモデルループを抜ける
-                except Exception as e:
-                    err_msg = str(e)
-                    # 429 (Resource Exhausted) の場合は、モデルを変えるのではなく待機が必要
-                    if "429" in err_msg or "quota" in err_msg.lower():
-                         print(f"Rate limit hit on {model_name}. Waiting...")
-                         break # モデルループを抜けて、外側のリトライループで待機する
-                    elif "404" in err_msg:
-                        # モデルが見つからない場合は次のモデルへ即座に移行
-                        continue
-                    else:
-                        print(f"Model {model_name} failed: {err_msg}")
-                        continue
-            
-            if success:
-                break
-            
-            # 失敗時は待機してからリトライ
-            print(f"Retry {attempt + 1}/{max_retries} after {retry_delay} seconds...")
-            time.sleep(retry_delay)
-            retry_delay *= 2 # 待機時間を倍にする (10s -> 20s -> 40s)
-
-        if not success:
-            print(f"All retries failed for batch starting at {i}. Skipping this batch.")
-
-        # 【対策3】成功時の基本待機時間を 4s -> 10s に延長 (RPM制限対策)
-        time.sleep(10) 
-
-    return new_readings
+    return current_dict
 
 # --- JSON生成 ---
 def generate_card_json_from_df(df):
     cards_list = []
     seen_ids = set()
-
     for _, row in df.iterrows():
-        if row.get('重複フラグ') == '重複':
-            continue
-
+        if row.get('重複フラグ') == '重複': continue
         c_num = str(row['カード番号']).strip()
         if not c_num: continue
-
+        
         img_id = str(row.get('ImageFileID', '')).strip()
         unique_suffix = img_id if img_id else str(uuid.uuid4())
         unique_id = f"{c_num}_{unique_suffix}"
-        
         if unique_id in seen_ids: continue
         seen_ids.add(unique_id)
 
         info = str(row['入手情報']).strip()
-        s_title = info
-        s_code = ''
+        s_title = info; s_code = ''
         m = re.search(r'(.*)【(.*)】', info)
-        if m:
-            s_title = m.group(1).strip()
-            s_code = m.group(2).strip()
+        if m: s_title = m.group(1).strip(); s_code = m.group(2).strip()
 
         def to_int(v):
-            try:
-                if not v or str(v).lower() == 'nan': return None
-                return int(float(v))
+            try: return None if not v or str(v).lower() == 'nan' else int(float(v))
             except: return str(v)
 
         card_obj = {
-            "uniqueId": unique_id,
-            "cardNumber": c_num,
-            "cardName": str(row['カード名']).strip(),
-            "furigana": str(row.get('フリガナ', '')).strip(),
-            "rarity": str(row['レアリティ']).strip(),
-            "cardType": str(row['種類']).strip(),
-            "color": [c.strip() for c in str(row['色']).split('/') if c.strip()],
-            "costLifeType": str(row['コスト/ライフ種別']).strip(),
-            "costLifeValue": to_int(row['コスト/ライフ値']),
-            "power": to_int(row['パワー']),
-            "counter": to_int(row['カウンター']),
-            "attribute": str(row['属性']).strip(),
-            "features": [f.strip() for f in str(row['特徴']).split('/') if f.strip()],
-            "block": to_int(row['ブロック']),
-            "effectText": str(row['効果テキスト']).strip(),
-            "trigger": str(row['トリガー']).strip(),
-            "getInfo": info,
-            "seriesTitle": s_title,
-            "seriesCode": s_code
+            "uniqueId": unique_id, "cardNumber": c_num, "cardName": str(row['カード名']).strip(),
+            "furigana": str(row.get('フリガナ', '')).strip(), "rarity": str(row['レアリティ']).strip(),
+            "cardType": str(row['種類']).strip(), "color": [c.strip() for c in str(row['色']).split('/') if c.strip()],
+            "costLifeType": str(row['コスト/ライフ種別']).strip(), "costLifeValue": to_int(row['コスト/ライフ値']),
+            "power": to_int(row['パワー']), "counter": to_int(row['カウンター']),
+            "attribute": str(row['属性']).strip(), "features": [f.strip() for f in str(row['特徴']).split('/') if f.strip()],
+            "block": to_int(row['ブロック']), "effectText": str(row['効果テキスト']).strip(),
+            "trigger": str(row['トリガー']).strip(), "getInfo": info, "seriesTitle": s_title, "seriesCode": s_code
         }
         cards_list.append(card_obj)
-    
     return cards_list
 
 # --- メイン処理 ---
 def main():
     if not os.path.exists(DATA_DIR): os.makedirs(DATA_DIR)
-    
+    if not os.path.exists(PROMPT_DIR): print(f"Warning: '{PROMPT_DIR}' missing.")
+
     series_list = get_all_series_list()
     print(f"Found {len(series_list)} series.")
 
     # 1. データ収集
     for s in series_list:
-        code = s['code']
-        name = s['name']
+        code = s['code']; name = s['name']
         fpath = os.path.join(DATA_DIR, f"{code}.csv")
-        
         if code not in ALWAYS_FETCH_CODES and os.path.exists(fpath):
-            print(f"[Skip] {name}")
-            continue
-
+            print(f"[Skip] {name}"); continue
         print(f"[Fetch] {name} ({code})...")
         df = fetch_cards_from_series(code)
         if not df.empty:
@@ -391,7 +402,6 @@ def main():
     print("Merging data...")
     files = [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith('.csv')]
     if not files: return
-
     df_list = [pd.read_csv(f, dtype=str) for f in files]
     df_all = pd.concat(df_list, ignore_index=True).fillna('')
     
@@ -402,26 +412,25 @@ def main():
     df_all = df_all.drop(columns=['SortPriority'])
 
     col_map = {
-        'CardID': 'カード番号', 'Name': 'カード名', 'Rarity': 'レアリティ',
-        'Type': '種類', 'Color': '色', 'Cost_Life_Type': 'コスト/ライフ種別',
-        'Cost_Life_Value': 'コスト/ライフ値', 'Power': 'パワー', 'Counter': 'カウンター',
-        'Attribute': '属性', 'Feature': '特徴', 'Block': 'ブロック',
+        'CardID': 'カード番号', 'Name': 'カード名', 'Rarity': 'レアリティ', 'Type': '種類', 'Color': '色',
+        'Cost_Life_Type': 'コスト/ライフ種別', 'Cost_Life_Value': 'コスト/ライフ値', 'Power': 'パワー',
+        'Counter': 'カウンター', 'Attribute': '属性', 'Feature': '特徴', 'Block': 'ブロック',
         'Text': '効果テキスト', 'Trigger': 'トリガー', 'SetInfo': '入手情報',
         'ImageFileID': 'ImageFileID', 'ImageFileID_small': 'ImageFileID_small'
     }
     df_all.rename(columns=col_map, inplace=True)
 
-    # 3. AIフリガナ付与
-    print("Applying Furigana...")
+    # 3. 未処理リストの同期 (ここで新規カードをキューに追加)
+    print("Syncing processing queue...")
+    sync_unverified_list(df_all['カード名'].unique())
+
+    # 4. Proモデルによるフリガナ生成 & 校正 (キューから少しずつ消化)
+    print("Generating Furigana with Pro Model...")
     f_dict = load_furigana_dict()
-    targets = [n for n in df_all['カード名'].unique() if n and n not in f_dict]
-    
-    if targets:
-        print(f"Fetching readings for {len(targets)} new words...")
-        new_f = fetch_furigana_from_ai(targets)
-        f_dict.update(new_f)
-        save_furigana_dict(f_dict)
-    
+    f_dict = generate_furigana_with_pro(f_dict)
+    save_furigana_dict(f_dict)
+
+    # 5. フリガナ適用
     df_all['フリガナ'] = df_all['カード名'].map(f_dict).fillna('')
     
     # CSV保存
@@ -437,7 +446,7 @@ def main():
     df_final.to_csv(OUTPUT_CSV, index=False, encoding='utf-8-sig')
     print(f"Saved CSV: {OUTPUT_CSV}")
 
-    # 4. JSON生成
+    # JSON生成
     print("Generating JSON...")
     json_data = generate_card_json_from_df(df_final)
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:

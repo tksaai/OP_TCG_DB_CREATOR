@@ -17,7 +17,7 @@ PROMPT_DIR = 'prompts'
 OUTPUT_CSV = 'OnePiece_Card_List_All.csv'
 OUTPUT_JSON = 'cards.json'
 FURIGANA_DICT_FILE = 'furigana_dictionary.json'
-VERIFIED_FILE = 'verified_cards.json'       # 【完了】Proモデルチェック済み
+VERIFIED_FILE = 'verified_cards.json'       # 【完了】Proモデルチェック済み または 形式チェック合格済み
 UNVERIFIED_FILE = 'unverified_cards.json'   # 【未完】処理待ちキュー
 ALWAYS_FETCH_CODES = ['550901', '550801'] 
 
@@ -231,17 +231,11 @@ def normalize_furigana(reading):
     ただし中黒(・)は残す。
     """
     if not reading: return ""
-    # 空白、全角空白、記号（中黒以外）を除去
-    # ここでは英数字、ひらがな、カタカナ、漢字、中黒以外を削除対象とする例
-    # 必要に応じて調整してください。今回は「記号やスペースは除外」に従い、
-    # 英数字・かな・カナ・漢字・中黒(・)を残す方針にします。
-    
     # 制御文字や空白を削除
     cleaned = re.sub(r'[\s\u3000]', '', reading)
     
     # 特定の記号を削除 (例: !, ?, %, など。中黒は残す)
-    # \w は英数字+アンダースコア。日本語文字も含めるため、否定で削除する文字を指定したほうが安全かもしれません。
-    # ここではシンプルに「スペースと一般的な記号」を削除します。
+    # ここでは英数字、ひらがな、カタカナ、漢字、中黒以外を削除対象とする
     cleaned = re.sub(r'[!！?？"”#＃$＄%％&＆\'’(（)）*＊+＋,，-－.．/／:：;；<＜=＝>＞@＠[［\\￥\]］^＾_＿`｀{｛|｜}｝~～]', '', cleaned)
     
     return cleaned
@@ -253,11 +247,11 @@ def is_valid_furigana(reading):
     """
     if not reading: return False
     
-    # カタカナと中黒のみ
+    # カタカナと中黒のみ (カタカナのみの場合も含む)
     is_katakana = re.fullmatch(r'[ァ-ヶー・]+', reading)
     if is_katakana: return True
     
-    # 平仮名と中黒のみ
+    # 平仮名と中黒のみ (平仮名のみの場合も含む)
     is_hiragana = re.fullmatch(r'[ぁ-んー・]+', reading)
     if is_hiragana: return True
     
@@ -292,44 +286,43 @@ def generate_furigana_with_pro(current_dict):
         print("Unverified queue is empty. All cards are up to date!")
         return current_dict
 
-    # 2. 優先度付け (辞書にないもの、キーワード入りを先に)
-    unverified_list = list(unverified_set)
-    
-    # 事前チェック: 既にきれいなフリガナがあるものはスキップして完了済みに移動
+    # 2. 事前チェック (New!)
+    # AI処理前に、既にきれいなフリガナがあるものはチェック済みに移動
     to_verify_now = []
-    to_process_ai = []
     
-    for name in unverified_list:
+    # unverified_set からチェック対象をリスト化 (辞書にないものはAI処理に回すため除外)
+    unverified_list_in_dict = [k for k in unverified_set if k in current_dict]
+    
+    for name in unverified_list_in_dict:
         reading = current_dict.get(name, "")
         cleaned_reading = normalize_furigana(reading)
         
-        # フリガナを正規化して更新（もし変わっていれば）
+        # クリーニングして更新
         if reading != cleaned_reading:
             current_dict[name] = cleaned_reading
             
-        # チェック: カタカナのみ or 平仮名のみならAI処理スキップ
+        # 形式チェック (カタカナのみ or 平仮名のみならOK、中黒・長音も許容)
         if is_valid_furigana(cleaned_reading):
             to_verify_now.append(name)
-        else:
-            to_process_ai.append(name)
             
     # チェック済みを一括移動
     if to_verify_now:
-        print(f"Skipping AI for {len(to_verify_now)} cards (valid format). Moving to verified...")
+        print(f"Skipping AI for {len(to_verify_now)} valid cards. Moving to verified list...")
         verified_set.update(to_verify_now)
         save_json_list(VERIFIED_FILE, verified_set)
         
         # 未処理リストから削除
-        new_unverified = set(unverified_list) - set(to_verify_now)
-        save_json_list(UNVERIFIED_FILE, new_unverified)
+        unverified_set = unverified_set - set(to_verify_now)
+        save_json_list(UNVERIFIED_FILE, unverified_set)
         
-        # リストを更新して続行
-        unverified_list = list(new_unverified)
-
+    # リストを再取得 (削除後)
+    unverified_list = list(unverified_set)
+    
     if not unverified_list:
         print("All cards in queue were valid. No AI processing needed.")
         return current_dict
 
+    # 3. 優先度付け (辞書にないもの、キーワード入りを先に)
     def get_priority(name):
         score = 0
         current_reading = current_dict.get(name, "")
@@ -349,13 +342,12 @@ def generate_furigana_with_pro(current_dict):
 
     unverified_list.sort(key=get_priority)
 
-    # 3. 今回処理する分だけ切り出す
+    # 4. 今回処理する分だけ切り出す
     targets_list = unverified_list[:MAX_VERIFY_PER_RUN]
     
     print(f"Processing {len(targets_list)} cards with Pro model (Remaining in queue: {len(unverified_list) - len(targets_list)})...")
     
-    # 4. バッチ処理
-    # Proモデルのトークン制限を考慮し、少なめのバッチサイズで回す
+    # 5. バッチ処理
     batch_size = 10 
     processed_keys = [] 
     generated_updates = {}
@@ -391,14 +383,13 @@ def generate_furigana_with_pro(current_dict):
                 else: print(f"    Error with {model_name}: {err_msg.splitlines()[0]}")
         
         if batch_success:
-            # 成功したら、レスポンスに含まれていなくても処理済みとみなす(エラーで止まらないように)
             processed_keys.extend(batch_keys)
         else:
             print(f"    Batch failed. Skipping these cards for now.")
         
         time.sleep(10) # インターバル
 
-    # 5. 結果の保存
+    # 6. 結果の保存
     if generated_updates:
         current_dict.update(generated_updates)
         print(f"Successfully generated/updated {len(generated_updates)} readings.")
@@ -410,8 +401,7 @@ def generate_furigana_with_pro(current_dict):
         save_json_list(VERIFIED_FILE, verified_set)
         
         # 未処理リストから削除
-        # 注意: unverified_list は途中で更新されている可能性があるので、ファイルを再読み込みして削除するのが安全だが
-        # ここでは単純にメモリ上のリストから削除して保存
+        # ファイルから最新の状態を読み直して削除
         current_unverified = load_json_list(UNVERIFIED_FILE)
         new_unverified = current_unverified - set(processed_keys)
         save_json_list(UNVERIFIED_FILE, new_unverified)

@@ -235,7 +235,7 @@ def normalize_furigana(reading):
     cleaned = re.sub(r'[\s\u3000]', '', reading)
     
     # 特定の記号を削除 (例: !, ?, %, など。中黒は残す)
-    # ここでは英数字、ひらがな、カタカナ、漢字、中黒以外を削除対象とする
+    # 英数字、ひらがな、カタカナ、漢字、中黒以外を削除
     cleaned = re.sub(r'[!！?？"”#＃$＄%％&＆\'’(（)）*＊+＋,，-－.．/／:：;；<＜=＝>＞@＠[［\\￥\]］^＾_＿`｀{｛|｜}｝~～]', '', cleaned)
     
     return cleaned
@@ -244,15 +244,18 @@ def normalize_furigana(reading):
 def is_valid_furigana(reading):
     """
     フリガナが「すべてカタカナと・」または「すべて平仮名と・」のみで構成されているかチェック
+    Unicode範囲指定で厳密にチェックします。
     """
     if not reading: return False
     
-    # カタカナと中黒のみ (カタカナのみの場合も含む)
-    is_katakana = re.fullmatch(r'[ァ-ヶー・]+', reading)
+    # カタカナ(30A0-30FF) と 中黒(30FB) と 長音(30FC)
+    # \u30A1-\u30F6 は標準的なカタカナ。
+    is_katakana = re.fullmatch(r'[\u30A1-\u30F6\u30FB\u30FC]+', reading)
     if is_katakana: return True
     
-    # 平仮名と中黒のみ (平仮名のみの場合も含む)
-    is_hiragana = re.fullmatch(r'[ぁ-んー・]+', reading)
+    # 平仮名(3040-309F) と 中黒(30FB) と 長音(30FC)
+    # \u3041-\u3096 は標準的な平仮名。
+    is_hiragana = re.fullmatch(r'[\u3041-\u3096\u30FB\u30FC]+', reading)
     if is_hiragana: return True
     
     return False
@@ -263,6 +266,61 @@ def generate_furigana_with_pro(current_dict):
     未処理リスト(UNVERIFIED_FILE)から少しずつカードを取り出し、
     Proモデルでフリガナを生成して辞書に登録する。
     """
+    # APIキーがなくても事前チェックは実行可能にするため、ここでのチェックは後回し
+    
+    # 1. 未処理リストの読み込み
+    unverified_set = load_json_list(UNVERIFIED_FILE)
+    verified_set = load_json_list(VERIFIED_FILE) # チェック済みリストも読み込む
+    
+    if not unverified_set:
+        print("Unverified queue is empty. All cards are up to date!")
+        return current_dict
+
+    # 2. 事前チェック (New!)
+    # AI処理前に、既にきれいなフリガナがあるものはチェック済みに移動
+    to_verify_now = []
+    
+    # unverified_set 全体をチェック (辞書にないものも名前自体がフリガナとして有効なら登録)
+    for name in list(unverified_set):
+        reading = current_dict.get(name, "")
+        
+        # Case A: 辞書にフリガナがある場合
+        if reading:
+            cleaned_reading = normalize_furigana(reading)
+            if reading != cleaned_reading:
+                current_dict[name] = cleaned_reading
+                reading = cleaned_reading
+            
+            # 形式チェック (カタカナのみ or 平仮名のみならOK)
+            if is_valid_furigana(reading):
+                to_verify_now.append(name)
+        
+        # Case B: 辞書にない場合、名前自体がフリガナとして使えるかチェック (例: "フォッサ")
+        else:
+            cleaned_name = normalize_furigana(name)
+            # 名前がそのままフリガナとして有効(カタカナのみ等)なら採用
+            if is_valid_furigana(cleaned_name):
+                current_dict[name] = cleaned_name
+                to_verify_now.append(name)
+            
+    # チェック済みを一括移動
+    if to_verify_now:
+        print(f"Skipping AI for {len(to_verify_now)} valid cards (e.g., '{to_verify_now[0]}'). Moving to verified list...")
+        verified_set.update(to_verify_now)
+        save_json_list(VERIFIED_FILE, verified_set)
+        
+        # 未処理リストから削除
+        unverified_set = unverified_set - set(to_verify_now)
+        save_json_list(UNVERIFIED_FILE, unverified_set)
+    
+    # リストを再取得 (削除後)
+    unverified_list = list(unverified_set)
+    
+    if not unverified_list:
+        print("All cards in queue were valid. No AI processing needed.")
+        return current_dict
+
+    # --- ここからAI処理 ---
     if not GEMINI_API_KEY: 
         print("Warning: GEMINI_API_KEY not set. Skipping AI generation.")
         return current_dict
@@ -276,50 +334,6 @@ def generate_furigana_with_pro(current_dict):
     prompt_template = load_prompt_template('generation_prompt.txt')
     if not prompt_template: 
         print("Error: generation_prompt.txt missing.")
-        return current_dict
-
-    # 1. 未処理リストの読み込み
-    unverified_set = load_json_list(UNVERIFIED_FILE)
-    verified_set = load_json_list(VERIFIED_FILE) # チェック済みリストも読み込む
-    
-    if not unverified_set:
-        print("Unverified queue is empty. All cards are up to date!")
-        return current_dict
-
-    # 2. 事前チェック (New!)
-    # AI処理前に、既にきれいなフリガナがあるものはチェック済みに移動
-    to_verify_now = []
-    
-    # unverified_set からチェック対象をリスト化 (辞書にないものはAI処理に回すため除外)
-    unverified_list_in_dict = [k for k in unverified_set if k in current_dict]
-    
-    for name in unverified_list_in_dict:
-        reading = current_dict.get(name, "")
-        cleaned_reading = normalize_furigana(reading)
-        
-        # クリーニングして更新
-        if reading != cleaned_reading:
-            current_dict[name] = cleaned_reading
-            
-        # 形式チェック (カタカナのみ or 平仮名のみならOK、中黒・長音も許容)
-        if is_valid_furigana(cleaned_reading):
-            to_verify_now.append(name)
-            
-    # チェック済みを一括移動
-    if to_verify_now:
-        print(f"Skipping AI for {len(to_verify_now)} valid cards. Moving to verified list...")
-        verified_set.update(to_verify_now)
-        save_json_list(VERIFIED_FILE, verified_set)
-        
-        # 未処理リストから削除
-        unverified_set = unverified_set - set(to_verify_now)
-        save_json_list(UNVERIFIED_FILE, unverified_set)
-        
-    # リストを再取得 (削除後)
-    unverified_list = list(unverified_set)
-    
-    if not unverified_list:
-        print("All cards in queue were valid. No AI processing needed.")
         return current_dict
 
     # 3. 優先度付け (辞書にないもの、キーワード入りを先に)

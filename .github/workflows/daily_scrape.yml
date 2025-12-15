@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # 手動実行ボタンも有効にする
 
 permissions:
-  contents: write # リポジトリへの書き込み権限を明示
+  contents: write # 現在のリポジトリへの書き込み権限
 
 jobs:
   build:
@@ -25,22 +25,56 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # requirements.txt からライブラリを一括インストール
           pip install -r requirements.txt
 
       - name: Run scraper script
         env:
-          # main.py内で os.environ.get("GEMINI_API_KEY") しているため必要
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
 
-      - name: Commit and Push if changes
+      # --- 1. 現在のリポジトリ（バックアップ用）への保存 ---
+      - name: Commit and Push to Current Repo
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 【重要】ファイルが存在しなくてもエラーにならないよう、全変更を追加(-A)する
+          # 必要なファイルをすべて追加
           git add -A
           
           # 変更がある場合のみコミット
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update card list data and json [skip ci]" && git push)
+
+      # --- 2. 別のリポジトリ（公開サイト用など）への送信 ---
+      - name: Push JSON to External Repository
+        env:
+          # ▼▼▼ 送り先のリポジトリ名に書き換えてください (例: tksaai/OP_TCG_WEBSITE) ▼▼▼
+          TARGET_REPO: "tksaai/OP_TCG_DB"
+          # ▼▼▼ 送り先のブランチ名 (通常は main または master) ▼▼▼
+          TARGET_BRANCH: "main"
+          # 手順2で登録したトークン
+          API_TOKEN: ${{ secrets.TARGET_REPO_PAT }}
+        run: |
+          # gitの設定
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          
+          # ターゲットリポジトリを 'target_repo' ディレクトリにクローン
+          # 認証トークンをURLに埋め込んでクローンします
+          git clone https://x-access-token:$API_TOKEN@github.com/$TARGET_REPO.git target_repo
+          
+          # 生成された cards.json をターゲットリポジトリのフォルダにコピー
+          # (上書きコピーされます)
+          cp cards.json target_repo/
+          
+          # ディレクトリ移動してコミット＆プッシュ
+          cd target_repo
+          git add cards.json
+          
+          # 変更がある場合のみプッシュ
+          if git diff --staged --quiet; then
+            echo "No changes in cards.json for the target repository."
+          else
+            git commit -m "Update cards.json from Scraper"
+            git push origin $TARGET_BRANCH
+            echo "Successfully pushed to $TARGET_REPO"
+          fi

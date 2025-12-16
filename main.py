@@ -24,7 +24,7 @@ ALWAYS_FETCH_CODES = ['550901', '550801']
 
 # AI処理を実行するかどうかのデフォルトフラグ (True: 実行, False: スキップ)
 # ※ コマンドライン引数 --skip-ai を指定すると、ここがTrueでもスキップされます
-ENABLE_AI_GENERATION = True 
+ENABLE_AI_GENERATION = False 
 
 # 1回の実行でProモデル処理を行うカード数の上限
 # unverified_cards.json全体からこの件数分だけキューイングして処理されます

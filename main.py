@@ -24,9 +24,10 @@ ALWAYS_FETCH_CODES = ['550901', '550801']
 
 # AI処理を実行するかどうかのデフォルトフラグ (True: 実行, False: スキップ)
 # ※ コマンドライン引数 --skip-ai を指定すると、ここがTrueでもスキップされます
-ENABLE_AI_GENERATION = False 
+ENABLE_AI_GENERATION = True 
 
 # 1回の実行でProモデル処理を行うカード数の上限
+# unverified_cards.json全体からこの件数分だけキューイングして処理されます
 MAX_VERIFY_PER_RUN = 50 
 
 # 校正優先キーワード
@@ -216,24 +217,20 @@ def fetch_cards_from_series(series_code):
     return pd.DataFrame(all_cards)
 
 # --- 未チェックリストの同期 ---
-def sync_unverified_list(all_card_names):
+# 【修正】: verified_cards.json ではなく、f_dict に存在しないもののみを unverified_cards.json に追加するように変更
+def sync_unverified_list(all_card_names, f_dict):
     """
-    全カードの中で「チェック済み(Verified)」に含まれていないものを
+    全カードの中でフリガナ辞書(f_dict)に含まれていないものを
     すべて「未処理(Unverified)」キューに追加する
     """
-    verified_data = load_json_list(VERIFIED_FILE) # 辞書型で返る
     unverified_set = load_json_list(UNVERIFIED_FILE) # set型で返る
     
-    # verified_dataがリストの場合(旧形式)への対応
-    if isinstance(verified_data, set) or isinstance(verified_data, list):
-        verified_keys = set(verified_data)
-    else:
-        verified_keys = set(verified_data.keys())
+    dict_keys = set(f_dict.keys())
 
     new_cards = []
     for name in all_card_names:
-        # 名前があり、かつチェック済みリストになく、まだキューにもない場合
-        if name and name not in verified_keys and name not in unverified_set:
+        # 名前があり、かつフリガナ辞書にない、かつまだキューにもない場合
+        if name and name not in dict_keys and name not in unverified_set:
             new_cards.append(name)
             
     if new_cards:
@@ -241,7 +238,14 @@ def sync_unverified_list(all_card_names):
         save_json_list(UNVERIFIED_FILE, unverified_set)
         print(f"Synced queue: Added {len(new_cards)} new cards to unverified list.")
     else:
-        print("Queue sync: No new cards found.")
+        # 【追記】未処理キューから、辞書に載っているカードを削除し、キューをクリーンアップ
+        keys_to_remove = unverified_set.intersection(dict_keys)
+        if keys_to_remove:
+            unverified_set -= keys_to_remove
+            save_json_list(UNVERIFIED_FILE, unverified_set)
+            print(f"Synced queue: Removed {len(keys_to_remove)} verified cards from unverified list.")
+        
+        print("Queue sync: No new cards found (or all remaining are verified).")
 
 # --- フリガナのクリーニング関数 ---
 def normalize_furigana(reading):
@@ -271,7 +275,7 @@ def generate_furigana_with_pro(current_dict):
     """
     # 1. 未処理リストの読み込み
     unverified_set = load_json_list(UNVERIFIED_FILE)
-    verified_data = load_json_list(VERIFIED_FILE) # 辞書として読み込む
+    verified_data = load_json_list(VERIFIED_FILE) # 辞書として読み込む (フリガナ辞書のバックアップと履歴として機能)
     
     if isinstance(verified_data, list) or isinstance(verified_data, set):
         verified_data = {k: current_dict.get(k, "") for k in verified_data if k in current_dict}
@@ -281,6 +285,8 @@ def generate_furigana_with_pro(current_dict):
         return current_dict
 
     # 2. 事前チェック (形式が正しいものを先に移動)
+    # ここでのチェックは、unverified_cards.jsonに含まれているが、f_dictに情報があり、それが正しい形式の場合、
+    # AI処理をスキップし verified_cards.json に移動させるための処理です。
     to_verify_now = {} 
     
     for name in list(unverified_set):
@@ -340,7 +346,7 @@ def generate_furigana_with_pro(current_dict):
 
     unverified_list.sort(key=get_priority)
 
-    # 4. 今回処理分
+    # 4. 今回処理分 (MAX_VERIFY_PER_RUN件数分だけ処理する)
     targets_list = unverified_list[:MAX_VERIFY_PER_RUN]
     print(f"Processing {len(targets_list)} cards with Pro model (Remaining: {len(unverified_list) - len(targets_list)})...")
     
@@ -438,33 +444,7 @@ def generate_card_json_from_df(df):
     return cards_list
 
 # --- main処理内の新しいヘルパー関数 ---
-def sync_verified_from_dict(f_dict):
-    """
-    furigana_dictionary.json に存在するキーを verified_cards.json に同期する。
-    これにより、手動で辞書に追加されたカードは未処理キューから除外される。
-    """
-    verified_data = load_json_list(VERIFIED_FILE)
-    unverified_set = load_json_list(UNVERIFIED_FILE)
-    
-    # f_dictのキーのうち、verified_dataにまだないものを抽出
-    dict_keys = set(f_dict.keys())
-    newly_verified = dict_keys - set(verified_data.keys())
-    
-    if newly_verified:
-        print(f"Pre-sync: Found {len(newly_verified)} entries in dictionary not in verified list. Syncing...")
-        
-        # verified_dataを更新 (キーと値は f_dict から取得)
-        updates = {k: f_dict.get(k, "") for k in newly_verified}
-        verified_data.update(updates)
-        save_json_list(VERIFIED_FILE, verified_data)
-
-        # unverified_cards.json から除外
-        new_unverified = unverified_set - newly_verified
-        if len(new_unverified) < len(unverified_set):
-             print(f"Pre-sync: Removed {len(unverified_set) - len(new_unverified)} cards from unverified queue.")
-             save_json_list(UNVERIFIED_FILE, new_unverified)
-        else:
-             print("Pre-sync: No changes to unverified queue needed.")
+# 【削除】この関数は、sync_unverified_listの修正により不要になったため削除
 
 # --- メイン処理 ---
 def main():
@@ -516,28 +496,24 @@ def main():
     }
     df_all.rename(columns=col_map, inplace=True)
 
-    print("Syncing processing queue (Step 1)...")
-    # Step 1: 全カード名をベースに、未処理キューを初期化・更新する
-    sync_unverified_list(df_all['カード名'].unique())
-
     # --- フリガナ生成の分岐処理 ---
+    # 【修正】: フリガナ辞書をここで読み込み、その情報を元にunverified_cards.jsonを更新する
     f_dict = load_furigana_dict()
 
-    # **【修正追加】** Step 2: 手動編集された辞書の内容を verified_cards.json に即座に同期する
-    # これにより、手動でフリガナを登録したカードは、AI処理の対象（unverified_cards.json）から除外され、重複登録を防ぐ
-    print("Syncing verified status from dictionary (Step 2)...")
-    sync_verified_from_dict(f_dict)
+    print("Syncing processing queue...")
+    # Step 1: 読み込んだ辞書 f_dict を使って、フリガナが未登録のカード名のみを unverified_cards.json に登録する
+    sync_unverified_list(df_all['カード名'].unique(), f_dict)
     
     if should_run_ai:
-        # Step 3 (AI): 未処理キューに残ったカード（=新規カード、またはフリガナ未設定カード）に対してAI処理を実行
-        print(">> [AI Status] Enabled. Generating Furigana with Pro Model (Step 3)...")
+        # Step 2 (AI): 未処理キューに残ったカードに対してAI処理を実行
+        print(">> [AI Status] Enabled. Generating Furigana with Pro Model...")
         f_dict = generate_furigana_with_pro(f_dict)
         save_furigana_dict(f_dict)
     else:
-        # Step 3 (Skip): AI処理をスキップ
-        print(">> [AI Status] Skipped. Using existing dictionary only (Step 3).")
+        # Step 2 (Skip): AI処理をスキップ
+        print(">> [AI Status] Skipped. Using existing dictionary only.")
 
-    # Step 4: 最新の辞書を使ってDataFrameにフリガナをマッピング
+    # Step 3: 最新の辞書を使ってDataFrameにフリガナをマッピング
     df_all['フリガナ'] = df_all['カード名'].map(f_dict).fillna('')
     df_all['フリガナ'] = df_all['フリガナ'].apply(normalize_furigana)
     

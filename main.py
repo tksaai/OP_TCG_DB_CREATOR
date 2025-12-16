@@ -9,6 +9,7 @@ import copy
 import uuid
 import google.generativeai as genai
 import importlib.metadata
+import argparse  # 【追加】引数処理用
 
 # --- 設定 ---
 BASE_URL = 'https://www.onepiece-cardgame.com/cardlist/'
@@ -20,6 +21,10 @@ FURIGANA_DICT_FILE = 'furigana_dictionary.json'
 VERIFIED_FILE = 'verified_cards.json'       # 【完了】チェック済み
 UNVERIFIED_FILE = 'unverified_cards.json'   # 【未完】処理待ちキュー
 ALWAYS_FETCH_CODES = ['550901', '550801'] 
+
+# AI処理を実行するかどうかのデフォルトフラグ (True: 実行, False: スキップ)
+# ※ コマンドライン引数 --skip-ai を指定すると、ここがTrueでもスキップされます
+ENABLE_AI_GENERATION = False 
 
 # 1回の実行でProモデル処理を行うカード数の上限
 MAX_VERIFY_PER_RUN = 50 
@@ -68,7 +73,8 @@ def extract_image_id(img_tag):
 def load_prompt_template(filename):
     path = os.path.join(PROMPT_DIR, filename)
     if not os.path.exists(path):
-        print(f"Error: Prompt file not found at {path}")
+        # プロンプトファイルがない場合のデフォルトフォールバック（警告のみ表示）
+        print(f"Warning: Prompt file not found at {path}")
         return ""
     with open(path, 'r', encoding='utf-8') as f:
         return f.read()
@@ -316,10 +322,11 @@ def generate_furigana_with_pro(current_dict):
         return current_dict
 
     genai.configure(api_key=GEMINI_API_KEY)
-    pro_models = ['gemini-3-pro-preview', 'gemini-2.5-pro', 'gemini-1.5-pro']
+    # 利用可能なモデルリスト（新しいモデルを優先）
+    pro_models = ['gemini-2.0-flash-exp', 'gemini-1.5-pro']
     prompt_template = load_prompt_template('generation_prompt.txt')
     if not prompt_template: 
-        print("Error: generation_prompt.txt missing.")
+        print("Error: generation_prompt.txt missing. Cannot run AI generation.")
         return current_dict
 
     # 3. 優先度付け
@@ -432,8 +439,19 @@ def generate_card_json_from_df(df):
 
 # --- メイン処理 ---
 def main():
+    # --- 引数処理の追加 ---
+    parser = argparse.ArgumentParser(description='One Piece Card List Generator')
+    parser.add_argument('--skip-ai', action='store_true', help='Skip AI Furigana generation')
+    args = parser.parse_args()
+
+    # 設定値と引数の両方を考慮して実行フラグを決定
+    # 設定がTrueで、かつコマンドライン引数でskipが指定されていない場合のみ実行
+    should_run_ai = ENABLE_AI_GENERATION and not args.skip_ai
+
     if not os.path.exists(DATA_DIR): os.makedirs(DATA_DIR)
-    if not os.path.exists(PROMPT_DIR): print(f"Warning: '{PROMPT_DIR}' missing.")
+    if not os.path.exists(PROMPT_DIR): 
+        # プロンプトディレクトリがない場合、最低限の警告のみ（作成はユーザーに委ねる）
+        print(f"Warning: '{PROMPT_DIR}' directory missing. AI features may fail.")
 
     series_list = get_all_series_list()
     print(f"Found {len(series_list)} series.")
@@ -474,10 +492,15 @@ def main():
     print("Syncing processing queue...")
     sync_unverified_list(df_all['カード名'].unique())
 
-    print("Generating Furigana with Pro Model...")
+    # --- フリガナ生成の分岐処理 ---
     f_dict = load_furigana_dict()
-    f_dict = generate_furigana_with_pro(f_dict)
-    save_furigana_dict(f_dict)
+    
+    if should_run_ai:
+        print(">> [AI Status] Enabled. Generating Furigana with Pro Model...")
+        f_dict = generate_furigana_with_pro(f_dict)
+        save_furigana_dict(f_dict)
+    else:
+        print(">> [AI Status] Skipped. Using existing dictionary only.")
 
     df_all['フリガナ'] = df_all['カード名'].map(f_dict).fillna('')
     df_all['フリガナ'] = df_all['フリガナ'].apply(normalize_furigana)

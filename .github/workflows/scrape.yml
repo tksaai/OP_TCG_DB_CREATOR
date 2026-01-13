@@ -1,0 +1,34 @@
+name: Scrape New Cards
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 毎日0時に実行 (UTC)
+  workflow_dispatch: # 手動実行ボタン
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 gspread oauth2client
+
+      - name: Run Scraper
+        env:
+          GSPREAD_CREDENTIALS: ${{ secrets.GSPREAD_CREDENTIALS }}
+        run: python scripts/scrape_new_cards.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add OP_TCG_DB/new_cards.json OP_TCG_DB/temp_images/
+          # 変更がある場合のみコミット
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update new cards data" && git push)

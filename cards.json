@@ -4681,6 +4681,1580 @@
     "seriesCode": "EB-03"
   },
   {
+    "uniqueId": "EB04-001_dummy.gif",
+    "cardNumber": "EB04-001",
+    "cardName": "ジュエリー・ボニー",
+    "furigana": "ジュエリー・ボニー",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "赤",
+      "黄"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "エッグヘッド",
+      "ボニー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【相手のターン中】自分のライフが1枚以下の場合、このリーダーのパワー+2000。【起動メイン】【ターン1回】相手のキャラ1枚までを、このターン中、パワー-1000。その後、自分のライフが2枚以上の場合、自分のライフの上から1枚を手札に加えることができる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-002_dummy.gif",
+    "cardNumber": "EB04-002",
+    "cardName": "ジュエリー・ボニー",
+    "furigana": "ジュエリー・ボニー",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "エッグヘッド",
+      "ボニー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から4枚を見て、「ジュエリー・ボニー」以外の特徴《エッグヘッド》か《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-003_dummy.gif",
+    "cardNumber": "EB04-003",
+    "cardName": "スモーカー＆たしぎ",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "斬/特",
+    "features": [
+      "パンクハザード",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【速攻】(このカードは登場したターンにアタックできる)【相手のターン中】自分の特徴《海軍》を持つリーダーを、元々のパワー7000にする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-004_dummy.gif",
+    "cardNumber": "EB04-004",
+    "cardName": "ゼフ",
+    "furigana": "ゼフ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "東の海"
+    ],
+    "block": 4,
+    "effectText": "【アタック時】自分のリーダーを、次の相手のエンドフェイズ終了時まで、元々のパワー7000にする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-005_dummy.gif",
+    "cardNumber": "EB04-005",
+    "cardName": "トラファルガー・ロー",
+    "furigana": "トラファルガー・ロー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "王下七武海",
+      "超新星",
+      "ハートの海賊団"
+    ],
+    "block": 4,
+    "effectText": "相手の元々のパワー5000以上のキャラが2枚以上いない場合、このキャラはアタックできない。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-006_dummy.gif",
+    "cardNumber": "EB04-006",
+    "cardName": "モーダ",
+    "furigana": "モーダ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "ルルシア王国"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から7枚を見て、「ルルシア王国」1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-007_dummy.gif",
+    "cardNumber": "EB04-007",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "エッグヘッド",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーを、次の相手のエンドフェイズ終了時まで、パワー+2000。【起動メイン】【ターン1回】相手のパワー8000以上のキャラがいる場合、このキャラは、このターン中、【速攻：キャラ】を得る。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-008_dummy.gif",
+    "cardNumber": "EB04-008",
+    "cardName": "歪んだ未来",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "エッグヘッド",
+      "ボニー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のライフが2枚以下の場合、相手のキャラ1枚までを、このターン中、パワー-3000。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-009_dummy.gif",
+    "cardNumber": "EB04-009",
+    "cardName": "弟子の船出だ よしなに頼むよ…",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "元ロジャー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分の「シルバーズ・レイリー」1枚にアクティブのドン‼1枚を付与することができる：相手のキャラ1枚までを、このターン中、パワー-2000。【カウンター】自分のキャラか「シルバーズ・レイリー」1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-010_dummy.gif",
+    "cardNumber": "EB04-010",
+    "cardName": "ルルシア王国",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "STAGE",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ルルシア王国"
+    ],
+    "block": 4,
+    "effectText": "【相手のターン中】自分の元々のコスト1のキャラすべてを、パワー+5000。【登場時】相手のキャラ1枚までを、このターン中、パワー0にする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-011_dummy.gif",
+    "cardNumber": "EB04-011",
+    "cardName": "ウロコ",
+    "furigana": "ウロコ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海王類"
+    ],
+    "block": 4,
+    "effectText": "【速攻：キャラ】(このカードは登場したターンにキャラへアタックできる)【登場時】自分の特徴《海王類》を持つキャラ1枚につき、カード1枚を引く。その後、引いた枚数分自分の手札を捨てる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-012_dummy.gif",
+    "cardNumber": "EB04-012",
+    "cardName": "菊之丞",
+    "furigana": "キクノジョウ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ワノ国",
+      "赤鞘九人男"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】【ターン1回】このキャラが登場したターンの場合、自分の特徴《ワノ国》を持つリーダーを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-013_dummy.gif",
+    "cardNumber": "EB04-013",
+    "cardName": "キャロット",
+    "furigana": "キャロット",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ミンク族"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《ミンク族》を持つ場合、自分の特徴《ミンク族》を持つキャラ2枚までとリーダーを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-014_dummy.gif",
+    "cardNumber": "EB04-014",
+    "cardName": "光月スキヤキ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "ワノ国",
+      "光月家"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【起動メイン】【ターン1回】自分の特徴《ワノ国》を持つリーダーにレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-015_dummy.gif",
+    "cardNumber": "EB04-015",
+    "cardName": "ジンベエ",
+    "furigana": "ジンベエ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "魚人島",
+      "タイヨウの海賊団"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【KO時】自分のカード1枚をレストにできる：自分のリーダーが特徴《魚人族》か《人魚族》を持つ場合、自分の手札からコスト6以下の緑のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-016_dummy.gif",
+    "cardNumber": "EB04-016",
+    "cardName": "トリ",
+    "furigana": "トリ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "海王類"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】自分のドン‼1枚までを、アクティブにする。その後、自分は、このターン中、キャラの効果でドン‼をアクティブにできない。【アタック時】自分の特徴《海王類》を持つキャラが3枚以上いる場合、相手のコスト8以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-017_dummy.gif",
+    "cardNumber": "EB04-017",
+    "cardName": "ナゾムズ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ミンク族",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 4,
+    "effectText": "【自分のターン中】自分の特徴《ミンク族》を持つキャラが3枚以上いる場合、相手のキャラすべてを、コスト-1。【登場時】自分のリーダーが特徴《ミンク族》を持つ場合、自分の手札からコスト5以下の特徴《ミンク族》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-018_dummy.gif",
+    "cardNumber": "EB04-018",
+    "cardName": "メガロ",
+    "furigana": "メガロ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "動物",
+      "魚人島"
+    ],
+    "block": 4,
+    "effectText": "【登場時】このキャラをレストにできる：相手のレストのパワー8000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-019_dummy.gif",
+    "cardNumber": "EB04-019",
+    "cardName": "エレ爪",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ミンク族"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のカード1枚をレストにできる：自分のリーダーが特徴《ミンク族》を持つ場合、相手のキャラ1枚までを、このターン中、コスト-3。【カウンター】自分の特徴《ミンク族》を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-020_dummy.gif",
+    "cardNumber": "EB04-020",
+    "cardName": "鮫瓦正拳",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "魚人族",
+      "魚人島",
+      "タイヨウの海賊団"
+    ],
+    "block": 4,
+    "effectText": "【カウンター】自分の特徴《魚人族》を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+3000。その後、自分の特徴《魚人族》を持つキャラ1枚までを、アクティブにする。",
+    "trigger": "【】相手のコスト4以下のキャラ1枚までを、レストにする。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-021_dummy.gif",
+    "cardNumber": "EB04-021",
+    "cardName": "イガラム",
+    "furigana": "イガラム",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "アラバスタ王国"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが「ネフェルタリ・ビビ」の場合、カード2枚を引き、自分の手札1枚を捨てる。【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-022_dummy.gif",
+    "cardNumber": "EB04-022",
+    "cardName": "イッショウ",
+    "furigana": "イッショウ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ドレスローザ",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札2枚を捨てることができる：相手の手札が6枚以上ある場合、相手は自身の手札2枚を好きな順番でデッキの下に置く。【ドン‼×1】【アタック時】自分の手札1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-023_dummy.gif",
+    "cardNumber": "EB04-023",
+    "cardName": "チャカ＆ペル",
+    "furigana": "チャカペル",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "アラバスタ王国"
+    ],
+    "block": 4,
+    "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)【登場時】自分のアクティブのリーダーを、このターン中、パワー-5000できる：カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-024_dummy.gif",
+    "cardNumber": "EB04-024",
+    "cardName": "テラコッタ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "アラバスタ王国"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】このキャラをレストにし、自分の手札1枚を捨てることができる：自分の特徴《アラバスタ王国》を持つキャラ1枚までは、このターン中、【ブロック不可】を得る。(このカードはブロックされない)",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-025_dummy.gif",
+    "cardNumber": "EB04-025",
+    "cardName": "ネフェルタリ・ビビ",
+    "furigana": "ネフェルタリ・ビビ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "アラバスタ王国"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札から「ネフェルタリ・ビビ」以外のコスト8以下の特徴《アラバスタ王国》を持つキャラカード1枚までを、登場させる。その後、相手は自身の手札1枚をデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-026_dummy.gif",
+    "cardNumber": "EB04-026",
+    "cardName": "ブルーグラス",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "エッグヘッド",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のコスト1以下のキャラ1枚までを、持ち主のデッキの下に置く。【アタック時】カード1枚を引き、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-027_dummy.gif",
+    "cardNumber": "EB04-027",
+    "cardName": "ボア・ハンコック",
+    "furigana": "ボア・ハンコック",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "王下七武海",
+      "九蛇海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】カード2枚を引き、自分の手札1枚を捨てる。",
+    "trigger": "【】自分の手札からパワー5000以下の【】を持つキャラカード1枚までを、登場させる。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-028_dummy.gif",
+    "cardNumber": "EB04-028",
+    "cardName": "アイスタイム",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分の手札1枚を捨てることができる：自分のリーダーが特徴《海軍》を持つ場合、相手のパワー10000以下のキャラ2枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
+    "trigger": "【】コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-029_dummy.gif",
+    "cardNumber": "EB04-029",
+    "cardName": "女の…涙の落ちる音がした",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "パンクハザード",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のリーダーが「サンジ」の場合、自分のデッキの上から3枚を見て、「サンジ」かイベント1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。【カウンター】自分の手札1枚を捨てることができる：自分の「サンジ」1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-030_dummy.gif",
+    "cardNumber": "EB04-030",
+    "cardName": "カイドウ",
+    "furigana": "カイドウ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 4,
+    "effectText": "このキャラがKOされる場合、代わりに自分の場のドン‼1枚をドン‼デッキに戻すことができる。【登場時】ドン‼-2：自分のリーダーが特徴《百獣海賊団》を持つ場合、このキャラは、このターン中、【速攻】を得る。その後、相手のコスト7以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-031_dummy.gif",
+    "cardNumber": "EB04-031",
+    "cardName": "キング",
+    "furigana": "キング",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ルナーリア族",
+      "百獣海賊団"
+    ],
+    "block": 4,
+    "effectText": "このキャラがKOされる場合、代わりに自分の場のドン‼1枚をドン‼デッキに戻すことができる。【起動メイン】【ターン1回】自分のリーダーが特徴《百獣海賊団》を持ち、自分のキャラの他の「キング」がいない場合、ドン‼デッキからドン‼1枚までをアクティブで追加し、さらに1枚までをレストで追加する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-032_dummy.gif",
+    "cardNumber": "EB04-032",
+    "cardName": "クイーン",
+    "furigana": "クイーン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札から特徴《百獣海賊団》を持つカード1枚を捨てることができる：カード2枚を引く。【起動メイン】【ターン1回】自分のドン‼2枚をレストにできる：自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-033_dummy.gif",
+    "cardNumber": "EB04-033",
+    "cardName": "グロッキーモンスターズ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "魚人族",
+      "フォクシー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】ドン‼-1：自分の特徴《フォクシー海賊団》を持つキャラが3枚以上いる場合、相手の元々のパワー6000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-034_dummy.gif",
+    "cardNumber": "EB04-034",
+    "cardName": "シャーロット・プリン",
+    "furigana": "シャーロット・プリン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【相手のアタック時】【ターン1回】自分の手札1枚を捨てることができる：自分のトラッシュにイベントが4枚以上ある場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-035_dummy.gif",
+    "cardNumber": "EB04-035",
+    "cardName": "人斬り鎌ぞう",
+    "furigana": "ヒトキリカマゾウ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "SMILE",
+      "超新星",
+      "キッド海賊団"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【自分のターン中】【ターン1回】自分の場のドン‼がドン‼デッキに戻された時、自分のリーダーが特徴《キッド海賊団》を持つ場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-036_dummy.gif",
+    "cardNumber": "EB04-036",
+    "cardName": "フォクシー",
+    "furigana": "フォクシー",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "フォクシー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】ドン‼-1：自分のリーダーが特徴《フォクシー海賊団》を持つ場合、カード2枚を引き、自分の手札1枚を捨てる。その後、相手のコスト9以下のキャラ1枚までを、レストにする。【起動メイン】【ターン1回】ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-037_dummy.gif",
+    "cardNumber": "EB04-037",
+    "cardName": "ポルチェ",
+    "furigana": "ポルチェ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "フォクシー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《フォクシー海賊団》を持つ場合、自分のデッキの上から5枚を見て、特徴《フォクシー海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-038_dummy.gif",
+    "cardNumber": "EB04-038",
+    "cardName": "ロシナンテ＆ロー",
+    "furigana": "",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特/知",
+    "features": [
+      "海軍",
+      "ドンキホーテ海賊団"
+    ],
+    "block": 4,
+    "effectText": "ルール上、このカードはカード名を「トラファルガー・ロー」と「ドンキホーテ・ロシナンテ」としても扱う。【ブロッカー】【登場時】自分の場のドン‼が相手の場のドン‼の枚数以下の場合、カード1枚を引く。その後、ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-039_dummy.gif",
+    "cardNumber": "EB04-039",
+    "cardName": "ユースタス・キッド",
+    "furigana": "ユースタス・キッド",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "超新星",
+      "キッド海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】ドン‼デッキからドン‼1枚までを、アクティブで追加する。【起動メイン】このキャラをトラッシュに置くことができる：自分の手札からコスト5以下の特徴《キッド海賊団》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-040_dummy.gif",
+    "cardNumber": "EB04-040",
+    "cardName": "火龍大炬",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のドン‼6枚をレストにできる：自分の「カイドウ」1枚までを、このターン中、パワー+3000。その後、相手のキャラ1枚までを、レストにする。【カウンター】ドン‼-1：自分のリーダーを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-041_dummy.gif",
+    "cardNumber": "EB04-041",
+    "cardName": "ステルス・ブラック",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のリーダーが「サンジ」で、自分の場のドン‼が4枚以上ある場合、自分の手札かトラッシュからパワー6000以下の「サンジ」1枚までを、登場させる。",
+    "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-042_dummy.gif",
+    "cardNumber": "EB04-042",
+    "cardName": "アルファ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "CP8"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置くことができる：相手のキャラ1枚までを、このターン中、コスト-1。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-043_dummy.gif",
+    "cardNumber": "EB04-043",
+    "cardName": "カク",
+    "furigana": "カク",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "エッグヘッド",
+      "CP0"
+    ],
+    "block": 4,
+    "effectText": "【ターン1回】自分の元々のコスト5以下の黒のキャラが相手の効果でKOされる場合、代わりに自分のトラッシュからカード3枚を好きな順番でデッキの下に置くことができる。【登場時】自分のデッキの上から2枚をトラッシュに置く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-044_dummy.gif",
+    "cardNumber": "EB04-044",
+    "cardName": "コビー",
+    "furigana": "コビー",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍",
+      "SWORD"
+    ],
+    "block": 4,
+    "effectText": "【ターン1回】自分のリーダーが『海軍』を含む特徴を持ち、このキャラが場を離れる場合、代わりに自分の手札1枚を捨てることができる。【自分のターン中】【ターン1回】相手のキャラがKOされた時、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-045_dummy.gif",
+    "cardNumber": "EB04-045",
+    "cardName": "ジニー",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "射",
+    "features": [
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】このキャラをレストにできる：コスト8以上のキャラが2枚以上いる場合、自分の特徴《革命軍》を持つ、リーダーかキャラ1枚までを、このターン中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-046_dummy.gif",
+    "cardNumber": "EB04-046",
+    "cardName": "ドール",
+    "furigana": "ドール",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エッグヘッド",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【相手のターン中】自分の特徴《海軍》を持つキャラすべてを、コスト+2。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-047_dummy.gif",
+    "cardNumber": "EB04-047",
+    "cardName": "ヘルメッポ",
+    "furigana": "ヘルメッポ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "海軍",
+      "SWORD"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分の手札かトラッシュから「ヘルメッポ」以外のコスト3以下の特徴《SWORD》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-048_dummy.gif",
+    "cardNumber": "EB04-048",
+    "cardName": "ロブ・ルッチ",
+    "furigana": "ロブ・ルッチ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "エッグヘッド",
+      "CP0"
+    ],
+    "block": 4,
+    "effectText": "自分のリーダーが『CP』を含む特徴を持つ場合、このキャラは、自分のトラッシュ5枚につき、パワー+1000し、コスト+2。【登場時】自分のキャラ1枚をトラッシュに置くことができる：カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-049_dummy.gif",
+    "cardNumber": "EB04-049",
+    "cardName": "指銃 黄蓮",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "CP9"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のデッキの上から2枚をトラッシュに置くことができる：相手の元々のコスト5以下のキャラ1枚までを、KOする。",
+    "trigger": "【】このカードの【メイン】効果を発動する。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-050_dummy.gif",
+    "cardNumber": "EB04-050",
+    "cardName": "調教してあげる♡",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "海軍",
+      "SWORD"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分の特徴《SWORD》を持つ、リーダーかキャラ1枚までは、このターン中、アクティブのキャラにもアタックできる。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-051_dummy.gif",
+    "cardNumber": "EB04-051",
+    "cardName": "エメト",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "エッグヘッド"
+    ],
+    "block": 4,
+    "effectText": "元々のパワー12000以上のキャラがいない場合、このキャラはアタックできない。",
+    "trigger": "【】相手のキャラすべてを、このターン中、パワー-3000。その後、自分のライフが0枚の場合、このカードを登場させる。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-052_dummy.gif",
+    "cardNumber": "EB04-052",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エッグヘッド",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【アタック時】このキャラの元々のパワーは、このターン中、相手のリーダーと同じパワーになる。【KO時】自分のライフが2枚以下の場合、自分の手札からパワー6000以下の黄のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-053_dummy.gif",
+    "cardNumber": "EB04-053",
+    "cardName": "戦桃丸",
+    "furigana": "セントウマル",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "エッグヘッド",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ブロック時】自分のライフが2枚以下の場合、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-054_dummy.gif",
+    "cardNumber": "EB04-054",
+    "cardName": "バーソロミュー・くま",
+    "furigana": "バーソロミュー・クマ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エッグヘッド",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のライフが2枚以下の場合、自分のデッキの上から1枚までを、ライフの上に加える。【KO時】相手のライフの上から1枚までを、持ち主の手札に加える。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-055_dummy.gif",
+    "cardNumber": "EB04-055",
+    "cardName": "バーソロミュー・くま",
+    "furigana": "バーソロミュー・クマ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "王下七武海",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【KO時】自分の手札からコスト4以下の特徴《革命軍》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "【】自分のリーダーが特徴《革命軍》を持ち、お互いのライフの合計枚数が5枚以下の場合、このカードを登場させる。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-056_dummy.gif",
+    "cardNumber": "EB04-056",
+    "cardName": "パシフィスタ",
+    "furigana": "パシフィスタ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "生物兵器",
+      "エッグヘッド",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "自分の「ジュエリー・ボニー」がいて、自分のライフが0枚の場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-057_dummy.gif",
+    "cardNumber": "EB04-057",
+    "cardName": "ベガパンク",
+    "furigana": "ベガパンク",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "オハラ",
+      "科学者"
+    ],
+    "block": 4,
+    "effectText": "自分のライフが2枚以下の場合、自分の黄の特徴《科学者》を持つキャラすべては、相手の効果で場を離れない。【ドン‼×1】このキャラは【ブロッカー】を得る。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-058_dummy.gif",
+    "cardNumber": "EB04-058",
+    "cardName": "ボルサリーノ",
+    "furigana": "ボルサリーノ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "エッグヘッド",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のライフが2枚以下の場合、自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-059_dummy.gif",
+    "cardNumber": "EB04-059",
+    "cardName": "黒縄・大龍巻",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "魚人島",
+      "超新星",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のライフの上から1枚を表向きにできる：自分のキャラが相手のキャラより少ない場合、相手のコスト6以下のキャラ1枚までとコスト5以下のキャラ1枚までを、KOする。",
+    "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-060_dummy.gif",
+    "cardNumber": "EB04-060",
+    "cardName": "ゴムゴムの鷹銃乱打",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "エッグヘッド",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のライフの上か下から1枚を手札に加えることができる：自分の手札から特徴《エッグヘッド》を持つキャラカード1枚までを、ライフの上に表向きで加える。その後、相手のキャラ1枚までを、このターン中、パワー-1000。",
+    "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
+    "uniqueId": "EB04-061_dummy.gif",
+    "cardNumber": "EB04-061",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "SEC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "エッグヘッド",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "手札のこのカードは、自分のライフが1枚以下の場合、コスト-1。【登場時】自分の手札1枚を捨てることができる：自分のリーダーを、次の相手のエンドフェイズ終了時まで、パワー+2000。その後、このキャラは、次の相手のエンドフェイズ終了時まで、【ブロッカー】を得る。",
+    "trigger": "",
+    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
+    "seriesCode": "EB-04"
+  },
+  {
     "uniqueId": "OP01-001_dummy.gif",
     "cardNumber": "OP01-001",
     "cardName": "ロロノア・ゾロ",

@@ -52190,6 +52190,31 @@
     "seriesCode": ""
   },
   {
+    "uniqueId": "P-119_dummy.gif",
+    "cardNumber": "P-119",
+    "cardName": "ポートガス・D・エース",
+    "furigana": "ポートガス・ディー・エース",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "交流会 2026年3月開催記念品",
+    "seriesTitle": "交流会 2026年3月開催記念品",
+    "seriesCode": ""
+  },
+  {
     "uniqueId": "PRB01-001_dummy.gif",
     "cardNumber": "PRB01-001",
     "cardName": "サンジ",

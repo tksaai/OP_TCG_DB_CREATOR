@@ -26543,9 +26543,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】ドン‼-3(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手のキャラが3枚以上いる場合、このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "500年後の未来【OP-07】",
-    "seriesTitle": "500年後の未来",
-    "seriesCode": "OP-07"
+    "getInfo": "BANDAI CARD GAMES Fest 25-26 in Tokyo 来場記念品",
+    "seriesTitle": "BANDAI CARD GAMES Fest 25-26 in Tokyo 来場記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP07-074_dummy.gif",
@@ -49162,6 +49162,3066 @@
     "seriesCode": "OP-14"
   },
   {
+    "uniqueId": "OP15-001_dummy.gif",
+    "cardNumber": "OP15-001",
+    "cardName": "クリーク",
+    "furigana": "クリーク",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "赤",
+      "緑"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "クリーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【ドン‼×1】【相手のターン中】自分のキャラが特徴《東の海》を持つキャラのみの場合、相手のキャラすべてを、パワー-2000。【起動メイン】【ターン1回】相手のドン‼が2枚以上付与されているキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-002_dummy.gif",
+    "cardNumber": "OP15-002",
+    "cardName": "ルーシー",
+    "furigana": "ルーシー",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "赤",
+      "青"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【アタック時】/【相手のアタック時】自分の手札からイベントかステージカードを任意の枚数捨ててもよい。捨てたカード1枚につき、このリーダーは、このバトル中、パワー+1000。【起動メイン】【ターン1回】このターン中、自分が元々のコスト3以上のイベントを発動している場合、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-003_dummy.gif",
+    "cardNumber": "OP15-003",
+    "cardName": "アルビダ",
+    "furigana": "アルビダ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "東の海",
+      "アルビダ海賊団"
+    ],
+    "block": 4,
+    "effectText": "このキャラがKOされる場合、代わりに自分の手札からパワー6000以下のキャラカード1枚を捨てることができる。【起動メイン】【ターン1回】相手のキャラ1枚に相手のレストのドン‼1枚を付与できる：リーダーかキャラ1枚に持ち主のレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-004_dummy.gif",
+    "cardNumber": "OP15-004",
+    "cardName": "海ネコ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "動物",
+      "アラバスタ王国"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーがパワー0以下の場合、相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-005_dummy.gif",
+    "cardNumber": "OP15-005",
+    "cardName": "カバジ",
+    "furigana": "カバジ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "バギー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【アタック時】相手の付与されているドン‼がある場合、このキャラは、このターン中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-006_dummy.gif",
+    "cardNumber": "OP15-006",
+    "cardName": "キャベンディッシュ",
+    "furigana": "キャベンディッシュ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ドレスローザ",
+      "美しき海賊団"
+    ],
+    "block": 4,
+    "effectText": "自分のトラッシュにイベントが4枚以上ある場合、このキャラのパワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-007_dummy.gif",
+    "cardNumber": "OP15-007",
+    "cardName": "ギン",
+    "furigana": "ギン",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "東の海",
+      "クリーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《東の海》を持つ場合、自分の手札からコスト5以下のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-008_dummy.gif",
+    "cardNumber": "OP15-008",
+    "cardName": "クリーク",
+    "furigana": "クリーク",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "クリーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のキャラ1枚に相手のレストのドン‼3枚までを、付与する。その後、このキャラは、このターン中、【速攻】を得る。【起動メイン】【ターン1回】このキャラが登場したターンの場合、相手のキャラすべては、そのキャラに付与されているドン‼1枚につき、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-009_dummy.gif",
+    "cardNumber": "OP15-009",
+    "cardName": "コビー",
+    "furigana": "コビー",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "東の海",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー7000以下のキャラが相手の効果で場を離れる場合、代わりに自分のリーダーを、このターン中、パワー-2000できる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-010_dummy.gif",
+    "cardNumber": "OP15-010",
+    "cardName": "ネズミ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "東の海",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】【ターン1回】リーダーかキャラ1枚に持ち主のレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-011_dummy.gif",
+    "cardNumber": "OP15-011",
+    "cardName": "パール",
+    "furigana": "パール",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "東の海",
+      "クリーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【相手のターン中】自分のリーダーが特徴《東の海》を持つ場合、このキャラは【ブロッカー】を得て、パワー+2000。【KO時】自分のリーダーが特徴《東の海》を持つ場合、相手の元々のパワー6000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-012_dummy.gif",
+    "cardNumber": "OP15-012",
+    "cardName": "バギー",
+    "furigana": "バギー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "バギー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【アタック時】リーダーかキャラ1枚に持ち主のレストのドン‼1枚までを、付与する。【KO時】カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-013_dummy.gif",
+    "cardNumber": "OP15-013",
+    "cardName": "ハサミ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "アラバスタ王国"
+    ],
+    "block": 4,
+    "effectText": "手札のこのカードは、自分のリーダーがパワー0以下の場合、コスト-2。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-014_dummy.gif",
+    "cardNumber": "OP15-014",
+    "cardName": "バルトロメオ",
+    "furigana": "バルトロメオ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ドレスローザ",
+      "バルトクラブ"
+    ],
+    "block": 4,
+    "effectText": "このキャラがKOされる場合、代わりに自分の手札からイベント1枚を捨てることができる。【登場時】自分の手札から元々のコスト3以下の特徴《ドレスローザ》を持つイベント1枚までを、発動する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-015_dummy.gif",
+    "cardNumber": "OP15-015",
+    "cardName": "ヒグマ",
+    "furigana": "ヒグマ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "山賊"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のキャラ1枚に相手のレストのドン‼1枚までを、付与する。その後、相手のドン‼が付与されているキャラ1枚までを、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-016_dummy.gif",
+    "cardNumber": "OP15-016",
+    "cardName": "フルボディ",
+    "furigana": "フルボディ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-017_dummy.gif",
+    "cardNumber": "OP15-017",
+    "cardName": "モーガン",
+    "furigana": "モーガン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【起動メイン】【ターン1回】相手のキャラ1枚に相手のレストのドン‼1枚を付与できる：リーダーかキャラ1枚に持ち主のレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-018_dummy.gif",
+    "cardNumber": "OP15-018",
+    "cardName": "モージ",
+    "furigana": "モージ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "東の海",
+      "バギー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【アタック時】相手のドン‼が付与されているパワー3000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-019_dummy.gif",
+    "cardNumber": "OP15-019",
+    "cardName": "バリア突進牛",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ",
+      "バルトクラブ"
+    ],
+    "block": 4,
+    "effectText": "【メイン】カード1枚を引き、自分のリーダーを、次の相手のエンドフェイズ終了時まで、パワー+1000。",
+    "trigger": "【】相手のキャラ1枚までを、このターン中、パワー-4000。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-020_dummy.gif",
+    "cardNumber": "OP15-020",
+    "cardName": "火拳",
+    "furigana": "ヒケン",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のリーダーを、このターン中、パワー+3000し、相手のキャラ1枚までを、次の相手のエンドフェイズ終了時まで、パワー-8000。その後、自分の手札2枚を捨ててもよい。そうした場合、相手のパワー0以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-021_dummy.gif",
+    "cardNumber": "OP15-021",
+    "cardName": "見てろよ!エース!!!",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "手札のこのカードは、自分のトラッシュにイベントが4枚以上ある場合、コスト-3。【メイン】/【カウンター】相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-022_dummy.gif",
+    "cardNumber": "OP15-022",
+    "cardName": "ブルック",
+    "furigana": "ブルック",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "緑",
+      "黒"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "ルール上、自分はデッキが0枚でも敗北せず、デッキが0枚になったターン終了時に敗北する。【起動メイン】【ターン1回】自分のデッキの上から4枚をトラッシュに置く。その後、自分のデッキが0枚の場合、自分のキャラ1枚までを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-023_dummy.gif",
+    "cardNumber": "OP15-023",
+    "cardName": "アーロン",
+    "furigana": "アーロン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "魚人族",
+      "東の海",
+      "アーロン一味"
+    ],
+    "block": 4,
+    "effectText": "【KO時】相手のレストのカード2枚までは、次の相手のリフレッシュフェイズでアクティブにならない。【起動メイン】【ターン1回】相手のキャラ1枚に相手のレストのドン‼1枚を付与できる：リーダーかキャラ1枚に持ち主のコストエリアのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-024_dummy.gif",
+    "cardNumber": "OP15-024",
+    "cardName": "ウソップ",
+    "furigana": "ウソップ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【相手のターン中】このキャラは相手のリーダーとキャラの効果でレストにされず、【ブロッカー】を得る。【KO時】相手のリーダーかコスト7以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-025_dummy.gif",
+    "cardNumber": "OP15-025",
+    "cardName": "クロ",
+    "furigana": "クロ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "クロネコ海賊団"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【登場時】相手のキャラ1枚に相手のコストエリアのドン‼2枚までを、付与する。その後、このターン終了時、相手のドン‼が3枚以上付与されているレストのキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-026_dummy.gif",
+    "cardNumber": "OP15-026",
+    "cardName": "ジャンゴ",
+    "furigana": "ジャンゴ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "クロネコ海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《東の海》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。【起動メイン】このキャラをトラッシュに置くことができる：相手のキャラ1枚に相手のレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-027_dummy.gif",
+    "cardNumber": "OP15-027",
+    "cardName": "ジュラキュール・ミホーク",
+    "furigana": "ジュラキュール・ミホーク",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "王下七武海"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のドン‼が付与されているキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-028_dummy.gif",
+    "cardNumber": "OP15-028",
+    "cardName": "ニャーバン兄弟",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "クロネコ海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《東の海》を持つ場合、相手のキャラ1枚に相手のコストエリアのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-029_dummy.gif",
+    "cardNumber": "OP15-029",
+    "cardName": "バーソロミュー・くま",
+    "furigana": "バーソロミュー・クマ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "王下七武海",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のコスト5以下のキャラ1枚までは、次の相手のエンドフェイズ終了時まで、レストにできない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-030_dummy.gif",
+    "cardNumber": "OP15-030",
+    "cardName": "ヒョウゾウ",
+    "furigana": "ヒョウゾウ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-031_dummy.gif",
+    "cardNumber": "OP15-031",
+    "cardName": "プリンプリン",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "東の海",
+      "海軍"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のレストのキャラ1枚までを選ぶ。選んだキャラのコストがそのキャラに付与されているドン‼の枚数と同じ場合、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-032_dummy.gif",
+    "cardNumber": "OP15-032",
+    "cardName": "ブルック",
+    "furigana": "ブルック",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のカード1枚までを、レストにする。【起動メイン】このキャラをトラッシュに置くことができる：自分のリーダーが特徴《麦わらの一味》を持つ場合、自分の元々のコスト8以下のキャラ1枚までを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-033_dummy.gif",
+    "cardNumber": "OP15-033",
+    "cardName": "ホーディ・ジョーンズ",
+    "furigana": "ホーディ・ジョーンズ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "魚人島",
+      "新魚人海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の特徴《魚人族》を持つリーダーを、アクティブにする。その後、自分のライフの上から1枚を手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-034_dummy.gif",
+    "cardNumber": "OP15-034",
+    "cardName": "ヨーキ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ルンバー海賊団"
+    ],
+    "block": 4,
+    "effectText": "【自分のターン中】【登場時】自分の「ブルック」1枚までを、このターン中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-035_dummy.gif",
+    "cardNumber": "OP15-035",
+    "cardName": "ラブーン",
+    "furigana": "ラブーン",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "動物"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー7000以下のキャラが相手の効果で場を離れる場合、代わりに自分のカード2枚をレストにできる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-036_dummy.gif",
+    "cardNumber": "OP15-036",
+    "cardName": "リューマ",
+    "furigana": "リューマ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ワノ国",
+      "スリラーバーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】/【アタック時】相手のレストのコスト4以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-037_dummy.gif",
+    "cardNumber": "OP15-037",
+    "cardName": "強ェ弱ェは結果が決めるのさ",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "東の海",
+      "クリーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のデッキの上から5枚を見て、「強ェ弱ェは結果が決めるのさ」以外の特徴《東の海》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "【】カード1枚を引く。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-038_dummy.gif",
+    "cardNumber": "OP15-038",
+    "cardName": "命令してるんだ 誰もおれに逆らうな!!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "東の海",
+      "クリーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【メイン】相手のドン‼が2枚以上付与されているレストのコスト8以下のキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。【カウンター】自分の「クリーク」1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-039_dummy.gif",
+    "cardNumber": "OP15-039",
+    "cardName": "レベッカ",
+    "furigana": "レベッカ",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "ドレスローザ"
+    ],
+    "block": 4,
+    "effectText": "このリーダーはアタックできない。【起動メイン】このリーダーをレストにし、自分の特徴《ドレスローザ》を持つキャラ1枚を持ち主の手札に戻すことができる：自分の手札からコスト3の特徴《ドレスローザ》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-040_dummy.gif",
+    "cardNumber": "OP15-040",
+    "cardName": "ヴィオラ",
+    "furigana": "ヴィオラ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "ドレスローザ",
+      "ドンキホーテ海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《ドレスローザ》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-041_dummy.gif",
+    "cardNumber": "OP15-041",
+    "cardName": "オオロンブス",
+    "furigana": "オオロンブス",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "ヨンタマリア大船団"
+    ],
+    "block": 4,
+    "effectText": "【KO時】カード1枚を引く。【起動メイン】【ターン1回】自分のキャラ1枚を持ち主のデッキの下に置くことができる：このキャラは、このターン中、【速攻】を得る。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-042_dummy.gif",
+    "cardNumber": "OP15-042",
+    "cardName": "キュロス",
+    "furigana": "キュロス",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ドレスローザ"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のリーダーが「レベッカ」の場合、このキャラは、このターン中、【速攻】を得る。【KO時】このキャラカードをトラッシュから手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-043_dummy.gif",
+    "cardNumber": "OP15-043",
+    "cardName": "ケリー・ファンク",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "モガロ王国"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札から「ボビー・ファンク」1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-044_dummy.gif",
+    "cardNumber": "OP15-044",
+    "cardName": "コアラ",
+    "furigana": "コアラ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【KO時】自分のデッキの上から3枚を見て、特徴《ドレスローザ》を持つイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-045_dummy.gif",
+    "cardNumber": "OP15-045",
+    "cardName": "サイ",
+    "furigana": "サイ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ドレスローザ",
+      "八宝水軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の手札からイベント1枚を捨てることができる：カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-046_dummy.gif",
+    "cardNumber": "OP15-046",
+    "cardName": "サボ",
+    "furigana": "サボ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】【登場時】自分のリーダーが特徴《ドレスローザ》を持つ場合、自分の手札から特徴《ドレスローザ》を持つイベント1枚までを、発動する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-047_dummy.gif",
+    "cardNumber": "OP15-047",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のキャラ1枚までは、このターン中、【ブロック不可】を得る。(このカードはブロックされない)",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-048_dummy.gif",
+    "cardNumber": "OP15-048",
+    "cardName": "チンジャオ",
+    "furigana": "チンジャオ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "八宝水軍"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札からイベント1枚を捨てることができる：カード2枚を引く。【相手のターン中】【KO時】相手は自身の手札1枚をデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-049_dummy.gif",
+    "cardNumber": "OP15-049",
+    "cardName": "ハイルディン",
+    "furigana": "ハイルディン",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "ドレスローザ",
+      "新巨兵海賊団"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-050_dummy.gif",
+    "cardNumber": "OP15-050",
+    "cardName": "ボビー・ファンク",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "モガロ王国"
+    ],
+    "block": 4,
+    "effectText": "自分の「ケリー・ファンク」がいる場合、このキャラのパワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-051_dummy.gif",
+    "cardNumber": "OP15-051",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【相手のターン中】自分のリーダーが特徴《ドレスローザ》を持つ場合、このキャラのパワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-052_dummy.gif",
+    "cardNumber": "OP15-052",
+    "cardName": "レオ",
+    "furigana": "レオ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "トンタッタ族",
+      "ドレスローザ"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー7000以下のキャラが相手の効果で場を離れる場合、代わりに自分のキャラ1枚を持ち主のデッキの下に置くことができる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-053_dummy.gif",
+    "cardNumber": "OP15-053",
+    "cardName": "レベッカ",
+    "furigana": "レベッカ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "ドレスローザ"
+    ],
+    "block": 4,
+    "effectText": "【ドン‼×1】このキャラは【ブロッカー】を得る。【登場時】自分のデッキの上から3枚を見て、特徴《ドレスローザ》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-054_dummy.gif",
+    "cardNumber": "OP15-054",
+    "cardName": "誰にも渡さねェよ!“あいつ”の形見だ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のリーダーが「ルーシー」の場合、以下から1つを選ぶ。・カード2枚を引き、自分の手札1枚を捨てる。その後、自分の手札からコスト4以下の特徴《ドレスローザ》を持つキャラカード1枚までを、登場させる。・ステージ1枚までを、持ち主の手札に戻す。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-055_dummy.gif",
+    "cardNumber": "OP15-055",
+    "cardName": "使ってけれ‼ルフィ先輩ィ!!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ",
+      "バルトクラブ"
+    ],
+    "block": 4,
+    "effectText": "【メイン】以下から1つを選ぶ。・カード2枚を引く。・自分の特徴《ドレスローザ》を持つキャラ1枚までは、次の相手のエンドフェイズ終了時まで、【ブロッカー】を得る。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-056_dummy.gif",
+    "cardNumber": "OP15-056",
+    "cardName": "“メラメラの実”はおれが食っていいか？",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 4,
+    "effectText": "【メイン】カード2枚を引く。その後、自分のリーダー「ルーシー」は、このターン中、【ダブルアタック】を得て、パワー+3000。(このカードが与えるダメージは2になる)",
+    "trigger": "【】カード2枚を引く。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-057_dummy.gif",
+    "cardNumber": "OP15-057",
+    "cardName": "ドレスローザ王国",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "STAGE",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドレスローザ"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《ドレスローザ》を持つ場合、カード1枚を引く。【相手のアタック時】このステージをレストにし、自分の手札からイベントかステージカード1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-058_dummy.gif",
+    "cardNumber": "OP15-058",
+    "cardName": "エネル",
+    "furigana": "エネル",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "ルール上、自分のドン‼デッキは6枚になる。【起動メイン】【ターン1回】自分の第2ターン以降の場合、ドン‼デッキからドン‼1枚までをアクティブで追加し、さらに4枚までをレストで追加する。その後、自分のキャラ1枚にレストのドン‼4枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-059_dummy.gif",
+    "cardNumber": "OP15-059",
+    "cardName": "アマゾン",
+    "furigana": "アマゾン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【相手のアタック時】このキャラをレストにできる：相手は自身のアクティブのドン‼1枚をドン‼デッキに戻してもよい。そうしなかった場合、相手のリーダーかキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-060_dummy.gif",
+    "cardNumber": "OP15-060",
+    "cardName": "エネル",
+    "furigana": "エネル",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "自分の場のドン‼が6枚以下の場合、このキャラは相手の効果で場を離れず、パワー+2000。【起動メイン】ドン‼-1：このキャラは、次の相手のエンドフェイズ終了時まで、【ブロッカー】を得る。その後、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-061_dummy.gif",
+    "cardNumber": "OP15-061",
+    "cardName": "オーム",
+    "furigana": "オーム",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "空島",
+      "神官"
+    ],
+    "block": 4,
+    "effectText": "【登場時】ドン‼-1：カード1枚を引く。【アタック時】自分の場のドン‼が6枚以下の場合、相手のキャラ1枚までを、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-062_dummy.gif",
+    "cardNumber": "OP15-062",
+    "cardName": "キャプテン・シーマーズ",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "月",
+      "宇宙海賊"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-063_dummy.gif",
+    "cardNumber": "OP15-063",
+    "cardName": "ゲダツ",
+    "furigana": "ゲダツ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "空島",
+      "神官"
+    ],
+    "block": 4,
+    "effectText": "【登場時】ドン‼-1：カード1枚を引く。【KO時】自分の場のドン‼が6枚以下の場合、相手のパワー2000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-064_dummy.gif",
+    "cardNumber": "OP15-064",
+    "cardName": "コトリ",
+    "furigana": "コトリ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】ドン‼-2,このキャラをレストにできる：自分の「サトリ」と「ホトリ」がいる場合、相手のパワー5000以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-065_dummy.gif",
+    "cardNumber": "OP15-065",
+    "cardName": "ゴロー",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "アラバスタ王国",
+      "温泉島"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から1枚を公開する。公開したカードがコスト2以下の場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-066_dummy.gif",
+    "cardNumber": "OP15-066",
+    "cardName": "サトリ",
+    "furigana": "サトリ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "空島",
+      "神官"
+    ],
+    "block": 4,
+    "effectText": "【登場時】ドン‼-1：カード1枚を引く。【アタック時】自分の場のドン‼が6枚以下の場合、自分のデッキの上から2枚を見て、好きな順番に並び替え、デッキの上か下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-067_dummy.gif",
+    "cardNumber": "OP15-067",
+    "cardName": "シュラ",
+    "furigana": "シュラ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "空島",
+      "神官"
+    ],
+    "block": 4,
+    "effectText": "自分の場のドン‼が6枚以下の場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)【登場時】ドン‼-1：カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-068_dummy.gif",
+    "cardNumber": "OP15-068",
+    "cardName": "神兵",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "自分の場のドン‼が6枚以下の場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-069_dummy.gif",
+    "cardNumber": "OP15-069",
+    "cardName": "ノラ",
+    "furigana": "ノラ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー7000以下のキャラが相手の効果で場を離れる場合、代わりに自分の場のドン‼1枚をドン‼デッキに戻すことができる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-070_dummy.gif",
+    "cardNumber": "OP15-070",
+    "cardName": "フザ",
+    "furigana": "フザ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "動物",
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "自分の「シュラ」すべてとこのキャラは【ブロック不可】を得る。(このカードはブロックされない)【相手のターン中】自分の「シュラ」すべてとこのキャラを、元々のパワー6000にする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-071_dummy.gif",
+    "cardNumber": "OP15-071",
+    "cardName": "ホーリー",
+    "furigana": "ホーリー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "自分の「オーム」すべてとこのキャラは【ダブルアタック】を得る。(このカードが与えるダメージは2になる)【相手のターン中】自分の「オーム」すべてとこのキャラを、元々のパワー6000にする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-072_dummy.gif",
+    "cardNumber": "OP15-072",
+    "cardName": "ホトリ",
+    "furigana": "ホトリ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】ドン‼-2,このキャラをレストにできる：自分の「コトリ」と「サトリ」がいる場合、相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-073_dummy.gif",
+    "cardNumber": "OP15-073",
+    "cardName": "ヤマ",
+    "furigana": "ヤマ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の手札からコスト1の、「神兵」か特徴《神官》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-074_dummy.gif",
+    "cardNumber": "OP15-074",
+    "cardName": "放電",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【メイン】ドン‼-1：自分のリーダーが「エネル」の場合、カード1枚を引く。その後、自分のキャラ1枚までを、次の相手のエンドフェイズ終了時まで、コスト+2。【カウンター】自分の「エネル」1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-075_dummy.gif",
+    "cardNumber": "OP15-075",
+    "cardName": "神の裁き",
+    "furigana": "エル・トール",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【メイン】ドン‼-1：自分のリーダーが「エネル」の場合、自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。【カウンター】自分の「エネル」1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-076_dummy.gif",
+    "cardNumber": "OP15-076",
+    "cardName": "雷獣",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【メイン】ドン‼-1：自分のリーダーが「エネル」の場合、カード1枚を引く。その後、相手のキャラ1枚までを、このターン中、パワー-1000。【カウンター】自分の「エネル」1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-077_dummy.gif",
+    "cardNumber": "OP15-077",
+    "cardName": "雷龍",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【メイン】ドン‼-1：カード1枚を引く。その後、相手のレストのパワー6000以下のキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-078_dummy.gif",
+    "cardNumber": "OP15-078",
+    "cardName": "万雷",
+    "furigana": "",
+    "rarity": "SR",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【メイン】ドン‼-2：カード1枚を引く。その後、相手のパワー5000以下のキャラ1枚までを、レストにする。【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+1000。その後、自分の場のドン‼が6枚以下の場合、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-079_dummy.gif",
+    "cardNumber": "OP15-079",
+    "cardName": "アブサロム",
+    "furigana": "アブサロム",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "スリラーバーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【KO時】自分のトラッシュから特徴《スリラーバーク海賊団》を持つカード1枚までを、手札に加える。",
+    "trigger": "【】このカードの【KO時】効果を発動する。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-080_dummy.gif",
+    "cardNumber": "OP15-080",
+    "cardName": "オーズ",
+    "furigana": "オーズ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "スリラーバーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "自分の場に、パワー10000以上の「ゲッコー・モリア」がいて、他の「オーズ」がいない場合、このキャラのパワー+7000。【KO時】自分のトラッシュからカード3枚を好きな順番でデッキの下に置くことができる：このキャラカードをトラッシュから登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-081_dummy.gif",
+    "cardNumber": "OP15-081",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のデッキの上から5枚をトラッシュに置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-082_dummy.gif",
+    "cardNumber": "OP15-082",
+    "cardName": "シャーロット・ローラ",
+    "furigana": "シャーロット・ローラ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ローリング海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置く。【KO時】自分のトラッシュからコスト8以下のキャラカード1枚までを、手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-083_dummy.gif",
+    "cardNumber": "OP15-083",
+    "cardName": "スポイル",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "被害者の会"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置く。【起動メイン】このキャラをトラッシュに置くことができる：自分のトラッシュが15枚以上ある場合、自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-084_dummy.gif",
+    "cardNumber": "OP15-084",
+    "cardName": "ドクトル・ホグバック",
+    "furigana": "ドクトル・ホグバック",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "スリラーバーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《スリラーバーク海賊団》を持つ場合、自分のデッキの上から5枚をトラッシュに置く。【KO時】自分の手札が6枚以下の場合、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-085_dummy.gif",
+    "cardNumber": "OP15-085",
+    "cardName": "トニートニー・チョッパー",
+    "furigana": "トニートニー・チョッパー",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置く。【起動メイン】このキャラをトラッシュに置くことができる：自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のトラッシュから「トニートニー・チョッパー」以外の特徴《麦わらの一味》を持つキャラカード1枚までを、手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-086_dummy.gif",
+    "cardNumber": "OP15-086",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のトラッシュからコスト7以下の特徴《麦わらの一味》を持つキャラカード1枚までを、登場させる。この効果で登場させたキャラは、このターン中、【速攻】を得る。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-087_dummy.gif",
+    "cardNumber": "OP15-087",
+    "cardName": "ニコ・ロビン",
+    "furigana": "ニコ・ロビン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "自分のトラッシュが10枚以上ある場合、このキャラは【ブロッカー】を得る。【登場時】カード2枚を引き、自分の手札2枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-088_dummy.gif",
+    "cardNumber": "OP15-088",
+    "cardName": "パイレーツドッキング6",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "このキャラのコスト+6。【登場時】自分のデッキの上から3枚をトラッシュに置くことができる：自分のトラッシュからコスト2以下の特徴《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-089_dummy.gif",
+    "cardNumber": "OP15-089",
+    "cardName": "フランキー",
+    "furigana": "フランキー",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-090_dummy.gif",
+    "cardNumber": "OP15-090",
+    "cardName": "ペローナ",
+    "furigana": "ペローナ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "スリラーバーク海賊団"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー7000以下のキャラが相手の効果で場を離れる場合、代わりに自分の手札1枚を捨てることができる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-091_dummy.gif",
+    "cardNumber": "OP15-091",
+    "cardName": "マルガリータ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "シンドリーの影の持ち主"
+    ],
+    "block": 4,
+    "effectText": "【登場時】相手のトラッシュのカード1枚までを、持ち主のデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-092_dummy.gif",
+    "cardNumber": "OP15-092",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "自分のトラッシュの枚数によって以下の効果をそれぞれ適用する。・10枚以上ある場合、このキャラは元々のパワー9000になり、コスト+10。・20枚以上ある場合、相手のターン中、自分のリーダーを、元々のパワー7000にする。・30枚以上ある場合、このキャラのパワー+1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-093_dummy.gif",
+    "cardNumber": "OP15-093",
+    "cardName": "リスキー兄弟",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ローリング海賊団"
+    ],
+    "block": 4,
+    "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のトラッシュが15枚以上ある場合、自分のキャラの「モンキー・Ｄ・ルフィ」1枚までは、このターン中、【速攻：キャラ】と属性(斬)を得る。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-094_dummy.gif",
+    "cardNumber": "OP15-094",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "このキャラ以外の自分の特徴《麦わらの一味》を持つキャラが相手の効果で場を離れる場合、代わりにこのキャラをトラッシュに置くことができる。【ブロッカー】",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-095_dummy.gif",
+    "cardNumber": "OP15-095",
+    "cardName": "ゴムゴムの暴風雨",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のドン‼1枚をレストにできる：自分のトラッシュが15枚以上ある場合、自分の特徴《麦わらの一味》を持つ、リーダーかキャラ1枚までを、このターン中、パワー+3000。【カウンター】自分のトラッシュが15枚以上ある場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-096_dummy.gif",
+    "cardNumber": "OP15-096",
+    "cardName": "飛燕ボンナバン",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": "-",
+    "effectText": "【メイン】自分のドン‼1枚をレストにできる：自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のデッキの上から5枚をトラッシュに置く。【カウンター】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-097_dummy.gif",
+    "cardNumber": "OP15-097",
+    "cardName": "人として恥ずかしいわ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のトラッシュが10枚以上ある場合、相手の元々のコスト5以下のキャラ1枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
+    "trigger": "【】このカードの【メイン】効果を発動する。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-098_dummy.gif",
+    "cardNumber": "OP15-098",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー6000以上の特徴《空島》を持つキャラが相手によって場を離れる場合、代わりに自分のライフの上から1枚を手札に加えることができる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-099_dummy.gif",
+    "cardNumber": "OP15-099",
+    "cardName": "ウルージ",
+    "furigana": "ウルージ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "空島",
+      "超新星",
+      "破戒僧海賊団"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札から特徴《超新星》を持つカード1枚を捨てることができる：このキャラは、このターン中、【速攻】を得る。【起動メイン】自分のライフの上から1枚を裏向きにできる：自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-100_dummy.gif",
+    "cardNumber": "OP15-100",
+    "cardName": "カマキリ",
+    "furigana": "カマキリ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "空島",
+      "シャンドラの戦士"
+    ],
+    "block": 4,
+    "effectText": "【登場時】このキャラをトラッシュに置き、自分のライフの上から1枚を手札に加えることができる：相手のコスト6以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-101_dummy.gif",
+    "cardNumber": "OP15-101",
+    "cardName": "カルガラ",
+    "furigana": "カルガラ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ジャヤ",
+      "空島",
+      "シャンドラの戦士"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のデッキの上から5枚を見て、「モンブラン・ノーランド」か特徴《シャンドラの戦士》を持つカード合計2枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-102_dummy.gif",
+    "cardNumber": "OP15-102",
+    "cardName": "ガン・フォール",
+    "furigana": "ガン・フォール",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "手札のこのカードは、自分のパワー7000以上の特徴《空島》を持つキャラがいる場合、コスト-3。【登場時】相手のライフの枚数以下のコストを持つ相手のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-103_dummy.gif",
+    "cardNumber": "OP15-103",
+    "cardName": "ゲンボウ",
+    "furigana": "ゲンボウ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "空島",
+      "シャンドラの戦士"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "【】カード1枚を引く。その後、自分のライフが2枚以下の場合、このカードを登場させる。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-104_dummy.gif",
+    "cardNumber": "OP15-104",
+    "cardName": "コニス",
+    "furigana": "コニス",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のライフの枚数が相手より少ない場合、カード2枚を引き、自分の手札2枚を捨てる。",
+    "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-105_dummy.gif",
+    "cardNumber": "OP15-105",
+    "cardName": "ジュエリー・ボニー",
+    "furigana": "ジュエリー・ボニー",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "超新星",
+      "ボニー海賊団"
+    ],
+    "block": 4,
+    "effectText": "自分の元々のパワー7000以下のキャラが相手の効果で場を離れる場合、代わりに自分のライフの上から1枚を手札に加えることができる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-106_dummy.gif",
+    "cardNumber": "OP15-106",
+    "cardName": "タコバルーン",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "動物",
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "【】カード1枚を引く。その後、自分の手札からコスト2以下の黄の、キャラカードかステージカード1枚までを、登場させる。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-107_dummy.gif",
+    "cardNumber": "OP15-107",
+    "cardName": "トニートニー・チョッパー",
+    "furigana": "トニートニー・チョッパー",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-108_dummy.gif",
+    "cardNumber": "OP15-108",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《空島》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-109_dummy.gif",
+    "cardNumber": "OP15-109",
+    "cardName": "ニコ・ロビン",
+    "furigana": "ニコ・ロビン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のライフの上から1枚を手札に加えることができる：自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。その後、自分の手札からコスト5以下の特徴《空島》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-110_dummy.gif",
+    "cardNumber": "OP15-110",
+    "cardName": "ブラハム",
+    "furigana": "ブラハム",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "射",
+    "features": [
+      "空島",
+      "シャンドラの戦士"
+    ],
+    "block": 4,
+    "effectText": "【KO時】自分のリーダーが特徴《シャンドラの戦士》を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-111_dummy.gif",
+    "cardNumber": "OP15-111",
+    "cardName": "モンブラン・ノーランド",
+    "furigana": "モンブラン・ノーランド",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ジャヤ",
+      "植物学者"
+    ],
+    "block": 4,
+    "effectText": "【ドン‼×1】【アタック時】自分の「カルガラ」1枚までは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-112_dummy.gif",
+    "cardNumber": "OP15-112",
+    "cardName": "ラキ",
+    "furigana": "ラキ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "空島",
+      "シャンドラの戦士"
+    ],
+    "block": 4,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の手札からコスト3以下の特徴《シャンドラの戦士》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-113_dummy.gif",
+    "cardNumber": "OP15-113",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-114_dummy.gif",
+    "cardNumber": "OP15-114",
+    "cardName": "ワイパー",
+    "furigana": "ワイパー",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "空島",
+      "シャンドラの戦士"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のライフの上から1枚を表向きにできる：相手のキャラすべてを、このターン中、パワー-2000。その後、相手のパワー0以下のキャラすべてを、KOする。【起動メイン】【ターン1回】自分の特徴《空島》を持つ、リーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-115_dummy.gif",
+    "cardNumber": "OP15-115",
+    "cardName": "衝撃貝",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】相手のコスト4以下のキャラ1枚までを、KOする。その後、自分のライフの上から1枚を手札に加える。",
+    "trigger": "【】相手のコスト4以下のキャラ1枚までを、KOする。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-116_dummy.gif",
+    "cardNumber": "OP15-116",
+    "cardName": "ゴムゴムの黄金回転弾",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【メイン】自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のライフの上から1枚をトラッシュに置く。その後、自分のデッキの上から1枚までを、ライフの上に加え、自分の手札1枚を捨てる。【カウンター】自分のリーダーを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-117_dummy.gif",
+    "cardNumber": "OP15-117",
+    "cardName": "へそ!!",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "【メイン】カード1枚を引く。その後、自分の特徴《空島》を持つ、リーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "trigger": "【】自分のリーダーが特徴《空島》を持つ場合、カード2枚を引く。",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-118_dummy.gif",
+    "cardNumber": "OP15-118",
+    "cardName": "エネル",
+    "furigana": "エネル",
+    "rarity": "SEC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "空島"
+    ],
+    "block": 4,
+    "effectText": "自分の場のドン‼が6枚以下の場合、このキャラは相手の効果で場を離れず、パワー+2000。【登場時】ドン‼-1：自分のデッキの上から5枚を見て、カード1枚までを手札に加える。その後、残りを好きな順番でデッキの下に置き、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
+    "uniqueId": "OP15-119_dummy.gif",
+    "cardNumber": "OP15-119",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "SEC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "自分の場のドン‼が6枚以上ある場合、このキャラは【速攻】を得る。相手がイベントか【ブロッカー】を発動した時、自分のライフの上から1枚までを公開する。公開したカードのコスト1につき、このキャラは、このターン中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
+  },
+  {
     "uniqueId": "P-001_dummy.gif",
     "cardNumber": "P-001",
     "cardName": "モンキー・D・ルフィ",
@@ -52212,6 +55272,32 @@
     "trigger": "",
     "getInfo": "交流会 2026年3月開催記念品",
     "seriesTitle": "交流会 2026年3月開催記念品",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-120_dummy.gif",
+    "cardNumber": "P-120",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "空島",
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "手札のこのカードは、相手のライフが離れているターン中、コスト－2。",
+    "trigger": "",
+    "getInfo": "Vジャンプ4月特大号付録（2026年2月20日売）",
+    "seriesTitle": "Vジャンプ4月特大号付録（2026年2月20日売）",
     "seriesCode": ""
   },
   {

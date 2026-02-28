@@ -1805,9 +1805,9 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】ドン‼-2：自分の場のキャラが特徴《麦わらの一味》を持つキャラのみの場合、自分のドン‼2枚までをアクティブにする。その後、このリーダーは、次の相手のターン終了時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "オフィシャルプレイマット リミテッドエディション vol.5",
+    "seriesTitle": "オフィシャルプレイマット リミテッドエディション vol.5",
+    "seriesCode": ""
   },
   {
     "uniqueId": "EB02-011_dummy.gif",
@@ -5395,9 +5395,9 @@
     "block": 4,
     "effectText": "【メイン】自分の手札1枚を捨てることができる：自分のリーダーが特徴《海軍》を持つ場合、相手のパワー10000以下のキャラ2枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
     "trigger": "【】コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
-    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
-    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
-    "seriesCode": "EB-04"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "EB04-029_dummy.gif",
@@ -51094,9 +51094,9 @@
     "block": 4,
     "effectText": "【メイン】ドン‼-1：自分のリーダーが「エネル」の場合、自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。【カウンター】自分の「エネル」1枚までを、このバトル中、パワー+2000。",
     "trigger": "",
-    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
-    "seriesTitle": "ブースターパック 神の島の冒険",
-    "seriesCode": "OP-15"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP15-076_dummy.gif",
@@ -51933,9 +51933,9 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《空島》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
-    "seriesTitle": "ブースターパック 神の島の冒険",
-    "seriesCode": "OP-15"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP15-109_dummy.gif",
@@ -55298,6 +55298,31 @@
     "trigger": "",
     "getInfo": "Vジャンプ4月特大号付録（2026年2月20日売）",
     "seriesTitle": "Vジャンプ4月特大号付録（2026年2月20日売）",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-121_dummy.gif",
+    "cardNumber": "P-121",
+    "cardName": "ブルック",
+    "furigana": "ブルック",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 4,
+    "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置く。【KO時】相手は自身の手札2枚を捨てる。",
+    "trigger": "",
+    "getInfo": "最強ジャンプ4月号付録（2026年3月4日売）",
+    "seriesTitle": "最強ジャンプ4月号付録（2026年3月4日売）",
     "seriesCode": ""
   },
   {

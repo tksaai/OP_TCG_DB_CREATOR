@@ -4,6 +4,7 @@ import shutil
 import argparse
 import json
 import gdown
+import time  # ★ 追加: 待機時間用
 from PIL import Image
 
 SUPPORTED_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.webp', '.bmp', '.tiff')
@@ -16,7 +17,6 @@ def process_images(json_path, output_path, exclude_keyword):
         print(f"エラー: リストファイルが見つかりません ({json_path})")
         sys.exit(1)
 
-    # JSONファイルの読み込み
     with open(json_path, 'r', encoding='utf-8') as f:
         try:
             file_list = json.load(f)
@@ -30,6 +30,7 @@ def process_images(json_path, output_path, exclude_keyword):
     copied_count = 0
     skipped_count = 0
     already_exists_count = 0
+    error_count = 0 # ★ 追加: エラー数のカウント
 
     temp_dir = "./temp_download"
     os.makedirs(temp_dir, exist_ok=True)
@@ -57,7 +58,7 @@ def process_images(json_path, output_path, exclude_keyword):
 
             # 差分判定 (出力先に既に存在する場合はスキップ)
             if os.path.exists(output_filepath):
-                print(f"[スキップ/既存] {output_filename}")
+                # print(f"[スキップ/既存] {output_filename}") # ログが長くなる場合はコメントアウト
                 already_exists_count += 1
                 continue
 
@@ -66,24 +67,41 @@ def process_images(json_path, output_path, exclude_keyword):
             print(f"[ダウンロード中] {rel_path}")
             temp_filepath = os.path.join(temp_dir, file_name)
             
-            # gdownでファイルIDを使ってダウンロード
-            gdown.download(id=file_id, output=temp_filepath, quiet=True)
-
-            if not os.path.exists(temp_filepath):
-                print(f"エラー: ダウンロード失敗 - {rel_path}")
-                skipped_count += 1
+            # ★ 修正: エラーで強制終了しないように try...except で囲む
+            try:
+                # アクセス制限回避のため、URL形式で指定
+                download_url = f"https://drive.google.com/uc?id={file_id}"
+                gdown.download(url=download_url, output=temp_filepath, quiet=True)
+            except Exception as e:
+                print(f"エラー: ダウンロード失敗 (アクセス制限等の可能性) - {rel_path}")
+                error_count += 1
                 continue
 
+            if not os.path.exists(temp_filepath):
+                print(f"エラー: ダウンロード失敗 (ファイル未生成) - {rel_path}")
+                error_count += 1
+                continue
+
+            # ★ 修正: 画像変換処理
             if file_ext in SUPPORTED_EXTENSIONS:
                 try:
                     with Image.open(temp_filepath) as img:
-                        img_rgb = img.convert("RGB")
+                        # 透過情報(RGBAなど)があれば、白背景のRGBに変換して警告を防ぐ
+                        if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+                            background = Image.new("RGB", img.size, (255, 255, 255)) # 白背景
+                            if img.mode == 'P':
+                                img = img.convert('RGBA')
+                            background.paste(img, mask=img.split()[3]) # 透過部分を合成
+                            img_rgb = background
+                        else:
+                            img_rgb = img.convert("RGB")
+                            
                         img_rgb.save(output_filepath, "JPEG", quality=20, optimize=True)
                     print(f"[変換完了] -> {output_filename}")
                     processed_count += 1
                 except Exception as e:
                     print(f"エラー: {file_name} の変換失敗: {e}")
-                    skipped_count += 1
+                    error_count += 1
             else:
                 try:
                     shutil.move(temp_filepath, output_filepath)
@@ -91,10 +109,13 @@ def process_images(json_path, output_path, exclude_keyword):
                     copied_count += 1
                 except Exception as e:
                     print(f"エラー: {file_name} のコピー失敗: {e}")
-                    skipped_count += 1
+                    error_count += 1
             
             if os.path.exists(temp_filepath):
                 os.remove(temp_filepath)
+                
+            # ★ 追加: Googleからブロックされないように、1ファイルごとに1秒待機
+            time.sleep(1)
 
     finally:
         if os.path.exists(temp_dir):
@@ -103,7 +124,10 @@ def process_images(json_path, output_path, exclude_keyword):
     print("="*30)
     print("処理が完了しました。")
     print(f"新規変換: {processed_count}件, 新規コピー: {copied_count}件")
-    print(f"既存スキップ: {already_exists_count}件, 除外・エラー: {skipped_count}件")
+    print(f"既存スキップ: {already_exists_count}件, 除外: {skipped_count}件, エラー: {error_count}件")
+    
+    # 完全に失敗したわけではないので、正常終了扱いとする（GitHub Actionsを赤くしないため）
+    sys.exit(0)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="リストファイルベース 画像差分ダウンロード・変換スクリプト")

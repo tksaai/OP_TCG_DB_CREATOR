@@ -36,7 +36,7 @@ jobs:
           # 2. 先にターゲットリポジトリをクローンする（過去の画像を持ってくる）
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git clone https://x-access-token:$API_TOKEN@github.com/$TARGET_REPO.git target_repo
+          git clone --depth 1 https://x-access-token:$API_TOKEN@github.com/$TARGET_REPO.git target_repo
           
           # Cardsフォルダを準備
           mkdir -p target_repo/Cards

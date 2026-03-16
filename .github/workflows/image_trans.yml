@@ -29,7 +29,7 @@ jobs:
           JSON_FILE_ID: "1XuSQYYy8RVLhh98x6kFNg_0oWJ0peySV"
           # （※もしこれもSecrets登録が面倒であれば、直書きで JSON_FILE_ID: "ファイルIDの文字列" としても動きます）
         run: |
-          gdown --id "$JSON_FILE_ID" -O ./file_list.json
+          gdown "$JSON_FILE_ID" -O ./file_list.json
           mkdir -p ./processed_images
           
           python process_images.py \

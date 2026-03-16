@@ -23,41 +23,33 @@ jobs:
           python -m pip install --upgrade pip
           pip install Pillow gdown
 
-      - name: Download Images from Google Drive
+      - name: Sync Images and Push to External Repository
         env:
-          # ▼ 新しくSecretsに登録するJSONのファイルID
           JSON_FILE_ID: "1XuSQYYy8RVLhh98x6kFNg_0oWJ0peySV"
-          # （※もしこれもSecrets登録が面倒であれば、直書きで JSON_FILE_ID: "ファイルIDの文字列" としても動きます）
-        run: |
-          gdown "$JSON_FILE_ID" -O ./file_list.json
-          mkdir -p ./processed_images
-          
-          python process_images.py \
-            --json "./file_list.json" \
-            --output "./processed_images" \
-            --exclude "_small"
-
-
-      - name: Push Images to External Repository
-        env:
-          # ▼ 送り先リポジトリ情報はここに直書き（scraperと同じ方式）
           TARGET_REPO: "tksaai/OP_TCG_DB"
           TARGET_BRANCH: "main"
-          # ▼ トークンのみ、既存の共通Secretsを呼び出す
           API_TOKEN: ${{ secrets.TARGET_REPO_PAT }}
         run: |
+          # 1. GASが作ったリストをダウンロード
+          gdown "$JSON_FILE_ID" -O ./file_list.json
+          
+          # 2. 先にターゲットリポジトリをクローンする（過去の画像を持ってくる）
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          
-          # トークンを使ってクローン
           git clone https://x-access-token:$API_TOKEN@github.com/$TARGET_REPO.git target_repo
           
-          # ▼ 出力先リポジトリの Cards フォルダに画像をコピー
+          # Cardsフォルダを準備
           mkdir -p target_repo/Cards
-          cp -r processed_images/* target_repo/Cards/ || echo "No images to copy"
           
+          # 3. クローンした Cards フォルダを「出力先」としてPythonを実行
+          # （これで、すでにCards内にある画像はGoogleにアクセスせずスキップされます）
+          python process_images.py \
+            --json "./file_list.json" \
+            --output "./target_repo/Cards" \
+            --exclude "_small"
+            
+          # 4. コミットとプッシュ
           cd target_repo
-          # ▼ Cards フォルダをコミット対象に追加
           git add Cards/
           
           if git diff --staged --quiet; then

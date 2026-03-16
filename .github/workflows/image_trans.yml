@@ -35,6 +35,7 @@ jobs:
           python process_images.py \
             --json "./file_list.json" \
             --output "./processed_images"
+            --exclude "_small"
 
       - name: Push Images to External Repository
         env:

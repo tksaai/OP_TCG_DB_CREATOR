@@ -1,0 +1,62 @@
+name: Diff Download & Image Converter
+
+on:
+  workflow_dispatch:
+    inputs:
+      exclude_keyword:
+        description: '_small'
+        required: false
+        default: ''
+  # 定期実行（cron）を設定する場合は以下のコメントアウトを外します
+   schedule:
+     - cron: '0 15 * * *' # 日本時間の毎日深夜0時に実行
+
+jobs:
+  process-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repo
+        uses: actions/checkout@v4
+
+      - name: Checkout Target Repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'tksaai/OP_TCG_DB' # ★変更してください
+          token: ${{ secrets.TARGET_REPO_PAT }}
+          path: './target_repo'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow gdown
+
+      - name: Download JSON List and Run Script
+        env:
+          JSON_FILE_ID: ${{ secrets.JSON_FILE_ID }}
+        run: |
+          # 1. GASが生成したリストファイル(JSON)をダウンロード
+          gdown --id "$JSON_FILE_ID" -O ./file_list.json
+          
+          # 2. ターゲットリポジトリ内の保存先フォルダを指定
+          OUTPUT_DIR="./target_repo/processed_images"
+          mkdir -p $OUTPUT_DIR
+          
+          # 3. 変換スクリプトを実行
+          python process_images.py \
+            --json "./file_list.json" \
+            --output "$OUTPUT_DIR" \
+            --exclude "${{ github.event.inputs.exclude_keyword }}"
+
+      - name: Commit and Push to Target Repo
+        run: |
+          cd ./target_repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed_images/
+          git commit -m "Auto: Added new files from Google Drive" || echo "No new files to commit"
+          git push

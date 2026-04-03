@@ -64359,5 +64359,445 @@
     "getInfo": "スタートデッキ EGGHEAD【ST-29】",
     "seriesTitle": "スタートデッキ EGGHEAD",
     "seriesCode": "ST-29"
+  },
+  {
+    "uniqueId": "ST30-001_dummy.gif",
+    "cardNumber": "ST30-001",
+    "cardName": "ルフィ＆エース",
+    "furigana": "",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "赤",
+      "緑"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打/特",
+    "features": [
+      "インペルダウン",
+      "白ひげ海賊団",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "自分の元々のパワー7000以上のキャラがいる場合、このリーダーのパワー-2000。【相手のターン中】自分の「ポートガス・Ｄ・エース」と「モンキー・Ｄ・ルフィ」すべてを、パワー+3000。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-002_dummy.gif",
+    "cardNumber": "ST30-002",
+    "cardName": "イナズマ",
+    "furigana": "イナズマ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "インペルダウン",
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から5枚を見て、パワー6000のキャラカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-003_dummy.gif",
+    "cardNumber": "ST30-003",
+    "cardName": "エドワード・ニューゲート",
+    "furigana": "エドワード・ニューゲート",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】自分の元々のパワー6000のキャラすべてを、パワー+1000。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-004_dummy.gif",
+    "cardNumber": "ST30-004",
+    "cardName": "エンポリオ・イワンコフ",
+    "furigana": "エンポリオ・イワンコフ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "インペルダウン",
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札からパワー6000のキャラカード2枚を公開できる：カード3枚を引き、自分の手札2枚を捨てる。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-005_dummy.gif",
+    "cardNumber": "ST30-005",
+    "cardName": "ジョズ",
+    "furigana": "ジョズ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-006_dummy.gif",
+    "cardNumber": "ST30-006",
+    "cardName": "ジンベエ",
+    "furigana": "ジンベエ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "インペルダウン",
+      "タイヨウの海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札からパワー6000のキャラカード1枚を捨てることができる：カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-007_dummy.gif",
+    "cardNumber": "ST30-007",
+    "cardName": "ポートガス・Ｄ・エース",
+    "furigana": "ポートガス・ディー・エース",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のドン!!1枚をレストにできる：このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)【アタック時】相手のキャラ1枚までを、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-008_dummy.gif",
+    "cardNumber": "ST30-008",
+    "cardName": "マルコ",
+    "furigana": "マルコ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【KO時】自分の手札からパワー6000のキャラカード1枚を捨てることができる：このキャラカードをトラッシュからレストで登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-009_dummy.gif",
+    "cardNumber": "ST30-009",
+    "cardName": "リトルオーズJr.",
+    "furigana": "リトルオーズジュニア",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "白ひげ海賊団傘下"
+    ],
+    "block": 5,
+    "effectText": "自分の元々のパワー6000のキャラが相手の効果で場を離れる場合、代わりにこのキャラをトラッシュに置き、カード1枚を引くことができる。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-010_dummy.gif",
+    "cardNumber": "ST30-010",
+    "cardName": "クロコダイル",
+    "furigana": "クロコダイル",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "インペルダウン",
+      "元B・W"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】相手のレストのキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-011_dummy.gif",
+    "cardNumber": "ST30-011",
+    "cardName": "バギー",
+    "furigana": "バギー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "インペルダウン",
+      "バギー海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分の元々のパワー6000のキャラが相手の効果で場を離れる場合、代わりにこのキャラをレストにできる。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-012_dummy.gif",
+    "cardNumber": "ST30-012",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "インペルダウン",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のドン!!枚をレストにできる：このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)【アタック時】相手の【ブロッカー】を持つキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-013_dummy.gif",
+    "cardNumber": "ST30-013",
+    "cardName": "Mr.2・ボン・クレー(ベンサム)",
+    "furigana": "ミスターツー・ボン・クレーベンサム",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "インペルダウン",
+      "元B・W"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-014_dummy.gif",
+    "cardNumber": "ST30-014",
+    "cardName": "Mr.3(ギャルディーノ)",
+    "furigana": "ミスタースリーギャルディーノ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "インペルダウン",
+      "元B・W"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】このキャラをレストにできる：自分の元々のパワー6000のキャラ2枚までにレストのドン!!2枚ずつまでを、付与する。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-015_dummy.gif",
+    "cardNumber": "ST30-015",
+    "cardName": "この時代の名が!!!\"白ひげ\"だァ!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】自分の元々のパワー6000のキャラが2枚以上いる場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "【】相手のパワー6000以下のキャラ1枚までを、KOする。",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-016_dummy.gif",
+    "cardNumber": "ST30-016",
+    "cardName": "戦えるかルフィ!!!勿論だ!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "白ひげ海賊団",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。その後、自分の元々のパワー6000のキャラの、「ポートガス・Ｄ・エース」と「モンキー・D・ルフィ」がいる場合、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST30-017_dummy.gif",
+    "cardNumber": "ST30-017",
+    "cardName": "無茶ばっかりしやがって!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のデッキの上から5枚を見て、パワー6000のキャラカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "【】このカードの【メイン】効果を発動する。",
+    "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
+    "seriesTitle": "スタートデッキEX ルフィ&エース",
+    "seriesCode": "ST-30"
   }
 ]

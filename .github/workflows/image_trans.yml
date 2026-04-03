@@ -2,6 +2,9 @@ name: GDrive Image Converter
 
 on:
   workflow_dispatch:
+  schedule:
+    # 例：毎日 日本時間の深夜2時 (UTCの17時) に自動実行する
+    - cron: '0 17 * * *'
 
 permissions:
   contents: write

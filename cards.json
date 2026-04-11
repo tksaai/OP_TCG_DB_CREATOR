@@ -55326,6 +55326,31 @@
     "seriesCode": ""
   },
   {
+    "uniqueId": "P-135_dummy.gif",
+    "cardNumber": "P-135",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる）【登場時】相手のコスト5以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "交流会 2026年5月開催記念品",
+    "seriesTitle": "交流会 2026年5月開催記念品",
+    "seriesCode": ""
+  },
+  {
     "uniqueId": "PRB01-001_dummy.gif",
     "cardNumber": "PRB01-001",
     "cardName": "サンジ",

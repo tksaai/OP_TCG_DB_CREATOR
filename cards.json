@@ -3259,9 +3259,9 @@
     "block": 4,
     "effectText": "【登場時】自分のアクティブのリーダーを、このターン中、パワー-5000することができる：カード1枚を引く。【起動メイン】【ターン1回】自分のリーダーが特徴《アラバスタ王国》を持つ場合、相手のキャラ1枚までを、このターン中、パワー-1000。",
     "trigger": "",
-    "getInfo": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
-    "seriesTitle": "エクストラブースター ONE PIECE Heroines Edition",
-    "seriesCode": "EB-03"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "EB03-007_dummy.gif",
@@ -3792,9 +3792,9 @@
     "block": 4,
     "effectText": "【登場時】元々のパワー7000のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
-    "seriesTitle": "エクストラブースター ONE PIECE Heroines Edition",
-    "seriesCode": "EB-03"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "EB03-028_dummy.gif",
@@ -48220,9 +48220,9 @@
     "block": 4,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：相手のコスト0のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-084_dummy.gif",
@@ -55501,9 +55501,9 @@
     "block": 3,
     "effectText": "【自分のターン中】【登場時】自分のリーダーが多色で、相手の場のドン‼が7枚以下の場合、次の相手のメインフェイズ開始時、相手は自身のアクティブのドン‼1枚をレストにする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "PRB02-006_dummy.gif",
@@ -64171,9 +64171,9 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "【】自分のリーダーが「モンキー・Ｄ・ルフィ」の場合、このカードを登場させる。",
-    "getInfo": "スタートデッキ EGGHEAD【ST-29】",
-    "seriesTitle": "スタートデッキ EGGHEAD",
-    "seriesCode": "ST-29"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST29-010_dummy.gif",

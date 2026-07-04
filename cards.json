@@ -3919,9 +3919,9 @@
     "block": 4,
     "effectText": "【自分のターン中】【登場時】自分の「シャーロット・カタクリ」1枚までを、このターン中、パワー+2000。",
     "trigger": "",
-    "getInfo": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
-    "seriesTitle": "エクストラブースター ONE PIECE Heroines Edition",
-    "seriesCode": "EB-03"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "EB03-033_dummy.gif",
@@ -3992,11 +3992,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 4,
-    "effectText": "【ブロッカー】【登場時】自分の場のドン‼が相手の場のドン‼の枚数以下の場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "effectText": "【ブロッカー】【登場時】自分の場のドン!!が相手の場のドン!!の枚数以下の場合、ドン!!デッキからドン!!1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
-    "seriesTitle": "エクストラブースター ONE PIECE Heroines Edition",
-    "seriesCode": "EB-03"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "EB03-036_dummy.gif",
@@ -5344,9 +5344,9 @@
     "block": 4,
     "effectText": "【登場時】相手のコスト1以下のキャラ1枚までを、持ち主のデッキの下に置く。【アタック時】カード1枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
-    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
-    "seriesCode": "EB-04"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "EB04-027_dummy.gif",
@@ -5395,9 +5395,9 @@
     "block": 4,
     "effectText": "【メイン】自分の手札1枚を捨てることができる：自分のリーダーが特徴《海軍》を持つ場合、相手のパワー10000以下のキャラ2枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
     "trigger": "【】コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
-    "getInfo": "エクストラブースター EGGHEAD CRISIS【EB-04】",
-    "seriesTitle": "エクストラブースター EGGHEAD CRISIS",
-    "seriesCode": "EB-04"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "EB04-029_dummy.gif",
@@ -34729,9 +34729,9 @@
     "block": 3,
     "effectText": "【自分のターン中】【ターン1回】キャラが自分の効果でレストになった時、自分のドン!!1枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "ブースターパック 王族の血統【OP-10】",
-    "seriesTitle": "ブースターパック 王族の血統",
-    "seriesCode": "OP-10"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP10-037_dummy.gif",
@@ -36954,9 +36954,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
   },
   {
     "uniqueId": "OP11-004_dummy.gif",
@@ -37104,11 +37104,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【ドン‼×2】【アタック時】相手のキャラ1枚までを、次の相手のターン終了時まで、パワー-2000。",
+    "effectText": "【ドン!!×2】【アタック時】相手のキャラ1枚までを、次の相手のターン終了時まで、パワー-2000。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
   },
   {
     "uniqueId": "OP11-010_dummy.gif",
@@ -38474,11 +38474,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【アタック時】/【相手のアタック時】【ターン1回】ドン‼-1：相手のデッキの上から1枚を見る。その後、このリーダーは、このバトル中、パワー+1000。",
+    "effectText": "【アタック時】/【相手のアタック時】【ターン1回】ドン!!-1：相手のデッキの上から1枚を見る。その後、このリーダーは、このバトル中、パワー+1000。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-063_dummy.gif",
@@ -38551,9 +38551,9 @@
     "block": 3,
     "effectText": "「シャーロット・アナナ」以外の自分の紫の特徴《ビッグ・マム海賊団》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "プロモーションパックVol.8",
-    "seriesTitle": "プロモーションパックVol.8",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-066_dummy.gif",
@@ -38574,11 +38574,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【起動メイン】このキャラをレストにできる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、相手の元々のコスト3以下のキャラ1枚までを、KOする。その後、ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "effectText": "【起動メイン】このキャラをレストにできる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、相手の元々のコスト3以下のキャラ1枚までを、KOする。その後、ドン!!デッキからドン!!1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-067_dummy.gif",
@@ -38626,9 +38626,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-069_dummy.gif",
@@ -38699,11 +38699,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、カード1枚を引き、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
+    "effectText": "【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、カード1枚を引き、ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.3",
-    "seriesTitle": "プロモーションパックEX Vol.3",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-072_dummy.gif",
@@ -38905,9 +38905,9 @@
     "block": 3,
     "effectText": "【カウンター】任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+5000。",
     "trigger": "【】カード1枚を引く。",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-080_dummy.gif",
@@ -38955,10 +38955,10 @@
     ],
     "block": 3,
     "effectText": "【メイン】任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、相手の元々のコスト8以下のキャラ1枚までを、KOする。",
-    "trigger": "【】ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "trigger": "【】ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-082_dummy.gif",
@@ -40436,11 +40436,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【ドン‼×3】【起動メイン】【ターン1回】このターン中、このリーダーが相手のキャラとバトルしている場合、このリーダーをアクティブにする。その後、このリーダーは、このターン中、相手の元々のコスト7以下のキャラへアタックできない。",
+    "effectText": "【ドン!!×3】【起動メイン】【ターン1回】このターン中、このリーダーが相手のキャラとバトルしている場合、このリーダーをアクティブにする。その後、このリーダーは、このターン中、相手の元々のコスト7以下のキャラへアタックできない。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-021_dummy.gif",
@@ -40517,9 +40517,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-024_dummy.gif",
@@ -40593,11 +40593,11 @@
       "シモツキ村"
     ],
     "block": 3,
-    "effectText": "【起動メイン】このキャラをレストにできる：相手の元々のコスト4以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン‼3枚までを、付与する。",
+    "effectText": "【起動メイン】このキャラをレストにできる：相手の元々のコスト4以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン!!3枚までを、付与する。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-027_dummy.gif",
@@ -40619,11 +40619,11 @@
       "シモツキ村"
     ],
     "block": 3,
-    "effectText": "このキャラ以外の自分のコスト5以下の属性(斬)を持つキャラが相手の効果でKOされる場合、代わりにこのキャラをレストにできる。【ブロッカー】",
+    "effectText": "このキャラ以外の自分のコスト5以下の属性 (斬)を持つキャラが相手の効果でKOされる場合、代わりにこのキャラをレストにできる。【ブロッカー】",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-028_dummy.gif",
@@ -40645,11 +40645,11 @@
       "光月家"
     ],
     "block": 3,
-    "effectText": "【起動メイン】自分のドン‼1枚とこのキャラをレストにできる：自分のリーダーが「ロロノア・ゾロ」の場合、自分のデッキの上から5枚を見て、属性(斬)を持つカードか緑のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "effectText": "【起動メイン】自分のドン!!1枚とこのキャラをレストにできる：自分のリーダーが「ロロノア・ゾロ」の場合、自分のデッキの上から5枚を見て、属性 (斬)を持つカードか緑のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-029_dummy.gif",
@@ -40724,11 +40724,11 @@
       "海軍"
     ],
     "block": 3,
-    "effectText": "【登場時】相手の元々のコスト6以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン‼3枚までを、付与する。",
+    "effectText": "【登場時】相手の元々のコスト6以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン!!3枚までを、付与する。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-032_dummy.gif",
@@ -40932,9 +40932,9 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーの「ロロノア・ゾロ」を、アクティブにする。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-040_dummy.gif",
@@ -40957,9 +40957,9 @@
     "block": 3,
     "effectText": "自分の特徴《海軍》を持つカードの効果で自分の手札からカードが捨てられた時、捨てた枚数分カードを引く。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-041_dummy.gif",
@@ -41034,9 +41034,9 @@
     "block": 3,
     "effectText": "自分の手札が5枚以上の場合、このキャラのコスト+1。【登場時】自分の手札1枚を捨てることができる：相手のキャラ1枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-044_dummy.gif",
@@ -41084,9 +41084,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-046_dummy.gif",
@@ -41110,9 +41110,9 @@
     "block": 3,
     "effectText": "【登場時】自分の手札2枚を捨てる。【起動メイン】このキャラをトラッシュに置くことができる：コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-047_dummy.gif",
@@ -41135,9 +41135,9 @@
     "block": 3,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のデッキの上から5枚を見て、「センゴク」以外の特徴《海軍》を持つカード2枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-048_dummy.gif",
@@ -41213,9 +41213,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-051_dummy.gif",
@@ -41263,9 +41263,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-053_dummy.gif",
@@ -41389,9 +41389,9 @@
     "block": 3,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。その後、自分の手札1枚を捨てる。",
     "trigger": "【】自分の手札1枚を捨てることができる：カード1枚を引く。",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
   },
   {
     "uniqueId": "OP12-058_dummy.gif",
@@ -42235,9 +42235,9 @@
     "block": 3,
     "effectText": "【アタック時】自分のデッキの上から2枚をトラッシュに置くことができる：相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP12-091_dummy.gif",
@@ -42313,9 +42313,9 @@
     "block": 3,
     "effectText": "自分のリーダーが特徴《革命軍》を持つ場合、このキャラのコスト+4。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP12-094_dummy.gif",
@@ -42441,9 +42441,9 @@
     "block": 3,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のコスト8以上の特徴《革命軍》を持つキャラがいる場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】カード1枚を引き、自分のデッキの上から1枚をトラッシュに置く。",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP12-099_dummy.gif",
@@ -43093,11 +43093,11 @@
       "革命軍"
     ],
     "block": 4,
-    "effectText": "自分のライフが4枚以上の場合、このリーダーのパワー-1000。【ドン‼×1】自分のコスト8以上のキャラがいる場合、自分のリーダーとキャラすべてを、パワー+1000。",
+    "effectText": "自分のライフが4枚以上の場合、このリーダーのパワー-1000。【ドン!!×1】自分のコスト8以上のキャラがいる場合、自分のリーダーとキャラすべてを、パワー+1000。",
     "trigger": "",
-    "getInfo": "受け継がれる意志【OP-13】",
-    "seriesTitle": "受け継がれる意志",
-    "seriesCode": "OP-13"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP13-005_dummy.gif",
@@ -43118,11 +43118,11 @@
       "革命軍"
     ],
     "block": 4,
-    "effectText": "【登場時】自分のリーダーにレストのドン‼1枚までを、付与する。",
+    "effectText": "【登場時】自分のリーダーにレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "受け継がれる意志【OP-13】",
-    "seriesTitle": "受け継がれる意志",
-    "seriesCode": "OP-13"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP13-006_dummy.gif",
@@ -43195,9 +43195,9 @@
     "block": 4,
     "effectText": "自分の特徴《革命軍》を持つキャラが相手の効果でKOされる場合、代わりにこのキャラをトラッシュに置くことができる。",
     "trigger": "",
-    "getInfo": "受け継がれる意志【OP-13】",
-    "seriesTitle": "受け継がれる意志",
-    "seriesCode": "OP-13"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP13-009_dummy.gif",
@@ -43421,9 +43421,9 @@
     "block": 4,
     "effectText": "【ターン1回】自分の特徴《革命軍》を持つキャラが相手の効果で場を離れる場合、代わりにこのキャラを、このターン中、パワー-2000できる。",
     "trigger": "",
-    "getInfo": "受け継がれる意志【OP-13】",
-    "seriesTitle": "受け継がれる意志",
-    "seriesCode": "OP-13"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP13-018_dummy.gif",
@@ -43470,11 +43470,11 @@
       "革命軍"
     ],
     "block": 4,
-    "effectText": "【メイン】自分のドン‼4枚をレストにできる：相手のキャラ1枚までを、このターン中、パワー-3000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "effectText": "【メイン】自分のドン!!4枚をレストにできる：相手のキャラ1枚までを、このターン中、パワー-3000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
     "trigger": "",
-    "getInfo": "受け継がれる意志【OP-13】",
-    "seriesTitle": "受け継がれる意志",
-    "seriesCode": "OP-13"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP13-020_dummy.gif",
@@ -45062,11 +45062,11 @@
       "革命軍"
     ],
     "block": 4,
-    "effectText": "自分のリーダーが特徴《革命軍》を持つ場合、このキャラのコスト+3。【起動メイン】【ターン1回】自分のトラッシュからカード1枚をデッキの下に置くことができる：自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "effectText": "自分のリーダーが特徴《革命軍》を持つ場合、このキャラのコスト+3。【起動メイン】【ターン1回】自分のトラッシュからカード1枚をデッキの下に置くことができる：自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "受け継がれる意志【OP-13】",
-    "seriesTitle": "受け継がれる意志",
-    "seriesCode": "OP-13"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP13-082_dummy.gif",
@@ -57570,11 +57570,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【相手のターン中】【KO時】ドン‼-1：自分の手札から「シャーロット・スムージー」以外の相手の場のドン‼の枚数以下のコストを持ち、特徴《ビッグ・マム海賊団》を持つキャラカード1枚までを、登場させる。",
+    "effectText": "【相手のターン中】【KO時】ドン!!-1：自分の手札から「シャーロット・スムージー」以外の相手の場のドン!!の枚数以下のコストを持ち、特徴《ビッグ・マム海賊団》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "交流会 2025年3月開催記念品",
-    "seriesTitle": "交流会 2025年3月開催記念品",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "P-091_dummy.gif",
@@ -57955,11 +57955,11 @@
       "革命軍"
     ],
     "block": 4,
-    "effectText": "自分のリーダーが特徴《革命軍》を持つ場合、このキャラは【ブロッカー】を得て、コスト+4。【登場時】自分のライフの上か下から1枚を手札に加えることができる：自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "effectText": "自分のリーダーが特徴《革命軍》を持つ場合、このキャラは【ブロッカー】を得て、コスト+4。【登場時】自分のライフの上か下から1枚を手札に加えることができる：自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "「プロモーションカードセット2025」ゲットキャンペーン",
-    "seriesTitle": "「プロモーションカードセット2025」ゲットキャンペーン",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "P-106_dummy.gif",
@@ -58395,6 +58395,57 @@
     "trigger": "",
     "getInfo": "交流会 2026年5月開催記念品",
     "seriesTitle": "交流会 2026年5月開催記念品",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-150_dummy.gif",
+    "cardNumber": "P-150",
+    "cardName": "クザン",
+    "furigana": "クザン",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "黒ひげ海賊団",
+      "元海軍"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のトラッシュからコスト1の【トリガー】を持つキャラカード1枚までを、登場させる。",
+    "trigger": "【】カード1枚を引き、相手のコスト6以下のキャラ1枚までは、このターン中、アタックできない。",
+    "getInfo": "Vジャンプ7月特大号付録（2026年5月21日売）",
+    "seriesTitle": "Vジャンプ7月特大号付録（2026年5月21日売）",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-151_dummy.gif",
+    "cardNumber": "P-151",
+    "cardName": "スモーカー",
+    "furigana": "スモーカー",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のリーダーが特徴《海軍》を持つ場合、ドン!!デッキからドン!!1枚までを、レストで追加する。その後、自分のデッキの上から5枚を見て、特徴《海軍》を持つカード1枚までを公開し、手札に加え、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "最強ジャンプ7月号付録（2026年6月4日売）",
+    "seriesTitle": "最強ジャンプ7月号付録（2026年6月4日売）",
     "seriesCode": ""
   },
   {
@@ -66472,9 +66523,9 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーが特徴《超新星》を持つ場合、相手のコスト5以下のキャラ1枚までを、レストにする。その後、このターン終了時、自分のドン!!1枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 緑 ジュエリー・ボニー【ST-24】",
-    "seriesTitle": "スタートデッキ 緑 ジュエリー・ボニー",
-    "seriesCode": "ST-24"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "ST25-001_dummy.gif",
@@ -67871,5 +67922,774 @@
     "getInfo": "スタートデッキEX ルフィ&エース【ST-30】",
     "seriesTitle": "スタートデッキEX ルフィ&エース",
     "seriesCode": "ST-30"
+  },
+  {
+    "uniqueId": "ST31-001_dummy.gif",
+    "cardNumber": "ST31-001",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ドン!!×2】このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)【登場時】カード1枚を引き、自分の手札から「サンジ」以外のコスト5以下の特徴《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
+  },
+  {
+    "uniqueId": "ST31-002_dummy.gif",
+    "cardNumber": "ST31-002",
+    "cardName": "ジンベエ",
+    "furigana": "ジンベエ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】カード1枚を引き、自分の手札からコスト1の特徴《麦わらの一味》を持つカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
+  },
+  {
+    "uniqueId": "ST31-003_dummy.gif",
+    "cardNumber": "ST31-003",
+    "cardName": "ブルック",
+    "furigana": "ブルック",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【相手のターン中】自分の付与されているドン!!が合計3枚以上ある場合、このキャラは【ブロッカー】を得て、パワー+3000。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
+  },
+  {
+    "uniqueId": "ST31-004_dummy.gif",
+    "cardNumber": "ST31-004",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "自分の付与されているドン!!が合計3枚以上ある場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)【登場時】自分の場の特徴《麦わらの一味》を持つカード1枚につき、相手のキャラ1枚までを、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
+  },
+  {
+    "uniqueId": "ST31-005_dummy.gif",
+    "cardNumber": "ST31-005",
+    "cardName": "サウザンド・サニー号",
+    "furigana": "サウザンド・サニーゴウ",
+    "rarity": "C",
+    "cardType": "STAGE",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から5枚を見て、特徴《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。【起動メイン】このステージをレストにできる：自分の「モンキー・Ｄ・ルフィ」1枚にレストのドン!!1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
+  },
+  {
+    "uniqueId": "ST32-001_dummy.gif",
+    "cardNumber": "ST32-001",
+    "cardName": "錦えもん",
+    "furigana": "キンエモン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ワノ国",
+      "赤鞘九人男"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の、属性(斬)を持つリーダーかドン!!1枚をレストにできる：カード2枚を引き、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
+  },
+  {
+    "uniqueId": "ST32-002_dummy.gif",
+    "cardNumber": "ST32-002",
+    "cardName": "光月おでん",
+    "furigana": "コウヅキオデン",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ワノ国",
+      "光月家"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード1枚を引き、相手の元々のコスト6以下のキャラ1枚までは、次の相手のエンドフェイズ終了時まで、レストにできない。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
+  },
+  {
+    "uniqueId": "ST32-003_dummy.gif",
+    "cardNumber": "ST32-003",
+    "cardName": "ジュラキュール・ミホーク",
+    "furigana": "ジュラキュール・ミホーク",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "シッケアール王国",
+      "王下七武海"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】このキャラがレストになった時、カード1枚を引き、自分の手札1枚を捨てる。【登場時】自分のリーダーが属性(斬)を持つ場合、自分の手札からコスト5以下の、「ペローナ」か属性(斬)を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
+  },
+  {
+    "uniqueId": "ST32-004_dummy.gif",
+    "cardNumber": "ST32-004",
+    "cardName": "シルバーズ・レイリー",
+    "furigana": "シルバーズ・レイリー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "元ロジャー海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分のリーダーが属性(斬)を持つ場合、このキャラは【速攻：キャラ】を得る。(このカードは登場したターンにキャラへアタックできる)【登場時】相手のコスト2以下のキャラ2枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
+  },
+  {
+    "uniqueId": "ST32-005_dummy.gif",
+    "cardNumber": "ST32-005",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "超新星",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【速攻：キャラ】(このカードは登場したターンにキャラへアタックできる)【登場時】自分のリーダーが属性(斬)を持つ場合、相手のコスト2以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
+  },
+  {
+    "uniqueId": "ST33-001_dummy.gif",
+    "cardNumber": "ST33-001",
+    "cardName": "コビー",
+    "furigana": "コビー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の手札1枚を捨てることができる：カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
+  },
+  {
+    "uniqueId": "ST33-002_dummy.gif",
+    "cardNumber": "ST33-002",
+    "cardName": "サカズキ",
+    "furigana": "サカズキ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分の手札1枚を捨てることができる：相手の手札が6枚以上ある場合、相手は自身の手札1枚を捨てる。【KO時】自分の手札からコスト4以下の特徴《海軍》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
+  },
+  {
+    "uniqueId": "ST33-003_dummy.gif",
+    "cardNumber": "ST33-003",
+    "cardName": "スモーカー",
+    "furigana": "スモーカー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：相手のコスト2以下のキャラ2枚までを、持ち主のデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
+  },
+  {
+    "uniqueId": "ST33-004_dummy.gif",
+    "cardNumber": "ST33-004",
+    "cardName": "ボルサリーノ",
+    "furigana": "ボルサリーノ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "手札のこのカードは、効果で自分の手札が捨てられているターン中、コスト-3。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
+  },
+  {
+    "uniqueId": "ST33-005_dummy.gif",
+    "cardNumber": "ST33-005",
+    "cardName": "モンキー・Ｄ・ガープ",
+    "furigana": "モンキー・ディー・ガープ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが特徴《海軍》を持つ場合、自分の手札から「モンキー・Ｄ・ガープ」以外のパワー8000以下の青の特徴《海軍》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 青 クザン【ST-33】",
+    "seriesTitle": "スタートデッキ 青 クザン",
+    "seriesCode": "ST-33"
+  },
+  {
+    "uniqueId": "ST34-001_dummy.gif",
+    "cardNumber": "ST34-001",
+    "cardName": "シャーロット・カタクリ",
+    "furigana": "シャーロット・カタクリ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【ターン1回】自分の場のドン!!がドン!!デッキに戻された時、自分のリーダーが特徴《ビッグ・マム海賊団》を持つ場合、ドン!!デッキからドン!!2枚までを、レストで追加する。【KO時】自分の手札からパワー8000以下のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
+  },
+  {
+    "uniqueId": "ST34-002_dummy.gif",
+    "cardNumber": "ST34-002",
+    "cardName": "シャーロット・クラッカー",
+    "furigana": "シャーロット・クラッカー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが特徴《ビッグ・マム海賊団》を持つ場合、ドン!!デッキからドン!!1枚までを、レストで追加する。その後、相手のコスト2以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
+  },
+  {
+    "uniqueId": "ST34-003_dummy.gif",
+    "cardNumber": "ST34-003",
+    "cardName": "シャーロット・ブリュレ",
+    "furigana": "シャーロット・ブリュレ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《ビッグ・マム海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
+  },
+  {
+    "uniqueId": "ST34-004_dummy.gif",
+    "cardNumber": "ST34-004",
+    "cardName": "シャーロット・リンリン",
+    "furigana": "シャーロット・リンリン",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-4,自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。その後、相手のキャラ1枚までを、このターン中、元々のパワー0にする。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
+  },
+  {
+    "uniqueId": "ST34-005_dummy.gif",
+    "cardNumber": "ST34-005",
+    "cardName": "タマゴ男爵＆ペコムズ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "ミンク族",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】ドン!!-1：相手の元々のパワー2000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
+  },
+  {
+    "uniqueId": "ST35-001_dummy.gif",
+    "cardNumber": "ST35-001",
+    "cardName": "ハック",
+    "furigana": "ハック",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】相手の元々のパワー2000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
+  },
+  {
+    "uniqueId": "ST35-002_dummy.gif",
+    "cardNumber": "ST35-002",
+    "cardName": "リンドバーグ",
+    "furigana": "リンドバーグ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "ミンク族",
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
+  },
+  {
+    "uniqueId": "ST35-003_dummy.gif",
+    "cardNumber": "ST35-003",
+    "cardName": "カラス",
+    "furigana": "カラス",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分のデッキの上から2枚をトラッシュに置くことができる：相手の手札が7枚以上ある場合、相手は自身の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
+  },
+  {
+    "uniqueId": "ST35-004_dummy.gif",
+    "cardNumber": "ST35-004",
+    "cardName": "コアラ",
+    "furigana": "コアラ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "このキャラは【ブロッカー】を得て、コスト+1。【登場時】自分のリーダーにレストのドン!!1枚までを、付与する。その後、自分の手札かトラッシュからパワー4000以下の特徴《革命軍》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
+  },
+  {
+    "uniqueId": "ST35-005_dummy.gif",
+    "cardNumber": "ST35-005",
+    "cardName": "バーソロミュー・くま",
+    "furigana": "バーソロミュー・クマ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "このキャラのコスト+3。【登場時】自分のリーダーにレストのドン!!1枚までを、付与する。その後、自分の手札かトラッシュからパワー4000以下の特徴《革命軍》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
+  },
+  {
+    "uniqueId": "ST36-001_dummy.gif",
+    "cardNumber": "ST36-001",
+    "cardName": "キャベンディッシュ",
+    "furigana": "キャベンディッシュ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ドレスローザ",
+      "超新星",
+      "美しき海賊団"
+    ],
+    "block": 5,
+    "effectText": "【KO時】自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
+  },
+  {
+    "uniqueId": "ST36-002_dummy.gif",
+    "cardNumber": "ST36-002",
+    "cardName": "キラー",
+    "furigana": "キラー",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "超新星",
+      "キッド海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のリーダーが特徴《キッド海賊団》を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "【】相手のライフが3枚以下の場合、このカードを登場させる。",
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
+  },
+  {
+    "uniqueId": "ST36-003_dummy.gif",
+    "cardNumber": "ST36-003",
+    "cardName": "スクラッチメン・アプー",
+    "furigana": "スクラッチメン・アプー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "射",
+    "features": [
+      "超新星",
+      "オンエア海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "【】カード1枚を引き、自分の特徴《超新星》を持つリーダーを、このターン中、元々のパワー7000にする。",
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
+  },
+  {
+    "uniqueId": "ST36-004_dummy.gif",
+    "cardNumber": "ST36-004",
+    "cardName": "バルトロメオ",
+    "furigana": "バルトロメオ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ドレスローザ",
+      "超新星",
+      "バルトクラブ"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札から特徴《超新星》を持つカード1枚を捨てることができる：カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
+  },
+  {
+    "uniqueId": "ST36-005_dummy.gif",
+    "cardNumber": "ST36-005",
+    "cardName": "ユースタス・キッド",
+    "furigana": "ユースタス・キッド",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "超新星",
+      "キッド海賊団"
+    ],
+    "block": 5,
+    "effectText": "【相手のアタック時】【ターン1回】自分のライフの上か下から1枚を裏向きにできる：アタックの対象を自分の元々のパワー5000以上の「ユースタス・キッド」にする。【起動メイン】【ターン1回】自分のライフの上か下から1枚を表向きにできる：自分のリーダーにレストのドン!!1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
   }
 ]

@@ -20,11 +20,11 @@
       "光月家"
     ],
     "block": 2,
-    "effectText": "ルール上、自分の特徴《ワノ国》を持ちカウンターを持たないキャラカードすべてはカウンター+1000を持つ。【ドン!!×1】【アタック時】自分のコスト5以上の特徴《ワノ国》を持つキャラがいる場合、このリーダーは、次の自分のターン開始時まで、パワー+1000。",
+    "effectText": "ルール上、自分の特徴《ワノ国》を持ちカウンターを持たないキャラカードすべてはカウンター+1000を持つ。【ドン‼×1】【アタック時】自分のコスト5以上の特徴《ワノ国》を持つキャラがいる場合、このリーダーは、次の自分のターン開始時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "メモリアルコレクション【EB-01】",
-    "seriesTitle": "メモリアルコレクション",
-    "seriesCode": "EB-01"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "EB01-002_dummy.gif",
@@ -150,9 +150,9 @@
     "block": 2,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ドン!!×2】【アタック時】相手のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "メモリアルコレクション【EB-01】",
-    "seriesTitle": "メモリアルコレクション",
-    "seriesCode": "EB-01"
+    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
+    "seriesTitle": "ONE PIECE CARD THE BEST",
+    "seriesCode": "PRB-01"
   },
   {
     "uniqueId": "EB01-007_dummy.gif",
@@ -535,11 +535,11 @@
       "インペルダウン"
     ],
     "block": 2,
-    "effectText": "【自分のターン終了時】自分のコスト2以上の特徴《インペルダウン》を持つキャラ1枚を持ち主の手札に戻すことができる：ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "effectText": "【自分のターン終了時】自分のコスト2以上の特徴《インペルダウン》を持つキャラ1枚を持ち主の手札に戻すことができる：ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "メモリアルコレクション【EB-01】",
-    "seriesTitle": "メモリアルコレクション",
-    "seriesCode": "EB-01"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "EB01-022_dummy.gif",
@@ -1022,9 +1022,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分のライフの上から1枚を表向きにできる：相手のコスト0のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "メモリアルコレクション【EB-01】",
-    "seriesTitle": "メモリアルコレクション",
-    "seriesCode": "EB-01"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "EB01-041_dummy.gif",
@@ -6657,12 +6657,12 @@
     "features": [
       "麦わらの一味"
     ],
-    "block": 1,
+    "block": "X",
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「ナミ」以外の特徴《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
+    "seriesCode": "ST-31"
   },
   {
     "uniqueId": "OP01-017_dummy.gif",
@@ -9384,9 +9384,9 @@
     "block": 1,
     "effectText": "【自分のターン終了時】自分のライフの上から1枚を手札に加える。",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-002_dummy.gif",
@@ -9461,9 +9461,9 @@
     "block": 1,
     "effectText": "【登場時】自分のリーダー1枚までを、次の自分のターン開始時まで、パワー+2000。その後、自分は、このターン中、自分の効果でライフを手札に加えられない。【ドン‼×2】【アタック時】相手のパワー3000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-005_dummy.gif",
@@ -9561,9 +9561,9 @@
     "block": 1,
     "effectText": "【ドン‼×1】自分のライフが2枚以下でかつ、自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-009_dummy.gif",
@@ -9686,9 +9686,9 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ2枚までを、このターン中、パワー-3000。その後、自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-014_dummy.gif",
@@ -9736,9 +9736,9 @@
     "block": 1,
     "effectText": "【起動メイン】このキャラをレストにできる：自分のコスト1の赤のキャラ1枚までを、このターン中、パワー+3000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-016_dummy.gif",
@@ -9811,9 +9811,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【KO時】自分の手札から『白ひげ海賊団』を含む特徴を持つカード1枚を捨てることができる：自分のライフが2枚以下の場合、このキャラカードをトラッシュからレストで登場させる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-019_dummy.gif",
@@ -9836,9 +9836,9 @@
     "block": 1,
     "effectText": "【ドン‼×1】【自分のターン中】自分の『白ひげ海賊団』を含む特徴を持つキャラすべてを、パワー+1000。",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-020_dummy.gif",
@@ -9939,9 +9939,9 @@
     "block": 1,
     "effectText": "【メイン】自分のライフが3以下の場合、自分は、このターン中、自分の効果でライフを手札に加えられない。",
     "trigger": "【】自分のリーダー1枚までを、このターン中、パワー+1000。",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-024_dummy.gif",
@@ -10069,9 +10069,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-029_dummy.gif",
@@ -10198,9 +10198,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-034_dummy.gif",
@@ -10223,11 +10223,11 @@
       "麦わらの一味"
     ],
     "block": 1,
-    "effectText": "【ドン!!×1】【アタック時】相手のコスト2以下のキャラ1枚までを、レストにする。",
+    "effectText": "【ドン‼×1】【アタック時】相手のコスト2以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-035_dummy.gif",
@@ -10250,11 +10250,11 @@
       "ハートの海賊団"
     ],
     "block": 1,
-    "effectText": "【起動メイン】➀(コストエリアのドン!!を指定の数レストにできる)，このキャラを持ち主の手札に戻すことができる：自分の手札からコスト3のキャラ1枚までを、登場させる。",
+    "effectText": "【起動メイン】➀(コストエリアのドン‼を指定の数レストにできる)，このキャラを持ち主の手札に戻すことができる：自分の手札からコスト3のキャラ1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-036_dummy.gif",
@@ -10304,9 +10304,9 @@
     "block": 1,
     "effectText": "【登場時】自分の手札からコスト2以下の特徴《FILM》か《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-038_dummy.gif",
@@ -10357,9 +10357,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-040_dummy.gif",
@@ -10383,9 +10383,9 @@
     "block": 1,
     "effectText": "【登場時】自分の手札からコスト3以下の特徴《FILM》か《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-041_dummy.gif",
@@ -10410,9 +10410,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の手札からコスト4以下の特徴《FILM》か《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-042_dummy.gif",
@@ -10462,9 +10462,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-044_dummy.gif",
@@ -10514,9 +10514,9 @@
     "block": 1,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+6000。その後、自分の手札からコスト3以下の元々の効果のないキャラカード1枚までを、登場させる。",
     "trigger": "【】相手のリーダーかコスト5以下のキャラ1枚までを、レストにする。",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-046_dummy.gif",
@@ -10746,9 +10746,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 ドンキホーテ・ドフラミンゴ【ST-17】",
-    "seriesTitle": "スタートデッキ 青 ドンキホーテ・ドフラミンゴ",
-    "seriesCode": "ST-17"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-055_dummy.gif",
@@ -10823,9 +10823,9 @@
     "block": 1,
     "effectText": "【登場時】自分のデッキの上から2枚を見て、特徴《王下七武海》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 ドンキホーテ・ドフラミンゴ【ST-17】",
-    "seriesTitle": "スタートデッキ 青 ドンキホーテ・ドフラミンゴ",
-    "seriesCode": "ST-17"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-058_dummy.gif",
@@ -11645,9 +11645,9 @@
     "block": 1,
     "effectText": "【カウンター】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手のリーダーかキャラ合計2枚までを、このターン中、パワー-3000。",
     "trigger": "【】相手の場にドン‼が6枚以上ある場合、相手は自身の場のドン‼1枚をドン‼デッキに戻す。",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-090_dummy.gif",
@@ -11745,9 +11745,9 @@
     "block": 1,
     "effectText": "【ドン‼×1】【起動メイン】【ターン1回】相手のキャラ1枚までを、このターン中、コスト-1。その後、コスト0のキャラがいる場合、このリーダーは、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 スモーカー【ST-19】",
-    "seriesTitle": "スタートデッキ 黒 スモーカー",
-    "seriesCode": "ST-19"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-094_dummy.gif",
@@ -11820,9 +11820,9 @@
     "block": 1,
     "effectText": "【登場時】カード1枚を引く。【アタック時】相手のキャラ1枚までを、このターン中、コスト-4。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-097_dummy.gif",
@@ -11870,9 +11870,9 @@
     "block": 1,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：相手のコスト3以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 スモーカー【ST-19】",
-    "seriesTitle": "スタートデッキ 黒 スモーカー",
-    "seriesCode": "ST-19"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-099_dummy.gif",
@@ -11895,9 +11895,9 @@
     "block": 1,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：相手のコスト5以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-100_dummy.gif",
@@ -12070,9 +12070,9 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-107_dummy.gif",
@@ -12121,9 +12121,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 スモーカー【ST-19】",
-    "seriesTitle": "スタートデッキ 黒 スモーカー",
-    "seriesCode": "ST-19"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-109_dummy.gif",
@@ -12147,9 +12147,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 スモーカー【ST-19】",
-    "seriesTitle": "スタートデッキ 黒 スモーカー",
-    "seriesCode": "ST-19"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-110_dummy.gif",
@@ -12247,9 +12247,9 @@
     "block": 1,
     "effectText": "【アタック時】相手のキャラ1枚までを、このターン中、コスト-2。その後、コスト0のキャラがいる場合、このキャラは、このバトル中、パワー+2000。",
     "trigger": "【】このカードを登場させる。",
-    "getInfo": "スタートデッキ 黒 スモーカー【ST-19】",
-    "seriesTitle": "スタートデッキ 黒 スモーカー",
-    "seriesCode": "ST-19"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-114_dummy.gif",
@@ -12272,9 +12272,9 @@
     "block": 1,
     "effectText": "【相手のターン中】このキャラは効果でKOされず、パワー+1000。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-115_dummy.gif",
@@ -12322,9 +12322,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 スモーカー【ST-19】",
-    "seriesTitle": "スタートデッキ 黒 スモーカー",
-    "seriesCode": "ST-19"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-117_dummy.gif",
@@ -12347,9 +12347,9 @@
     "block": 1,
     "effectText": "【メイン】相手のキャラ1枚までを、このターン中、コスト-5。",
     "trigger": "【】相手のコスト3以下のキャラ1枚までを、KOする。",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP02-118_dummy.gif",
@@ -12447,9 +12447,9 @@
     "block": 1,
     "effectText": "【自分のターン中】相手のキャラすべてをコスト-5。【登場時】相手のコスト0のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "頂上決戦【OP-02】",
+    "seriesTitle": "頂上決戦",
+    "seriesCode": "OP-02"
   },
   {
     "uniqueId": "OP03-001_dummy.gif",
@@ -12598,9 +12598,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "強大な敵【OP-03】",
+    "seriesTitle": "強大な敵",
+    "seriesCode": "OP-03"
   },
   {
     "uniqueId": "OP03-007_dummy.gif",
@@ -12624,9 +12624,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "強大な敵【OP-03】",
+    "seriesTitle": "強大な敵",
+    "seriesCode": "OP-03"
   },
   {
     "uniqueId": "OP03-008_dummy.gif",
@@ -12672,11 +12672,11 @@
       "白ひげ海賊団"
     ],
     "block": 1,
-    "effectText": "【起動メイン】【ターン1回】自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "effectText": "【起動メイン】【ターン1回】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "強大な敵【OP-03】",
+    "seriesTitle": "強大な敵",
+    "seriesCode": "OP-03"
   },
   {
     "uniqueId": "OP03-010_dummy.gif",
@@ -12699,9 +12699,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "強大な敵【OP-03】",
+    "seriesTitle": "強大な敵",
+    "seriesCode": "OP-03"
   },
   {
     "uniqueId": "OP03-011_dummy.gif",
@@ -18638,11 +18638,11 @@
       "革命軍"
     ],
     "block": 2,
-    "effectText": "【ドン!!×1】【相手のターン中】【ターン1回】自分のパワー5000以上のキャラがKOされる場合、そのキャラはKOされる代わりに、このターン中、パワー-1000できる。",
+    "effectText": "【ドン‼×1】【相手のターン中】【ターン1回】自分のパワー5000以上のキャラがKOされる場合、そのキャラはKOされる代わりに、このターン中、パワー-1000できる。",
     "trigger": "",
-    "getInfo": "新時代の主役【OP-05】",
-    "seriesTitle": "新時代の主役",
-    "seriesCode": "OP-05"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP05-002_dummy.gif",
@@ -18666,9 +18666,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分の手札から特徴《革命軍》を持つカード1枚を捨てることができる：自分の特徴《革命軍》か【トリガー】を持つキャラ3枚までを、このターン中、パワー+3000。",
     "trigger": "",
-    "getInfo": "新時代の主役【OP-05】",
-    "seriesTitle": "新時代の主役",
-    "seriesCode": "OP-05"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP05-003_dummy.gif",
@@ -19173,9 +19173,9 @@
     "block": 2,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【自分のターン終了時】自分の手札が6枚以下の場合、このリーダーをアクティブにする。",
     "trigger": "",
-    "getInfo": "新時代の主役【OP-05】",
-    "seriesTitle": "新時代の主役",
-    "seriesCode": "OP-05"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP05-023_dummy.gif",
@@ -20131,9 +20131,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分のライフの上から1枚を手札に加えることができる：自分の場のドン‼が0枚か、3枚以上ある場合、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP05-061_dummy.gif",
@@ -20154,11 +20154,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【ドン‼×1】【アタック時】自分の場にドン‼が8枚以上ある場合、相手のコスト4以下のキャラ1枚までを、レストにする。",
+    "effectText": "【ドン!!×1】【アタック時】自分の場にドン!!が8枚以上ある場合、相手のコスト4以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-062_dummy.gif",
@@ -20204,11 +20204,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【登場時】自分の場にドン‼が8枚以上ある場合、相手のコスト3以下のキャラ1枚までを、KOする。",
+    "effectText": "【登場時】自分の場にドン!!が8枚以上ある場合、相手のコスト3以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-064_dummy.gif",
@@ -20280,11 +20280,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【相手のターン中】自分の場にドン‼が10枚ある場合、このキャラはパワー+1000。",
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【相手のターン中】自分の場にドン!!が10枚ある場合、このキャラはパワー+1000。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-067_dummy.gif",
@@ -20305,11 +20305,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【アタック時】自分のライフが3枚以下の場合、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
+    "effectText": "【アタック時】自分のライフが3枚以下の場合、ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-068_dummy.gif",
@@ -20331,11 +20331,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【登場時】自分の場にドン‼が8枚以上ある場合、自分のパワー6000以下の紫の特徴《麦わらの一味》を持つキャラ1枚までを、アクティブにする。",
+    "effectText": "【登場時】自分の場にドン!!が8枚以上ある場合、自分のパワー6000以下の紫の特徴《麦わらの一味》を持つキャラ1枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-069_dummy.gif",
@@ -20381,11 +20381,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【ドン‼×1】自分の場にドン‼が8枚以上ある場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
+    "effectText": "【ドン!!×1】自分の場にドン!!が8枚以上ある場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-071_dummy.gif",
@@ -20432,11 +20432,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【登場時】自分の場にドン‼が8枚以上ある場合、相手のキャラ2枚までを、このターン中、パワー-2000。",
+    "effectText": "【登場時】自分の場にドン!!が8枚以上ある場合、相手のキャラ2枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-073_dummy.gif",
@@ -20534,9 +20534,9 @@
     "block": 2,
     "effectText": "【メイン】自分のデッキの上から3枚を見て、特徴《麦わらの一味》か《キッド海賊団》か《ハートの海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
-    "seriesTitle": "スタートデッキ 紫 モンキー・D・ルフィ",
-    "seriesCode": "ST-18"
+    "getInfo": "新時代の主役【OP-05】",
+    "seriesTitle": "新時代の主役",
+    "seriesCode": "OP-05"
   },
   {
     "uniqueId": "OP05-077_dummy.gif",
@@ -21089,9 +21089,9 @@
     "block": 2,
     "effectText": "【相手のターン中】【ターン1回】自分のライフが0枚になった時、自分のデッキの上から1枚を、ライフの上に加える。その後、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "新時代の主役【OP-05】",
-    "seriesTitle": "新時代の主役",
-    "seriesCode": "OP-05"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP05-099_dummy.gif",
@@ -21646,11 +21646,11 @@
       "FILM"
     ],
     "block": 2,
-    "effectText": "【アタック時】自分の手札の特徴《FILM》を持つカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-2000。その後、ドン !!デッキからドン !!1枚までを、レストで追加する。",
+    "effectText": "【アタック時】自分の手札の特徴《FILM》を持つカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-2000。その後、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "双璧の覇者【OP-06】",
-    "seriesTitle": "双璧の覇者",
-    "seriesCode": "OP-06"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP06-002_dummy.gif",
@@ -22139,11 +22139,11 @@
       "新魚人海賊団"
     ],
     "block": 2,
-    "effectText": "【起動メイン】このリーダーをレストにできる：相手の、コスト3以下のキャラかドン !!1枚までを、レストにする。その後、自分は、このターン中、自分の効果でライフを手札に加えられない。",
+    "effectText": "【起動メイン】このリーダーをレストにできる：相手の、コスト3以下のキャラかドン‼1枚までを、レストにする。その後、自分は、このターン中、自分の効果でライフを手札に加えられない。",
     "trigger": "",
-    "getInfo": "双璧の覇者【OP-06】",
-    "seriesTitle": "双璧の覇者",
-    "seriesCode": "OP-06"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP06-021_dummy.gif",
@@ -22167,9 +22167,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】以下から1つを選ぶ。・相手のコスト4以下のキャラ1枚までを、レストにする。・相手のキャラ1枚までを、このターン中、コスト-1。",
     "trigger": "",
-    "getInfo": "双璧の覇者【OP-06】",
-    "seriesTitle": "双璧の覇者",
-    "seriesCode": "OP-06"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP06-022_dummy.gif",
@@ -22193,9 +22193,9 @@
     "block": 2,
     "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)【起動メイン】【ターン1回】相手のライフが3枚以下の場合、自分のキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "双璧の覇者【OP-06】",
-    "seriesTitle": "双璧の覇者",
-    "seriesCode": "OP-06"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP06-023_dummy.gif",
@@ -22707,11 +22707,11 @@
       "ジェルマ66"
     ],
     "block": 2,
-    "effectText": "【自分のターン中】【ターン1回】自分の場のドン !!がドン !!デッキに戻された時、カード1枚を引く。",
+    "effectText": "【自分のターン中】【ターン1回】自分の場のドン‼がドン‼デッキに戻された時、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "双璧の覇者【OP-06】",
-    "seriesTitle": "双璧の覇者",
-    "seriesCode": "OP-06"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP06-043_dummy.gif",
@@ -23678,11 +23678,11 @@
       "スリラーバーク海賊団"
     ],
     "block": 2,
-    "effectText": "【ドン !!×1】【アタック時】➁(コストエリアのドン !!を指定の数レストにできる),自分の手札1枚を捨てることができる：自分のデッキの上から2枚をトラッシュに置き、自分のトラッシュのコスト4以下の特徴《スリラーバーク海賊団》を持つキャラカード1枚までを、登場させる。",
+    "effectText": "【ドン‼×1】【アタック時】➁(コストエリアのドン‼を指定の数レストにできる),自分の手札1枚を捨てることができる：自分のデッキの上から2枚をトラッシュに置き、自分のトラッシュのコスト4以下の特徴《スリラーバーク海賊団》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "双璧の覇者【OP-06】",
-    "seriesTitle": "双璧の覇者",
-    "seriesCode": "OP-06"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP06-081_dummy.gif",
@@ -24702,9 +24702,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分の付与されているドン‼合計2枚までを、自分のキャラ1枚に付与する。",
     "trigger": "",
-    "getInfo": "500年後の未来【OP-07】",
-    "seriesTitle": "500年後の未来",
-    "seriesCode": "OP-07"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP07-002_dummy.gif",
@@ -25652,9 +25652,9 @@
     "block": 2,
     "effectText": "【自分のターン中】【ターン1回】キャラが自分の効果で場を離れた時、発動できる。自分の手札が5枚以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "500年後の未来【OP-07】",
-    "seriesTitle": "500年後の未来",
-    "seriesCode": "OP-07"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP07-039_dummy.gif",
@@ -26187,9 +26187,9 @@
     "block": 2,
     "effectText": "【アタック時】ドン‼-3(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：自分の特徴《フォクシー海賊団》を持つキャラが3枚以上いる場合、相手のレストの、リーダーとキャラ1枚までを選ぶ。選んだカードは次の相手のリフレッシュフェイズでアクティブにならない。",
     "trigger": "",
-    "getInfo": "500年後の未来【OP-07】",
-    "seriesTitle": "500年後の未来",
-    "seriesCode": "OP-07"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP07-060_dummy.gif",
@@ -26695,9 +26695,9 @@
     "block": 2,
     "effectText": "【アタック時】自分のデッキの上から2枚をトラッシュに置くことができる：相手のキャラ1枚までを、このターン中、コスト-1。",
     "trigger": "",
-    "getInfo": "500年後の未来【OP-07】",
-    "seriesTitle": "500年後の未来",
-    "seriesCode": "OP-07"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP07-080_dummy.gif",
@@ -27149,9 +27149,9 @@
     "block": 2,
     "effectText": "このリーダーはアタックできない。【起動メイン】【ターン1回】①(コストエリアのドン‼を指定の数レストにできる)：自分の手札からコスト5以下の特徴《エッグヘッド》を持つカード1枚までを、ライフの上に表向きで加えるか登場させる。",
     "trigger": "",
-    "getInfo": "500年後の未来【OP-07】",
-    "seriesTitle": "500年後の未来",
-    "seriesCode": "OP-07"
+    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
+    "seriesTitle": "エクストラブースター Anime 25th collection",
+    "seriesCode": "EB-02"
   },
   {
     "uniqueId": "OP07-098_dummy.gif",
@@ -27748,9 +27748,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分の特徴《動物》か《ドラム王国》を持つキャラ3枚までにレストのドン‼1枚ずつまでを、付与する。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-002_dummy.gif",
@@ -27774,9 +27774,9 @@
     "block": 2,
     "effectText": "【ドン‼×1】【起動メイン】【ターン1回】カード1枚を引き、自分の手札1枚をデッキの上か下に置く。その後、相手のキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-003_dummy.gif",
@@ -28232,9 +28232,9 @@
     "block": 2,
     "effectText": "【相手のターン中】自分の特徴《ドラム王国》を持つキャラすべてを、パワー+1000。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.2",
-    "seriesTitle": "プロモーションパックEX Vol.2",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-021_dummy.gif",
@@ -28257,9 +28257,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分の特徴《ミンク族》を持つキャラがいる場合、相手のコスト5以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-022_dummy.gif",
@@ -28308,9 +28308,9 @@
     "block": 2,
     "effectText": "【登場時】/【アタック時】相手のレストのコスト7以下のキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-024_dummy.gif",
@@ -28635,9 +28635,9 @@
     "block": 2,
     "effectText": "【メイン】相手のレストのコスト7以下のキャラすべては、次の相手のリフレッシュフェイズでアクティブにならない。",
     "trigger": "【】相手のキャラ1枚までを、レストにする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-037_dummy.gif",
@@ -28736,9 +28736,9 @@
     "block": 2,
     "effectText": "【登場時】自分の手札から『白ひげ海賊団』を含む特徴を持つカード2枚を公開することができる：自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、相手のコスト4以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-041_dummy.gif",
@@ -28912,9 +28912,9 @@
     "block": 2,
     "effectText": "【登場時】このキャラ以外の自分のキャラ1枚を持ち主の手札に戻すことができる：コスト6以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.4",
-    "seriesTitle": "プロモーションパックEX Vol.4",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-048_dummy.gif",
@@ -29164,9 +29164,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】ドン‼-2(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：以下から1つを選ぶ。・自分の手札が5枚以下の場合、カード1枚を引く。・相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-058_dummy.gif",
@@ -29190,9 +29190,9 @@
     "block": 2,
     "effectText": "【アタック時】自分のライフの上から2枚を表向きにできる：ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-059_dummy.gif",
@@ -29291,9 +29291,9 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のリーダーが特徴《ビッグ・マム海賊団》を持つ場合、自分の手札からコスト3以上でかつ、相手の場のドン‼の枚数以下のコストを持つ「シャーロット・カタクリ」1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "スタンダードバトルパックVol.11",
-    "seriesTitle": "スタンダードバトルパックVol.11",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-063_dummy.gif",
@@ -29416,9 +29416,9 @@
     "block": 2,
     "effectText": "【自分のターン中】【ターン1回】自分の場のドン‼がドン‼デッキに戻された時、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-068_dummy.gif",
@@ -29467,9 +29467,9 @@
     "block": 2,
     "effectText": "【登場時】ドン‼-1,自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。その後、相手のコスト6以下のキャラ1枚までを、相手のライフの上か下に表向きで加える。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-070_dummy.gif",
@@ -29592,9 +29592,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分のキャラの他の「ブラックマリア」がいない場合、ドン‼デッキからドン‼5枚までを、レストで追加する。その後、このターン終了時、相手の場のドン‼の枚数と同じ枚数になるように自分の場のドン‼をドン‼デッキに戻す。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-075_dummy.gif",
@@ -29643,9 +29643,9 @@
     "block": 2,
     "effectText": "【メイン】ドン‼デッキからドン‼1枚までを、アクティブで追加する。その後、相手のパワー6000以上のキャラがいる場合、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "【】ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-077_dummy.gif",
@@ -29847,9 +29847,9 @@
     "block": 2,
     "effectText": "このキャラのコスト+4。【起動メイン】このキャラをレストにできる：カード1枚を引き、自分の手札1枚を捨てる。その後、相手のコスト3以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2024 10月ベスト8記念品",
-    "seriesTitle": "フラッグシップバトル2024 10月ベスト8記念品",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-085_dummy.gif",
@@ -29925,9 +29925,9 @@
     "block": 2,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【起動メイン】【ターン1回】相手のキャラ1枚までを、このターン中、コスト-1。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-088_dummy.gif",
@@ -30208,9 +30208,9 @@
     "block": 2,
     "effectText": "【ドン‼×1】【アタック時】自分の手札から自分の場のドン‼の枚数以下のコストを持ち、特徴《シャンドラの戦士》を持つキャラカード1枚までを、登場させる。登場させた場合、自分のライフの上から1枚を手札に加える。",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-099_dummy.gif",
@@ -30235,9 +30235,9 @@
     "block": 2,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-100_dummy.gif",
@@ -30388,9 +30388,9 @@
     "block": 2,
     "effectText": "【ドン‼×1】【自分のターン中】【ターン1回】相手のライフが離れた時、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-106_dummy.gif",
@@ -30414,9 +30414,9 @@
     "block": 2,
     "effectText": "【登場時】自分の手札から【トリガー】を持つカード1枚を捨てることができる：相手のコスト5以下のキャラ1枚までを、KOする。その後、自分の手札が3枚以下の場合、カード1枚を引く。",
     "trigger": "【】このカードの【登場時】効果を発動する。",
-    "getInfo": "シリアルナンバー入りナミ ゲットキャンペーン",
-    "seriesTitle": "シリアルナンバー入りナミ ゲットキャンペーン",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-107_dummy.gif",
@@ -30518,9 +30518,9 @@
     "block": 2,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「アッパーヤード」1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置き、自分の手札から「アッパーヤード」1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "スタンダードバトルパックVol.10",
-    "seriesTitle": "スタンダードバトルパックVol.10",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-111_dummy.gif",
@@ -30725,9 +30725,9 @@
     "block": 2,
     "effectText": "【登場時】相手のキャラ2枚までを選び、次の相手のターン終了時まで、1枚をパワー-3000し、残りをパワー-2000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 二つの伝説【OP-08】",
+    "seriesTitle": "ブースターパック 二つの伝説",
+    "seriesCode": "OP-08"
   },
   {
     "uniqueId": "OP08-119_dummy.gif",
@@ -30803,9 +30803,9 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、特徴《赤髪海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-003_dummy.gif",
@@ -30854,9 +30854,9 @@
     "block": 3,
     "effectText": "相手のキャラすべてを、パワー-1000。【速攻】(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-005_dummy.gif",
@@ -30879,9 +30879,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】相手の元々のパワー5000以上のキャラが2枚以上いる場合、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-006_dummy.gif",
@@ -30954,9 +30954,9 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラを持ち主のデッキの下に置くことができる：相手のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-009_dummy.gif",
@@ -30979,9 +30979,9 @@
     "block": 3,
     "effectText": "【登場時】相手のパワー6000以下のキャラ1枚までを、トラッシュに置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-010_dummy.gif",
@@ -31437,9 +31437,9 @@
     "block": 3,
     "effectText": "【アタック時】【ターン1回】自分のレストのキャラが3枚以上いる場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-028_dummy.gif",
@@ -31597,9 +31597,9 @@
     "block": 3,
     "effectText": "【登場時】自分のレストのキャラが2枚以上いる場合、自分の特徴《ODYSSEY》か《麦わらの一味》を持つキャラすべては、次の相手のターン終了時まで、効果でKOされない。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-034_dummy.gif",
@@ -31623,9 +31623,9 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、特徴《スリラーバーク海賊団》を持つカードか「ジュラキュール・ミホーク」1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "Vジャンプ10月特大号 応募者全員サービス",
-    "seriesTitle": "Vジャンプ10月特大号 応募者全員サービス",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-035_dummy.gif",
@@ -31649,9 +31649,9 @@
     "block": 3,
     "effectText": "【登場時】自分のレストのキャラが2枚以上いる場合、相手のコスト5以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 緑黄 ヤマト【ST-28】",
-    "seriesTitle": "スタートデッキ 緑黄 ヤマト",
-    "seriesCode": "ST-28"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-036_dummy.gif",
@@ -31833,9 +31833,9 @@
     "block": 3,
     "effectText": "【起動メイン】自分のドン‼5枚をレストにし、自分の手札1枚を捨てることができる：自分の手札から特徴《クロスギルド》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-043_dummy.gif",
@@ -31858,9 +31858,9 @@
     "block": 3,
     "effectText": "【KO時】自分のリーダーが特徴《クロスギルド》を持つ場合、自分の手札から「アルビダ」以外のコスト5以下のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 バギー【ST-25】",
-    "seriesTitle": "スタートデッキ 青 バギー",
-    "seriesCode": "ST-25"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-044_dummy.gif",
@@ -31909,9 +31909,9 @@
     "block": 3,
     "effectText": "自分のキャラの、「バギー」か「モージ」がいる場合、このキャラはバトルでKOされない。",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 バギー【ST-25】",
-    "seriesTitle": "スタートデッキ 青 バギー",
-    "seriesCode": "ST-25"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-046_dummy.gif",
@@ -31935,9 +31935,9 @@
     "block": 3,
     "effectText": "【登場時】自分の手札からコスト5以下の、特徴《クロスギルド》か『B・W』を含む特徴を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-047_dummy.gif",
@@ -31986,9 +31986,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-049_dummy.gif",
@@ -32036,9 +32036,9 @@
     "block": 3,
     "effectText": "【アタック時】自分のデッキの上から5枚を見て、青のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "始めようキャンペーン プロモーションパック",
-    "seriesTitle": "始めようキャンペーン プロモーションパック",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-051_dummy.gif",
@@ -32062,9 +32062,9 @@
     "block": 3,
     "effectText": "【登場時】相手のキャラ1枚までを、持ち主のデッキの下に置く。その後、自分のコスト5以上のキャラが5枚いない場合、このキャラを持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-052_dummy.gif",
@@ -32112,9 +32112,9 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「リッチー」1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置き、自分の手札から「リッチー」1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 バギー【ST-25】",
-    "seriesTitle": "スタートデッキ 青 バギー",
-    "seriesCode": "ST-25"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-054_dummy.gif",
@@ -32138,9 +32138,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 バギー【ST-25】",
-    "seriesTitle": "スタートデッキ 青 バギー",
-    "seriesCode": "ST-25"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-055_dummy.gif",
@@ -32164,9 +32164,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 青 バギー【ST-25】",
-    "seriesTitle": "スタートデッキ 青 バギー",
-    "seriesCode": "ST-25"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-056_dummy.gif",
@@ -32190,9 +32190,9 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から4枚を見て、「Mr.3(ギャルディーノ)」以外の、特徴《クロスギルド》か『B・W』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-057_dummy.gif",
@@ -32215,9 +32215,9 @@
     "block": 3,
     "effectText": "【メイン】自分のデッキの上から4枚を見て、特徴《クロスギルド》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-058_dummy.gif",
@@ -32317,9 +32317,9 @@
     "block": 3,
     "effectText": "【ドン‼×1】自分のキャラすべてを、コスト+1。【自分のターン中】【ターン1回】自分の場のドン!!が2枚以上ドン!!デッキに戻された時、ドン!!デッキから、ドン!!1枚までをアクティブで追加し、さらに1枚までをレストで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-062_dummy.gif",
@@ -32368,9 +32368,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 紫黒 モンキー・D・ルフィ【ST-26】",
-    "seriesTitle": "スタートデッキ 紫黒 モンキー・D・ルフィ",
-    "seriesCode": "ST-26"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-064_dummy.gif",
@@ -32418,9 +32418,9 @@
     "block": 3,
     "effectText": "【登場時】自分の場のドン‼を1枚以上ドン‼デッキに戻すことができる：このキャラは、このターン中、【速攻】を得る。その後、相手のコスト6以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-066_dummy.gif",
@@ -32520,9 +32520,9 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から4枚を見て、コスト2以上の、特徴《麦わらの一味》か《ハートの海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-070_dummy.gif",
@@ -32545,9 +32545,9 @@
     "block": 3,
     "effectText": "【登場時】自分の場のドン‼を1枚以上ドン‼デッキに戻すことができる：自分のリーダーかキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-071_dummy.gif",
@@ -32593,11 +32593,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】ドン‼-2,自分の手札1枚を捨てることができる：カード2枚を引く。",
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】ドン!!-2,自分の手札1枚を捨てることができる：カード2枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-073_dummy.gif",
@@ -32696,9 +32696,9 @@
     "block": 3,
     "effectText": "【登場時】自分の場のドン‼を1枚以上ドン‼デッキに戻すことができる：ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-077_dummy.gif",
@@ -32720,11 +32720,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【メイン】ドン‼-2(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手のパワー6000以下のキャラ1枚までを、KOする。",
-    "trigger": "【】ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "effectText": "【メイン】ドン!!-2(自分の場のドン!!を指定の数ドン!!デッキに戻すことができる)：相手のパワー6000以下のキャラ1枚までを、KOする。",
+    "trigger": "【】ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-078_dummy.gif",
@@ -32746,11 +32746,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【カウンター】ドン‼-2,自分の手札1枚を捨てることができる：自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。その後、カード2枚を引く。",
+    "effectText": "【カウンター】ドン!!-2,自分の手札1枚を捨てることができる：自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。その後、カード2枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-079_dummy.gif",
@@ -32772,11 +32772,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【メイン】ドン‼-2(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手のコスト5以下のキャラ1枚までを、レストにする。その後、カード1枚を引く。",
-    "trigger": "【】ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "effectText": "【メイン】ドン!!-2(自分の場のドン!!を指定の数ドン!!デッキに戻すことができる)：相手のコスト5以下のキャラ1枚までを、レストにする。その後、カード1枚を引く。",
+    "trigger": "【】ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-080_dummy.gif",
@@ -32825,9 +32825,9 @@
     "block": 3,
     "effectText": "自分の【登場時】効果は無効になる。【起動メイン】自分の手札1枚を捨てることができる：次の相手のターン終了時まで、相手の【登場時】効果は無効になる。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-082_dummy.gif",
@@ -32875,9 +32875,9 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラをレストにできる：自分のリーダーが特徴《黒ひげ海賊団》を持つ場合、相手のキャラ1枚までを、このターン中、コスト-3。【KO時】カード1枚を引く。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ【ST-27】",
-    "seriesTitle": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ",
-    "seriesCode": "ST-27"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-084_dummy.gif",
@@ -32900,9 +32900,9 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】自分のリーダーが特徴《黒ひげ海賊団》を持つ場合、このキャラは次の相手のターン終了時まで、【ダブルアタック】か【バニッシュ】か【ブロッカー】を得る。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-085_dummy.gif",
@@ -32950,9 +32950,9 @@
     "block": 3,
     "effectText": "このキャラは相手の効果でKOされない。自分のリーダーが特徴《黒ひげ海賊団》を持つ場合、このキャラは、自分のトラッシュ4枚につき、パワー+1000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-087_dummy.gif",
@@ -33000,9 +33000,9 @@
     "block": 3,
     "effectText": "【ドン‼×1】【アタック時】自分の手札2枚を捨てることができる：カード2枚を引く。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ【ST-27】",
-    "seriesTitle": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ",
-    "seriesCode": "ST-27"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-089_dummy.gif",
@@ -33026,9 +33026,9 @@
     "block": 3,
     "effectText": "【起動メイン】自分の手札1枚を捨て、このキャラをトラッシュに置くことができる：自分のリーダーが特徴《黒ひげ海賊団》を持つ場合、カード1枚を引く。その後、相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ【ST-27】",
-    "seriesTitle": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ",
-    "seriesCode": "ST-27"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-090_dummy.gif",
@@ -33051,9 +33051,9 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラをレストにできる：自分のリーダーが特徴《黒ひげ海賊団》を持つ場合、相手のコスト1以下のキャラ1枚までを、KOする。【KO時】カード1枚を引く。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ【ST-27】",
-    "seriesTitle": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ",
-    "seriesCode": "ST-27"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-091_dummy.gif",
@@ -33076,9 +33076,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ【ST-27】",
-    "seriesTitle": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ",
-    "seriesCode": "ST-27"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-092_dummy.gif",
@@ -33108,7 +33108,7 @@
   {
     "uniqueId": "OP09-093_dummy.gif",
     "cardNumber": "OP09-093",
-    "cardName": "マーシャル・Ｄ・ティーチ",
+    "cardName": "マーシャル・D・ティーチ",
     "furigana": "マーシャル・ディー・ティーチ",
     "rarity": "SR",
     "cardType": "CHARACTER",
@@ -33127,9 +33127,9 @@
     "block": 3,
     "effectText": "【ブロッカー】【起動メイン】【ターン1回】自分のリーダーが特徴《黒ひげ海賊団》を持ち、このキャラが登場したターンの場合、相手のリーダー1枚までを、このターン中、効果を無効にする。その後、相手のキャラ1枚までを、次の相手のターン終了時まで、効果を無効にし、そのキャラはアタックできない。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-094_dummy.gif",
@@ -33178,9 +33178,9 @@
     "block": 3,
     "effectText": "【起動メイン】自分のドン‼1枚とこのキャラをレストにできる：自分のデッキの上から5枚を見て、特徴《黒ひげ海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-096_dummy.gif",
@@ -33203,9 +33203,9 @@
     "block": 3,
     "effectText": "【メイン】自分のデッキの上から3枚を見て、「おれの時代だァ!!!!」以外の特徴《黒ひげ海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-097_dummy.gif",
@@ -33228,9 +33228,9 @@
     "block": 3,
     "effectText": "【カウンター】相手のリーダーかキャラ1枚までを、このターン中、効果を無効にし、パワー-4000。",
     "trigger": "【】相手のリーダーかキャラ1枚までを、このターン中、効果を無効にする。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-098_dummy.gif",
@@ -33253,9 +33253,9 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーが特徴《黒ひげ海賊団》を持つ場合、相手のキャラ1枚までを、このターン中、効果を無効にする。その後、そのキャラのコストが4以下の場合、KOする。",
     "trigger": "【】相手のリーダーかキャラ1枚までを、このターン中、効果を無効にする。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-099_dummy.gif",
@@ -33278,9 +33278,9 @@
     "block": 3,
     "effectText": "【起動メイン】自分の手札1枚を捨て、このステージをレストにできる：自分のデッキの上から3枚を見て、特徴《黒ひげ海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ【ST-27】",
-    "seriesTitle": "スタートデッキ 黒 マーシャル・Ｄ・ティーチ",
-    "seriesCode": "ST-27"
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-100_dummy.gif",
@@ -33454,9 +33454,9 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーの「ニコ・ロビン」1枚までを、このターン中、パワー+3000。",
     "trigger": "【】自分のリーダーが「ニコ・ロビン」の場合、カード3枚を引き、自分の手札2枚を捨てる。",
-    "getInfo": "始めようキャンペーン プロモーションパック",
-    "seriesTitle": "始めようキャンペーン プロモーションパック",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-107_dummy.gif",
@@ -33505,9 +33505,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "【】自分のリーダーが特徴《革命軍》を持ち、お互いのライフの合計枚数が5枚以下の場合、このカードを登場させる。",
-    "getInfo": "スタンダードバトルパックVol.12",
-    "seriesTitle": "スタンダードバトルパックVol.12",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-109_dummy.gif",
@@ -33736,9 +33736,9 @@
     "block": 3,
     "effectText": "【メイン】自分のデッキの上から5枚を見て、「デレシ!!」以外の【トリガー】を持つカード2枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】カード1枚を引く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 新たなる皇帝【OP-09】",
+    "seriesTitle": "ブースターパック 新たなる皇帝",
+    "seriesCode": "OP-09"
   },
   {
     "uniqueId": "OP09-118_dummy.gif",
@@ -33867,9 +33867,9 @@
     "block": 3,
     "effectText": "【自分のターン終了時】自分のパワー6000以上の特徴《ドンキホーテ海賊団》を持つキャラがいる場合、自分のドン‼1枚までを、アクティブにする。【相手のターン中】【ターン1回】自分がイベントを発動した時、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesTitle": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-004_dummy.gif",
@@ -34074,9 +34074,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【相手のターン中】このキャラのパワー+2000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-012_dummy.gif",
@@ -34255,9 +34255,9 @@
     "block": 3,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。その後、相手のリーダーかキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-019_dummy.gif",
@@ -34520,9 +34520,9 @@
     "block": 3,
     "effectText": "【起動メイン】自分のドン‼2枚をレストにし、このキャラをトラッシュに置くことができる：自分のデッキの上から5枚を見て、特徴《赤鞘九人男》を持つカード2枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-029_dummy.gif",
@@ -34624,9 +34624,9 @@
     "block": 3,
     "effectText": "「たしぎ」以外の自分の緑のキャラが相手の効果で場を離れる場合、代わりにこのキャラをレストにできる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-033_dummy.gif",
@@ -34887,11 +34887,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "自分のコスト2以上の特徴《ドレスローザ》を持つキャラすべてを、コスト+1。【相手のターン中】【ターン1回】自分の特徴《ドレスローザ》を持つキャラが相手の効果で場を離れた時かKOされた時、発動できる。自分の手札が5枚以下の場合、カード1枚を引く。",
+    "effectText": "自分のコスト2以上の特徴《ドレスローザ》を持つキャラすべてを、コスト+1。【相手のターン中】【ターン1回】自分の特徴《ドレスローザ》を持つキャラがKOされた時か、相手の効果で場を離れた時、発動できる。自分の手札が5枚以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム オフィシャルプレイマット リミテッドエディション vol.3",
-    "seriesTitle": "ONE PIECEカードゲーム オフィシャルプレイマット リミテッドエディション vol.3",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-043_dummy.gif",
@@ -34992,9 +34992,9 @@
     "block": 3,
     "effectText": "【登場時】コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-047_dummy.gif",
@@ -35070,9 +35070,9 @@
     "block": 3,
     "effectText": "「サボ」以外の自分の元々のコスト7以下のキャラが相手の効果で場を離れる場合、代わりにこのキャラを持ち主の手札に戻すことができる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-050_dummy.gif",
@@ -35835,11 +35835,11 @@
       "ドンキホーテ海賊団"
     ],
     "block": 3,
-    "effectText": "【メイン】相手のコスト5以下のキャラ1枚までを、KOする。その後、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "trigger": "【】ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "effectText": "【メイン】相手のコスト5以下のキャラ1枚までを、KOする。その後、ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "trigger": "【】ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-080_dummy.gif",
@@ -36174,9 +36174,9 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】自分のトラッシュから特徴《スリラーバーク海賊団》を持つカード2枚を好きな順番でデッキの下に置くことができる：自分の「ペローナ」以外のキャラ1枚までを、このターン中、パワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-093_dummy.gif",
@@ -36252,9 +36252,9 @@
     "block": 3,
     "effectText": "【登場時】自分の特徴《ドレスローザ》を持つ、リーダーかステージ1枚を、レストにできる：相手のコスト4以下のキャラ1枚までを、KOする。その後、自分のデッキの上から2枚をトラッシュに置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-096_dummy.gif",
@@ -36510,9 +36510,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-106_dummy.gif",
@@ -36588,9 +36588,9 @@
     "block": 3,
     "effectText": "「スクラッチメン・アプー」以外の自分の黄の特徴《超新星》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-109_dummy.gif",
@@ -36614,9 +36614,9 @@
     "block": 3,
     "effectText": "【KO時】相手のライフの上から1枚までを、トラッシュに置く。",
     "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-110_dummy.gif",
@@ -36691,9 +36691,9 @@
     "block": 3,
     "effectText": "【登場時】このキャラをレストにできる：相手のライフの上から1枚までを、トラッシュに置く。【自分のターン終了時】相手のライフが2枚以下の場合、カード1枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-113_dummy.gif",
@@ -36744,9 +36744,9 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラをレストにできる：自分のライフの枚数が相手のライフの枚数以下の場合、相手のコスト4以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP10-115_dummy.gif",
@@ -36876,9 +36876,9 @@
     "block": 3,
     "effectText": "【登場時】自分の手札から特徴《超新星》を持つキャラカード1枚までを公開し、ライフの上に裏向きで加える。その後、自分の特徴《超新星》を持つリーダー1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ブースターパック 王族の血統【OP-10】",
+    "seriesTitle": "ブースターパック 王族の血統",
+    "seriesCode": "OP-10"
   },
   {
     "uniqueId": "OP11-001_dummy.gif",
@@ -37132,9 +37132,9 @@
     "block": 3,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、パワー-2000。【アタック時】このキャラは、このターン中、パワー+1000。その後、自分の特徴《海軍》を持つリーダー1枚までは、このターン中、アクティブのキャラにもアタックできる。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "フラッグシップバトル2025 4月ベスト8記念品",
+    "seriesTitle": "フラッグシップバトル2025 4月ベスト8記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP11-011_dummy.gif",
@@ -38376,9 +38376,9 @@
     "block": 3,
     "effectText": "自分の手札が5枚以上ある場合、このキャラはアタックできない。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "プロモーションパックVol.8",
+    "seriesTitle": "プロモーションパックVol.8",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP11-059_dummy.gif",
@@ -38426,9 +38426,9 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーが多色の場合、自分のデッキの上から5枚を見て、「式をブッ壊そう!!!」以外の特徴《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP11-061_dummy.gif",
@@ -38474,11 +38474,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【アタック時】/【相手のアタック時】【ターン1回】ドン‼-1：相手のデッキの上から1枚を見る。その後、このリーダーは、このバトル中、パワー+1000。",
+    "effectText": "【アタック時】/【相手のアタック時】【ターン1回】ドン!!-1：相手のデッキの上から1枚を見る。その後、このリーダーは、このバトル中、パワー+1000。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-063_dummy.gif",
@@ -38551,9 +38551,9 @@
     "block": 3,
     "effectText": "「シャーロット・アナナ」以外の自分の紫の特徴《ビッグ・マム海賊団》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-066_dummy.gif",
@@ -38574,11 +38574,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【起動メイン】このキャラをレストにできる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、相手の元々のコスト3以下のキャラ1枚までを、KOする。その後、ドン‼デッキからドン‼1枚までを、レストで追加する。",
+    "effectText": "【起動メイン】このキャラをレストにできる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、相手の元々のコスト3以下のキャラ1枚までを、KOする。その後、ドン!!デッキからドン!!1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-067_dummy.gif",
@@ -38626,9 +38626,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-069_dummy.gif",
@@ -38699,11 +38699,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 3,
-    "effectText": "【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、カード1枚を引き、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
+    "effectText": "【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、カード1枚を引き、ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-072_dummy.gif",
@@ -38905,9 +38905,9 @@
     "block": 3,
     "effectText": "【カウンター】任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+5000。",
     "trigger": "【】カード1枚を引く。",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-080_dummy.gif",
@@ -38955,10 +38955,10 @@
     ],
     "block": 3,
     "effectText": "【メイン】任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、相手の元々のコスト8以下のキャラ1枚までを、KOする。",
-    "trigger": "【】ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "trigger": "【】ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "getInfo": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+    "seriesTitle": "スタートデッキ 紫 シャーロット・カタクリ",
+    "seriesCode": "ST-34"
   },
   {
     "uniqueId": "OP11-082_dummy.gif",
@@ -39336,9 +39336,9 @@
     "block": 3,
     "effectText": "「リッパー」以外の自分の黒の特徴《海軍》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "プロモーションパックVol.8",
+    "seriesTitle": "プロモーションパックVol.8",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP11-097_dummy.gif",
@@ -39927,9 +39927,9 @@
     "block": 3,
     "effectText": "【登場時】自分のキャラ1枚までは、このターン中、アクティブのキャラにもアタックできる。【アタック時】自分のトラッシュからカード2枚を好きな順番でデッキの下に置くことができる：自分のリーダーかキャラ1枚までを、次の相手のターン終了時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "ブースターパック 神速の拳【OP-11】",
-    "seriesTitle": "ブースターパック 神速の拳",
-    "seriesCode": "OP-11"
+    "getInfo": "フラッグシップバトル2025 4月優勝記念品",
+    "seriesTitle": "フラッグシップバトル2025 4月優勝記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP12-001_dummy.gif",
@@ -40080,9 +40080,9 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「モンキー・Ｄ・ルフィ」か赤のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "師弟の絆【OP-12】",
+    "seriesTitle": "師弟の絆",
+    "seriesCode": "OP-12"
   },
   {
     "uniqueId": "OP12-007_dummy.gif",
@@ -40436,11 +40436,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【ドン‼×3】【起動メイン】【ターン1回】このターン中、このリーダーが相手のキャラとバトルしている場合、このリーダーをアクティブにする。その後、このリーダーは、このターン中、相手の元々のコスト7以下のキャラへアタックできない。",
+    "effectText": "【ドン!!×3】【起動メイン】【ターン1回】このターン中、このリーダーが相手のキャラとバトルしている場合、このリーダーをアクティブにする。その後、このリーダーは、このターン中、相手の元々のコスト7以下のキャラへアタックできない。",
     "trigger": "",
-    "getInfo": "オフィシャルプレイマット リミテッドエディション vol.4",
-    "seriesTitle": "オフィシャルプレイマット リミテッドエディション vol.4",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-021_dummy.gif",
@@ -40517,9 +40517,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-024_dummy.gif",
@@ -40593,11 +40593,11 @@
       "シモツキ村"
     ],
     "block": 3,
-    "effectText": "【起動メイン】このキャラをレストにできる：相手の元々のコスト4以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン‼3枚までを、付与する。",
+    "effectText": "【起動メイン】このキャラをレストにできる：相手の元々のコスト4以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン!!3枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-027_dummy.gif",
@@ -40619,11 +40619,11 @@
       "シモツキ村"
     ],
     "block": 3,
-    "effectText": "このキャラ以外の自分のコスト5以下の属性(斬)を持つキャラが相手の効果でKOされる場合、代わりにこのキャラをレストにできる。【ブロッカー】",
+    "effectText": "このキャラ以外の自分のコスト5以下の属性 (斬)を持つキャラが相手の効果でKOされる場合、代わりにこのキャラをレストにできる。【ブロッカー】",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-028_dummy.gif",
@@ -40645,11 +40645,11 @@
       "光月家"
     ],
     "block": 3,
-    "effectText": "【起動メイン】自分のドン‼1枚とこのキャラをレストにできる：自分のリーダーが「ロロノア・ゾロ」の場合、自分のデッキの上から5枚を見て、属性(斬)を持つカードか緑のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "effectText": "【起動メイン】自分のドン!!1枚とこのキャラをレストにできる：自分のリーダーが「ロロノア・ゾロ」の場合、自分のデッキの上から5枚を見て、属性 (斬)を持つカードか緑のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-029_dummy.gif",
@@ -40724,11 +40724,11 @@
       "海軍"
     ],
     "block": 3,
-    "effectText": "【登場時】相手の元々のコスト6以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン‼3枚までを、付与する。",
+    "effectText": "【登場時】相手の元々のコスト6以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン!!3枚までを、付与する。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-032_dummy.gif",
@@ -40932,9 +40932,9 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーの「ロロノア・ゾロ」を、アクティブにする。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP12-040_dummy.gif",
@@ -41238,9 +41238,9 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラをレストにし、自分の手札1枚を捨てることができる：相手の元々のコスト4以下のキャラ1枚までは、このターン中、【ブロッカー】を発動できない。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "師弟の絆【OP-12】",
+    "seriesTitle": "師弟の絆",
+    "seriesCode": "OP-12"
   },
   {
     "uniqueId": "OP12-052_dummy.gif",
@@ -42235,9 +42235,9 @@
     "block": 3,
     "effectText": "【アタック時】自分のデッキの上から2枚をトラッシュに置くことができる：相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP12-091_dummy.gif",
@@ -42313,9 +42313,9 @@
     "block": 3,
     "effectText": "自分のリーダーが特徴《革命軍》を持つ場合、このキャラのコスト+4。",
     "trigger": "",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP12-094_dummy.gif",
@@ -42441,9 +42441,9 @@
     "block": 3,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のコスト8以上の特徴《革命軍》を持つキャラがいる場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】カード1枚を引き、自分のデッキの上から1枚をトラッシュに置く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 赤黒 サボ【ST-35】",
+    "seriesTitle": "スタートデッキ 赤黒 サボ",
+    "seriesCode": "ST-35"
   },
   {
     "uniqueId": "OP12-099_dummy.gif",
@@ -42787,7 +42787,7 @@
   {
     "uniqueId": "OP12-112_dummy.gif",
     "cardNumber": "OP12-112",
-    "cardName": "ベビー5",
+    "cardName": "ベビー５",
     "furigana": "ベビーファイブ",
     "rarity": "R",
     "cardType": "CHARACTER",
@@ -42805,9 +42805,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "【】自分のリーダーが多色の場合、カード2枚を引く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "師弟の絆【OP-12】",
+    "seriesTitle": "師弟の絆",
+    "seriesCode": "OP-12"
   },
   {
     "uniqueId": "OP12-113_dummy.gif",
@@ -42831,9 +42831,9 @@
     "block": 3,
     "effectText": "【KO時】自分のリーダーが特徴《超新星》を持つ場合、自分の手札からコスト4以下の特徴《超新星》を持つキャラカード1枚までを、レストで登場させる。",
     "trigger": "【】相手のコスト1以下のキャラ1枚までを、KOし、このカードを手札に加える。",
-    "getInfo": "師弟の絆【OP-12】",
-    "seriesTitle": "師弟の絆",
-    "seriesCode": "OP-12"
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
   },
   {
     "uniqueId": "OP12-114_dummy.gif",
@@ -43296,9 +43296,9 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から4枚を見て、コスト2以上の、特徴《アラバスタ王国》か《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "オフィシャルプレイマット ネフェルタリ・ビビ",
-    "seriesTitle": "オフィシャルプレイマット ネフェルタリ・ビビ",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-013_dummy.gif",
@@ -43941,9 +43941,9 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが特徴《FILM》か《麦わらの一味》を持つ場合、自分のドン‼2枚までを、アクティブにする。【自分のターン終了時】このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-038_dummy.gif",
@@ -44097,9 +44097,9 @@
     "block": 4,
     "effectText": "【登場時】自分のライフが3枚以下の場合、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-044_dummy.gif",
@@ -44603,9 +44603,9 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の付与されているドン‼がある場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-064_dummy.gif",
@@ -44833,9 +44833,9 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが『ロジャー海賊団』を含む特徴を持ち、自分の付与されているドン‼がある場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-073_dummy.gif",
@@ -45192,9 +45192,9 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚を見て、「シャルリア宮」以外の特徴《天竜人》を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-087_dummy.gif",
@@ -45346,9 +45346,9 @@
     "block": 4,
     "effectText": "【登場時】自分のライフが3枚以下の場合、自分のトラッシュからコスト1の特徴《聖地マリージョア》を持つステージカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesCode": ""
+    "getInfo": "受け継がれる意志【OP-13】",
+    "seriesTitle": "受け継がれる意志",
+    "seriesCode": "OP-13"
   },
   {
     "uniqueId": "OP13-093_dummy.gif",
@@ -46437,9 +46437,9 @@
     "block": 4,
     "effectText": "【ブロッカー】【登場時】自分のリーダーが特徴《超新星》を持つ場合、自分の手札からパワー2000以下の赤のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-015_dummy.gif",
@@ -46674,9 +46674,9 @@
     "block": 4,
     "effectText": "【自分のターン終了時】このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "スタンダードバトルパック Vol.15",
+    "seriesTitle": "スタンダードバトルパック Vol.15",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-024_dummy.gif",
@@ -46752,9 +46752,9 @@
     "block": 4,
     "effectText": "【相手のターン中】このキャラがレストの場合、このキャラのパワー+2000。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プロモーションパックVol.9",
+    "seriesTitle": "プロモーションパックVol.9",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-027_dummy.gif",
@@ -46932,9 +46932,9 @@
     "block": 4,
     "effectText": "【登場時】相手のコスト5以下のキャラ2枚までは、次の相手のエンドフェイズ終了時まで、レストにできない。【KO時】自分のカード1枚をレストにできる：自分の手札からコスト5以下の緑のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "エクストラグランドバトル2026 4月上位記念品",
+    "seriesTitle": "エクストラグランドバトル2026 4月上位記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-034_dummy.gif",
@@ -47036,9 +47036,9 @@
     "block": 4,
     "effectText": "【メイン】自分のカード3枚をレストにできる：相手のレストの元々のパワー7000以下のキャラ1枚までを、KOする。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-038_dummy.gif",
@@ -48220,9 +48220,9 @@
     "block": 4,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：相手のコスト0のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-084_dummy.gif",
@@ -48318,11 +48318,11 @@
       "B・W"
     ],
     "block": 4,
-    "effectText": "【登場時】自分のリーダーが『B・W』を含む特徴を持つ場合、デッキの上から4枚を見て、「ミス・バレンタイン(ミキータ)」以外の『B・W』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
+    "effectText": "【登場時】自分のリーダーが『B・W』を含む特徴を持つ場合、自分のデッキの上から4枚を見て、「ミス・バレンタイン(ミキータ)」以外の『B・W』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
     "trigger": "",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "スタンダードバトルパック Vol.15",
+    "seriesTitle": "スタンダードバトルパック Vol.15",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-088_dummy.gif",
@@ -48625,9 +48625,9 @@
     "block": 4,
     "effectText": "【メイン】自分のデッキの上から3枚を見て、「不服か？」以外の『B・W』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-100_dummy.gif",
@@ -48778,9 +48778,9 @@
     "block": 4,
     "effectText": "【起動メイン】【ターン1回】自分の手札から特徴《アマゾン・リリー》か《九蛇海賊団》を持つカード3枚を公開することができる：自分のリーダーとキャラすべてにレストのドン‼1枚ずつまでを、付与する。",
     "trigger": "【】自分のリーダーが特徴《九蛇海賊団》を持つ場合、このカードを登場させる。",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "スタンダードバトルパック Vol.15",
+    "seriesTitle": "スタンダードバトルパック Vol.15",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-106_dummy.gif",
@@ -48829,9 +48829,9 @@
     "block": 4,
     "effectText": "【登場時】相手のライフが3枚以下の場合、カード2枚を引き、自分の手札2枚を捨てる。",
     "trigger": "【】自分のリーダーが特徴《九蛇海賊団》を持つ場合、このカードを登場させる。",
-    "getInfo": "ブースターパック 蒼海の七傑【OP-14】",
-    "seriesTitle": "ブースターパック 蒼海の七傑",
-    "seriesCode": "OP-14"
+    "getInfo": "プロモーションパックVol.9",
+    "seriesTitle": "プロモーションパックVol.9",
+    "seriesCode": ""
   },
   {
     "uniqueId": "OP14-108_dummy.gif",
@@ -50092,9 +50092,9 @@
     "block": 4,
     "effectText": "【登場時】/【アタック時】相手のレストのコスト4以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
-    "seriesTitle": "ブースターパック 神の島の冒険",
-    "seriesCode": "OP-15"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "OP15-037_dummy.gif",
@@ -51094,9 +51094,9 @@
     "block": 4,
     "effectText": "【メイン】ドン‼-1：自分のリーダーが「エネル」の場合、自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。【カウンター】自分の「エネル」1枚までを、このバトル中、パワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
   },
   {
     "uniqueId": "OP15-076_dummy.gif",
@@ -51933,9 +51933,9 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《空島》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesCode": ""
+    "getInfo": "ブースターパック 神の島の冒険【OP-15】",
+    "seriesTitle": "ブースターパック 神の島の冒険",
+    "seriesCode": "OP-15"
   },
   {
     "uniqueId": "OP15-109_dummy.gif",
@@ -55290,8 +55290,8 @@
     "block": 1,
     "effectText": "【ドン!!×2】このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション 25周年エディション",
-    "seriesTitle": "プレミアムカードコレクション 25周年エディション",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022",
     "seriesCode": ""
   },
   {
@@ -55547,8 +55547,8 @@
     "block": 1,
     "effectText": "【起動メイン】【ターン1回】①(コストエリアのドン‼を指定の数レストにできる)：自分の元々の効果がないキャラ1枚までを、このターン中、パワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
     "seriesCode": ""
   },
   {
@@ -55677,8 +55677,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
     "seriesCode": ""
   },
   {
@@ -55837,8 +55837,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
     "seriesCode": ""
   },
   {
@@ -56068,8 +56068,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022 Vol.2",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022 Vol.2",
     "seriesCode": ""
   },
   {
@@ -56395,11 +56395,11 @@
       "革命軍"
     ],
     "block": 2,
-    "effectText": "【ドン‼×1】自分の手札が4枚以下の場合、このキャラはパワー+2000。",
+    "effectText": "【ドン!!×1】自分の手札が4枚以下の場合、このキャラはパワー+2000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "Vジャンプ10月特大号付録（2023年8月21日売）",
+    "seriesTitle": "Vジャンプ10月特大号付録（2023年8月21日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-045_dummy.gif",
@@ -56470,10 +56470,10 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【ドン‼×1】【アタック時】自分の手札が3枚以下の場合、カード1枚を引く。",
+    "effectText": "【ドン!!×1】【アタック時】自分の手札が3枚以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56496,10 +56496,10 @@
       "アーロン一味"
     ],
     "block": 2,
-    "effectText": "【ドン‼×1】【アタック時】自分のライフが4枚以上の場合、相手は自身の手札1枚をデッキの下に置く。",
+    "effectText": "【ドン!!×1】【アタック時】自分のライフが4枚以上の場合、相手は自身の手札1枚をデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56523,8 +56523,8 @@
     "block": 2,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56546,10 +56546,10 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ドン‼×1】【自分のターン中】自分の手札が3枚以下の場合、このキャラはパワー+4000。",
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ドン!!×1】【自分のターン中】自分の手札が3枚以下の場合、このキャラはパワー+4000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56573,8 +56573,8 @@
     "block": 2,
     "effectText": "【アタック時】自分の手札を任意の枚数捨ててもよい。捨てたカード1枚につき、このキャラは、このバトル中、パワー+1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56596,10 +56596,10 @@
       "王下七武海"
     ],
     "block": 2,
-    "effectText": "【ドン‼×1】このキャラは属性(斬)を持つカードとのバトルでKOされない。",
+    "effectText": "【ドン!!×1】このキャラは属性(斬)を持つカードとのバトルでKOされない。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56696,10 +56696,10 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【登場時】➁(コストエリアのドン‼を指定の数レストにできる)：コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
+    "effectText": "【登場時】➁(コストエリアのドン!!を指定の数レストにできる)：コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
     "seriesCode": ""
   },
   {
@@ -56724,9 +56724,9 @@
     "block": 2,
     "effectText": "【メイン】自分のリーダーが「ウタ」の場合、相手のレストのコスト4以下のキャラ2枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesTitle": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "P-058_dummy.gif",
@@ -56750,9 +56750,9 @@
     "block": 2,
     "effectText": "【メイン】自分のリーダーが「ウタ」の場合、このターン終了時、自分の特徴《FILM》を持つキャラすべてを、アクティブにする。",
     "trigger": "【】自分の特徴《FILM》を持つキャラすべてを、アクティブにする。",
-    "getInfo": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesTitle": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "P-059_dummy.gif",
@@ -56776,9 +56776,9 @@
     "block": 2,
     "effectText": "【カウンター】自分のリーダーが「ウタ」の場合、自分の場のキャラを任意の枚数手札に戻してもよい。自分のリーダーかキャラ1枚までは、このバトル中、戻したキャラ1枚につきパワー+2000。",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesTitle": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "P-060_dummy.gif",
@@ -56800,11 +56800,11 @@
       "FILM"
     ],
     "block": 2,
-    "effectText": "【メイン】自分の「ウタ」1枚をレストにできる：相手のドン!!2枚までを、レストにする。",
+    "effectText": "【メイン】自分の「ウタ」1枚をレストにできる：相手のドン‼2枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesTitle": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "P-061_dummy.gif",
@@ -56828,9 +56828,9 @@
     "block": 2,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesTitle": "『ONE PIECE FILM RED』入場者プレゼント アンコールパック",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "P-062_dummy.gif",
@@ -56880,9 +56880,9 @@
     "block": 2,
     "effectText": "【登場時】相手のコスト1以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "Vジャンプ1月特大号付録（2023年11月21日売）",
+    "seriesTitle": "Vジャンプ1月特大号付録（2023年11月21日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-064_dummy.gif",
@@ -57010,9 +57010,9 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のデッキの上から5枚を見て、好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "交流会 2024年3月開催記念品",
+    "seriesTitle": "交流会 2024年3月開催記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-069_dummy.gif",
@@ -57033,11 +57033,11 @@
       "革命軍"
     ],
     "block": 2,
-    "effectText": "【起動メイン】【ターン1回】自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
+    "effectText": "【起動メイン】【ターン1回】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "交流会 2024年5月開催記念品",
+    "seriesTitle": "交流会 2024年5月開催記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-070_dummy.gif",
@@ -57060,9 +57060,9 @@
     "block": 2,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "Vジャンプ7月特大号付録（2024年5月21日売）",
+    "seriesTitle": "Vジャンプ7月特大号付録（2024年5月21日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-071_dummy.gif",
@@ -57110,8 +57110,8 @@
     "block": 3,
     "effectText": "【登場時】/【KO時】相手のコスト4以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "『MONSTERS 一百三情飛龍侍極』セットBOX特典",
+    "seriesTitle": "『MONSTERS 一百三情飛龍侍極』セットBOX特典",
     "seriesCode": ""
   },
   {
@@ -57136,9 +57136,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分のライフの上か下から1枚を手札に加えることができる：このキャラは、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "最強ジャンプ5月号応募者全員サービス（2024年4月4日売）",
+    "seriesTitle": "最強ジャンプ5月号応募者全員サービス（2024年4月4日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-074_dummy.gif",
@@ -57161,14 +57161,14 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラを持ち主の手札に戻すことができる：自分のデッキの上から5枚を見て、好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "最強ジャンプ5月号応募者全員サービス（2024年4月4日売）",
+    "seriesTitle": "最強ジャンプ5月号応募者全員サービス（2024年4月4日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-075_dummy.gif",
     "cardNumber": "P-075",
-    "cardName": "モンキー・Ｄ・ルフィ",
+    "cardName": "モンキー・D・ルフィ",
     "furigana": "モンキー・ディー・ルフィ",
     "rarity": "P",
     "cardType": "CHARACTER",
@@ -57185,11 +57185,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。【アタック時】自分の場にコスト8以上のキャラがいる場合、カード1枚を引き、自分の手札1枚を捨てる。",
+    "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。【アタック時】自分の場にコスト8以上のキャラがいる場合、カード1枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "最強ジャンプ5月号応募者全員サービス（2024年4月4日売）",
+    "seriesTitle": "最強ジャンプ5月号応募者全員サービス（2024年4月4日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-076_dummy.gif",
@@ -57263,9 +57263,9 @@
     "block": 3,
     "effectText": "自分のレストの特徴《ODYSSEY》を持つキャラが2枚以上いる場合、このキャラのパワー+1000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ONE PIECE ODYSSEYデラックスエディション",
+    "seriesTitle": "ONE PIECE ODYSSEYデラックスエディション",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-079_dummy.gif",
@@ -57288,9 +57288,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【自分のターン終了時】自分のレストの特徴《ODYSSEY》を持つキャラが2枚以上いる場合、このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "ONE PIECE ODYSSEYデラックスエディション",
+    "seriesTitle": "ONE PIECE ODYSSEYデラックスエディション",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-080_dummy.gif",
@@ -57340,9 +57340,9 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラを持ち主の手札に戻すことができる：自分の青の特徴《クロスギルド》を持つキャラが3枚以上いる場合、自分の手札からコスト5の特徴《クロスギルド》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "Vジャンプ10月特大号付録（2024年8月21日売）",
+    "seriesTitle": "Vジャンプ10月特大号付録（2024年8月21日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-082_dummy.gif",
@@ -57366,9 +57366,9 @@
     "block": 3,
     "effectText": "【自分のターン中】【登場時】自分のリーダーが特徴《クロスギルド》か『B・W』を含む特徴を持つ場合、相手のパワー2000以下のキャラ1枚までを、持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "最強ジャンプ10月号付録（2024年9月4日売）",
+    "seriesTitle": "最強ジャンプ10月号付録（2024年9月4日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-083_dummy.gif",
@@ -57390,11 +57390,11 @@
       "赤髪海賊団"
     ],
     "block": 3,
-    "effectText": "【ドン‼×1】【アタック時】自分の手札からキャラカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-1000。その後、カード1枚を引く。",
+    "effectText": "【ドン!!×1】【アタック時】自分の手札からキャラカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-1000。その後、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "週刊少年ジャンプ付録（2024年10月7日売）",
+    "seriesTitle": "週刊少年ジャンプ付録（2024年10月7日売）",
+    "seriesCode": ""
   },
   {
     "uniqueId": "P-084_dummy.gif",
@@ -57444,9 +57444,9 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーが特徴《超新星》を持ち、自分のライフの枚数が相手のライフの枚数以下の場合、相手のコスト4以下のキャラ1枚までを、持ち主のライフの上か下に表向きで加える。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
   },
   {
     "uniqueId": "P-086_dummy.gif",
@@ -57521,9 +57521,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "【】自分のリーダーが特徴《超新星》を持ち、お互いのライフの合計枚数が5枚以下の場合、このカードを登場させる。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+    "seriesTitle": "スタートデッキ 黄 ユースタス・キッド",
+    "seriesCode": "ST-36"
   },
   {
     "uniqueId": "P-089_dummy.gif",
@@ -58599,9 +58599,9 @@
     "block": 3,
     "effectText": "【自分のターン中】【登場時】自分のリーダーが多色で、相手の場のドン‼が7枚以下の場合、次の相手のメインフェイズ開始時、相手は自身のアクティブのドン‼1枚をレストにする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "プロモーションパックEX Vol.4",
+    "seriesTitle": "プロモーションパックEX Vol.4",
+    "seriesCode": ""
   },
   {
     "uniqueId": "PRB02-006_dummy.gif",
@@ -58960,9 +58960,9 @@
     "block": 1,
     "effectText": "【起動メイン】【ターン1回】このリーダーか自分のキャラ1枚にレストのドン!!1枚までを付与する。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-002_dummy.gif",
@@ -58985,9 +58985,9 @@
     "block": 1,
     "effectText": "【ドン!!×2】【アタック時】相手は、このバトル中、パワー5000以上のキャラの【ブロッカー】を発動できない。",
     "trigger": "【】このカードを登場させる。",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-003_dummy.gif",
@@ -59011,9 +59011,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-004_dummy.gif",
@@ -59036,9 +59036,9 @@
     "block": 1,
     "effectText": "【ドン!!×2】このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-005_dummy.gif",
@@ -59062,9 +59062,9 @@
     "block": 1,
     "effectText": "【ドン!!×1】【アタック時】このキャラ以外の自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-006_dummy.gif",
@@ -59088,9 +59088,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-007_dummy.gif",
@@ -59113,9 +59113,9 @@
     "block": 1,
     "effectText": "【起動メイン】【ターン1回】自分のリーダーかキャラ1枚にレストのドン!!1枚までを付与する。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-008_dummy.gif",
@@ -59138,9 +59138,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-009_dummy.gif",
@@ -59163,9 +59163,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-010_dummy.gif",
@@ -59188,9 +59188,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-011_dummy.gif",
@@ -59213,9 +59213,9 @@
     "block": 1,
     "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン!!2枚までを付与する。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-012_dummy.gif",
@@ -59239,9 +59239,9 @@
     "block": 1,
     "effectText": "【速攻】(このカードは登場したターンにアタックできる)【ドン!!×2】【アタック時】相手は、このバトル中、【ブロッカー】を発動できない。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-013_dummy.gif",
@@ -59265,9 +59265,9 @@
     "block": 1,
     "effectText": "【ドン!!×1】このキャラのパワー+1000。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-014_dummy.gif",
@@ -59291,9 +59291,9 @@
     "block": 1,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-015_dummy.gif",
@@ -59317,9 +59317,9 @@
     "block": 1,
     "effectText": "【メイン】相手のパワー6000以下のキャラ1枚までを、KOする。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-016_dummy.gif",
@@ -59342,9 +59342,9 @@
     "block": 1,
     "effectText": "【メイン】自分の特徴《麦わらの一味》を持つ、リーダーかキャラ1枚までを選ぶ。相手は、このターン中、そのリーダーかキャラがアタックする場合【ブロッカー】を発動できない。",
     "trigger": "【】相手のコスト3以下の【ブロッカー】を持つキャラ1枚までを、KOする。",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST01-017_dummy.gif",
@@ -59367,9 +59367,9 @@
     "block": 1,
     "effectText": "【起動メイン】このステージをレストにできる：自分の特徴《麦わらの一味》を持つリーダーかキャラ1枚までを、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "麦わらの一味【ST-01】",
-    "seriesTitle": "麦わらの一味",
-    "seriesCode": "ST-01"
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST02-001_dummy.gif",
@@ -59470,9 +59470,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "最悪の世代【ST-02】",
+    "seriesTitle": "最悪の世代",
+    "seriesCode": "ST-02"
   },
   {
     "uniqueId": "ST02-005_dummy.gif",
@@ -59545,11 +59545,11 @@
       "ボニー海賊団"
     ],
     "block": 1,
-    "effectText": "【起動メイン】自分のドン‼1枚とこのキャラをレストにできる：自分のデッキの上から5枚を見て、特徴《超新星》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "effectText": "【起動メイン】①(コストエリアのドン!!を指定の数レストにできる)，このキャラをレストにできる：自分のデッキの上から5枚を見て、特徴《超新星》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "最悪の世代【ST-02】",
+    "seriesTitle": "最悪の世代",
+    "seriesCode": "ST-02"
   },
   {
     "uniqueId": "ST02-008_dummy.gif",
@@ -59884,9 +59884,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ドン!!×1】【ブロック時】コスト2以下のキャラ1枚までを、持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "王下七武海【ST-03】",
-    "seriesTitle": "王下七武海",
-    "seriesCode": "ST-03"
+    "getInfo": "スタンダードバトルパックVol.5",
+    "seriesTitle": "スタンダードバトルパックVol.5",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST03-004_dummy.gif",
@@ -59987,9 +59987,9 @@
     "block": 1,
     "effectText": "【ドン!!×1】【起動メイン】【ターン1回】②(コストエリアのドン!!を指定の数レストにできる)：自分のデッキからコスト4以下の「パシフィスタ」1枚までを、登場させ、デッキをシャッフルする。",
     "trigger": "",
-    "getInfo": "王下七武海【ST-03】",
-    "seriesTitle": "王下七武海",
-    "seriesCode": "ST-03"
+    "getInfo": "スタンダードバトルパック2022 Vol.2",
+    "seriesTitle": "スタンダードバトルパック2022 Vol.2",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST03-008_dummy.gif",
@@ -60169,9 +60169,9 @@
     "block": 1,
     "effectText": "【登場時】コスト3以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "王下七武海【ST-03】",
-    "seriesTitle": "王下七武海",
-    "seriesCode": "ST-03"
+    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.3",
+    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.3",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST03-015_dummy.gif",
@@ -60732,8 +60732,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼デッキからドン‼1枚までをレストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
     "seriesCode": ""
   },
   {
@@ -60783,8 +60783,8 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ブロック時】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手のコスト5以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
     "seriesCode": ""
   },
   {
@@ -61043,8 +61043,8 @@
     "block": 1,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「ブエナ・フェスタ」以外の特徴《FILM》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "ファミリーデッキセット",
+    "seriesTitle": "ファミリーデッキセット",
     "seriesCode": ""
   },
   {
@@ -61671,11 +61671,11 @@
       "ビッグ・マム海賊団"
     ],
     "block": 1,
-    "effectText": "【ドン‼×1】【アタック時】自分のライフの上か下から1枚を手札に加えることができる：自分のデッキの上から1枚までを、ライフの上に加える。",
+    "effectText": "【ドン!!×1】【アタック時】自分のライフの上か下から1枚を手札に加えることができる：自分のデッキの上から1枚までを、ライフの上に加える。",
     "trigger": "",
-    "getInfo": "スタートデッキ 黄 シャーロット・カタクリ【ST-20】",
-    "seriesTitle": "スタートデッキ 黄 シャーロット・カタクリ",
-    "seriesCode": "ST-20"
+    "getInfo": "ビッグ・マム海賊団【ST-07】",
+    "seriesTitle": "ビッグ・マム海賊団",
+    "seriesCode": "ST-07"
   },
   {
     "uniqueId": "ST07-006_dummy.gif",
@@ -61723,9 +61723,9 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "【】このカードを登場させる。",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "ビッグ・マム海賊団【ST-07】",
+    "seriesTitle": "ビッグ・マム海賊団",
+    "seriesCode": "ST-07"
   },
   {
     "uniqueId": "ST07-008_dummy.gif",
@@ -61902,9 +61902,9 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "スタートデッキ 黄 シャーロット・カタクリ【ST-20】",
-    "seriesTitle": "スタートデッキ 黄 シャーロット・カタクリ",
-    "seriesCode": "ST-20"
+    "getInfo": "ビッグ・マム海賊団【ST-07】",
+    "seriesTitle": "ビッグ・マム海賊団",
+    "seriesCode": "ST-07"
   },
   {
     "uniqueId": "ST07-015_dummy.gif",
@@ -62029,9 +62029,9 @@
     "block": 1,
     "effectText": "このキャラはリーダーとのバトルでKOされない。【起動メイン】このキャラをレストにできる：相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
-    "seriesCode": ""
+    "getInfo": "Side モンキー・D・ルフィ【ST-08】",
+    "seriesTitle": "Side モンキー・D・ルフィ",
+    "seriesCode": "ST-08"
   },
   {
     "uniqueId": "ST08-003_dummy.gif",
@@ -62709,9 +62709,9 @@
     "block": 1,
     "effectText": "【カウンター】自分のライフが2枚以下の場合、相手のリーダーかキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "【】自分の手札2枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。",
-    "getInfo": "ONE PIECE CARD THE BEST【PRB-01】",
-    "seriesTitle": "ONE PIECE CARD THE BEST",
-    "seriesCode": "PRB-01"
+    "getInfo": "Side ヤマト【ST-09】",
+    "seriesTitle": "Side ヤマト",
+    "seriesCode": "ST-09"
   },
   {
     "uniqueId": "ST09-015_dummy.gif",
@@ -62837,9 +62837,9 @@
     "block": 2,
     "effectText": "【登場時】相手のパワー5000以上のキャラがいる場合、このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "“三船長”集結【ST-10】",
-    "seriesTitle": "“三船長”集結",
-    "seriesCode": "ST-10"
+    "getInfo": "8パックバトル 2024年優勝記念品",
+    "seriesTitle": "8パックバトル 2024年優勝記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST10-005_dummy.gif",
@@ -62861,11 +62861,11 @@
       "麦わらの一味"
     ],
     "block": 2,
-    "effectText": "【ドン!!×1】【アタック時】相手のキャラ1枚までを、このターン中、パワー-2000。",
+    "effectText": "【ドン‼×1】【アタック時】相手のキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "“三船長”集結【ST-10】",
-    "seriesTitle": "“三船長”集結",
-    "seriesCode": "ST-10"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST10-006_dummy.gif",
@@ -62888,9 +62888,9 @@
     "block": 2,
     "effectText": "【速攻】(このカードは登場したターンにアタックできる)【ターン1回】相手が【ブロッカー】を発動した時、相手のパワー8000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "“三船長”集結【ST-10】",
-    "seriesTitle": "“三船長”集結",
-    "seriesCode": "ST-10"
+    "getInfo": "チャンピオンシップ2023 2次予選決勝大会 ベスト16記念品",
+    "seriesTitle": "チャンピオンシップ2023 2次予選決勝大会 ベスト16記念品",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST10-007_dummy.gif",
@@ -62936,11 +62936,11 @@
       "ハートの海賊団"
     ],
     "block": 2,
-    "effectText": "【登場時】自分の場のドン!!が3枚以下の場合、ドン!!デッキからドン!!2枚までを、レストで追加する。",
+    "effectText": "【登場時】自分の場のドン‼が3枚以下の場合、ドン‼デッキからドン‼2枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "“三船長”集結【ST-10】",
-    "seriesTitle": "“三船長”集結",
-    "seriesCode": "ST-10"
+    "getInfo": "スタンダードバトルパックVol.12",
+    "seriesTitle": "スタンダードバトルパックVol.12",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST10-009_dummy.gif",
@@ -63064,9 +63064,9 @@
     "block": 2,
     "effectText": "【登場時】/【アタック時】ドン!!-1(自分の場のドン!!を指定の数ドン!!デッキに戻すことができる)：自分のリーダー1枚までを、次の自分のターン開始時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "“三船長”集結【ST-10】",
-    "seriesTitle": "“三船長”集結",
-    "seriesCode": "ST-10"
+    "getInfo": "プロモーションパックEX Vol.1",
+    "seriesTitle": "プロモーションパックEX Vol.1",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST10-014_dummy.gif",
@@ -63187,11 +63187,11 @@
       "FILM"
     ],
     "block": 2,
-    "effectText": "【ドン!!×1】【アタック時】【ターン1回】自分のデッキの上から1枚を公開し、特徴《FILM》を持つカード1枚までを、手札に加える。その後、残りをデッキの下に置く。",
+    "effectText": "【ドン‼×1】【アタック時】【ターン1回】自分のデッキの上から1枚を公開し、特徴《FILM》を持つカード1枚までを、手札に加える。その後、残りをデッキの下に置く。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST11-002_dummy.gif",
@@ -63240,9 +63240,9 @@
     "block": 2,
     "effectText": "【メイン】自分のリーダーが「ウタ」の場合、以下から1つを選ぶ。・相手のコスト5以下のキャラ1枚までを、レストにする。・相手のレストのコスト5以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST11-004_dummy.gif",
@@ -63264,11 +63264,11 @@
       "FILM"
     ],
     "block": 2,
-    "effectText": "【メイン】自分のリーダーが「ウタ」の場合、自分のデッキの上から3枚を見て、「新時代」以外の特徴《FILM》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置き、自分のドン!!1枚までを、アクティブにする。",
+    "effectText": "【メイン】自分のリーダーが「ウタ」の場合、自分のデッキの上から3枚を見て、「新時代」以外の特徴《FILM》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置き、自分のドン‼1枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST11-005_dummy.gif",
@@ -63292,9 +63292,9 @@
     "block": 2,
     "effectText": "【メイン】自分のリーダーの「ウタ」1枚までを、アクティブにする。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "Side ウタ【ST-11】",
-    "seriesTitle": "Side ウタ",
-    "seriesCode": "ST-11"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST12-001_dummy.gif",
@@ -63828,9 +63828,9 @@
     "block": 2,
     "effectText": "【登場時】自分のデッキの上から1枚をライフの上に加える。その後、自分のライフすべてを見て、1枚を自分のデッキの上に置き、ライフを好きな順番で置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST13-005_dummy.gif",
@@ -63903,9 +63903,9 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のライフの上から1枚を公開し、そのカードがコスト5の「サボ」の場合、登場させてもよい。登場させた場合、自分のリーダー1枚までを、次の相手のターン終了時まで、パワー+2000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST13-008_dummy.gif",
@@ -63980,9 +63980,9 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のライフの上から1枚を公開し、そのカードがコスト5の「ポートガス・D・エース」の場合、登場させてもよい。登場させた場合、自分のリーダー1枚までを、次の相手のターン終了時まで、パワー+2000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST13-011_dummy.gif",
@@ -64030,9 +64030,9 @@
     "block": 2,
     "effectText": "【登場時】自分のライフの上か下から1枚を手札に加えることができる：自分のライフすべてを見て、好きな順番で置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesCode": ""
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST13-013_dummy.gif",
@@ -64062,7 +64062,7 @@
   {
     "uniqueId": "ST13-014_dummy.gif",
     "cardNumber": "ST13-014",
-    "cardName": "モンキー・Ｄ・ルフィ",
+    "cardName": "モンキー・D・ルフィ",
     "furigana": "モンキー・ディー・ルフィ",
     "rarity": "C",
     "cardType": "CHARACTER",
@@ -64078,11 +64078,11 @@
       "ゴア王国"
     ],
     "block": 2,
-    "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のライフの上から1枚を公開し、そのカードがコスト5の「モンキー・Ｄ・ルフィ」の場合、登場させてもよい。登場させた場合、自分のリーダー1枚までを、次の相手のターン終了時まで、パワー+2000。",
+    "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のライフの上から1枚を公開し、そのカードがコスト5の「モンキー・D・ルフィ」の場合、登場させてもよい。登場させた場合、自分のリーダー1枚までを、次の相手のターン終了時まで、パワー+2000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST13-015_dummy.gif",
@@ -64106,9 +64106,9 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】このキャラは、次の自分のターン開始時まで、パワー+2000。その後、自分のライフが1枚以上ある場合、カード1枚を引き、自分のライフの上から1枚をトラッシュに置く。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
-    "seriesCode": ""
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST13-016_dummy.gif",
@@ -64206,11 +64206,11 @@
       "ゴア王国"
     ],
     "block": 2,
-    "effectText": "【メイン】自分のデッキの上から5枚を見て、コスト5以下の、「サボ」か「ポートガス・D・エース」か「モンキー・Ｄ・ルフィ」1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "effectText": "【メイン】自分のデッキの上から5枚を見て、コスト5以下の、「サボ」か「ポートガス・D・エース」か「モンキー・D・ルフィ」1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "3兄弟の絆【ST-13】",
+    "seriesTitle": "3兄弟の絆",
+    "seriesCode": "ST-13"
   },
   {
     "uniqueId": "ST14-001_dummy.gif",
@@ -64385,9 +64385,9 @@
     "block": 2,
     "effectText": "【登場時】/【アタック時】自分のコスト8以上のキャラがいる場合、相手のキャラ1枚までを、このターン中、コスト-5。",
     "trigger": "",
-    "getInfo": "3D2Y【ST-14】",
-    "seriesTitle": "3D2Y",
-    "seriesCode": "ST-14"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST14-008_dummy.gif",
@@ -64460,9 +64460,9 @@
     "block": 2,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "3D2Y【ST-14】",
-    "seriesTitle": "3D2Y",
-    "seriesCode": "ST-14"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST14-011_dummy.gif",
@@ -64535,9 +64535,9 @@
     "block": 2,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "3D2Y【ST-14】",
-    "seriesTitle": "3D2Y",
-    "seriesCode": "ST-14"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST14-014_dummy.gif",
@@ -64610,9 +64610,9 @@
     "block": 2,
     "effectText": "【メイン】カード1枚を引く。その後、自分のキャラ1枚までを、次の相手のターン終了時まで、コスト+3。",
     "trigger": "【】相手のコスト3以下のキャラ1枚までを、KOする。",
-    "getInfo": "3D2Y【ST-14】",
-    "seriesTitle": "3D2Y",
-    "seriesCode": "ST-14"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST14-017_dummy.gif",
@@ -64635,9 +64635,9 @@
     "block": 2,
     "effectText": "自分の黒の特徴《麦わらの一味》を持つキャラすべてを、コスト+1。【登場時】自分のリーダーが特徴《麦わらの一味》を持つ場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "3D2Y【ST-14】",
-    "seriesTitle": "3D2Y",
-    "seriesCode": "ST-14"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST15-001_dummy.gif",
@@ -64684,11 +64684,11 @@
       "白ひげ海賊団"
     ],
     "block": 3,
-    "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。【起動メイン】このキャラをレストにできる：相手のパワー5000以下のキャラ1枚までを、KOする。",
+    "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。【起動メイン】このキャラをレストにできる：相手のパワー5000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
-    "seriesTitle": "スタートデッキ 赤 エドワード・ニューゲート",
-    "seriesCode": "ST-15"
+    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
+    "seriesCode": "PRB-02"
   },
   {
     "uniqueId": "ST15-003_dummy.gif",
@@ -64786,9 +64786,9 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【起動メイン】【ターン1回】自分の手札から特徴《FILM》を持つカード1枚を捨てることができる：自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesCode": ""
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST16-002_dummy.gif",
@@ -64837,9 +64837,9 @@
     "block": 3,
     "effectText": "自分のリーダーが特徴《FILM》を持ち、自分のレストのカードが6枚以上ある場合、このキャラのパワー+2000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST16-004_dummy.gif",
@@ -64864,14 +64864,14 @@
     "block": 3,
     "effectText": "【登場時】相手のレストのキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST16-005_dummy.gif",
     "cardNumber": "ST16-005",
-    "cardName": "モンキー・Ｄ・ルフィ",
+    "cardName": "モンキー・D・ルフィ",
     "furigana": "モンキー・ディー・ルフィ",
     "rarity": "C",
     "cardType": "CHARACTER",
@@ -64891,9 +64891,9 @@
     "block": 3,
     "effectText": "自分の「ウタ」がレストの場合、このキャラのパワー+1000。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD THE BEST vol.2【PRB-02】",
-    "seriesTitle": "ONE PIECE CARD THE BEST vol.2",
-    "seriesCode": "PRB-02"
+    "getInfo": "スタートデッキ 緑 ウタ【ST-16】",
+    "seriesTitle": "スタートデッキ 緑 ウタ",
+    "seriesCode": "ST-16"
   },
   {
     "uniqueId": "ST17-001_dummy.gif",
@@ -65404,7 +65404,7 @@
   {
     "uniqueId": "ST21-001_dummy.gif",
     "cardNumber": "ST21-001",
-    "cardName": "モンキー・Ｄ・ルフィ",
+    "cardName": "モンキー・D・ルフィ",
     "furigana": "モンキー・ディー・ルフィ",
     "rarity": "L",
     "cardType": "LEADER",
@@ -65421,11 +65421,11 @@
       "麦わらの一味"
     ],
     "block": 3,
-    "effectText": "【ドン!!×1】【起動メイン】【ターン1回】自分のキャラ1枚にレストのドン!!2枚までを、付与する。",
+    "effectText": "【ドン‼×1】【起動メイン】【ターン1回】自分のキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
-    "seriesTitle": "スタートデッキ 赤 モンキー・D・ルフィ",
-    "seriesCode": "ST-31"
+    "getInfo": "スタートデッキEX ギア5【ST-21】",
+    "seriesTitle": "スタートデッキEX ギア5",
+    "seriesCode": "ST-21"
   },
   {
     "uniqueId": "ST21-002_dummy.gif",
@@ -66523,9 +66523,9 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーが特徴《超新星》を持つ場合、相手のコスト5以下のキャラ1枚までを、レストにする。その後、このターン終了時、自分のドン!!1枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "スタートデッキ 緑 ジュエリー・ボニー【ST-24】",
-    "seriesTitle": "スタートデッキ 緑 ジュエリー・ボニー",
-    "seriesCode": "ST-24"
+    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
+    "seriesCode": "ST-32"
   },
   {
     "uniqueId": "ST25-001_dummy.gif",

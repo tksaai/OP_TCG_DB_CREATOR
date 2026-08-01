@@ -58449,6 +58449,86 @@
     "seriesCode": ""
   },
   {
+    "uniqueId": "P-155_dummy.gif",
+    "cardNumber": "P-155",
+    "cardName": "トラファルガー・ロー",
+    "furigana": "トラファルガー・ロー",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "超新星",
+      "ハートの海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分の手札から【トリガー】を持つカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "【】相手のライフが3枚以下の場合、このカードを登場させる。",
+    "getInfo": "交流会 2026年7月開催記念品",
+    "seriesTitle": "交流会 2026年7月開催記念品",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-157_dummy.gif",
+    "cardNumber": "P-157",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のトラッシュからコスト4以下の特徴《エルバフ》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "交流会 2026年9月開催記念品",
+    "seriesTitle": "交流会 2026年9月開催記念品",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-159_dummy.gif",
+    "cardNumber": "P-159",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【KO時】自分のリーダーに付与されているドン!!がある場合、自分の手札からパワー6000以下の特徴《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "週刊少年ジャンプ33号付録（2026年7月13日売）",
+    "seriesTitle": "週刊少年ジャンプ33号付録（2026年7月13日売）",
+    "seriesCode": ""
+  },
+  {
     "uniqueId": "PRB01-001_dummy.gif",
     "cardNumber": "PRB01-001",
     "cardName": "サンジ",

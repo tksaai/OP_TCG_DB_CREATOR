@@ -55269,6 +55269,3063 @@
     "seriesCode": ""
   },
   {
+    "uniqueId": "OP17-001_dummy.gif",
+    "cardNumber": "OP17-001",
+    "cardName": "エドワード・ニューゲート",
+    "furigana": "エドワード・ニューゲート",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【相手のアタック時】【ターン1回】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-002_dummy.gif",
+    "cardNumber": "OP17-002",
+    "cardName": "アトモス",
+    "furigana": "アトモス",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【相手のターン中】このキャラのパワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-003_dummy.gif",
+    "cardNumber": "OP17-003",
+    "cardName": "イゾウ",
+    "furigana": "イゾウ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "射",
+    "features": [
+      "ワノ国",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【速攻：キャラ】【登場時】自分のリーダーが「エドワード・ニューゲート」か特徴《ワノ国》を持つ場合、相手のレストのキャラ1枚までを、このターン中、パワー-6000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-004_dummy.gif",
+    "cardNumber": "OP17-004",
+    "cardName": "イヌアラシ＆ネコマムシ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ミンク族",
+      "ワノ国",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の特徴《ワノ国》か『白ひげ海賊団』を含む特徴を持つキャラ1枚までは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-005_dummy.gif",
+    "cardNumber": "OP17-005",
+    "cardName": "エドワード・ニューゲート",
+    "furigana": "エドワード・ニューゲート",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": "X",
+    "effectText": "手札のこのカードは、相手のパワー10000以上のキャラがいる場合、コスト-4。【登場時】自分の単色のリーダーを、次の相手のエンドフェイズ終了時まで、元々のパワー8000にする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-006_dummy.gif",
+    "cardNumber": "OP17-006",
+    "cardName": "キングデュー",
+    "furigana": "キングデュー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-007_dummy.gif",
+    "cardNumber": "OP17-007",
+    "cardName": "光月おでん",
+    "furigana": "コウヅキオデン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ワノ国",
+      "光月家",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが「エドワード・ニューゲート」か特徴《ワノ国》を持つ場合、自分の手札からパワー6000以下の、特徴《ワノ国》か『白ひげ海賊団』を含む特徴を持つキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-008_dummy.gif",
+    "cardNumber": "OP17-008",
+    "cardName": "ジョズ",
+    "furigana": "ジョズ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダー「エドワード・ニューゲート」を、次の相手のエンドフェイズ終了時まで、元々のパワー8000にする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-009_dummy.gif",
+    "cardNumber": "OP17-009",
+    "cardName": "ハルタ",
+    "furigana": "ハルタ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【相手のターン中】このキャラのパワー+3000。【登場時】相手の元々のパワー2000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-010_dummy.gif",
+    "cardNumber": "OP17-010",
+    "cardName": "フォッサ",
+    "furigana": "フォッサ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 3000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】相手のパワー10000以上のキャラがいて、自分の他の「フォッサ」がいない場合、このキャラは、次の相手のエンドフェイズ終了時まで、【ブロッカー】を得て、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-011_dummy.gif",
+    "cardNumber": "OP17-011",
+    "cardName": "ブラメンコ",
+    "furigana": "ブラメンコ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ドン!!×2】【アタック時】相手のキャラ1枚までを、このターン中、パワー-4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-012_dummy.gif",
+    "cardNumber": "OP17-012",
+    "cardName": "ブレンハイム",
+    "furigana": "ブレンハイム",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【KO時】自分の手札からコスト1の『白ひげ海賊団』を含む特徴を持つカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-013_dummy.gif",
+    "cardNumber": "OP17-013",
+    "cardName": "ポートガス・Ｄ・エース",
+    "furigana": "ポートガス・ディー・エース",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "手札のこのカードは、相手のパワー10000以上のキャラがいる場合、コスト-2。【登場時】自分のリーダーが「エドワード・ニューゲート」の場合、相手のレストのキャラ1枚までを、このターン中、パワー-6000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-014_dummy.gif",
+    "cardNumber": "OP17-014",
+    "cardName": "ホワイティベイ",
+    "furigana": "ホワイティベイ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "白ひげ海賊団傘下"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手の元々のパワー2000以下のキャラ1枚までを、KOする。【相手のアタック時】このキャラをトラッシュに置くことができる：自分のリーダーを、このバトル中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-015_dummy.gif",
+    "cardNumber": "OP17-015",
+    "cardName": "マルコ",
+    "furigana": "マルコ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分のキャラが相手の効果で場を離れる場合、代わりにこのキャラをKOできる。【KO時】自分の手札から『白ひげ海賊団』を含む特徴を持つカード1枚を捨てることができる：このキャラカードをトラッシュから登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-016_dummy.gif",
+    "cardNumber": "OP17-016",
+    "cardName": "ラクヨウ",
+    "furigana": "ラクヨウ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手の元々のパワー2000以下のキャラ2枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-017_dummy.gif",
+    "cardNumber": "OP17-017",
+    "cardName": "グララララララ!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】自分の『白ひげ海賊団』を含む特徴を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、相手のリーダーかキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-018_dummy.gif",
+    "cardNumber": "OP17-018",
+    "cardName": "世界を滅ぼす力",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!2枚をレストにできる：相手のステージ1枚までを、KOする。【カウンター】自分の元々のパワー8000以上のキャラが2枚以上いる場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-019_dummy.gif",
+    "cardNumber": "OP17-019",
+    "cardName": "ハナッたれとは話したくねェよアホンダラ",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のデッキの上から5枚を見て、『白ひげ海賊団』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "【】自分のリーダーを、このターン中、パワー+1000。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-020_dummy.gif",
+    "cardNumber": "OP17-020",
+    "cardName": "シャンクス",
+    "furigana": "シャンクス",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "四皇",
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】自分の手札1枚を捨てるか、自分のドン!!1枚をレストにできる：相手のレストのキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-021_dummy.gif",
+    "cardNumber": "OP17-021",
+    "cardName": "オリ婆",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "赤髪海賊団傘下"
+    ],
+    "block": 5,
+    "effectText": "自分の『赤髪海賊団』を含む特徴を持つキャラが相手の効果で場を離れる場合、代わりに自分のカード1枚をレストにできる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-022_dummy.gif",
+    "cardNumber": "OP17-022",
+    "cardName": "シャンクス",
+    "furigana": "シャンクス",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "四皇",
+      "赤髪海賊団"
+    ],
+    "block": "X",
+    "effectText": "【速攻】(このカードは登場したターンにアタックできる)【登場時】自分のドン!!2枚までを、アクティブにする。その後、相手のキャラすべてを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-023_dummy.gif",
+    "cardNumber": "OP17-023",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "東の海",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "自分の特徴《東の海》か《麦わらの一味》を持つキャラがKOされる場合、代わりにこのキャラをレストにできる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-024_dummy.gif",
+    "cardNumber": "OP17-024",
+    "cardName": "\"ハウリング\"ガブ",
+    "furigana": "ハウリングガブ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【バニッシュ】(このカードがダメージを与えた場合、トリガーは発動せずそのカードはトラッシュに置かれる)【登場時】相手のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-025_dummy.gif",
+    "cardNumber": "OP17-025",
+    "cardName": "ビルディング・スネイク",
+    "furigana": "ビルディング・スネイク",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【KO時】相手のレストのコスト6以下のキャラ1枚までを、KOする。【起動メイン】【ターン1回】自分のリーダー「シャンクス」にレストのドン!!1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-026_dummy.gif",
+    "cardNumber": "OP17-026",
+    "cardName": "フガー",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "赤髪海賊団傘下"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分のリーダーが特徴《赤髪海賊団》を持つ場合、相手のコスト2以下のキャラ1枚までを、レストにする。【KO時】カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-027_dummy.gif",
+    "cardNumber": "OP17-027",
+    "cardName": "ベン・ベックマン",
+    "furigana": "ベン・ベックマン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "射",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【速攻：キャラ】(このカードは登場したターンにキャラへアタックできる)【登場時】自分のリーダーが特徴《赤髪海賊団》を持つ場合、カード1枚を引き、相手のキャラ2枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-028_dummy.gif",
+    "cardNumber": "OP17-028",
+    "cardName": "ボンク・パンチ＆モンスター",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】相手のレストのコスト6以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-029_dummy.gif",
+    "cardNumber": "OP17-029",
+    "cardName": "ホンゴウ",
+    "furigana": "ホンゴウ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】【登場時】自分のドン!!1枚までを、アクティブにする。その後、相手のコスト2以下のキャラ2枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-030_dummy.gif",
+    "cardNumber": "OP17-030",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "東の海",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のドン!!1枚をレストにできる：このキャラは、このターン中、【速攻】を得る。【起動メイン】【ターン1回】自分の手札が5枚以下の場合、自分のドン!!1枚までを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-031_dummy.gif",
+    "cardNumber": "OP17-031",
+    "cardName": "ヤソップ",
+    "furigana": "ヤソップ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード1枚を引き、相手のコスト8以下のキャラ1枚までを、レストにする。【自分のターン終了時】自分の『赤髪海賊団』を含む特徴を持つキャラ1枚までを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-032_dummy.gif",
+    "cardNumber": "OP17-032",
+    "cardName": "ライムジュース",
+    "furigana": "ライムジュース",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、『赤髪海賊団』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-033_dummy.gif",
+    "cardNumber": "OP17-033",
+    "cardName": "ラッキー・ルウ",
+    "furigana": "ラッキー・ルウ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、『赤髪海賊団』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。【相手のアタック時】このキャラをトラッシュに置くことができる：相手のリーダーかキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-034_dummy.gif",
+    "cardNumber": "OP17-034",
+    "cardName": "ロックスター",
+    "furigana": "ロックスター",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】相手のリーダーのパワーが6000以上の場合、自分のドン!!1枚までを、アクティブにする。その後、自分の特徴《赤髪海賊団》を持つリーダーを、次の相手のエンドフェイズ終了時まで、元々のパワー6000にする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-035_dummy.gif",
+    "cardNumber": "OP17-035",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-036_dummy.gif",
+    "cardNumber": "OP17-036",
+    "cardName": "全員 この場はおれの顔を立てて貰おう",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!6枚をレストにできる：相手のキャラ1枚までを、レストにする。その後、相手のレストのコスト6以下のキャラ2枚までを、KOする。【カウンター】自分の「シャンクス」1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-037_dummy.gif",
+    "cardNumber": "OP17-037",
+    "cardName": "そんなに恐いか？「新時代」が!!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のデッキの上から5枚を見て、『赤髪海賊団』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。【カウンター】自分のカード1枚をレストにできる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-038_dummy.gif",
+    "cardNumber": "OP17-038",
+    "cardName": "やべェ未来が見えた様だ…",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のカード4枚をレストにできる：相手のキャラ1枚までを、レストにする。【カウンター】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-039_dummy.gif",
+    "cardNumber": "OP17-039",
+    "cardName": "ロックス・Ｄ・ジーベック",
+    "furigana": "",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分の手札1枚を捨てることができる：自分のデッキの上から1枚を公開する。公開したカードが『ロックス海賊団』を含む特徴を持つ場合、カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-040_dummy.gif",
+    "cardNumber": "OP17-040",
+    "cardName": "エドワード・ニューゲート",
+    "furigana": "エドワード・ニューゲート",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード1枚を引く。【ターン1回】自分の『ロックス海賊団』を含む特徴を持つリーダーがアタックした時かアタックされた時、自分の手札1枚を捨てて発動できる。自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-041_dummy.gif",
+    "cardNumber": "OP17-041",
+    "cardName": "王直",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】【登場時】自分の手札1枚を捨てることができる：相手の元々のコスト1のキャラすべてを、持ち主が好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-042_dummy.gif",
+    "cardNumber": "OP17-042",
+    "cardName": "カイドウ",
+    "furigana": "カイドウ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】【登場時】自分の手札から『ロックス海賊団』を含む特徴を持つカード3枚を公開できる：相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-043_dummy.gif",
+    "cardNumber": "OP17-043",
+    "cardName": "ガンズイ",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "このキャラが場を離れる場合、代わりに自分の手札2枚を捨てることができる。【登場時】自分のリーダーを、次の相手のエンドフェイズ終了時まで、元々のパワー6000にする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-044_dummy.gif",
+    "cardNumber": "OP17-044",
+    "cardName": "キャプテン・ジョン",
+    "furigana": "キャプテン・ジョン",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分のリーダーが『ロックス海賊団』を含む特徴を持ち、このキャラがレストの場合、相手はキャラの「キャプテン・ジョン」以外にアタックできない。【起動メイン】このキャラをレストにできる：カード1枚を引き、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-045_dummy.gif",
+    "cardNumber": "OP17-045",
+    "cardName": "凶",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 4000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分のキャラが相手の効果で場を離れる場合、代わりに自分の手札2枚を捨てることができる。【登場時】カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-046_dummy.gif",
+    "cardNumber": "OP17-046",
+    "cardName": "グロリオーサ",
+    "furigana": "",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 1000,
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "アマゾン・リリー",
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】コスト5以下のキャラ1枚までを、持ち主のデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-047_dummy.gif",
+    "cardNumber": "OP17-047",
+    "cardName": "シキ",
+    "furigana": "シキ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 9,
+    "power": 10000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "FILM",
+      "インペルダウン",
+      "金獅子海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン終了時】自分の手札が2枚以下の場合、相手は自身の手札1枚をデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-048_dummy.gif",
+    "cardNumber": "OP17-048",
+    "cardName": "シキ",
+    "furigana": "シキ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 9000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【速攻：キャラ】【アタック時】/【相手のアタック時】【ターン1回】自分の手札から『ロックス海賊団』を含む特徴を持つカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-049_dummy.gif",
+    "cardNumber": "OP17-049",
+    "cardName": "シャーロット・リンリン",
+    "furigana": "シャーロット・リンリン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手は以下から1つを選ぶ。・カード2枚を引く。・相手は自身の手札2枚を捨てる。【相手のアタック時】【ターン1回】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-050_dummy.gif",
+    "cardNumber": "OP17-050",
+    "cardName": "シュトロイゼン",
+    "furigana": "シュトロイゼン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から2枚を見て、好きな順番に並び替え、デッキの上か下に置く。その後、カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-051_dummy.gif",
+    "cardNumber": "OP17-051",
+    "cardName": "ジンベエ",
+    "furigana": "ジンベエ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "インペルダウン",
+      "タイヨウの海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-052_dummy.gif",
+    "cardNumber": "OP17-052",
+    "cardName": "首領・マーロン",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "射",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のトラッシュからコスト0の青のイベント1枚までを、手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-053_dummy.gif",
+    "cardNumber": "OP17-053",
+    "cardName": "バーベル",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【KO時】相手は自身の手札2枚を好きな順番でデッキの下に置く。【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：このキャラは、このターン中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-054_dummy.gif",
+    "cardNumber": "OP17-054",
+    "cardName": "ミス・バッキンガム・ステューシー",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手の元々のコスト6以下のキャラ1枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。【起動メイン】自分のドン!!3枚とこのキャラをレストにできる：相手のキャラ1枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-055_dummy.gif",
+    "cardNumber": "OP17-055",
+    "cardName": "永遠に続く権力などこの世にゃねェんだ!!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!1枚をレストにできる：自分の「ロックス・Ｄ・ジーベック」1枚までは、このターン中、【ブロック不可】を得る。【カウンター】自分の『ロックス海賊団』を含む特徴を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-056_dummy.gif",
+    "cardNumber": "OP17-056",
+    "cardName": "ロックス海賊団",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!5枚をレストにできる：コスト6以下のキャラ1枚までを、持ち主の手札に戻す。【カウンター】自分の『ロックス海賊団』を含む特徴を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-057_dummy.gif",
+    "cardNumber": "OP17-057",
+    "cardName": "ハチノス",
+    "furigana": "ハチノス",
+    "rarity": "C",
+    "cardType": "STAGE",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【相手のアタック時】このステージをレストにし、自分の手札1枚を捨てることができる：自分の『ロックス海賊団』を含む特徴を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-058_dummy.gif",
+    "cardNumber": "OP17-058",
+    "cardName": "カイドウ",
+    "furigana": "カイドウ",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】/【相手のアタック時】【ターン1回】ドン!!-1：相手のキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-059_dummy.gif",
+    "cardNumber": "OP17-059",
+    "cardName": "アラマキ",
+    "furigana": "アラマキ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "大将",
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】ドン!!-1：カード1枚を引き、相手のコスト2以下のキャラ2枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-060_dummy.gif",
+    "cardNumber": "OP17-060",
+    "cardName": "うるティ＆ページワン",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン!!デッキからドン!!1枚までを、アクティブで追加する。その後、相手のパワー3000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-061_dummy.gif",
+    "cardNumber": "OP17-061",
+    "cardName": "大看板",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 9,
+    "power": 11000,
+    "counter": "-",
+    "attribute": "打/特",
+    "features": [
+      "魚人族",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-1：自分のリーダーが特徴《百獣海賊団》を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。【起動メイン】このキャラをトラッシュに置くことができる：自分の手札から「キング」か「クイーン」か「ジャック」1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-062_dummy.gif",
+    "cardNumber": "OP17-062",
+    "cardName": "カイドウ",
+    "furigana": "カイドウ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": "X",
+    "effectText": "【ブロッカー】【自分のターン中】【ターン1回】自分の場のドン!!がドン!!デッキに戻された時、ドン!!デッキからドン!!1枚までを、アクティブで追加する。その後、自分のドン!!1枚までを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-063_dummy.gif",
+    "cardNumber": "OP17-063",
+    "cardName": "カイドウ",
+    "furigana": "カイドウ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分の手札のカウンターを持たないキャラカードすべては、カウンター+1000を持つ。【起動メイン】【ターン1回】ドン!!-1：このキャラが登場したターンの場合、相手のコスト6以下のキャラ1枚までを、このターン中、効果を無効にし、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-064_dummy.gif",
+    "cardNumber": "OP17-064",
+    "cardName": "キング",
+    "furigana": "キング",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 9,
+    "power": 10000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "ルナーリア族",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】【相手のアタック時】【ターン1回】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-065_dummy.gif",
+    "cardNumber": "OP17-065",
+    "cardName": "クイーン",
+    "furigana": "クイーン",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 9,
+    "power": 10000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【バニッシュ】【登場時】ドン!!-1：カード1枚を引き、相手のコスト5以下のキャラ2枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-066_dummy.gif",
+    "cardNumber": "OP17-066",
+    "cardName": "黒炭オロチ",
+    "furigana": "クロズミオロチ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "ワノ国",
+      "黒炭家"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-1：自分のコスト10以上のキャラがいる場合、カード2枚を引き、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-067_dummy.gif",
+    "cardNumber": "OP17-067",
+    "cardName": "黒炭カン十郎",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ワノ国",
+      "黒炭家"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-1：自分のコスト10以上のキャラがいる場合、相手のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-068_dummy.gif",
+    "cardNumber": "OP17-068",
+    "cardName": "ササキ",
+    "furigana": "ササキ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分の手札2枚を捨てることができる：自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン!!デッキからドン!!2枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-069_dummy.gif",
+    "cardNumber": "OP17-069",
+    "cardName": "ジャック",
+    "furigana": "ジャック",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 9,
+    "power": 10000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【速攻：キャラ】(このカードは登場したターンにキャラへアタックできる)【登場時】ドン!!-1：自分のリーダーが特徴《百獣海賊団》を持つ場合、相手のキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-070_dummy.gif",
+    "cardNumber": "OP17-070",
+    "cardName": "スクラッチメン・アプー",
+    "furigana": "スクラッチメン・アプー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "オンエア海賊団",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-071_dummy.gif",
+    "cardNumber": "OP17-071",
+    "cardName": "フーズ・フー",
+    "furigana": "フーズ・フー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "百獣海賊団",
+      "元CP9"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-1：相手のコスト2以下のキャラ2枚までを、KOする。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-072_dummy.gif",
+    "cardNumber": "OP17-072",
+    "cardName": "ブラックマリア",
+    "furigana": "ブラックマリア",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】【相手のアタック時】【ターン1回】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-073_dummy.gif",
+    "cardNumber": "OP17-073",
+    "cardName": "バジル・ホーキンス",
+    "furigana": "バジル・ホーキンス",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "百獣海賊団",
+      "ホーキンス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-074_dummy.gif",
+    "cardNumber": "OP17-074",
+    "cardName": "ヤマト",
+    "furigana": "ヤマト",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ワノ国"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】ドン!!デッキからドン!!1枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-075_dummy.gif",
+    "cardNumber": "OP17-075",
+    "cardName": "Ｘ・ドレーク",
+    "furigana": "ディエス・ドレーク",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "海軍",
+      "ドレーク海賊団",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-2：相手の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-076_dummy.gif",
+    "cardNumber": "OP17-076",
+    "cardName": "ウォロロロロ…!!すっかり酔いが醒めたぜ",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】自分の手札1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+3000。",
+    "trigger": "【】ドン!!-1：カード2枚を引く。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-077_dummy.gif",
+    "cardNumber": "OP17-077",
+    "cardName": "軍荼利龍盛軍",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!3枚をレストにし、自分の手札2枚を捨てることができる：自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン!!デッキからドン!!3枚までを、レストで追加する。【カウンター】ドン!!-1：自分のリーダーを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-078_dummy.gif",
+    "cardNumber": "OP17-078",
+    "cardName": "酒龍八卦",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!2枚をレストにし、自分の手札2枚を捨てることができる：自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン!!デッキからドン!!3枚までを、レストで追加する。【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-079_dummy.gif",
+    "cardNumber": "OP17-079",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "自分のコスト12以上のキャラすべては、【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-080_dummy.gif",
+    "cardNumber": "OP17-080",
+    "cardName": "ウソップ",
+    "furigana": "ウソップ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラのパワー+3000。【登場時】自分のデッキの上から3枚を見て、特徴《エルバフ》を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-081_dummy.gif",
+    "cardNumber": "OP17-081",
+    "cardName": "ゲルズ",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "巨人族",
+      "エルバフ",
+      "新巨兵海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分のリーダーが特徴《エルバフ》を持つ場合、このキャラのコスト+12。【登場時】自分の手札1枚を捨てることができる：自分のトラッシュから「ゲルズ」以外のコスト8以下のキャラカード1枚までを、手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-082_dummy.gif",
+    "cardNumber": "OP17-082",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラのパワー+3000。【登場時】カード2枚を引き、自分の手札2枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-083_dummy.gif",
+    "cardNumber": "OP17-083",
+    "cardName": "ジンベエ",
+    "furigana": "ジンベエ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "魚人族",
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラは【ブロッカー】を得て、パワー+3000。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-084_dummy.gif",
+    "cardNumber": "OP17-084",
+    "cardName": "トニートニー・チョッパー",
+    "furigana": "トニートニー・チョッパー",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】コスト12以上のキャラがいる場合、自分のキャラ1枚までは、このターン中、【ブロック不可】を得る。(このカードはブロックされない)",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-085_dummy.gif",
+    "cardNumber": "OP17-085",
+    "cardName": "ドリー",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "巨人族",
+      "エルバフ",
+      "巨兵海賊団"
+    ],
+    "block": 5,
+    "effectText": "このキャラのコスト+12。【登場時】自分のリーダーが特徴《エルバフ》を持つ場合、自分の手札かトラッシュからコスト5以下の「ブロギー」1枚までを、登場させる。その後、自分は、このターン中、キャラカードを登場できない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-086_dummy.gif",
+    "cardNumber": "OP17-086",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札から特徴《エルバフ》を持つカード1枚を捨てることができる：カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-087_dummy.gif",
+    "cardNumber": "OP17-087",
+    "cardName": "ニコ・ロビン",
+    "furigana": "ニコ・ロビン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラのパワー+3000。【登場時】コスト12以上のキャラがいる場合、相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-088_dummy.gif",
+    "cardNumber": "OP17-088",
+    "cardName": "ハイルディン",
+    "furigana": "ハイルディン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "エルバフ",
+      "新巨兵海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-089_dummy.gif",
+    "cardNumber": "OP17-089",
+    "cardName": "ハグワール・Ｄ・サウロ",
+    "furigana": "ハグワール・ディー・サウロ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "エルバフ",
+      "元海軍"
+    ],
+    "block": 5,
+    "effectText": "このキャラのコスト+12。【登場時】自分のデッキの上から3枚を見て、特徴《エルバフ》を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-090_dummy.gif",
+    "cardNumber": "OP17-090",
+    "cardName": "フランキー",
+    "furigana": "フランキー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラのパワー+3000。【登場時】コスト12以上のキャラがいる場合、相手のコスト2以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-091_dummy.gif",
+    "cardNumber": "OP17-091",
+    "cardName": "ブルック",
+    "furigana": "ブルック",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラのパワー+3000。【登場時】コスト12以上のキャラがいる場合、相手は自身の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-092_dummy.gif",
+    "cardNumber": "OP17-092",
+    "cardName": "ブロギー",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "巨人族",
+      "エルバフ",
+      "巨兵海賊団"
+    ],
+    "block": 5,
+    "effectText": "このキャラのコスト+12。【登場時】自分のリーダーが特徴《エルバフ》を持つ場合、自分の手札かトラッシュからコスト5以下の「ドリー」1枚までを、登場させる。その後、自分は、このターン中、キャラカードを登場できない。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-093_dummy.gif",
+    "cardNumber": "OP17-093",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 8,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "エルバフ",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラは【速攻】を得る。【登場時】カード1枚を引き、自分のトラッシュからコスト2以下のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-094_dummy.gif",
+    "cardNumber": "OP17-094",
+    "cardName": "ロード",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "巨人族",
+      "エルバフ",
+      "新巨兵海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分のリーダーが特徴《エルバフ》を持つ場合、このキャラのコスト+12。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-095_dummy.gif",
+    "cardNumber": "OP17-095",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "エルバフ",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "コスト12以上のキャラがいる場合、このキャラのパワー+3000。自分のキャラが相手の効果で場を離れる場合、代わりに自分のトラッシュからカード3枚を好きな順番でデッキの下に置くことができる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-096_dummy.gif",
+    "cardNumber": "OP17-096",
+    "cardName": "おれはルフィ!!海賊王になる男だ!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "エルバフ",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】コスト12以上のキャラがいる場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "【】自分のトラッシュから特徴《エルバフ》を持つカード1枚までを、手札に加える。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-097_dummy.gif",
+    "cardNumber": "OP17-097",
+    "cardName": "この怒りを食らっておれは!!!“世界”を滅ぼしてやる!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "巨人族",
+      "エルバフ"
+    ],
+    "block": 5,
+    "effectText": "【メイン】相手のキャラすべてを、このターン中、コスト-1。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-098_dummy.gif",
+    "cardNumber": "OP17-098",
+    "cardName": "ゴムゴムの猿王銃",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "エルバフ",
+      "四皇",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!6枚をレストにできる：コスト12以上のキャラがいる場合、相手のコスト6以下のキャラ2枚までを、KOする。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-099_dummy.gif",
+    "cardNumber": "OP17-099",
+    "cardName": "シャーロット・リンリン",
+    "furigana": "シャーロット・リンリン",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】自分の手札1枚を捨てることができる：相手は以下から1つを選ぶ。・自分の手札1枚を捨てる。その後、自分のデッキの上から1枚までを、ライフの上に加える。・相手の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-100_dummy.gif",
+    "cardNumber": "OP17-100",
+    "cardName": "カポネ・ベッジ",
+    "furigana": "カポネ・ベッジ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 2000,
+    "attribute": "射",
+    "features": [
+      "超新星",
+      "ファイアタンク海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-101_dummy.gif",
+    "cardNumber": "OP17-101",
+    "cardName": "カリブー",
+    "furigana": "カリブー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "超新星",
+      "カリブー海賊団"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】自分のライフの上から1枚を手札に加えることができる：相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "【】自分の手札1枚を捨てることができる：相手のコスト5以下のキャラ1枚までを、KOする。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-102_dummy.gif",
+    "cardNumber": "OP17-102",
+    "cardName": "シャーロット・オーブン",
+    "furigana": "シャーロット・オーブン",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【KO時】自分のトラッシュから「シャーロット・オーブン」以外のパワー4000以下のキャラカード1枚までを、登場させる。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-103_dummy.gif",
+    "cardNumber": "OP17-103",
+    "cardName": "シャーロット・カタクリ",
+    "furigana": "シャーロット・カタクリ",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のリーダーが特徴《ビッグ・マム海賊団》を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。その後、相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-104_dummy.gif",
+    "cardNumber": "OP17-104",
+    "cardName": "シャーロット・クラッカー",
+    "furigana": "シャーロット・クラッカー",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のドン!!2枚をレストにできる：自分のリーダーが特徴《ビッグ・マム海賊団》を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-105_dummy.gif",
+    "cardNumber": "OP17-105",
+    "cardName": "シャーロット・シフォン",
+    "furigana": "シャーロット・シフォン",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "ファイアタンク海賊団",
+      "元ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札から【トリガー】を持つカード1枚を捨てることができる：相手の【トリガー】を持つキャラ1枚までを、持ち主の手札に戻す。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-106_dummy.gif",
+    "cardNumber": "OP17-106",
+    "cardName": "シャーロット・スムージー",
+    "furigana": "シャーロット・スムージー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のドン!!2枚をレストにできる：自分のデッキの上から1枚までを、ライフの上に加える。その後、相手は自身の手札1枚を捨てる。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-107_dummy.gif",
+    "cardNumber": "OP17-107",
+    "cardName": "シャーロット・ダイフク",
+    "furigana": "シャーロット・ダイフク",
+    "rarity": "UC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-108_dummy.gif",
+    "cardNumber": "OP17-108",
+    "cardName": "シャーロット・ブリュレ",
+    "furigana": "シャーロット・ブリュレ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "【】相手のコスト6以下のキャラ1枚までを、レストにする。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-109_dummy.gif",
+    "cardNumber": "OP17-109",
+    "cardName": "シャーロット・プリン",
+    "furigana": "シャーロット・プリン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札から【トリガー】を持つカード1枚を捨てることができる：カード3枚を引く。",
+    "trigger": "【】自分のデッキの上から5枚を見て、特徴《ビッグ・マム海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-110_dummy.gif",
+    "cardNumber": "OP17-110",
+    "cardName": "シャーロット・ペロスペロー",
+    "furigana": "シャーロット・ペロスペロー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分の手札からコスト6以下の特徴《ビッグ・マム海賊団》を持つキャラカード1枚までを、登場させる。その後、このキャラは、このターン中、【速攻】を得る。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-111_dummy.gif",
+    "cardNumber": "OP17-111",
+    "cardName": "シャーロット・モンドール",
+    "furigana": "シャーロット・モンドール",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札から【トリガー】を持つカード2枚を公開できる：相手のコスト1以下のキャラ2枚までを、KOする。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-112_dummy.gif",
+    "cardNumber": "OP17-112",
+    "cardName": "シャーロット・リンリン",
+    "furigana": "シャーロット・リンリン",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "ビッグ・マム海賊団"
+    ],
+    "block": "X",
+    "effectText": "【自分のターン中】自分の元々のパワー4000の【トリガー】を持つキャラすべてを、元々のパワー8000にする。【登場時】カード1枚を引き、以下から1つを選ぶ。・自分のデッキの上から1枚までを、ライフの上に加える。・相手のライフの上から1枚までを、持ち主の手札に加える。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-113_dummy.gif",
+    "cardNumber": "OP17-113",
+    "cardName": "シュトロイゼン",
+    "furigana": "シュトロイゼン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《ビッグ・マム海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-114_dummy.gif",
+    "cardNumber": "OP17-114",
+    "cardName": "スイート３将星",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "斬/打",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のドン!!2枚をレストにできる：カード1枚を引き、自分のデッキの上から1枚までを、ライフの上に加える。その後、相手のキャラ2枚までを、このターン中、パワー-3000。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-115_dummy.gif",
+    "cardNumber": "OP17-115",
+    "cardName": "仁義ってモンがあんだろうが アホンダラァ!!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のリーダー「シャーロット・リンリン」は、このターン中、【ブロック不可】を得る。【カウンター】自分の「シャーロット・リンリン」1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-116_dummy.gif",
+    "cardNumber": "OP17-116",
+    "cardName": "震御雷",
+    "furigana": "",
+    "rarity": "UC",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!2枚をレストにできる：相手のステージ1枚までを、KOする。【カウンター】自分の【トリガー】を持つキャラが2枚以上いる場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-117_dummy.gif",
+    "cardNumber": "OP17-117",
+    "cardName": "鳴光剣",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "四皇",
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】自分の「シャーロット・リンリン」1枚までを、このバトル中、パワー+3000。",
+    "trigger": "【】相手は自身の手札3枚を捨ててもよい。そうしなかった場合、相手のコスト6以下のキャラ1枚までを、KOする。",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-118_dummy.gif",
+    "cardNumber": "OP17-118",
+    "cardName": "ロックス・Ｄ・ジーベック",
+    "furigana": "",
+    "rarity": "SEC",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "斬",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": "X",
+    "effectText": "手札のこのカードは、自分のキャラがカウンターを持たないキャラのみの場合、カウンター+2000を持つ。【登場時】カード1枚を引き、自分の手札からカード名の異なる特徴《ロックス海賊団》を持つカード2枚までを、コストの合計が9以下になるように登場させる。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
+    "uniqueId": "OP17-119_dummy.gif",
+    "cardNumber": "OP17-119",
+    "cardName": "ロキ",
+    "furigana": "",
+    "rarity": "SEC",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "巨人族",
+      "エルバフ"
+    ],
+    "block": 5,
+    "effectText": "このキャラのコスト+12し、相手のターン中の場合、このキャラのパワー+3000。【登場時】相手のキャラを、コストの合計が4以下になるようにKOする。",
+    "trigger": "",
+    "getInfo": "ブースターパック 世界最強の戦士【OP-17】",
+    "seriesTitle": "ブースターパック 世界最強の戦士",
+    "seriesCode": "OP-17"
+  },
+  {
     "uniqueId": "P-001_dummy.gif",
     "cardNumber": "P-001",
     "cardName": "モンキー・D・ルフィ",
@@ -58398,6 +61455,358 @@
     "seriesCode": ""
   },
   {
+    "uniqueId": "P-136_dummy.gif",
+    "cardNumber": "P-136",
+    "cardName": "ウソップ",
+    "furigana": "ウソップ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "射",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】このキャラをレストにできる：自分の特徴《麦わらの一味》を持つ、リーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-137_dummy.gif",
+    "cardNumber": "P-137",
+    "cardName": "サンジ",
+    "furigana": "サンジ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)【アタック時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-138_dummy.gif",
+    "cardNumber": "P-138",
+    "cardName": "トニートニー・チョッパー",
+    "furigana": "トニートニー・チョッパー",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "動物",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【相手のターン中】このキャラのパワー+2000。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-139_dummy.gif",
+    "cardNumber": "P-139",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。【ドン!!×1】【アタック時】カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-140_dummy.gif",
+    "cardNumber": "P-140",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のリーダーかキャラ1枚にレストのドン!!2枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-141_dummy.gif",
+    "cardNumber": "P-141",
+    "cardName": "ロロノア・ゾロ",
+    "furigana": "ロロノア・ゾロ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【速攻】(このカードは登場したターンにアタックできる)【登場時】相手のリーダーかキャラ1枚までを、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-142_dummy.gif",
+    "cardNumber": "P-142",
+    "cardName": "ゴーイング・メリー号",
+    "furigana": "ゴーイング・メリーゴウ",
+    "rarity": "P",
+    "cardType": "STAGE",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "自分の元々のパワー8000以下の特徴《麦わらの一味》を持つキャラがKOされる場合、代わりにこのステージをトラッシュに置くことができる。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-143_dummy.gif",
+    "cardNumber": "P-143",
+    "cardName": "クロコダイル",
+    "furigana": "クロコダイル",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "王下七武海",
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【登場時】コスト0のキャラがいる場合、このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-144_dummy.gif",
+    "cardNumber": "P-144",
+    "cardName": "ミス・オールサンデー",
+    "furigana": "ミス・オールサンデー",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の『B・W』を含む特徴を持つキャラ1枚をKOできる：カード1枚を引く。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-145_dummy.gif",
+    "cardNumber": "P-145",
+    "cardName": "ミス・ウェンズデー",
+    "furigana": "ミス・ウェンズデー",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード1枚を引き、自分の手札1枚を捨てる。【KO時】相手の手札が6枚以上ある場合、相手は自身の手札2枚を捨てる。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-146_dummy.gif",
+    "cardNumber": "P-146",
+    "cardName": "ミス・ゴールデンウィーク(マリアンヌ)",
+    "furigana": "ミス・ゴールデンウィークマリアンヌ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【KO時】カード1枚を引き、相手のコスト0のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-147_dummy.gif",
+    "cardNumber": "P-147",
+    "cardName": "ミス・バレンタイン(ミキータ)",
+    "furigana": "ミス・バレンタインミキータ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "コスト0か8以上のキャラがいる場合、このキャラのパワー+2000。【KO時】自分のトラッシュから『B・W』を含む特徴を持つキャラカード1枚までを、手札に加える。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-148_dummy.gif",
+    "cardNumber": "P-148",
+    "cardName": "Mr.３(ギャルディーノ)",
+    "furigana": "",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【ブロッカー】【起動メイン】【ターン1回】コスト0か8以上のキャラがいる場合、自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-149_dummy.gif",
+    "cardNumber": "P-149",
+    "cardName": "Mr.５(ジェム)",
+    "furigana": "",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【キャラ：速攻】(このカードは登場したターンにキャラへアタックできる)【登場時】コスト0か8以上のキャラがいる場合、カード2枚を引き、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "seriesCode": ""
+  },
+  {
     "uniqueId": "P-150_dummy.gif",
     "cardNumber": "P-150",
     "cardName": "クザン",
@@ -58446,6 +61855,82 @@
     "trigger": "",
     "getInfo": "最強ジャンプ7月号付録（2026年6月4日売）",
     "seriesTitle": "最強ジャンプ7月号付録（2026年6月4日売）",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-152_dummy.gif",
+    "cardNumber": "P-152",
+    "cardName": "エドワード・ニューゲート",
+    "furigana": "エドワード・ニューゲート",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーとキャラすべてを、このターン中、パワー+2000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。",
+    "trigger": "",
+    "getInfo": "最強ジャンプ5月号​ 応募者全員大サービス（2026年4月3日売）",
+    "seriesTitle": "最強ジャンプ5月号​ 応募者全員大サービス（2026年4月3日売）",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-153_dummy.gif",
+    "cardNumber": "P-153",
+    "cardName": "ポートガス・D・エース",
+    "furigana": "ポートガス・ディー・エース",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手のキャラ2枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "最強ジャンプ5月号​ 応募者全員大サービス（2026年4月3日売）",
+    "seriesTitle": "最強ジャンプ5月号​ 応募者全員大サービス（2026年4月3日売）",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-154_dummy.gif",
+    "cardNumber": "P-154",
+    "cardName": "モンキー・D・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 8000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のドン!!3枚をレストにできる：自分のリーダーが「ポートガス・D・エース」の場合、自分の手札からパワー8000以下の「ポートガス・D・エース」1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "最強ジャンプ5月号​ 応募者全員大サービス（2026年4月3日売）",
+    "seriesTitle": "最強ジャンプ5月号​ 応募者全員大サービス（2026年4月3日売）",
     "seriesCode": ""
   },
   {

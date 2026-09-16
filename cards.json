@@ -175,8 +175,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -588,8 +588,8 @@
     "block": 2,
     "effectText": "【登場時】カード1枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -1097,8 +1097,8 @@
     "block": 2,
     "effectText": "【登場時】自分のトラッシュの『CP』を含む特徴を持つカード3枚を好きな順番でデッキの下に置くことができる：自分のトラッシュから「スパンダイン」以外のコスト4以下の『CP』を含む特徴を持つキャラカード1枚までを、レストで登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -1702,8 +1702,8 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】自分のリーダーが特徴《ワノ国》を持つか「ポートガス・D・エース」の場合、自分のリーダー1枚にレストのドン‼1枚までを、付与する。その後、このキャラは、このターン中、【速攻】を得る。",
     "trigger": "",
-    "getInfo": "エクストラグランドバトル2026 4月優勝記念品",
-    "seriesTitle": "エクストラグランドバトル2026 4月優勝記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -1805,8 +1805,8 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】ドン‼-2：自分の場のキャラが特徴《麦わらの一味》を持つキャラのみの場合、自分のドン‼2枚までをアクティブにする。その後、このリーダーは、次の相手のターン終了時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "オフィシャルプレイマット リミテッドエディション vol.5",
-    "seriesTitle": "オフィシャルプレイマット リミテッドエディション vol.5",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -1985,8 +1985,8 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「ナミ」以外の特徴《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE CARD GAME 3rd ANNIVERSARY COMPLETE GUIDE付録",
-    "seriesTitle": "ONE PIECE CARD GAME 3rd ANNIVERSARY COMPLETE GUIDE付録",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -2037,8 +2037,8 @@
     "block": 3,
     "effectText": "相手のキャラが2枚以上いる場合、このキャラは登場したターンにキャラへアタックできる。【登場時】自分のリーダーが特徴《麦わらの一味》を持つ場合、相手のコスト4以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "スタンダードバトル 2025年3月優勝記念品",
-    "seriesTitle": "スタンダードバトル 2025年3月優勝記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -2216,8 +2216,8 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーが多色で、自分の手札が5枚以下の場合、カード2枚を引く。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.3",
-    "seriesTitle": "プロモーションパックEX Vol.3",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -2447,8 +2447,8 @@
     "block": 3,
     "effectText": "【自分のターン中】【ターン1回】自分の場のドン‼が2枚以上ドン‼デッキに戻された時、ドン‼デッキからドン‼1枚までを、アクティブで追加する。【登場時】自分の場のドン‼が相手の場のドン‼の枚数以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "8パックバトル 2026年4月",
-    "seriesTitle": "8パックバトル 2026年4月",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -2599,8 +2599,8 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーが特徴《麦わらの一味》を持つ場合、カード1枚を引く。【起動メイン】このステージをレストにできる：自分の場のドン‼が相手の場のドン‼の枚数以下の場合、自分の特徴《麦わらの一味》を持つキャラ1枚までを、次の相手のターン終了時まで、コスト+2。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -2927,8 +2927,8 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のライフが2枚以下の場合、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.3",
-    "seriesTitle": "プロモーションパックEX Vol.3",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -2953,8 +2953,8 @@
     "block": 3,
     "effectText": "-",
     "trigger": "【】自分のリーダーが特徴《魚人族》か《人魚族》を持ち、自分のライフが2枚以下の場合、このカードを登場させる。",
-    "getInfo": "スタンダードバトルパックVol.11",
-    "seriesTitle": "スタンダードバトルパックVol.11",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -3259,8 +3259,8 @@
     "block": 4,
     "effectText": "【登場時】自分のアクティブのリーダーを、このターン中、パワー-5000することができる：カード1枚を引く。【起動メイン】【ターン1回】自分のリーダーが特徴《アラバスタ王国》を持つ場合、相手のキャラ1枚までを、このターン中、パワー-1000。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.4",
-    "seriesTitle": "プロモーションパックEX Vol.4",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -3792,8 +3792,8 @@
     "block": 4,
     "effectText": "【登場時】元々のパワー7000のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.4",
-    "seriesTitle": "プロモーションパックEX Vol.4",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -5268,8 +5268,8 @@
     "block": 4,
     "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)【登場時】自分のアクティブのリーダーを、このターン中、パワー-5000できる：カード2枚を引く。",
     "trigger": "",
-    "getInfo": "スタンダードバトルパック Vol.15",
-    "seriesTitle": "スタンダードバトルパック Vol.15",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -5395,8 +5395,8 @@
     "block": 4,
     "effectText": "【メイン】自分の手札1枚を捨てることができる：自分のリーダーが特徴《海軍》を持つ場合、相手のパワー10000以下のキャラ2枚までは、次の相手のエンドフェイズ終了時まで、アタックできない。",
     "trigger": "【】コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6169,8 +6169,8 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のライフが2枚以下の場合、自分のデッキの上から1枚までを、ライフの上に加える。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.4",
-    "seriesTitle": "プロモーションパックEX Vol.4",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6276,8 +6276,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】【自分のターン中】自分のキャラすべてを、パワー+1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション 25周年エディション",
-    "seriesTitle": "プレミアムカードコレクション 25周年エディション",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6355,8 +6355,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】【自分のターン中】【ターン1回】相手がイベントを発動した時、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "チャンピオンシップ2022 予選 ベスト32記念品",
-    "seriesTitle": "チャンピオンシップ2022 予選 ベスト32記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6380,8 +6380,8 @@
     "block": 1,
     "effectText": "【登場時】自分のトラッシュの「ウタ」以外のコスト3以下の赤のキャラカード1枚までを、手札に加える。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6405,8 +6405,8 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "1st ANNIVERSARY SET",
-    "seriesTitle": "1st ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6583,8 +6583,8 @@
     "block": 1,
     "effectText": "【起動メイン】【ターン1回】自分のライフ1枚を手札に加えることができる：このキャラは、このターン中、パワー+2000。その後、このキャラにレストのドン‼2枚までを付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション 25周年エディション",
-    "seriesTitle": "プレミアムカードコレクション 25周年エディション",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6609,8 +6609,8 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ドン!!×1】【ブロック時】自分の手札からコスト2以下の赤のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6635,8 +6635,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】【アタック時】自分の手札1枚を捨てることができる：自分のトラッシュの「トニートニー・チョッパー」以外のコスト4以下の特徴《麦わらの一味》を持つキャラカード1枚までを、手札に加える。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.6",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.6",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6660,8 +6660,8 @@
     "block": 1,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「ナミ」以外の特徴《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション 25周年エディション",
-    "seriesTitle": "プレミアムカードコレクション 25周年エディション",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6685,8 +6685,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】【アタック時】相手のパワー3000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6787,8 +6787,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】このキャラは、相手のアクティブのキャラにもアタックできる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6812,8 +6812,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】【アタック時】相手のキャラ2枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション 25周年エディション",
-    "seriesTitle": "プレミアムカードコレクション 25周年エディション",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -6991,8 +6991,8 @@
     "block": 1,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のライフが2枚以下の場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -7016,8 +7016,8 @@
     "block": 1,
     "effectText": "【メイン】自分のデッキの上から5枚を見て、特徴《麦わらの一味》を持つキャラカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -7147,8 +7147,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】【アタック時】【ターン1回】相手のコスト5以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "スタンダードバトルパック Vol.3",
-    "seriesTitle": "スタンダードバトルパック Vol.3",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -7716,8 +7716,8 @@
     "block": 1,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のキャラ1枚までを、アクティブにする。",
     "trigger": "【】相手のレストのコスト4以下のキャラ1枚までを、KOする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -8233,8 +8233,8 @@
     "block": 1,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、好きな順番に並び変え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "ジャンプGIGA 2023 SPRING 応募者全員サービス",
-    "seriesTitle": "ジャンプGIGA 2023 SPRING 応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -8664,8 +8664,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼-6(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：自分のリーダーが特徴《百獣海賊団》を持つ場合、このキャラ以外のキャラすべてを、KOする。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2023 10月優勝記念品",
-    "seriesTitle": "フラッグシップバトル2023 10月優勝記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9024,8 +9024,8 @@
     "block": 1,
     "effectText": "【KO時】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手のコスト5以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.5",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.5",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9178,8 +9178,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：相手は自身の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9384,8 +9384,8 @@
     "block": 1,
     "effectText": "【自分のターン終了時】自分のライフの上から1枚を手札に加える。",
     "trigger": "",
-    "getInfo": "チャンピオンシップセット2023(旧四皇)",
-    "seriesTitle": "チャンピオンシップセット2023(旧四皇)",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9486,8 +9486,8 @@
     "block": 1,
     "effectText": "【登場時】自分のデッキの上から5枚までを見て、コスト1の赤のキャラ1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9561,8 +9561,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】自分のライフが2枚以下でかつ、自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.1",
-    "seriesTitle": "プロモーションパックEX Vol.1",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9686,8 +9686,8 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ2枚までを、このターン中、パワー-3000。その後、自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -9736,8 +9736,8 @@
     "block": 1,
     "effectText": "【起動メイン】このキャラをレストにできる：自分のコスト1の赤のキャラ1枚までを、このターン中、パワー+3000。",
     "trigger": "",
-    "getInfo": "1st ANNIVERSARY SET",
-    "seriesTitle": "1st ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -10094,8 +10094,8 @@
     "block": 1,
     "effectText": "【自分のターン終了時】自分のドン!!1枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "ジャンプGIGA 2023 SPRING 応募者全員サービス",
-    "seriesTitle": "ジャンプGIGA 2023 SPRING 応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -10278,8 +10278,8 @@
     "block": 1,
     "effectText": "【登場時】/【アタック時】➀(コストエリアのドン‼を指定の数レストにできる)：自分のデッキの上から3枚を見て、「ナミ」以外の特徴《FILM》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -10876,8 +10876,8 @@
     "block": 1,
     "effectText": "【アタック時】カード1枚を引き、自分の手札1枚を捨てる。その後、自分の手札3枚までを捨てる。",
     "trigger": "",
-    "getInfo": "プロモーションカードセット",
-    "seriesTitle": "プロモーションカードセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -10979,8 +10979,8 @@
     "block": 1,
     "effectText": "【登場時】自分のトラッシュからコスト1の青のイベント1枚までを、手札に加える。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.6",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.6",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -12045,8 +12045,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】【アタック時】相手のキャラ1枚までを、このターン中、コスト-3。",
     "trigger": "",
-    "getInfo": "ジャンプGIGA 2023 SPRING 応募者全員サービス",
-    "seriesTitle": "ジャンプGIGA 2023 SPRING 応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -12070,8 +12070,8 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -12347,8 +12347,8 @@
     "block": 1,
     "effectText": "【メイン】相手のキャラ1枚までを、このターン中、コスト-5。",
     "trigger": "【】相手のコスト3以下のキャラ1枚までを、KOする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -12422,8 +12422,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼-2(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：自分のリーダーとキャラすべてを、次の自分のターン開始時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -12472,8 +12472,8 @@
     "block": 1,
     "effectText": "このリーダーがアタックした時かアタックされた時、自分の手札から任意の枚数イベントかステージカードを捨ててもよい。捨てたカード1枚につき、このリーダーは、このバトル中、パワー+1000。",
     "trigger": "",
-    "getInfo": "チャンピオンシップセット2023（エース・サボ・ルフィ）",
-    "seriesTitle": "チャンピオンシップセット2023（エース・サボ・ルフィ）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -12774,8 +12774,8 @@
     "block": 1,
     "effectText": "【自分のターン中】【登場時】相手のパワー3000以下のキャラ1枚までを、KOする。【KO時】自分の手札からイベント1枚を捨てることができる：このキャラカードをトラッシュからレストで登場させる。",
     "trigger": "",
-    "getInfo": "1st ANNIVERSARY SET",
-    "seriesTitle": "1st ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -13574,8 +13574,8 @@
     "block": 1,
     "effectText": "【登場時】カード2枚を引き、自分の手札2枚を捨てる。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -13852,8 +13852,8 @@
     "block": 1,
     "effectText": "【カウンター】自分の手札1枚を捨てることができる：自分のリーダー1枚までを、このバトル中、パワー+4000。その後、自分のデッキの上から2枚をトラッシュに置いてもよい。",
     "trigger": "【】コスト4以下のキャラ1枚までを、持ち主の手札に戻す。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -15530,8 +15530,8 @@
     "block": 1,
     "effectText": "【メイン】自分のライフの上から1枚をトラッシュに置くことができる：相手のコスト5以下のキャラ1枚までを、KOする。",
     "trigger": "【】相手のコスト5以下のキャラ1枚までを、KOする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -16399,8 +16399,8 @@
     "block": 1,
     "effectText": "【自分のターン終了時】このキャラをトラッシュに置くことができる：自分のドン‼2枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -17696,8 +17696,8 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のキャラすべては、次の自分のターン開始時まで、効果でKOされない。その後、カード2枚を引き、自分の手札2枚を捨てる。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -18005,8 +18005,8 @@
     "block": 1,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のトラッシュが15枚以上ある場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -18258,8 +18258,8 @@
     "block": 1,
     "effectText": "【起動メイン】【ターン1回】自分の手札から【トリガー】を持つカード1枚を捨てることができる：相手のコスト2以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -18716,8 +18716,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】このキャラのパワーが7000以上の場合、自分の手札から「エンポリオ・イワンコフ」以外のパワー5000以下の特徴《革命軍》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -18741,8 +18741,8 @@
     "block": 2,
     "effectText": "【登場時】自分のリーダーが特徴《革命軍》を持つ場合、相手のリーダーかキャラ1枚までを、このターン中、パワー-1000。【アタック時】このキャラのパワーが7000以上の場合、相手のリーダーかキャラ1枚までを、このターン中、パワー-1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -18892,8 +18892,8 @@
     "block": 2,
     "effectText": "【登場時】相手のパワー2000以下のキャラ1枚までを、KOする。",
     "trigger": "【】自分のリーダーが多色の場合、このカードを登場させる。",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -19095,8 +19095,8 @@
     "block": 2,
     "effectText": "【メイン】相手のキャラ1枚までを、このターン中、パワー-4000。その後、自分のライフが2枚以下の場合、相手のパワー0以下のキャラ1枚までを、KOする。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -19375,8 +19375,8 @@
     "block": 2,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【相手のターン中】自分のレストのキャラがKOされる場合、代わりにこのキャラをトラッシュに置くことができる。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -20962,8 +20962,8 @@
     "block": 2,
     "effectText": "【登場時】自分のトラッシュのカード3枚を好きな順番でデッキの下に置くことができる：相手の、コスト2以下のキャラ1枚までとコスト1以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -21089,8 +21089,8 @@
     "block": 2,
     "effectText": "【相手のターン中】【ターン1回】自分のライフが0枚になった時、自分のデッキの上から1枚を、ライフの上に加える。その後、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesTitle": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -21495,8 +21495,8 @@
     "block": 2,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、相手のライフが2枚以下の場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】相手のライフの枚数以下のコストを持つ相手のキャラ1枚までを、KOする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -21622,8 +21622,8 @@
     "block": 2,
     "effectText": "【登場時】ドン!!-10：このキャラ以外の自分のキャラすべてを好きな順番でデッキの下に置く。その後、このターンの後に自分のターンを追加で得る。【起動メイン】【ターン1回】➀：ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -22037,8 +22037,8 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラを持ち主のデッキの下に置くことができる：相手のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -22167,8 +22167,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】以下から1つを選ぶ。・相手のコスト4以下のキャラ1枚までを、レストにする。・相手のキャラ1枚までを、このターン中、コスト-1。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesTitle": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -22193,8 +22193,8 @@
     "block": 2,
     "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)【起動メイン】【ターン1回】相手のライフが3枚以下の場合、自分のキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ応募者全員サービス",
-    "seriesTitle": "週刊少年ジャンプ応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -22271,8 +22271,8 @@
     "block": 2,
     "effectText": "【登場時】自分のデッキの上から4枚を見て、「ケイミ―」以外の特徴《魚人族》か《人魚族》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.2",
-    "seriesTitle": "プロモーションパックEX Vol.2",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -22606,8 +22606,8 @@
     "block": 2,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のレストのカードが8枚以上ある場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】相手のレストのコスト3以下のキャラ1枚までを、KOする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -22934,8 +22934,8 @@
     "block": 2,
     "effectText": "【登場時】自分の手札2枚を捨てることができる：相手は自身のキャラ1枚を持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "スタンダードバトルパックVol.12",
-    "seriesTitle": "スタンダードバトルパックVol.12",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -23933,8 +23933,8 @@
     "block": 2,
     "effectText": "【登場時】自分のトラッシュのカード2枚を好きな順番でデッキの下に戻すことができる：自分のトラッシュの「ドクトル・ホグバック」以外の特徴《スリラーバーク海賊団》を持つカード1枚までを、手札に加える。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -23983,8 +23983,8 @@
     "block": 2,
     "effectText": "【登場時】以下から1つを選ぶ。相手のコスト4以下のキャラ1枚までを、トラッシュに置く。相手は自身のトラッシュのカード3枚を好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.2",
-    "seriesTitle": "プロモーションパックEX Vol.2",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -24008,8 +24008,8 @@
     "block": 2,
     "effectText": "【登場時】相手の手札が5枚以上ある場合、以下から1つを選ぶ。・相手は自身の手札1枚を捨てる。・相手のキャラ1枚までを、このターン中、コスト-3。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2024 1月ベスト8記念品",
-    "seriesTitle": "フラッグシップバトル2024 1月ベスト8記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -24211,8 +24211,8 @@
     "block": 2,
     "effectText": "【登場時】自分のリーダーかキャラ1枚までは、このターン中、【バニッシュ】を得る。(このカードがダメージを与えた場合、トリガーは発動せずそのカードはトラッシュに置かれる)【トリガー】相手のコスト5以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "「ONE PIECE CARD GAME 2nd ANNIVERSARY COMPLETE GUIDE」限定特典カード",
-    "seriesTitle": "「ONE PIECE CARD GAME 2nd ANNIVERSARY COMPLETE GUIDE」限定特典カード",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -24290,8 +24290,8 @@
     "block": 2,
     "effectText": "【KO時】相手のライフが3枚以下の場合、自分のデッキの上から1枚までを、ライフの上に加える。",
     "trigger": "【】相手のライフが3枚以下の場合、このカードを登場させる。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -24652,8 +24652,8 @@
     "block": 2,
     "effectText": "【アタック時】【ターン1回】➀(コストエリアのドン!!を指定の数レストにできる)：このキャラをアクティブにする。【起動メイン】【ターン1回】➁(コストエリアのドン!!を指定の数レストにできる)：このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25161,8 +25161,8 @@
     "block": 2,
     "effectText": "【相手のアタック時】【ターン1回】➀(コストエリアのドン‼を指定の数レストにできる)：相手の、リーダーかキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ応募者全員サービス",
-    "seriesTitle": "週刊少年ジャンプ応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25626,8 +25626,8 @@
     "block": 2,
     "effectText": "【メイン】自分のデッキの上から5枚を見て、「ピザお～か～わ～り～!!!」以外の特徴《超新星》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】カード1枚を引く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25703,8 +25703,8 @@
     "block": 2,
     "effectText": "【登場時】①(コストエリアのドン‼を指定の数レストにできる)：コスト2以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25805,8 +25805,8 @@
     "block": 2,
     "effectText": "【登場時】カード1枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25883,8 +25883,8 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラを持ち主の手札に戻すことができる：相手の手札が6枚以上ある場合、相手は自身の手札1枚をデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25909,8 +25909,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】➁(コストエリアのドン‼を指定の数レストにできる)：自分のデッキの一番上を公開し、そのカードがコスト4以下の特徴《王下七武海》を持つキャラカードの場合、レストで登場させてもよい。その後、残りをデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -25985,8 +25985,8 @@
     "block": 2,
     "effectText": "【登場時】相手の「モンキー・D・ルフィ」以外のキャラ1枚までは、次の相手のターン終了時まで、アタックできない。その後、コスト1以下のキャラ1枚までを、持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -26137,8 +26137,8 @@
     "block": 2,
     "effectText": "【メイン】自分の特徴《王下七武海》を持つ、リーダーかキャラ1枚までを選び、このターン中、パワー+2000。その後、相手は、このターン中、選んだカードがアタックする場合【ブロッカー】を発動できない。",
     "trigger": "【】カード1枚を引く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -26315,8 +26315,8 @@
     "block": 2,
     "effectText": "手札のこのカードは、自分の場のドン‼の枚数が相手の場のドン‼の枚数より2枚以上少ない場合、コスト-3。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -27149,8 +27149,8 @@
     "block": 2,
     "effectText": "このリーダーはアタックできない。【起動メイン】【ターン1回】①(コストエリアのドン‼を指定の数レストにできる)：自分の手札からコスト5以下の特徴《エッグヘッド》を持つカード1枚までを、ライフの上に表向きで加えるか登場させる。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ応募者全員サービス",
-    "seriesTitle": "週刊少年ジャンプ応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -27463,8 +27463,8 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラをトラッシュに置くことができる：自分のライフが2枚以下の場合、相手のコスト4以下のキャラ1枚までを、KOする。その後、カード1枚を引く。",
     "trigger": "【】相手のコスト4以下のキャラ1枚までを、KOする。",
-    "getInfo": "プレミアムカードコレクション-ONE PIECE DAY'24-",
-    "seriesTitle": "プレミアムカードコレクション-ONE PIECE DAY'24-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -27645,8 +27645,8 @@
     "block": 2,
     "effectText": "【メイン】/【カウンター】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。その後、相手のライフが2枚以下の場合、相手のコスト4以下のキャラ1枚までを、レストにする。",
     "trigger": "【】相手のコスト4以下のキャラ1枚までを、レストにする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -27695,8 +27695,8 @@
     "block": 2,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：相手の、コスト5以下のキャラ1枚までとコスト3以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -27748,8 +27748,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分の特徴《動物》か《ドラム王国》を持つキャラ3枚までにレストのドン‼1枚ずつまでを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesTitle": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -27774,8 +27774,8 @@
     "block": 2,
     "effectText": "【ドン‼×1】【起動メイン】【ターン1回】カード1枚を引き、自分の手札1枚をデッキの上か下に置く。その後、相手のキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ応募者全員サービス",
-    "seriesTitle": "週刊少年ジャンプ応募者全員サービス",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -28635,8 +28635,8 @@
     "block": 2,
     "effectText": "【メイン】相手のレストのコスト7以下のキャラすべては、次の相手のリフレッシュフェイズでアクティブにならない。",
     "trigger": "【】相手のキャラ1枚までを、レストにする。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -28736,8 +28736,8 @@
     "block": 2,
     "effectText": "【登場時】自分の手札から『白ひげ海賊団』を含む特徴を持つカード2枚を公開することができる：自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、相手のコスト4以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -29467,8 +29467,8 @@
     "block": 2,
     "effectText": "【登場時】ドン‼-1,自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。その後、相手のコスト6以下のキャラ1枚までを、相手のライフの上か下に表向きで加える。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -30235,8 +30235,8 @@
     "block": 2,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -30388,8 +30388,8 @@
     "block": 2,
     "effectText": "【ドン‼×1】【自分のターン中】【ターン1回】相手のライフが離れた時、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -30778,8 +30778,8 @@
     "block": 3,
     "effectText": "【ターン1回】相手がアタックした時、発動できる。相手のリーダーかキャラ1枚までを、このターン中、パワー-1000。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -30854,8 +30854,8 @@
     "block": 3,
     "effectText": "相手のキャラすべてを、パワー-1000。【速攻】(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -30954,8 +30954,8 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラを持ち主のデッキの下に置くことができる：相手のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -31833,8 +31833,8 @@
     "block": 3,
     "effectText": "【起動メイン】自分のドン‼5枚をレストにし、自分の手札1枚を捨てることができる：自分の手札から特徴《クロスギルド》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -32062,8 +32062,8 @@
     "block": 3,
     "effectText": "【登場時】相手のキャラ1枚までを、持ち主のデッキの下に置く。その後、自分のコスト5以上のキャラが5枚いない場合、このキャラを持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -32317,8 +32317,8 @@
     "block": 3,
     "effectText": "【ドン‼×1】自分のキャラすべてを、コスト+1。【自分のターン中】【ターン1回】自分の場のドン!!が2枚以上ドン!!デッキに戻された時、ドン!!デッキから、ドン!!1枚までをアクティブで追加し、さらに1枚までをレストで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -32545,8 +32545,8 @@
     "block": 3,
     "effectText": "【登場時】自分の場のドン‼を1枚以上ドン‼デッキに戻すことができる：自分のリーダーかキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -32722,8 +32722,8 @@
     "block": 3,
     "effectText": "【メイン】ドン!!-2(自分の場のドン!!を指定の数ドン!!デッキに戻すことができる)：相手のパワー6000以下のキャラ1枚までを、KOする。",
     "trigger": "【】ドン!!デッキからドン!!1枚までを、アクティブで追加する。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -32825,8 +32825,8 @@
     "block": 3,
     "effectText": "自分の【登場時】効果は無効になる。【起動メイン】自分の手札1枚を捨てることができる：次の相手のターン終了時まで、相手の【登場時】効果は無効になる。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -33127,8 +33127,8 @@
     "block": 3,
     "effectText": "【ブロッカー】【起動メイン】【ターン1回】自分のリーダーが特徴《黒ひげ海賊団》を持ち、このキャラが登場したターンの場合、相手のリーダー1枚までを、このターン中、効果を無効にする。その後、相手のキャラ1枚までを、次の相手のターン終了時まで、効果を無効にし、そのキャラはアタックできない。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム English 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -33178,8 +33178,8 @@
     "block": 3,
     "effectText": "【起動メイン】自分のドン‼1枚とこのキャラをレストにできる：自分のデッキの上から5枚を見て、特徴《黒ひげ海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -33736,8 +33736,8 @@
     "block": 3,
     "effectText": "【メイン】自分のデッキの上から5枚を見て、「デレシ!!」以外の【トリガー】を持つカード2枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】カード1枚を引く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -33787,8 +33787,8 @@
     "block": 3,
     "effectText": "【登場時】自分の場のドン‼を1枚以上ドン‼デッキに戻すことができる：カード1枚を引き、このキャラは、このターン中、【速攻】を得る。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -33867,8 +33867,8 @@
     "block": 3,
     "effectText": "【自分のターン終了時】自分のパワー6000以上の特徴《ドンキホーテ海賊団》を持つキャラがいる場合、自分のドン‼1枚までを、アクティブにする。【相手のターン中】【ターン1回】自分がイベントを発動した時、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesTitle": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -33920,8 +33920,8 @@
     "block": 3,
     "effectText": "【自分のターン中】このキャラのパワー+3000。【KO時】カード1枚を引く。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2025 10月優勝記念品",
-    "seriesTitle": "フラッグシップバトル2025 10月優勝記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -34360,8 +34360,8 @@
     "block": 3,
     "effectText": "【ドン‼×1】【起動メイン】【ターン1回】自分のキャラのコストの合計が5以上の場合、自分のキャラ1枚を、持ち主の手札に戻すことができる：自分のライフの上から1枚を公開し、そのカードがコスト5以下の特徴《超新星》を持つキャラカードの場合、登場させてもよい。",
     "trigger": "",
-    "getInfo": "メラメラの実争奪戦 上位記念品",
-    "seriesTitle": "メラメラの実争奪戦 上位記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -34520,8 +34520,8 @@
     "block": 3,
     "effectText": "【起動メイン】自分のドン‼2枚をレストにし、このキャラをトラッシュに置くことができる：自分のデッキの上から5枚を見て、特徴《赤鞘九人男》を持つカード2枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -34650,8 +34650,8 @@
     "block": 3,
     "effectText": "【登場時】自分のレストの特徴《ODYSSEY》を持つキャラが2枚以上いる場合、相手のレストのドン‼1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
     "trigger": "",
-    "getInfo": "最強ジャンプ5月号応募者全員サービス（2025年4月4日売）",
-    "seriesTitle": "最強ジャンプ5月号応募者全員サービス（2025年4月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -34889,8 +34889,8 @@
     "block": 3,
     "effectText": "自分のコスト2以上の特徴《ドレスローザ》を持つキャラすべてを、コスト+1。【相手のターン中】【ターン1回】自分の特徴《ドレスローザ》を持つキャラが相手の効果で場を離れた時かKOされた時、発動できる。自分の手札が5枚以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム オフィシャルプレイマット リミテッドエディション vol.3",
-    "seriesTitle": "ONE PIECEカードゲーム オフィシャルプレイマット リミテッドエディション vol.3",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -35070,8 +35070,8 @@
     "block": 3,
     "effectText": "「サボ」以外の自分の元々のコスト7以下のキャラが相手の効果で場を離れる場合、代わりにこのキャラを持ち主の手札に戻すことができる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -36174,8 +36174,8 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】自分のトラッシュから特徴《スリラーバーク海賊団》を持つカード2枚を好きな順番でデッキの下に置くことができる：自分の「ペローナ」以外のキャラ1枚までを、このターン中、パワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.4 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.4 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -36562,8 +36562,8 @@
     "block": 3,
     "effectText": "【ブロッカー】【登場時】自分のライフの上か下から1枚を手札に加えることができる：自分の手札からコスト5の特徴《超新星》を持つキャラカード1枚までを、ライフの上に表向きで加える。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.7",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.7",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -36588,8 +36588,8 @@
     "block": 3,
     "effectText": "「スクラッチメン・アプー」以外の自分の黄の特徴《超新星》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -37132,8 +37132,8 @@
     "block": 3,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、パワー-2000。【アタック時】このキャラは、このターン中、パワー+1000。その後、自分の特徴《海軍》を持つリーダー1枚までは、このターン中、アクティブのキャラにもアタックできる。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2025 4月ベスト8記念品",
-    "seriesTitle": "フラッグシップバトル2025 4月ベスト8記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -38275,8 +38275,8 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のリーダーが多色の場合、カード3枚を引き、自分の手札2枚を好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -38376,8 +38376,8 @@
     "block": 3,
     "effectText": "自分の手札が5枚以上ある場合、このキャラはアタックできない。【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "プロモーションパックVol.8",
-    "seriesTitle": "プロモーションパックVol.8",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -38426,8 +38426,8 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーが多色の場合、自分のデッキの上から5枚を見て、「式をブッ壊そう!!!」以外の特徴《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -38551,8 +38551,8 @@
     "block": 3,
     "effectText": "「シャーロット・アナナ」以外の自分の紫の特徴《ビッグ・マム海賊団》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "プロモーションパックVol.8",
-    "seriesTitle": "プロモーションパックVol.8",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -38601,8 +38601,8 @@
     "block": 3,
     "effectText": "【ブロッカー】【自分のターン終了時】自分のコスト3以上の特徴《ビッグ・マム海賊団》を持つキャラ2枚までを、アクティブにする。その後、自分のドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -38701,8 +38701,8 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】自分の手札1枚を捨てることができる：任意のコストを宣言し、相手のデッキの上から1枚を公開する。公開したカードが宣言したコストと同じ場合、カード1枚を引き、ドン‼デッキからドン‼1枚までを、アクティブで追加する。",
     "trigger": "",
-    "getInfo": "プロモーションパックEX Vol.3",
-    "seriesTitle": "プロモーションパックEX Vol.3",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -39336,8 +39336,8 @@
     "block": 3,
     "effectText": "「リッパー」以外の自分の黒の特徴《海軍》を持つキャラがいる場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "プロモーションパックVol.8",
-    "seriesTitle": "プロモーションパックVol.8",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -39927,8 +39927,8 @@
     "block": 3,
     "effectText": "【登場時】自分のキャラ1枚までは、このターン中、アクティブのキャラにもアタックできる。【アタック時】自分のトラッシュからカード2枚を好きな順番でデッキの下に置くことができる：自分のリーダーかキャラ1枚までを、次の相手のターン終了時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2025 4月優勝記念品",
-    "seriesTitle": "フラッグシップバトル2025 4月優勝記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -40080,8 +40080,8 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、「モンキー・Ｄ・ルフィ」か赤のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -40438,8 +40438,8 @@
     "block": 3,
     "effectText": "【ドン‼×3】【起動メイン】【ターン1回】このターン中、このリーダーが相手のキャラとバトルしている場合、このリーダーをアクティブにする。その後、このリーダーは、このターン中、相手の元々のコスト7以下のキャラへアタックできない。",
     "trigger": "",
-    "getInfo": "オフィシャルプレイマット リミテッドエディション vol.4",
-    "seriesTitle": "オフィシャルプレイマット リミテッドエディション vol.4",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -40595,8 +40595,8 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラをレストにできる：相手の元々のコスト4以下のキャラ1枚までを、レストにする。その後、自分のリーダーの「ロロノア・ゾロ」にレストのドン‼3枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -40805,8 +40805,8 @@
     "block": 3,
     "effectText": "【登場時】自分のリーダーが属性(斬)を持つ場合、自分のデッキの上から5枚を見て、属性(斬)を持つカードか緑のイベント1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -40932,8 +40932,8 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーの「ロロノア・ゾロ」を、アクティブにする。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -41238,8 +41238,8 @@
     "block": 3,
     "effectText": "【起動メイン】このキャラをレストにし、自分の手札1枚を捨てることができる：相手の元々のコスト4以下のキャラ1枚までは、このターン中、【ブロッカー】を発動できない。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -41953,8 +41953,8 @@
     "block": 3,
     "effectText": "【メイン】自分のリーダーが「サンジ」の場合、デッキの上から3枚を見て、カード1枚までを手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -42338,8 +42338,8 @@
     "block": 3,
     "effectText": "【登場時】自分のトラッシュから特徴《革命軍》を持つカード3枚を好きな順番でデッキの下に置くことができる：自分のリーダーが特徴《革命軍》を持つ場合、自分のトラッシュからコスト6以下のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -42441,8 +42441,8 @@
     "block": 3,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。その後、自分のコスト8以上の特徴《革命軍》を持つキャラがいる場合、そのカードを、このバトル中、パワー+2000。",
     "trigger": "【】カード1枚を引き、自分のデッキの上から1枚をトラッシュに置く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -42805,8 +42805,8 @@
     "block": 3,
     "effectText": "-",
     "trigger": "【】自分のリーダーが多色の場合、カード2枚を引く。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -42988,8 +42988,8 @@
     "block": 3,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。その後、このキャラは、次の相手のエンドフェイズ終了時まで、コスト+2。【相手のターン中】【KO時】自分のデッキの上から1枚までを、ライフの上に加える。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -43296,8 +43296,8 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から4枚を見て、コスト2以上の、特徴《アラバスタ王国》か《麦わらの一味》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "オフィシャルプレイマット ネフェルタリ・ビビ",
-    "seriesTitle": "オフィシャルプレイマット ネフェルタリ・ビビ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -43941,8 +43941,8 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが特徴《FILM》か《麦わらの一味》を持つ場合、自分のドン‼2枚までを、アクティブにする。【自分のターン終了時】このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -44097,8 +44097,8 @@
     "block": 4,
     "effectText": "【登場時】自分のライフが3枚以下の場合、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -44603,8 +44603,8 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分の付与されているドン‼がある場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -44833,8 +44833,8 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが『ロジャー海賊団』を含む特徴を持ち、自分の付与されているドン‼がある場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -45192,8 +45192,8 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚を見て、「シャルリア宮」以外の特徴《天竜人》を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -45346,8 +45346,8 @@
     "block": 4,
     "effectText": "【登場時】自分のライフが3枚以下の場合、自分のトラッシュからコスト1の特徴《聖地マリージョア》を持つステージカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -46437,8 +46437,8 @@
     "block": 4,
     "effectText": "【ブロッカー】【登場時】自分のリーダーが特徴《超新星》を持つ場合、自分の手札からパワー2000以下の赤のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -47036,8 +47036,8 @@
     "block": 4,
     "effectText": "【メイン】自分のカード3枚をレストにできる：相手のレストの元々のパワー7000以下のキャラ1枚までを、KOする。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -48625,8 +48625,8 @@
     "block": 4,
     "effectText": "【メイン】自分のデッキの上から3枚を見て、「不服か？」以外の『B・W』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -49211,8 +49211,8 @@
     "block": 4,
     "effectText": "【アタック時】/【相手のアタック時】自分の手札からイベントかステージカードを任意の枚数捨ててもよい。捨てたカード1枚につき、このリーダーは、このバトル中、パワー+1000。【起動メイン】【ターン1回】このターン中、自分が元々のコスト3以上のイベントを発動している場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "メラメラの実争奪戦 上位記念品",
-    "seriesTitle": "メラメラの実争奪戦 上位記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -50169,8 +50169,8 @@
     "block": 4,
     "effectText": "このリーダーはアタックできない。【起動メイン】このリーダーをレストにし、自分の特徴《ドレスローザ》を持つキャラ1枚を持ち主の手札に戻すことができる：自分の手札からコスト3の特徴《ドレスローザ》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "メラメラの実争奪戦 上位記念品",
-    "seriesTitle": "メラメラの実争奪戦 上位記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -50710,8 +50710,8 @@
     "block": 4,
     "effectText": "自分の場のドン‼が6枚以下の場合、このキャラは相手の効果で場を離れず、パワー+2000。【起動メイン】ドン‼-1：このキャラは、次の相手のエンドフェイズ終了時まで、【ブロッカー】を得る。その後、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2026 4月上位記念品",
-    "seriesTitle": "フラッグシップバトル2026 4月上位記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -50916,8 +50916,8 @@
     "block": 4,
     "effectText": "自分の場のドン‼が6枚以下の場合、このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "スタンダードバトルパックVol.17",
-    "seriesTitle": "スタンダードバトルパックVol.17",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -51094,8 +51094,8 @@
     "block": 4,
     "effectText": "【メイン】ドン‼-1：自分のリーダーが「エネル」の場合、自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。【カウンター】自分の「エネル」1枚までを、このバトル中、パワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -51933,8 +51933,8 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《空島》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -52063,8 +52063,8 @@
     "block": 4,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のデッキの上から1枚までを、ライフの上に加える。",
     "trigger": "",
-    "getInfo": "フラッグシップバトル2026 7月ベスト8記念品",
-    "seriesTitle": "フラッグシップバトル2026 7月ベスト8記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -52242,8 +52242,8 @@
     "block": 5,
     "effectText": "【起動メイン】【ターン1回】自分のパワー8000以上の、「モンキー・Ｄ・ルフィ」か『白ひげ海賊団』を含む特徴を持つキャラ1枚までは、このターン中、【速攻】を得る。",
     "trigger": "",
-    "getInfo": "オフィシャルプレイマット＆カードセット-メラメラの実争奪戦Edition-",
-    "seriesTitle": "オフィシャルプレイマット＆カードセット-メラメラの実争奪戦Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58347,8 +58347,8 @@
     "block": 1,
     "effectText": "【ドン!!×2】このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション 25周年エディション",
-    "seriesTitle": "プレミアムカードコレクション 25周年エディション",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58372,8 +58372,8 @@
     "block": 1,
     "effectText": "【メイン】自分の手札すべてをデッキに戻し、デッキをシャッフルする。その後、デッキに戻した枚数分カードを引く。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58398,8 +58398,8 @@
     "block": 1,
     "effectText": "【ドン!!×2】このキャラは【ダブルアタック】を得る。(このカードが与えるダメージは2になる)",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58424,8 +58424,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】このキャラは【ブロッカー】を得る。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58450,8 +58450,8 @@
     "block": 1,
     "effectText": "【起動メイン】ドン!!-2(自分の場のドン!!を指定の数ドン!!デッキに戻すことができる)：このキャラは、このターン中、【バニッシュ】を得る。(このカードがダメージを与えた場合、トリガーは発動せずそのカードはトラッシュに置かれる)",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58476,8 +58476,8 @@
     "block": 1,
     "effectText": "【ドン‼×2】【自分のターン中】このキャラはパワー+2000。",
     "trigger": "",
-    "getInfo": "Vジャンプ9月特大号付録（2022年7月21日売）",
-    "seriesTitle": "Vジャンプ9月特大号付録（2022年7月21日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58502,8 +58502,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】このキャラは属性(打)を持つリーダーとキャラとのバトルでKOされない。",
     "trigger": "",
-    "getInfo": "最強ジャンプ9月号付録（2022年8月4日売）",
-    "seriesTitle": "最強ジャンプ9月号付録（2022年8月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58527,8 +58527,8 @@
     "block": 1,
     "effectText": "【起動メイン】このキャラをレストにできる：相手のコスト2以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "最強ジャンプ9月号付録（2022年8月4日売）",
-    "seriesTitle": "最強ジャンプ9月号付録（2022年8月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58553,8 +58553,8 @@
     "block": 1,
     "effectText": "【登場時】相手の手札が6枚以上ある場合、相手は自身のライフ1枚を手札に加える。",
     "trigger": "",
-    "getInfo": "最強ジャンプ9月号付録（2022年8月4日売）",
-    "seriesTitle": "最強ジャンプ9月号付録（2022年8月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58579,8 +58579,8 @@
     "block": 1,
     "effectText": "【自分のターン終了時】ドン‼デッキからドン‼1枚までをアクティブで追加する。",
     "trigger": "",
-    "getInfo": "最強ジャンプ9月号付録（2022年8月4日売）",
-    "seriesTitle": "最強ジャンプ9月号付録（2022年8月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58604,8 +58604,8 @@
     "block": 1,
     "effectText": "【起動メイン】【ターン1回】①(コストエリアのドン‼を指定の数レストにできる)：自分の元々の効果がないキャラ1枚までを、このターン中、パワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58630,8 +58630,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58655,8 +58655,8 @@
     "block": 1,
     "effectText": "【起動メイン】このキャラを持ち主のデッキの下に置くことができる：相手のキャラ1枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58707,8 +58707,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58734,8 +58734,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58761,8 +58761,8 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58788,8 +58788,8 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58815,8 +58815,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】【アタック時】相手のパワー3000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58841,8 +58841,8 @@
     "block": 1,
     "effectText": "【登場時】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58867,8 +58867,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58894,8 +58894,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
-    "seriesTitle": "プレミアムカードコレクション ‐ONE PIECE FILM RED ‐",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58920,8 +58920,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
-    "seriesTitle": "『ONE PIECE FILM RED』第2弾入場者プレゼント チュートリアルデッキ",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58946,8 +58946,8 @@
     "block": 1,
     "effectText": "【メイン】自分のリーダーは、このターン中、自分のキャラ1枚につきパワー+1000。",
     "trigger": "【】自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
-    "getInfo": "交流会 9月開催記念品",
-    "seriesTitle": "交流会 9月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58971,8 +58971,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】このキャラは属性(特)を持たないキャラとのバトルでKOされない。",
     "trigger": "",
-    "getInfo": "Vジャンプ12月特大号付録（2022年10月21日売）",
-    "seriesTitle": "Vジャンプ12月特大号付録（2022年10月21日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -58996,8 +58996,8 @@
     "block": 1,
     "effectText": "【アタック時】相手のキャラ1枚までを、このターン中、コスト-3。",
     "trigger": "",
-    "getInfo": "交流会12月開催記念品",
-    "seriesTitle": "交流会12月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59021,8 +59021,8 @@
     "block": 1,
     "effectText": "ルール上、このカードはカード名を「フランキー」としても扱う。【相手のターン中】自分の元々のパワー3000以下のキャラすべてを、パワー+1000。",
     "trigger": "",
-    "getInfo": "最強ジャンプ12月号付録（2022年11月2日売）",
-    "seriesTitle": "最強ジャンプ12月号付録（2022年11月2日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59046,8 +59046,8 @@
     "block": 1,
     "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022 Vol.2",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022 Vol.2",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59100,8 +59100,8 @@
     "block": 1,
     "effectText": "【KO時】コスト3以下のキャラ1枚までを、持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59125,8 +59125,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59150,8 +59150,8 @@
     "block": 1,
     "effectText": "【ドン‼×1】【自分のターン中】相手のキャラすべてを、コスト-2。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパック2022 Vol.2",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパック2022 Vol.2",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59175,8 +59175,8 @@
     "block": 1,
     "effectText": "【起動メイン】このキャラを持ち主のデッキの下に置くことができる：カード1枚を引く。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ付録（2023年1月7日売）",
-    "seriesTitle": "週刊少年ジャンプ付録（2023年1月7日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59200,8 +59200,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】【自分のターン中】自分のライフが2枚以下の場合、このキャラはパワー+2000。",
     "trigger": "",
-    "getInfo": "Vジャンプ3月特大号付録（2023年1月20日売）",
-    "seriesTitle": "Vジャンプ3月特大号付録（2023年1月20日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59225,8 +59225,8 @@
     "block": 1,
     "effectText": "【ドン!!×1】【アタック時】自分の手札1枚を捨てることができる：相手のコスト0のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "交流会3月開催記念品",
-    "seriesTitle": "交流会3月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59251,8 +59251,8 @@
     "block": 1,
     "effectText": "【アタック時】自分のライフの上か下から1枚を手札に加えることができる：このキャラと自分のリーダー1枚までを、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "最強ジャンプ3月号付録（2023年2月3日売）",
-    "seriesTitle": "最強ジャンプ3月号付録（2023年2月3日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59276,8 +59276,8 @@
     "block": 1,
     "effectText": "【アタック時】自分のレストのキャラが2枚以上いる場合、このキャラは、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "最強ジャンプ6月号付録（2023年5月2日売）",
-    "seriesTitle": "最強ジャンプ6月号付録（2023年5月2日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59302,8 +59302,8 @@
     "block": 1,
     "effectText": "【登場時】自分のリーダー1枚をレストにできる：相手のコスト1以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "Vジャンプ7月特大号付録（2023年5月19日売）",
-    "seriesTitle": "Vジャンプ7月特大号付録（2023年5月19日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59327,8 +59327,8 @@
     "block": 1,
     "effectText": "【バニッシュ】(このカードがダメージを与えた場合、トリガーは発動せずそのカードはトラッシュに置かれる)【ドン!!×2】自分のライフが0枚の場合、このキャラはパワー+2000。",
     "trigger": "",
-    "getInfo": "交流会6月開催記念品",
-    "seriesTitle": "交流会6月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59353,8 +59353,8 @@
     "block": 2,
     "effectText": "相手の場にドン!!が10枚ある場合、このキャラはKOされない。",
     "trigger": "",
-    "getInfo": "「ONE PIECE CARD GAME 1st ANNIVERSARY COMPLETE GUIDE」限定特典カード",
-    "seriesTitle": "「ONE PIECE CARD GAME 1st ANNIVERSARY COMPLETE GUIDE」限定特典カード",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59404,8 +59404,8 @@
     "block": 2,
     "effectText": "-",
     "trigger": "【】相手のコスト4以下のキャラ1枚までを、KOする。",
-    "getInfo": "最強ジャンプ9月号付録（2023年8月4日売）",
-    "seriesTitle": "最強ジャンプ9月号付録（2023年8月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59429,8 +59429,8 @@
     "block": 2,
     "effectText": "【登場時】コスト3以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ付録（2023年8月7日売）",
-    "seriesTitle": "週刊少年ジャンプ付録（2023年8月7日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59479,8 +59479,8 @@
     "block": 2,
     "effectText": "【バニッシュ】(このカードがダメージを与えた場合、トリガーは発動せずそのカードはトラッシュに置かれる)",
     "trigger": "",
-    "getInfo": "交流会 2023年9月開催記念品",
-    "seriesTitle": "交流会 2023年9月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59504,8 +59504,8 @@
     "block": 2,
     "effectText": "【登場時】自分の手札すべてを好きな順番でデッキの下に置いてもよい。そうした場合、置いた枚数分カードを引く。",
     "trigger": "",
-    "getInfo": "ONE PIECE magazine Vol.17付録（2023年9月4日売）",
-    "seriesTitle": "ONE PIECE magazine Vol.17付録（2023年9月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59529,8 +59529,8 @@
     "block": 2,
     "effectText": "【ドン‼×1】【アタック時】自分の手札が3枚以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59555,8 +59555,8 @@
     "block": 2,
     "effectText": "【ドン‼×1】【アタック時】自分のライフが4枚以上の場合、相手は自身の手札1枚をデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59580,8 +59580,8 @@
     "block": 2,
     "effectText": "【登場時】自分のデッキの上から5枚を見て、好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59605,8 +59605,8 @@
     "block": 2,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【ドン‼×1】【自分のターン中】自分の手札が3枚以下の場合、このキャラはパワー+4000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59630,8 +59630,8 @@
     "block": 2,
     "effectText": "【アタック時】自分の手札を任意の枚数捨ててもよい。捨てたカード1枚につき、このキャラは、このバトル中、パワー+1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59655,8 +59655,8 @@
     "block": 2,
     "effectText": "【ドン‼×1】このキャラは属性(斬)を持つカードとのバトルでKOされない。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59680,8 +59680,8 @@
     "block": 2,
     "effectText": "【登場時】自分の手札が3枚以下の場合、相手のコスト3以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59705,8 +59705,8 @@
     "block": 2,
     "effectText": "【ドン!!×1】このキャラは属性(打)を持つカードとのバトルでKOされない。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム プロモーションパックVol.4",
-    "seriesTitle": "ONE PIECEカードゲーム プロモーションパックVol.4",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59730,8 +59730,8 @@
     "block": 2,
     "effectText": "【登場時】自分の手札2枚を捨てることができる：相手は自身のキャラ1枚を、持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59755,8 +59755,8 @@
     "block": 2,
     "effectText": "【登場時】➁(コストエリアのドン‼を指定の数レストにできる)：コスト5以下のキャラ1枚までを、持ち主の手札に戻す。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59912,8 +59912,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】相手のコスト4以下のキャラ1枚までを、レストにし、このキャラは、このターン中、パワー＋1000。その後、自分のライフの上から1枚を手札に加える。",
     "trigger": "",
-    "getInfo": "交流会 2023年12月開催記念品",
-    "seriesTitle": "交流会 2023年12月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59963,8 +59963,8 @@
     "block": 2,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "最強ジャンプ1月号付録（2023年12月4日売）",
-    "seriesTitle": "最強ジャンプ1月号付録（2023年12月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -59989,8 +59989,8 @@
     "block": 2,
     "effectText": "【アタック時】相手のコスト0のキャラがいる場合、このキャラは、次の自分のターン開始時まで、パワー+2000。",
     "trigger": "",
-    "getInfo": "勉タメジャンプ2024 WINTER付録（2023年12月8日売）",
-    "seriesTitle": "勉タメジャンプ2024 WINTER付録（2023年12月8日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60015,8 +60015,8 @@
     "block": 2,
     "effectText": "【自分のターン中】自分の手札が5枚以下の場合、自分の特徴《九蛇海賊団》を持つキャラすべては、パワー+1000。",
     "trigger": "",
-    "getInfo": "最強ジャンプ4月号付録（2024年3月4日売）",
-    "seriesTitle": "最強ジャンプ4月号付録（2024年3月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60041,8 +60041,8 @@
     "block": 2,
     "effectText": "このキャラがレストの場合、相手はキャラの「ユースタス・キッド」以外にアタックできない。",
     "trigger": "",
-    "getInfo": "Vジャンプ4月特大号付録（2024年2月21日売）",
-    "seriesTitle": "Vジャンプ4月特大号付録（2024年2月21日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60142,8 +60142,8 @@
     "block": 3,
     "effectText": "【KO時】このキャラカードを手札に加えることができる。",
     "trigger": "",
-    "getInfo": "最強ジャンプ8月号付録（2024年7月4日売）",
-    "seriesTitle": "最強ジャンプ8月号付録（2024年7月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60167,8 +60167,8 @@
     "block": 3,
     "effectText": "【登場時】/【KO時】相手のコスト4以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60193,8 +60193,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分のライフの上か下から1枚を手札に加えることができる：このキャラは、このターン中、パワー+1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60218,8 +60218,8 @@
     "block": 2,
     "effectText": "【起動メイン】このキャラを持ち主の手札に戻すことができる：自分のデッキの上から5枚を見て、好きな順番に並び替え、デッキの上か下に置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60244,8 +60244,8 @@
     "block": 2,
     "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。【アタック時】自分の場にコスト8以上のキャラがいる場合、カード1枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60270,8 +60270,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】自分の手札から特徴《海軍》を持つカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、コスト-1。",
     "trigger": "",
-    "getInfo": "交流会 2024年5月開催記念品",
-    "seriesTitle": "交流会 2024年5月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60295,8 +60295,8 @@
     "block": 3,
     "effectText": "【ターン1回】自分の場のドン‼が2枚以上ドン‼デッキに戻された時、ドン‼デッキからドン‼1枚までを、レストで追加する。その後、自分の紫のステージ1枚までをアクティブにする。",
     "trigger": "",
-    "getInfo": "交流会 2024年7月開催記念品",
-    "seriesTitle": "交流会 2024年7月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60372,8 +60372,8 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "BANDAI CARD GAMES Fest 24-25 World Tour 来場記念品",
-    "seriesTitle": "BANDAI CARD GAMES Fest 24-25 World Tour 来場記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60527,8 +60527,8 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】ドン!!-3,自分のパワー3000以上のキャラ1枚を、デッキの下に置くことができる：自分の手札からコスト4以下の特徴《ハートの海賊団》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "交流会 2024年9月開催記念品",
-    "seriesTitle": "交流会 2024年9月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60552,8 +60552,8 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "交流会 2025年1月開催記念品",
-    "seriesTitle": "交流会 2025年1月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60604,8 +60604,8 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "最強ジャンプ2月特大号付録（2025年1月4日売）",
-    "seriesTitle": "最強ジャンプ2月特大号付録（2025年1月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60629,8 +60629,8 @@
     "block": 3,
     "effectText": "【相手のターン中】【KO時】ドン‼-1：自分の手札から「シャーロット・スムージー」以外の相手の場のドン‼の枚数以下のコストを持ち、特徴《ビッグ・マム海賊団》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "交流会 2025年3月開催記念品",
-    "seriesTitle": "交流会 2025年3月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60655,8 +60655,8 @@
     "block": 3,
     "effectText": "【登場時】自分の手札からコスト5以下の特徴《海王類》か《魚人島》を持つキャラカード1枚までを、登場させる。【起動メイン】このキャラをレストにできる：自分の特徴《海王類》を持つキャラ1枚までは、登場したターンにキャラへアタックできる。",
     "trigger": "",
-    "getInfo": "Vジャンプ4月特大号付録（2025年2月20日売）",
-    "seriesTitle": "Vジャンプ4月特大号付録（2025年2月20日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60681,8 +60681,8 @@
     "block": 3,
     "effectText": "【相手のターン中】このキャラのパワー-3000。【アタック時】自分のリーダーが特徴《海軍》を持つ場合、自分のリーダーを、次の相手のターン終了時まで、元々のパワー7000にする。",
     "trigger": "",
-    "getInfo": "最強ジャンプ4月特大号付録（2025年3月4日売）",
-    "seriesTitle": "最強ジャンプ4月特大号付録（2025年3月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60706,8 +60706,8 @@
     "block": 3,
     "effectText": "【ブロッカー】【登場時】自分の場のドン‼が相手の場のドン‼の枚数以下の場合、ドン‼デッキからドン‼1枚までを、レストで追加する。",
     "trigger": "",
-    "getInfo": "交流会 2025年5月開催記念品",
-    "seriesTitle": "交流会 2025年5月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60731,8 +60731,8 @@
     "block": 3,
     "effectText": "【登場時】相手のレストのコスト2以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "Vジャンプ7月特大号付録（2025年5月21日売）",
-    "seriesTitle": "Vジャンプ7月特大号付録（2025年5月21日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60756,8 +60756,8 @@
     "block": 3,
     "effectText": "【相手のアタック時】【ターン1回】自分の手札からイベント1枚を捨てることができる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+2000。",
     "trigger": "",
-    "getInfo": "最強ジャンプ7月号付録（2025年6月4日売）",
-    "seriesTitle": "最強ジャンプ7月号付録（2025年6月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60781,8 +60781,8 @@
     "block": 3,
     "effectText": "【登場時】カード1枚を引き、自分の手札1枚を捨てる。【起動メイン】【ターン1回】自分の「ナミ」1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECE magazine別冊 Focus on〝ONE PIECE FAN LETTER〟付録",
-    "seriesTitle": "ONE PIECE magazine別冊 Focus on〝ONE PIECE FAN LETTER〟付録",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60807,8 +60807,8 @@
     "block": 3,
     "effectText": "【登場時】/【アタック時】相手は、このターン中、【ブロッカー】を発動できない。",
     "trigger": "",
-    "getInfo": "交流会 2025年7月開催記念品",
-    "seriesTitle": "交流会 2025年7月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60833,8 +60833,8 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のコスト5以上のキャラが5枚いない場合、このキャラを持ち主のデッキの下に置く。",
     "trigger": "",
-    "getInfo": "交流会 2025年7月開催記念品",
-    "seriesTitle": "交流会 2025年7月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60859,8 +60859,8 @@
     "block": 3,
     "effectText": "【アタック時】ドン‼-10(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "交流会 2025年7月開催記念品",
-    "seriesTitle": "交流会 2025年7月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60885,8 +60885,8 @@
     "block": 3,
     "effectText": "【アタック時】相手のリーダーとキャラすべてを、このターン中、効果を無効にする。",
     "trigger": "",
-    "getInfo": "交流会 2025年7月開催記念品",
-    "seriesTitle": "交流会 2025年7月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60937,8 +60937,8 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが特徴《麦わらの一味》を持つ場合、自分のドン‼2枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "「プロモーションカードセット2025」ゲットキャンペーン",
-    "seriesTitle": "「プロモーションカードセット2025」ゲットキャンペーン",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60962,8 +60962,8 @@
     "block": 4,
     "effectText": "【登場時】カード2枚を引き、自分の手札2枚を好きな順番に並び替え、デッキの上か下に置く。その後、自分のリーダーにレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "「プロモーションカードセット2025」ゲットキャンペーン",
-    "seriesTitle": "「プロモーションカードセット2025」ゲットキャンペーン",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -60989,8 +60989,8 @@
     "block": 4,
     "effectText": "自分か相手の場のドン‼が10枚ある場合、このキャラは相手の効果で場を離れない。",
     "trigger": "",
-    "getInfo": "「プロモーションカードセット2025」ゲットキャンペーン",
-    "seriesTitle": "「プロモーションカードセット2025」ゲットキャンペーン",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61041,8 +61041,8 @@
     "block": 4,
     "effectText": "【自分のターン終了時】自分のライフの上から1枚を表向きにできる：自分の特徴《エッグヘッド》を持つキャラ1枚までを、アクティブにする。",
     "trigger": "【】カード1枚を引き、相手のコスト2以下のキャラ1枚までを、KOする。",
-    "getInfo": "「プロモーションカードセット2025」ゲットキャンペーン",
-    "seriesTitle": "「プロモーションカードセット2025」ゲットキャンペーン",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61067,8 +61067,8 @@
     "block": 4,
     "effectText": "【登場時】自分か相手の場のドン‼が10枚ある場合、自分のリーダーを、次の相手のエンドフェイズ終了時まで、パワー+2000。",
     "trigger": "",
-    "getInfo": "交流会 2025年9月開催記念品",
-    "seriesTitle": "交流会 2025年9月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61093,8 +61093,8 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【KO時】自分のドン‼2枚までを、アクティブにする。",
     "trigger": "",
-    "getInfo": "Vジャンプ10月特大号付録（2025年8月21日売）",
-    "seriesTitle": "Vジャンプ10月特大号付録（2025年8月21日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61118,8 +61118,8 @@
     "block": 4,
     "effectText": "【ブロッカー】【登場時】自分のデッキの上から3枚を見て、好きな順番に並び替え、デッキの上か下に置く。その後、自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "最強ジャンプ10月号付録（2025年9月4日売）",
-    "seriesTitle": "最強ジャンプ10月号付録（2025年9月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61145,8 +61145,8 @@
     "block": 4,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ONE PIECE DAY’25-",
-    "seriesTitle": "プレミアムカードコレクション-ONE PIECE DAY’25-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61170,8 +61170,8 @@
     "block": 4,
     "effectText": "【ターン1回】自分の特徴《麦わらの一味》を持つキャラが相手の効果で場を離れる場合、代わりに自分のドン‼1枚をレストにできる。",
     "trigger": "",
-    "getInfo": "交流会 2025年11月開催記念品",
-    "seriesTitle": "交流会 2025年11月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61195,8 +61195,8 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが「ナミ」の場合、自分のリーダーにレストのドン‼1枚までを、付与する。その後、自分の手札からコスト2以下のキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "交流会 2025年11月開催記念品",
-    "seriesTitle": "交流会 2025年11月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61220,8 +61220,8 @@
     "block": 4,
     "effectText": "【ドン‼×2】【相手のターン中】このキャラは【ブロッカー】を得て、パワー+2000。",
     "trigger": "【】相手のコスト3以下のキャラ1枚までを、KOする。",
-    "getInfo": "交流会 2025年11月開催記念品",
-    "seriesTitle": "交流会 2025年11月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61246,8 +61246,8 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる）【自分のターン終了時】自分のアクティブのドン‼がある場合、このキャラをアクティブにする。",
     "trigger": "",
-    "getInfo": "交流会 2025年11月開催記念品",
-    "seriesTitle": "交流会 2025年11月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61272,8 +61272,8 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "【】自分の手札からパワー5000以下の黄の【】を持つキャラカード1枚までを、登場させる。",
-    "getInfo": "Vジャンプ2026年1月特大号（2025年11月20日売）",
-    "seriesTitle": "Vジャンプ2026年1月特大号（2025年11月20日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61298,8 +61298,8 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる）【KO時】自分のトラッシュが7枚以上ある場合、カード1枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "最強ジャンプ1月号付録（2025年12月4日売）",
-    "seriesTitle": "最強ジャンプ1月号付録（2025年12月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61323,8 +61323,8 @@
     "block": 4,
     "effectText": "ルール上、自分は特徴《東の海》を持つカードしかデッキに入れることができず、自分のデッキが0枚になった場合、自分は敗北する代わりに勝利する。【ドン‼×1】このリーダーのアタックによって、相手のライフにダメージを与えた時、自分のデッキの上から1枚をトラッシュに置いてもよい。",
     "trigger": "",
-    "getInfo": "交流会(小学生以下限定含む)",
-    "seriesTitle": "交流会(小学生以下限定含む)",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61349,8 +61349,8 @@
     "block": 4,
     "effectText": "【登場時】自分のリーダーが特徴《エッグヘッド》を持つ場合、自分の手札からコスト5以下の、特徴《エッグヘッド》か【トリガー】を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "交流会 2026年1月開催記念品",
-    "seriesTitle": "交流会 2026年1月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61374,8 +61374,8 @@
     "block": 4,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "交流会 2026年3月開催記念品",
-    "seriesTitle": "交流会 2026年3月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61400,8 +61400,8 @@
     "block": 4,
     "effectText": "手札のこのカードは、相手のライフが離れているターン中、コスト－2。",
     "trigger": "",
-    "getInfo": "Vジャンプ4月特大号付録（2026年2月20日売）",
-    "seriesTitle": "Vジャンプ4月特大号付録（2026年2月20日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61425,8 +61425,8 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置く。【KO時】相手は自身の手札2枚を捨てる。",
     "trigger": "",
-    "getInfo": "最強ジャンプ4月号付録（2026年3月4日売）",
-    "seriesTitle": "最強ジャンプ4月号付録（2026年3月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61450,8 +61450,8 @@
     "block": 5,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる）【登場時】相手のコスト5以下のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "交流会 2026年5月開催記念品",
-    "seriesTitle": "交流会 2026年5月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61475,8 +61475,8 @@
     "block": 5,
     "effectText": "【起動メイン】このキャラをレストにできる：自分の特徴《麦わらの一味》を持つ、リーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61500,8 +61500,8 @@
     "block": 5,
     "effectText": "【ダブルアタック】(このカードが与えるダメージは2になる)【アタック時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61526,8 +61526,8 @@
     "block": 5,
     "effectText": "【相手のターン中】このキャラのパワー+2000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61551,8 +61551,8 @@
     "block": 5,
     "effectText": "【登場時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。【ドン!!×1】【アタック時】カード1枚を引く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61576,8 +61576,8 @@
     "block": 5,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のリーダーかキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61601,8 +61601,8 @@
     "block": 5,
     "effectText": "【速攻】(このカードは登場したターンにアタックできる)【登場時】相手のリーダーかキャラ1枚までを、このターン中、パワー-1000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61626,8 +61626,8 @@
     "block": 5,
     "effectText": "自分の元々のパワー8000以下の特徴《麦わらの一味》を持つキャラがKOされる場合、代わりにこのステージをトラッシュに置くことができる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 麦わらの一味-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61652,8 +61652,8 @@
     "block": 5,
     "effectText": "【登場時】コスト0のキャラがいる場合、このキャラは、このターン中、【速攻】を得る。(このカードは登場したターンにアタックできる)",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61677,8 +61677,8 @@
     "block": 5,
     "effectText": "【登場時】自分の『B・W』を含む特徴を持つキャラ1枚をKOできる：カード1枚を引く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61702,8 +61702,8 @@
     "block": 5,
     "effectText": "【登場時】カード1枚を引き、自分の手札1枚を捨てる。【KO時】相手の手札が6枚以上ある場合、相手は自身の手札2枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61727,8 +61727,8 @@
     "block": 5,
     "effectText": "【KO時】カード1枚を引き、相手のコスト0のキャラ1枚までを、レストにする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61752,8 +61752,8 @@
     "block": 5,
     "effectText": "コスト0か8以上のキャラがいる場合、このキャラのパワー+2000。【KO時】自分のトラッシュから『B・W』を含む特徴を持つキャラカード1枚までを、手札に加える。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61777,8 +61777,8 @@
     "block": 5,
     "effectText": "【ブロッカー】【起動メイン】【ターン1回】コスト0か8以上のキャラがいる場合、自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61802,8 +61802,8 @@
     "block": 5,
     "effectText": "【キャラ：速攻】(このカードは登場したターンにキャラへアタックできる)【登場時】コスト0か8以上のキャラがいる場合、カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
-    "seriesTitle": "プレミアムカードコレクション-Live Action Edition vol.2 バロックワークス-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61828,8 +61828,8 @@
     "block": 5,
     "effectText": "【自分のターン中】【登場時】自分のトラッシュからコスト1の【トリガー】を持つキャラカード1枚までを、登場させる。",
     "trigger": "【】カード1枚を引き、相手のコスト6以下のキャラ1枚までは、このターン中、アタックできない。",
-    "getInfo": "Vジャンプ7月特大号付録（2026年5月21日売）",
-    "seriesTitle": "Vジャンプ7月特大号付録（2026年5月21日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61853,8 +61853,8 @@
     "block": 5,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のリーダーが特徴《海軍》を持つ場合、ドン!!デッキからドン!!1枚までを、レストで追加する。その後、自分のデッキの上から5枚を見て、特徴《海軍》を持つカード1枚までを公開し、手札に加え、残りを好きな順番でデッキの下に置く。",
     "trigger": "",
-    "getInfo": "最強ジャンプ7月号付録（2026年6月4日売）",
-    "seriesTitle": "最強ジャンプ7月号付録（2026年6月4日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61879,8 +61879,8 @@
     "block": 5,
     "effectText": "【登場時】自分のリーダーとキャラすべてを、このターン中、パワー+2000。その後、相手のパワー3000以下のキャラ1枚までを、KOする。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
-    "seriesTitle": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61904,8 +61904,8 @@
     "block": 5,
     "effectText": "【登場時】相手のキャラ2枚までを、このターン中、パワー-3000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
-    "seriesTitle": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61929,8 +61929,8 @@
     "block": 5,
     "effectText": "【登場時】自分のドン!!3枚をレストにできる：自分のリーダーが「ポートガス・D・エース」の場合、自分の手札からパワー8000以下の「ポートガス・D・エース」1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
-    "seriesTitle": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61955,8 +61955,8 @@
     "block": 5,
     "effectText": "【アタック時】自分の手札から【トリガー】を持つカード1枚を捨てることができる：相手のキャラ1枚までを、このターン中、パワー-2000。",
     "trigger": "【】相手のライフが3枚以下の場合、このカードを登場させる。",
-    "getInfo": "交流会 2026年7月開催記念品",
-    "seriesTitle": "交流会 2026年7月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -61982,8 +61982,8 @@
     "block": 5,
     "effectText": "【登場時】自分の手札1枚を捨てることができる：自分のトラッシュからコスト4以下の特徴《エルバフ》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "交流会 2026年9月開催記念品",
-    "seriesTitle": "交流会 2026年9月開催記念品",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -62009,8 +62009,8 @@
     "block": 5,
     "effectText": "【KO時】自分のリーダーに付与されているドン!!がある場合、自分の手札からパワー6000以下の特徴《麦わらの一味》を持つキャラカード1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "週刊少年ジャンプ33号付録（2026年7月13日売）",
-    "seriesTitle": "週刊少年ジャンプ33号付録（2026年7月13日売）",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -63475,8 +63475,8 @@
     "block": 1,
     "effectText": "【登場時】自分のトラッシュの「ゲッコー・モリア」以外のコスト4以下の特徴《王下七武海》か《スリラーバーク海賊団》を持つキャラカード1枚までを、手札に加える。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -63682,8 +63682,8 @@
     "block": 1,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -63708,8 +63708,8 @@
     "block": 1,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "【】このカードを登場させる。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -63812,8 +63812,8 @@
     "block": 1,
     "effectText": "【カウンター】自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。その後、自分の手札が3枚以下の場合、カード1枚を引く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -63863,8 +63863,8 @@
     "block": 1,
     "effectText": "【登場時】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：自分の手札のコスト4以下の「ページワン」1枚までを、登場させる。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -64219,8 +64219,8 @@
     "block": 1,
     "effectText": "【カウンター】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.1 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.1 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -64244,8 +64244,8 @@
     "block": 1,
     "effectText": "【起動メイン】このステージをレストにできる：自分のリーダーが特徴《百獣海賊団》を持つ場合、ドン!!デッキからドン!!1枚までをレストで追加する。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -64837,8 +64837,8 @@
     "block": 1,
     "effectText": "【起動メイン】このキャラをレストにできる：相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "スタンダードバトルパック Vol.3",
-    "seriesTitle": "スタンダードバトルパック Vol.3",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -64887,8 +64887,8 @@
     "block": 1,
     "effectText": "【登場時】相手のキャラ1枚までを、このターン中、コスト-4。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクションvol.2 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクションvol.2 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -65594,8 +65594,8 @@
     "block": 1,
     "effectText": "このキャラはリーダーとのバトルでKOされない。【起動メイン】このキャラをレストにできる：相手のキャラ1枚までを、このターン中、コスト-2。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ウタ-",
-    "seriesTitle": "プレミアムカードコレクション-ウタ-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -66629,8 +66629,8 @@
     "block": 2,
     "effectText": "【登場時】/【アタック時】ドン‼-1(自分の場のドン‼を指定の数ドン‼デッキに戻すことができる)：自分のリーダー1枚までを、次の自分のターン開始時まで、パワー+1000。",
     "trigger": "",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -67595,8 +67595,8 @@
     "block": 2,
     "effectText": "【登場時】自分のライフの上か下から1枚を手札に加えることができる：自分のライフすべてを見て、好きな順番で置く。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション-ベストセレクションvol.3-",
-    "seriesTitle": "プレミアムカードコレクション-ベストセレクションvol.3-",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -67671,8 +67671,8 @@
     "block": 2,
     "effectText": "【起動メイン】【ターン1回】このキャラは、次の自分のターン開始時まで、パワー+2000。その後、自分のライフが1枚以上ある場合、カード1枚を引き、自分のライフの上から1枚をトラッシュに置く。",
     "trigger": "",
-    "getInfo": "2nd ANNIVERSARY SET",
-    "seriesTitle": "2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -68326,8 +68326,8 @@
     "block": 3,
     "effectText": "自分のリーダーが『白ひげ海賊団』を含む特徴を持つ場合、このキャラは【速攻】を得る。(このカードは登場したターンにアタックできる)【ターン1回】このキャラが相手の効果で場を離れる場合、代わりにこのキャラを、このターン中、パワー-2000できる。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム 3rd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -68351,8 +68351,8 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【起動メイン】【ターン1回】自分の手札から特徴《FILM》を持つカード1枚を捨てることができる：自分のリーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -68534,8 +68534,8 @@
     "block": 3,
     "effectText": "【登場時】自分のデッキの上から3枚を見て、好きな順番に並び替え、デッキの上に置く。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -68560,8 +68560,8 @@
     "block": 3,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)【登場時】自分のデッキの上から3枚を見て、好きな順番に並び替え、デッキの上か下に置く。その後、自分の特徴《王下七武海》を持つ、リーダーかキャラ1枚にレストのドン‼1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
-    "seriesTitle": "プレミアムブースター ONE PIECE CARD THE BEST ストレージボックスセット",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -68586,8 +68586,8 @@
     "block": 3,
     "effectText": "【起動メイン】【ターン1回】自分の手札1枚をデッキの上に置くことができる：自分のリーダーかキャラ1枚にレストのドン‼2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
-    "seriesTitle": "ONE PIECE カードゲーム China 2nd ANNIVERSARY SET",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -68988,8 +68988,8 @@
     "block": 3,
     "effectText": "【ドン‼×1】【起動メイン】【ターン1回】自分のキャラ1枚にレストのドン!!2枚までを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
-    "seriesTitle": "ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクションvol.1",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -69038,8 +69038,8 @@
     "block": 3,
     "effectText": "【登場時】自分のパワー6000以上の特徴《麦わらの一味》を持つキャラ1枚までを選ぶ。相手は、このターン中、選んだキャラがアタックする場合【ブロッカー】を発動できない。",
     "trigger": "",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.6 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.6 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -69319,8 +69319,8 @@
     "block": 3,
     "effectText": "【速攻】(このカードは登場したターンにアタックできる)【アタック時】自分のリーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
     "trigger": "",
-    "getInfo": "ONE PIECE magazine 特集 週刊少年ジャンプとONE PIECE 020​ 付録",
-    "seriesTitle": "ONE PIECE magazine 特集 週刊少年ジャンプとONE PIECE 020​ 付録",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -69396,8 +69396,8 @@
     "block": 3,
     "effectText": "【メイン】相手のキャラ1枚までを、このターン中、パワー-5000。その後、自分のパワー6000以上のキャラがいる場合、相手のパワー2000以下のキャラ1枚までを、KOする。",
     "trigger": "【】このカードの【メイン】効果を発動する。",
-    "getInfo": "プレミアムカードコレクション - ベストセレクション vol.5 -",
-    "seriesTitle": "プレミアムカードコレクション - ベストセレクション vol.5 -",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {
@@ -70834,8 +70834,8 @@
     "block": 4,
     "effectText": "【ブロッカー】(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
     "trigger": "【】自分のリーダーが「モンキー・Ｄ・ルフィ」の場合、このカードを登場させる。",
-    "getInfo": "プロモーションパックEX Vol.4",
-    "seriesTitle": "プロモーションパックEX Vol.4",
+    "getInfo": "",
+    "seriesTitle": "",
     "seriesCode": ""
   },
   {

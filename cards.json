@@ -62014,6 +62014,31 @@
     "seriesCode": ""
   },
   {
+    "uniqueId": "P-160_dummy.gif",
+    "cardNumber": "P-160",
+    "cardName": "ネフェルタリ・ビビ",
+    "furigana": "ネフェルタリ・ビビ",
+    "rarity": "P",
+    "cardType": "キャラクタークター",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "アラバスタ王国"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から5枚を見て、属性(知)を持つカード1枚までを公開し、手札に加え、残りを好きな順番でデッキの下に置く。その後、自分の手札1枚を捨てる。【トリガー 】自分のライフが2枚以下の場合、このカードを登場させる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
     "uniqueId": "PRB01-001_dummy.gif",
     "cardNumber": "PRB01-001",
     "cardName": "サンジ",
@@ -71632,14 +71657,14 @@
     "attribute": "斬",
     "features": [
       "ワノ国",
-      "赤鞘九人男"
+      "光月家"
     ],
     "block": 5,
     "effectText": "【登場時】自分の、属性(斬)を持つリーダーかドン!!1枚をレストにできる：カード2枚を引き、自分の手札1枚を捨てる。",
     "trigger": "",
-    "getInfo": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
-    "seriesTitle": "スタートデッキ 緑 ロロノア・ゾロ",
-    "seriesCode": "ST-32"
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
   },
   {
     "uniqueId": "ST32-002_dummy.gif",

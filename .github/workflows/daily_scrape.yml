@@ -22,6 +22,11 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -66,9 +71,15 @@ jobs:
           # (上書きコピーされます)
           cp cards.json target_repo/
           
-          # ディレクトリ移動してコミット＆プッシュ
+          # 公開DB側で管理している例外・補正を再適用してから検証する。
+          # 公式一覧に存在しない8パックバトル用リーダーは、単純コピーでは消えるため必須。
           cd target_repo
-          git add cards.json
+          node scripts/ensure-eight-pack-leader.mjs
+          node scripts/apply-block-icon-overrides.mjs
+          node scripts/sync-furigana-master.mjs --write
+          node scripts/test-data-integrity.mjs
+
+          git add cards.json provisional-cards.json furigana-master.json
           
           # 変更がある場合のみプッシュ
           if git diff --staged --quiet; then

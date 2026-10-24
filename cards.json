@@ -6255,6 +6255,1561 @@
     "seriesCode": "EB-04"
   },
   {
+    "uniqueId": "EB05-001_dummy.gif",
+    "cardNumber": "EB05-001",
+    "cardName": "ジュエリー・ボニー",
+    "furigana": "ジュエリー・ボニー",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "超新星",
+      "ボニー海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが特徴《超新星》を持つ場合、カード2枚を引き、自分の手札からパワー2000以下のキャラカード2枚までを、登場させる。【起動メイン】【ターン1回】相手のパワー6000以上の、リーダーかキャラ1枚までを、次の相手のエンドフェイズ終了時まで、パワー-1000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-002_dummy.gif",
+    "cardNumber": "EB05-002",
+    "cardName": "ドール",
+    "furigana": "ドール",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から5枚を見て、コスト2以上の特徴《海軍》を持つカード2枚までを公開し、手札に加え、残りを好きな順番でデッキの下に置く。その後、自分の手札1枚を捨てる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-003_dummy.gif",
+    "cardNumber": "EB05-003",
+    "cardName": "パシア",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "シャボンディ諸島"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-004_dummy.gif",
+    "cardNumber": "EB05-004",
+    "cardName": "ベビー５",
+    "furigana": "ベビーファイブ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "特",
+    "features": [
+      "パンクハザード",
+      "ドンキホーテ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札からイベント2枚を公開できる：カード2枚を引く。【KO時】自分の手札からパワー6000以下のキャラカード1枚までを、レストで登場させる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-005_dummy.gif",
+    "cardNumber": "EB05-005",
+    "cardName": "ベロ・ベティ",
+    "furigana": "ベロ・ベティ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の特徴《革命軍》と【トリガー】を両方持つキャラ3枚までを、このターン中、パワー+2000。【起動メイン】このキャラをトラッシュに置くことができる：相手のキャラ1枚までを、このターン中、パワー-2000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-006_dummy.gif",
+    "cardNumber": "EB05-006",
+    "cardName": "ミス・バッキンガム・ステューシー",
+    "furigana": "",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】自分のライフの上から1枚を手札に加えることができる：以下から1つを選ぶ。・キャラ1枚までを、このターン中、パワー+3000。・キャラ1枚までを、このターン中、パワー-4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-007_dummy.gif",
+    "cardNumber": "EB05-007",
+    "cardName": "モネ",
+    "furigana": "モネ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "パンクハザード",
+      "ドンキホーテ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札からイベントか特徴《パンクハザード》を持つカード合計3枚を公開できる：カード1枚を引く。【自分のターン終了時】このキャラは、次の相手のエンドフェイズ終了時まで、パワー+5000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-008_dummy.gif",
+    "cardNumber": "EB05-008",
+    "cardName": "ルフィ…今の内じゃ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "王下七武海",
+      "九蛇海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のリーダーにアクティブのドン!!1枚を付与し、自分の手札から赤のイベント2枚を公開できる：相手のレストのキャラ1枚までを、このターン中、パワー-7000。【カウンター】自分のコスト5以上のキャラがいない場合、自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-009_dummy.gif",
+    "cardNumber": "EB05-009",
+    "cardName": "私と一緒に死んで!!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "東の海",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分の元々のパワー4000以下のキャラすべてを、次の相手のエンドフェイズ終了時まで、パワー+1000。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-010_dummy.gif",
+    "cardNumber": "EB05-010",
+    "cardName": "ニコ・ロビン",
+    "furigana": "ニコ・ロビン",
+    "rarity": "L",
+    "cardType": "LEADER",
+    "color": [
+      "緑",
+      "黄"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ターン1回】自分の属性(知)を持ち、【ブロッカー】を持たないキャラがKOされた時、自分のデッキの上から1枚までを、ライフの上に加える。【起動メイン】【ターン1回】自分のパワー6000以下の属性(知)を持つキャラ1枚までを、アクティブにする。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-011_dummy.gif",
+    "cardNumber": "EB05-011",
+    "cardName": "オトヒメ",
+    "furigana": "オトヒメ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが「しらほし」の場合、自分のライフの上から1枚を裏向きにできる：相手のコスト5以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-012_dummy.gif",
+    "cardNumber": "EB05-012",
+    "cardName": "ケイミー",
+    "furigana": "ケイミー",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手のコスト6以下のキャラ1枚までを、レストにする。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-013_dummy.gif",
+    "cardNumber": "EB05-013",
+    "cardName": "シャーリー",
+    "furigana": "シャーリー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": 5,
+    "effectText": "【相手のアタック時】【ターン1回】自分のドン!!1枚をレストにできる：自分の特徴《魚人族》か《人魚族》を持つリーダーを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-014_dummy.gif",
+    "cardNumber": "EB05-014",
+    "cardName": "しらほし",
+    "furigana": "しらほし",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": "X",
+    "effectText": "【登場時】自分のデッキの上から5枚を見て、「メガロ」か特徴《海王類》を持つカード合計2枚までを公開し、手札に加える。その後、残りをトラッシュに置く。【起動メイン】このキャラをレストにできる：自分のパワー6000以下の特徴《海王類》を持つキャラ1枚までは、このターン中、【速攻】を得る。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-015_dummy.gif",
+    "cardNumber": "EB05-015",
+    "cardName": "たしぎ",
+    "furigana": "たしぎ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "東の海",
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-016_dummy.gif",
+    "cardNumber": "EB05-016",
+    "cardName": "ニコ・ロビン",
+    "furigana": "ニコ・ロビン",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分の手札からコスト5以下の属性(知)を持つキャラカード1枚までを、登場させる。",
+    "trigger": "【】相手のコスト6以下のキャラ1枚までを、レストにする。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-017_dummy.gif",
+    "cardNumber": "EB05-017",
+    "cardName": "マーメイドカフェダンサーズ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": 5,
+    "effectText": "【相手のアタック時】自分のドン!!1枚をレストにし、このキャラをトラッシュに置くことができる：自分の特徴《魚人族》か《人魚族》を持つリーダーを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-018_dummy.gif",
+    "cardNumber": "EB05-018",
+    "cardName": "レベッカ",
+    "furigana": "レベッカ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "ドレスローザ"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手のレストのコスト6以下のキャラ1枚までは、次の相手のリフレッシュフェイズでアクティブにならない。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-019_dummy.gif",
+    "cardNumber": "EB05-019",
+    "cardName": "開国するんだ!!一緒に戦わせて欲しい!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ワノ国"
+    ],
+    "block": 5,
+    "effectText": "【カウンター】自分のカード1枚をレストにできる：自分の特徴《ワノ国》を持つ、リーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "【】相手のライフが3枚以下の場合、自分の手札からパワー6000以下の特徴《ワノ国》を持つキャラカード1枚までを、登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-020_dummy.gif",
+    "cardNumber": "EB05-020",
+    "cardName": "しらほしと申します!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "緑"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "人魚族",
+      "魚人島"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のリーダー「しらほし」をレストにできる：カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-021_dummy.gif",
+    "cardNumber": "EB05-021",
+    "cardName": "アルビダ",
+    "furigana": "アルビダ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 9,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "クロスギルド"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード2枚を引き、自分の手札からコスト8以下の特徴《クロスギルド》を持つキャラカード1枚までを、登場させる。その後、自分は、このターン中、キャラカードを登場できない。【アタック時】相手のキャラ1枚までを、このターン中、効果を無効にする。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-022_dummy.gif",
+    "cardNumber": "EB05-022",
+    "cardName": "オクトパ子",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "魚人族",
+      "魚人島"
+    ],
+    "block": 5,
+    "effectText": "【KO時】カード2枚を引く。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-023_dummy.gif",
+    "cardNumber": "EB05-023",
+    "cardName": "お染",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "ワノ国"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札からイベント2枚を捨てることができる：カード3枚を引く。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-024_dummy.gif",
+    "cardNumber": "EB05-024",
+    "cardName": "サディちゃん",
+    "furigana": "サディチャン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "インペルダウン"
+    ],
+    "block": 5,
+    "effectText": "自分のリーダーが特徴《インペルダウン》を持つ場合、このキャラは【ブロッカー】を得て、コスト+2。(相手のアタックの後、このカードをレストにし、アタックの対象をこのカードにできる)",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-025_dummy.gif",
+    "cardNumber": "EB05-025",
+    "cardName": "ドミノ",
+    "furigana": "ドミノ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "インペルダウン"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《インペルダウン》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "【】このカードの【登場時】効果を発動する。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-026_dummy.gif",
+    "cardNumber": "EB05-026",
+    "cardName": "ヒナ",
+    "furigana": "ヒナ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 7,
+    "power": 8000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-027_dummy.gif",
+    "cardNumber": "EB05-027",
+    "cardName": "ひばり",
+    "furigana": "ひばり",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "海軍",
+      "SWORD"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード3枚を引き、自分の手札2枚を捨てる。その後、コスト2以下のキャラ1枚までを、持ち主のデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-028_dummy.gif",
+    "cardNumber": "EB05-028",
+    "cardName": "ボア・ハンコック",
+    "furigana": "ボア・ハンコック",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "インペルダウン",
+      "王下七武海",
+      "九蛇海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】相手の手札が9枚以上ある場合、相手は自身の手札4枚を捨てる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-029_dummy.gif",
+    "cardNumber": "EB05-029",
+    "cardName": "袷羽檻",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分の手札1枚を捨てることができる：相手のコスト6以下のキャラ1枚までを、このターン中、効果を無効にし、持ち主の手札に戻す。",
+    "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-030_dummy.gif",
+    "cardNumber": "EB05-030",
+    "cardName": "みんな元気でね♡",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "青"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "東の海",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のリーダーが「ナミ」の場合、コスト5以下のキャラ1枚までを、持ち主の手札に戻す。【カウンター】カード1枚を引き、自分のリーダーかキャラ1枚までを、このターン中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-031_dummy.gif",
+    "cardNumber": "EB05-031",
+    "cardName": "ヴィンスモーク・レイジュ",
+    "furigana": "ヴィンスモーク・レイジュ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ヴィンスモーク家",
+      "ジェルマ66"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-1：自分のリーダーが特徴《ヴィンスモーク家》を持つ場合、自分のデッキの上から10枚をトラッシュに置く。【起動メイン】このキャラをトラッシュに置くことができる：相手の元々のパワー8000以上のキャラがいる場合、ドン!!デッキからドン!!4枚までを、アクティブで追加する。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-032_dummy.gif",
+    "cardNumber": "EB05-032",
+    "cardName": "うるティ",
+    "furigana": "ウルティ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-033_dummy.gif",
+    "cardNumber": "EB05-033",
+    "cardName": "ニコ・ロビン",
+    "furigana": "ニコ・ロビン",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "打",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが特徴《麦わらの一味》を持ち、自分の場のドン!!の枚数が相手の場のドン!!の枚数より6枚以上少ない場合、カード3枚を引き、自分の手札2枚を捨てる。その後、ドン!!デッキからドン!!4枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-034_dummy.gif",
+    "cardNumber": "EB05-034",
+    "cardName": "シュガー",
+    "furigana": "シュガー",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "ドンキホーテ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-2：自分の場のドン!!が7枚以上ある場合、相手のキャラ1枚までを、このターン中、パワー-4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-035_dummy.gif",
+    "cardNumber": "EB05-035",
+    "cardName": "スピード",
+    "furigana": "スピード",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "SMILE",
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】ドン!!-1：自分のデッキの上から5枚を見て、特徴《SMILE》を持つカード2枚までを公開し、手札に加え、残りを好きな順番でデッキの下に置く。その後、自分の手札からパワー5000以下の特徴《SMILE》を持つキャラカード2枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-036_dummy.gif",
+    "cardNumber": "EB05-036",
+    "cardName": "つる",
+    "furigana": "つる",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": "-",
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが特徴《海軍》を持つ場合、カード1枚を引き、ドン!!デッキからドン!!1枚までを、レストで追加する。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-037_dummy.gif",
+    "cardNumber": "EB05-037",
+    "cardName": "ブラックマリア",
+    "furigana": "ブラックマリア",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "百獣海賊団"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から3枚を見て、特徴《百獣海賊団》を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-038_dummy.gif",
+    "cardNumber": "EB05-038",
+    "cardName": "ルシアン",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "セニョール・ピンクの妻"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の「セニョール・ピンク」1枚までを、このターン中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-039_dummy.gif",
+    "cardNumber": "EB05-039",
+    "cardName": "桃色毒矢",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ヴィンスモーク家",
+      "ジェルマ66"
+    ],
+    "block": 5,
+    "effectText": "【メイン】ドン!!-1：自分のリーダーが特徴《ヴィンスモーク家》を持つ場合、相手のキャラ1枚までを、このターン中、パワー-4000。【カウンター】ドン!!-1：自分のリーダーを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-040_dummy.gif",
+    "cardNumber": "EB05-040",
+    "cardName": "私のこと必要なんでしょ!!?♡",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "紫"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": "-",
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ドンキホーテ海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のアクティブのドン!!1枚をドン!!デッキに戻すことができる：自分のリーダーが特徴《ドンキホーテ海賊団》を持つ場合、カード3枚を引き、自分の手札1枚を捨てる。【カウンター】自分のリーダーを、このバトル中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-041_dummy.gif",
+    "cardNumber": "EB05-041",
+    "cardName": "コアラ",
+    "furigana": "コアラ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ドレスローザ",
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-042_dummy.gif",
+    "cardNumber": "EB05-042",
+    "cardName": "しのぶ",
+    "furigana": "しのぶ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "ワノ国"
+    ],
+    "block": 5,
+    "effectText": "【登場時】カード2枚を引き、自分の手札2枚を捨てる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-043_dummy.gif",
+    "cardNumber": "EB05-043",
+    "cardName": "ペローナ",
+    "furigana": "ペローナ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "スリラーバーク海賊団"
+    ],
+    "block": 5,
+    "effectText": "【KO時】相手のコスト6以下のキャラ1枚までを、KOするか、レストにする。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-044_dummy.gif",
+    "cardNumber": "EB05-044",
+    "cardName": "ミス・ファーザーズデー",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "射",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のリーダーが『B・W』を含む特徴を持ち、相手のコスト0のキャラがいる場合、相手のリーダーを、このターン中、パワー-1000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-045_dummy.gif",
+    "cardNumber": "EB05-045",
+    "cardName": "ミス・マンデー",
+    "furigana": "ミス・マンデー",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の『B・W』を含む特徴を持つキャラ1枚までを、KOする。【KO時】自分のデッキの上から3枚を見て、『B・W』を含む特徴を持つカード1枚までを公開し、手札に加える。その後、残りをトラッシュに置く。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-046_dummy.gif",
+    "cardNumber": "EB05-046",
+    "cardName": "ヤマト",
+    "furigana": "ヤマト",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ワノ国"
+    ],
+    "block": 5,
+    "effectText": "相手の元々のパワー8000以上のキャラがいる場合、このキャラは【ブロッカー】を得て、パワー+3000。【相手のアタック時】自分の手札1枚を捨てることができる：自分のトラッシュが10枚以上ある場合、自分のリーダーを、このターン中、元々のパワー7000にする。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-047_dummy.gif",
+    "cardNumber": "EB05-047",
+    "cardName": "リプリー",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "巨人族",
+      "エルバフ"
+    ],
+    "block": 5,
+    "effectText": "このキャラのコスト+12。【登場時】自分の手札1枚を捨てることができる：自分のトラッシュからコスト2以下のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-048_dummy.gif",
+    "cardNumber": "EB05-048",
+    "cardName": "スティンガーヘッジホッグ",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "B・W"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のドン!!1枚をレストにし、自分の『B・W』を含む特徴を持つキャラ1枚をKOできる：相手のコスト0のキャラすべては、このターン中、【ブロッカー】を発動できない。【カウンター】自分のリーダーを、このバトル中、パワー+3000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-049_dummy.gif",
+    "cardNumber": "EB05-049",
+    "cardName": "特ホロ",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黒"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "スリラーバーク海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分の特徴《スリラーバーク海賊団》を持つキャラ1枚をKOできる：相手のキャラ1枚までを、このターン中、コスト-3。【カウンター】自分の特徴《スリラーバーク海賊団》を持つキャラ1枚をKOできる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-050_dummy.gif",
+    "cardNumber": "EB05-050",
+    "cardName": "アトラス",
+    "furigana": "アトラス",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "エッグヘッド",
+      "科学者"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から4枚を見て、属性(知)を持つカード1枚までを公開し、手札に加える。その後、残りを好きな順番でデッキの下に置く。",
+    "trigger": "【】このカードの【登場時】効果を発動する。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-051_dummy.gif",
+    "cardNumber": "EB05-051",
+    "cardName": "あひる",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】お互いのライフの合計枚数以下のコストを持つ相手のキャラ1枚までを、レストにする。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-052_dummy.gif",
+    "cardNumber": "EB05-052",
+    "cardName": "グロリオーサ",
+    "furigana": "",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "アマゾン・リリー",
+      "ロックス海賊団"
+    ],
+    "block": 5,
+    "effectText": "自分がダメージを受ける場合、代わりにこのキャラをトラッシュに置くことができる。",
+    "trigger": "【】カード2枚を引き、自分の手札1枚を捨てる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-053_dummy.gif",
+    "cardNumber": "EB05-053",
+    "cardName": "シャーロット・プラリネ",
+    "furigana": "シャーロット・プラリネ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "知",
+    "features": [
+      "人魚族",
+      "魚人島",
+      "タイヨウの海賊団"
+    ],
+    "block": 5,
+    "effectText": "【アタック時】【ターン1回】相手の手札が9枚以上ある場合、自分の手札1枚までを、ライフの上に加える。",
+    "trigger": "【】自分の手札1枚を捨てることができる：自分のライフが2枚以下の場合、このカードを登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-054_dummy.gif",
+    "cardNumber": "EB05-054",
+    "cardName": "シャーロット・ブリュレ",
+    "furigana": "シャーロット・ブリュレ",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "【】自分の手札からパワー4000の特徴《ビッグ・マム海賊団》を持つキャラカード2枚までを、登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-055_dummy.gif",
+    "cardNumber": "EB05-055",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "SR",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "知",
+    "features": [
+      "東の海",
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【自分のターン中】【登場時】自分のリーダーが属性(知)を持つ場合、自分のデッキの上から1枚までを、ライフの上に加える。",
+    "trigger": "【】自分の手札1枚を捨てることができる：自分のライフが2枚以下の場合、このカードを登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-056_dummy.gif",
+    "cardNumber": "EB05-056",
+    "cardName": "ニコ・オルビア",
+    "furigana": "ニコ・オルビア",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "オハラ"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の手札から【トリガー】を持つカード1枚を捨てることができる：自分のリーダーが「ニコ・ロビン」の場合、カード2枚を引く。",
+    "trigger": "【】このカードを登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-057_dummy.gif",
+    "cardNumber": "EB05-057",
+    "cardName": "ノジコ",
+    "furigana": "ノジコ",
+    "rarity": "R",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 2,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "東の海"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】自分の属性(特)か(知)を持つ、リーダーかキャラ1枚にレストのドン!!1枚までを、付与する。",
+    "trigger": "【】自分のライフが2枚以下の場合、自分の手札からパワー6000以下の【】を持つキャラカード1枚までを、登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-058_dummy.gif",
+    "cardNumber": "EB05-058",
+    "cardName": "ベルメール",
+    "furigana": "ベルメール",
+    "rarity": "C",
+    "cardType": "CHARACTER",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "射",
+    "features": [
+      "東の海",
+      "元海軍"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-059_dummy.gif",
+    "cardNumber": "EB05-059",
+    "cardName": "“シャーロット”“プリン”様だ!!",
+    "furigana": "",
+    "rarity": "R",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ビッグ・マム海賊団"
+    ],
+    "block": 5,
+    "effectText": "【メイン】カード1枚を引き、自分の元々のパワー4000で特徴《ビッグ・マム海賊団》を持つキャラすべては、次の相手のエンドフェイズ終了時まで、バトルでKOされない。",
+    "trigger": "【】カード1枚を引き、自分の手札からパワー4000の【】を持つキャラカード1枚までを、登場させる。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-060_dummy.gif",
+    "cardNumber": "EB05-060",
+    "cardName": "「リリス」を頼む!!!",
+    "furigana": "",
+    "rarity": "C",
+    "cardType": "EVENT",
+    "color": [
+      "黄"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "エッグヘッド",
+      "科学者"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のコスト5以上の特徴《エッグヘッド》を持つキャラ1枚をトラッシュに置くことができる：自分のデッキの上から1枚までを、ライフの上に加える。【カウンター】自分のライフの上から1枚を表向きにできる：自分のリーダーかキャラ1枚までを、このバトル中、パワー+4000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "EB05-061_dummy.gif",
+    "cardNumber": "EB05-061",
+    "cardName": "ナミ",
+    "furigana": "ナミ",
+    "rarity": "SEC",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "麦わらの一味"
+    ],
+    "block": 5,
+    "effectText": "【ターン1回】自分の元々のパワー6000以下のキャラが相手によって場を離れる場合、代わりに自分のライフの上から1枚を手札に加えることができる。【登場時】自分の手札からコスト2以下の赤のキャラカード1枚までを、登場させる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
     "uniqueId": "OP01-001_dummy.gif",
     "cardNumber": "OP01-001",
     "cardName": "ロロノア・ゾロ",

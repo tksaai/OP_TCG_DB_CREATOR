@@ -1574,9 +1574,9 @@
     "block": 3,
     "effectText": "-",
     "trigger": "",
-    "getInfo": "エクストラブースター Anime 25th collection【EB-02】",
-    "seriesTitle": "エクストラブースター Anime 25th collection",
-    "seriesCode": "EB-02"
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
   },
   {
     "uniqueId": "EB02-002_dummy.gif",
@@ -62980,6 +62980,334 @@
     "block": 4,
     "effectText": "【登場時】自分のデッキの上から3枚をトラッシュに置く。【KO時】相手は自身の手札2枚を捨てる。",
     "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-122_dummy.gif",
+    "cardNumber": "P-122",
+    "cardName": "エース＆サボ＆ルフィ",
+    "furigana": "エースサボルフィ",
+    "rarity": "P",
+    "cardType": "LEADER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "ライフ",
+    "costLifeValue": 5,
+    "power": 5000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【起動メイン】【ターン1回】自分の、「サボ」と「ポートガス・Ｄ・エース」と「モンキー・Ｄ・ルフィ」それぞれ1枚ずつまでを、このターン中、パワー+1000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-123_dummy.gif",
+    "cardNumber": "P-123",
+    "cardName": "エドワード・ニューゲート",
+    "furigana": "エドワード・ニューゲート",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 10,
+    "power": 12000,
+    "counter": 1000,
+    "attribute": "特",
+    "features": [
+      "四皇",
+      "白ひげ海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-124_dummy.gif",
+    "cardNumber": "P-124",
+    "cardName": "カーリー・ダダン",
+    "furigana": "カーリー・ダダン",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "斬",
+    "features": [
+      "山賊"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-125_dummy.gif",
+    "cardNumber": "P-125",
+    "cardName": "コビー",
+    "furigana": "コビー",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍",
+      "SWORD"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-126_dummy.gif",
+    "cardNumber": "P-126",
+    "cardName": "サボ",
+    "furigana": "サボ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のドン‼1枚をレストにできる：このキャラと自分の元々のパワー6000の、「ポートガス・D・エース」と「モンキー・Ｄ・ルフィ」それぞれ1枚ずつまでは、このターン中、【速攻】を得る。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-127_dummy.gif",
+    "cardNumber": "P-127",
+    "cardName": "シャンクス",
+    "furigana": "シャンクス",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 6,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "斬",
+    "features": [
+      "四皇",
+      "赤髪海賊団"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-128_dummy.gif",
+    "cardNumber": "P-128",
+    "cardName": "ポートガス・Ｄ・エース",
+    "furigana": "ポートガス・ディー・エース",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のキャラの、「サボ」か「モンキー・Ｄ・ルフィ」がいる場合、相手のキャラ1枚までを、このターン中、パワー-3000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-129_dummy.gif",
+    "cardNumber": "P-129",
+    "cardName": "マキノ",
+    "furigana": "マキノ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": 2000,
+    "attribute": "知",
+    "features": [
+      "フーシャ村"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分の元々のパワー6000のキャラ1枚までを、このターン中、パワー+2000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-130_dummy.gif",
+    "cardNumber": "P-130",
+    "cardName": "モンキー・Ｄ・ガープ",
+    "furigana": "モンキー・ディー・ガープ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のデッキの上から5枚を見て、特徴《海軍》を持つカード1枚までを公開し、手札に加え、残りを好きな順番でデッキの下に置く。その後、自分の手札1枚を捨てる。",
+    "trigger": "【】このカードの【登場時】効果を発動する。",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-131_dummy.gif",
+    "cardNumber": "P-131",
+    "cardName": "モンキー・Ｄ・ドラゴン",
+    "furigana": "モンキー・ディー・ドラゴン",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "特",
+    "features": [
+      "革命軍"
+    ],
+    "block": 5,
+    "effectText": "-",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-132_dummy.gif",
+    "cardNumber": "P-132",
+    "cardName": "モンキー・Ｄ・ルフィ",
+    "furigana": "モンキー・ディー・ルフィ",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 6000,
+    "counter": "-",
+    "attribute": "打",
+    "features": [
+      "海軍"
+    ],
+    "block": 5,
+    "effectText": "【登場時】自分のドン‼4枚をレストにできる：自分の手札からパワー6000の、「サボ」と「ポートガス・Ｄ・エース」それぞれ1枚ずつまでを、登場させる。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-133_dummy.gif",
+    "cardNumber": "P-133",
+    "cardName": "ヤマト",
+    "furigana": "ヤマト",
+    "rarity": "P",
+    "cardType": "CHARACTER",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "打",
+    "features": [
+      "ワノ国"
+    ],
+    "block": 5,
+    "effectText": "自分の元々の効果のないキャラがいる場合、このキャラのパワー+2000。",
+    "trigger": "",
+    "getInfo": "",
+    "seriesTitle": "",
+    "seriesCode": ""
+  },
+  {
+    "uniqueId": "P-134_dummy.gif",
+    "cardNumber": "P-134",
+    "cardName": "食い逃げ常習犯",
+    "furigana": "",
+    "rarity": "P",
+    "cardType": "EVENT",
+    "color": [
+      "赤"
+    ],
+    "costLifeType": "コスト",
+    "costLifeValue": 1,
+    "power": "-",
+    "counter": "-",
+    "attribute": "-",
+    "features": [
+      "ゴア王国"
+    ],
+    "block": 5,
+    "effectText": "【メイン】自分のデッキの上から3枚を見て、「サボ」か「ポートガス・Ｄ・エース」か「モンキー・Ｄ・ルフィ」1枚までを公開し、手札に加えてもよい。その後、残りを好きな順番でデッキの下に置く。加えなかった場合、カード1枚を引く。",
+    "trigger": "【】このカードの【メイン】効果を発動する。",
     "getInfo": "",
     "seriesTitle": "",
     "seriesCode": ""

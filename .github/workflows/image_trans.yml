@@ -1,64 +1,70 @@
 name: GDrive Image Converter
 
 on:
+  # OP_TCG_DB already performs its own daily official-image sync.
+  # Run this only when manually importing images missing from its manifest.
   workflow_dispatch:
-  schedule:
-    # 例：毎日 日本時間の深夜2時 (UTCの17時) に自動実行する
-    - cron: '0 17 * * *'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   process-images:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.10'
+          python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install Pillow gdown
+        run: python -m pip install --upgrade Pillow gdown
 
-      - name: Sync Images and Push to External Repository
+      - name: Test image filtering
+        run: python -m unittest -v test_process_images.py
+
+      - name: Sync missing images to OP_TCG_DB
         env:
           JSON_FILE_ID: "1XuSQYYy8RVLhh98x6kFNg_0oWJ0peySV"
           TARGET_REPO: "tksaai/OP_TCG_DB"
           TARGET_BRANCH: "main"
           API_TOKEN: ${{ secrets.TARGET_REPO_PAT }}
         run: |
-          # 1. GASが作ったリストをダウンロード
+          set -euo pipefail
+
           gdown "$JSON_FILE_ID" -O ./file_list.json
-          
-          # 2. 先にターゲットリポジトリをクローンする（過去の画像を持ってくる）
+
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git clone --depth 1 https://x-access-token:$API_TOKEN@github.com/$TARGET_REPO.git target_repo
-          
-          # Cardsフォルダを準備
-          mkdir -p target_repo/Cards
-          
-          # 3. クローンした Cards フォルダを「出力先」としてPythonを実行
-          # （これで、すでにCards内にある画像はGoogleにアクセスせずスキップされます）
+          git clone --depth 1 --branch "$TARGET_BRANCH" \
+            "https://x-access-token:$API_TOKEN@github.com/$TARGET_REPO.git" target_repo
+
           python process_images.py \
             --json "./file_list.json" \
-            --output "./target_repo/Cards" \
-            --exclude "_small"
-            
-          # 4. コミットとプッシュ
+            --output "./target_repo/CardsWebP" \
+            --exclude "_small" \
+            --manifest "./target_repo/image-manifest.json" \
+            --only-missing-manifest \
+            --format webp \
+            --quality 90 \
+            --delay 1
+
           cd target_repo
-          git add Cards/
-          
+          node scripts/build-image-manifest.mjs
+          python scripts/build-card-features.py
+          node scripts/test-data-integrity.mjs
+
+          git add CardsWebP image-manifest.json card-features.json card-feature-cache.json
           if git diff --staged --quiet; then
-            echo "No new images to commit."
-          else
-            git commit -m "Auto: Added new images from Google Drive"
-            git push origin $TARGET_BRANCH
-            echo "Successfully pushed images to $TARGET_REPO"
+            echo "No missing images to commit."
+            exit 0
           fi
+
+          git commit -m "Sync missing Google Drive images"
+          git push origin "$TARGET_BRANCH"
+          echo "Successfully pushed missing images to $TARGET_REPO"

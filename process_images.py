@@ -1,139 +1,263 @@
-import os
-import sys
-import shutil
 import argparse
 import json
-import gdown
-import time  # ★ 追加: 待機時間用
+import re
+import shutil
+import sys
+import time
+from pathlib import Path
+
 from PIL import Image
 
+
 SUPPORTED_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.webp', '.bmp', '.tiff')
+CARD_IMAGE_PATTERN = re.compile(
+    r'^((?:[A-Z0-9]+-\d+)|P)(?:(?: \((\d+)\))|(?:_p(\d+))|(?:_r(\d+)))?$',
+    re.IGNORECASE,
+)
 
-def process_images(json_path, output_path, exclude_keyword):
-    print("="*30)
-    print("処理を開始します...")
-    
-    if not os.path.exists(json_path):
-        print(f"エラー: リストファイルが見つかりません ({json_path})")
-        sys.exit(1)
 
-    with open(json_path, 'r', encoding='utf-8') as f:
-        try:
-            file_list = json.load(f)
-        except json.JSONDecodeError as e:
-            print(f"エラー: JSONの解析に失敗しました ({e})")
-            sys.exit(1)
+def load_json(path, description):
+    try:
+        with open(path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        raise ValueError(f'{description}が見つかりません ({path})') from None
+    except json.JSONDecodeError as error:
+        raise ValueError(f'{description}の解析に失敗しました ({error})') from error
 
-    print(f"リスト上の合計ファイル数: {len(file_list)}件")
 
-    processed_count = 0
-    copied_count = 0
-    skipped_count = 0
-    already_exists_count = 0
-    error_count = 0 # ★ 追加: エラー数のカウント
+def parse_card_image(relative_path):
+    match = CARD_IMAGE_PATTERN.fullmatch(Path(relative_path).stem)
+    if not match:
+        return '', -1
 
-    temp_dir = "./temp_download"
-    os.makedirs(temp_dir, exist_ok=True)
+    card_number, local_variant, official_parallel, official_rarity = match.groups()
+    if official_rarity:
+        variant_index = 1000 + int(official_rarity)
+    else:
+        variant_index = int(local_variant or official_parallel or 0)
+    return card_number.upper(), variant_index
+
+
+def card_number_from_path(relative_path):
+    return parse_card_image(relative_path)[0]
+
+
+def load_manifest_card_numbers(manifest_path):
+    return set(load_manifest_coverage(manifest_path))
+
+
+def load_manifest_coverage(manifest_path):
+    if not manifest_path:
+        return {}
+
+    manifest = load_json(manifest_path, '画像マニフェスト')
+    cards = manifest.get('cards') if isinstance(manifest, dict) else None
+    if not isinstance(cards, dict):
+        raise ValueError('画像マニフェストに cards オブジェクトがありません')
+
+    coverage = {}
+    for card_number, variants in cards.items():
+        normalized_number = str(card_number).upper()
+        coverage[normalized_number] = set()
+        if not isinstance(variants, list):
+            continue
+        for fallback_index, variant in enumerate(variants):
+            if not isinstance(variant, dict):
+                continue
+            try:
+                variant_index = int(variant.get('variantIndex', fallback_index))
+            except (TypeError, ValueError):
+                variant_index = fallback_index
+            coverage[normalized_number].add(variant_index)
+    return coverage
+
+
+def output_name(relative_path, output_format):
+    path = Path(relative_path)
+    if output_format == 'webp':
+        return str(path.with_suffix('.webp'))
+    if output_format == 'jpg':
+        return str(path.with_suffix('.jpg'))
+    return str(path)
+
+
+def save_image(source_path, output_path, output_format, quality):
+    with Image.open(source_path) as image:
+        if image.mode in ('RGBA', 'LA') or (image.mode == 'P' and 'transparency' in image.info):
+            rgba = image.convert('RGBA')
+            background = Image.new('RGB', rgba.size, (255, 255, 255))
+            background.paste(rgba, mask=rgba.getchannel('A'))
+            image_rgb = background
+        else:
+            image_rgb = image.convert('RGB')
+
+        if output_format == 'webp':
+            image_rgb.save(output_path, 'WEBP', quality=quality, method=6)
+        else:
+            image_rgb.save(output_path, 'JPEG', quality=quality, optimize=True)
+
+
+def default_download(url, output):
+    try:
+        import gdown
+    except ImportError as error:
+        raise RuntimeError('gdown がインストールされていません') from error
+    return gdown.download(url=url, output=output, quiet=True)
+
+
+def process_images(
+    json_path,
+    output_path,
+    exclude_keyword='',
+    manifest_path='',
+    only_missing_manifest=False,
+    output_format='webp',
+    quality=90,
+    delay=1.0,
+    download_func=None,
+):
+    print('=' * 30)
+    print('処理を開始します...')
+
+    file_list = load_json(json_path, 'リストファイル')
+    if not isinstance(file_list, list):
+        raise ValueError('リストファイルのルートは配列である必要があります')
+
+    manifest_coverage = load_manifest_coverage(manifest_path)
+    if only_missing_manifest and not manifest_path:
+        raise ValueError('--only-missing-manifest には --manifest が必要です')
+
+    print(f'リスト上の合計ファイル数: {len(file_list)}件')
+    print(f'マニフェスト登録済みカード数: {len(manifest_coverage)}件')
+
+    stats = {
+        'processed': 0,
+        'copied': 0,
+        'existing': 0,
+        'excluded': 0,
+        'manifest_skipped': 0,
+        'invalid': 0,
+        'errors': 0,
+    }
+    downloader = download_func or default_download
+    temp_dir = Path('./temp_download')
+    temp_dir.mkdir(parents=True, exist_ok=True)
 
     try:
-        for file_info in file_list:
-            rel_path = file_info['path']
-            file_name = file_info['name']
-            file_id = file_info['id']
-
-            if exclude_keyword and exclude_keyword in rel_path:
-                print(f"[除外] {rel_path}")
-                skipped_count += 1
+        for index, file_info in enumerate(file_list):
+            if not isinstance(file_info, dict):
+                stats['invalid'] += 1
                 continue
 
-            file_ext = os.path.splitext(file_name)[1].lower()
-            
-            if file_ext in SUPPORTED_EXTENSIONS:
-                output_filename = os.path.splitext(rel_path)[0] + ".jpg"
-            else:
-                output_filename = rel_path
-                
-            output_filepath = os.path.join(output_path, output_filename)
-            output_dir = os.path.dirname(output_filepath)
-
-            # 差分判定 (出力先に既に存在する場合はスキップ)
-            if os.path.exists(output_filepath):
-                # print(f"[スキップ/既存] {output_filename}") # ログが長くなる場合はコメントアウト
-                already_exists_count += 1
+            relative_path = str(file_info.get('path') or '')
+            file_name = str(file_info.get('name') or '')
+            file_id = str(file_info.get('id') or '')
+            if not relative_path or not file_name or not file_id:
+                print(f'[不正な項目] index={index}')
+                stats['invalid'] += 1
                 continue
 
-            os.makedirs(output_dir, exist_ok=True)
+            if exclude_keyword and exclude_keyword in relative_path:
+                stats['excluded'] += 1
+                continue
 
-            print(f"[ダウンロード中] {rel_path}")
-            temp_filepath = os.path.join(temp_dir, file_name)
-            
-            # ★ 修正: エラーで強制終了しないように try...except で囲む
+            card_number, variant_index = parse_card_image(relative_path)
+            covered_variants = manifest_coverage.get(card_number, set())
+            if only_missing_manifest and card_number and variant_index in covered_variants:
+                stats['manifest_skipped'] += 1
+                continue
+
+            file_extension = Path(file_name).suffix.lower()
+            destination_relative = output_name(relative_path, output_format)
+            output_file = Path(output_path, destination_relative)
+            if output_file.exists():
+                stats['existing'] += 1
+                continue
+
+            output_file.parent.mkdir(parents=True, exist_ok=True)
+            temp_file = temp_dir / f'{index:05d}_{file_name}'
+            download_url = f'https://drive.google.com/uc?id={file_id}'
+            print(f'[ダウンロード中] {relative_path}')
+
             try:
-                # アクセス制限回避のため、URL形式で指定
-                download_url = f"https://drive.google.com/uc?id={file_id}"
-                gdown.download(url=download_url, output=temp_filepath, quiet=True)
-            except Exception as e:
-                print(f"エラー: ダウンロード失敗 (アクセス制限等の可能性) - {rel_path}")
-                error_count += 1
-                continue
+                downloader(download_url, str(temp_file))
+                if not temp_file.exists():
+                    raise RuntimeError('ダウンロード後のファイルが生成されませんでした')
 
-            if not os.path.exists(temp_filepath):
-                print(f"エラー: ダウンロード失敗 (ファイル未生成) - {rel_path}")
-                error_count += 1
-                continue
+                if file_extension in SUPPORTED_EXTENSIONS:
+                    save_image(temp_file, output_file, output_format, quality)
+                    stats['processed'] += 1
+                    print(f'[変換完了] -> {destination_relative}')
+                else:
+                    shutil.move(str(temp_file), str(output_file))
+                    stats['copied'] += 1
+                    print(f'[コピー完了] -> {destination_relative}')
+            except Exception as error:
+                print(f'エラー: {relative_path} の処理失敗: {error}')
+                stats['errors'] += 1
+                if output_file.exists():
+                    output_file.unlink()
+            finally:
+                if temp_file.exists():
+                    temp_file.unlink()
 
-            # ★ 修正: 画像変換処理
-            if file_ext in SUPPORTED_EXTENSIONS:
-                try:
-                    with Image.open(temp_filepath) as img:
-                        # 透過情報(RGBAなど)があれば、白背景のRGBに変換して警告を防ぐ
-                        if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
-                            background = Image.new("RGB", img.size, (255, 255, 255)) # 白背景
-                            if img.mode == 'P':
-                                img = img.convert('RGBA')
-                            background.paste(img, mask=img.split()[3]) # 透過部分を合成
-                            img_rgb = background
-                        else:
-                            img_rgb = img.convert("RGB")
-                            
-                        img_rgb.save(output_filepath, "JPEG", quality=20, optimize=True)
-                    print(f"[変換完了] -> {output_filename}")
-                    processed_count += 1
-                except Exception as e:
-                    print(f"エラー: {file_name} の変換失敗: {e}")
-                    error_count += 1
-            else:
-                try:
-                    shutil.move(temp_filepath, output_filepath)
-                    print(f"[コピー完了] -> {output_filename}")
-                    copied_count += 1
-                except Exception as e:
-                    print(f"エラー: {file_name} のコピー失敗: {e}")
-                    error_count += 1
-            
-            if os.path.exists(temp_filepath):
-                os.remove(temp_filepath)
-                
-            # ★ 追加: Googleからブロックされないように、1ファイルごとに1秒待機
-            time.sleep(1)
-
+            if delay > 0:
+                time.sleep(delay)
     finally:
-        if os.path.exists(temp_dir):
+        if temp_dir.exists():
             shutil.rmtree(temp_dir)
-            
-    print("="*30)
-    print("処理が完了しました。")
-    print(f"新規変換: {processed_count}件, 新規コピー: {copied_count}件")
-    print(f"既存スキップ: {already_exists_count}件, 除外: {skipped_count}件, エラー: {error_count}件")
-    
-    # 完全に失敗したわけではないので、正常終了扱いとする（GitHub Actionsを赤くしないため）
-    sys.exit(0)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="リストファイルベース 画像差分ダウンロード・変換スクリプト")
-    parser.add_argument("--json", required=True, help="リストファイル(JSON)のパス")
-    parser.add_argument("--output", required=True, help="出力フォルダのパス")
-    parser.add_argument("--exclude", default="", help="除外する語句")
-    
+    print('=' * 30)
+    print('処理が完了しました。')
+    print(f"新規変換: {stats['processed']}件, 新規コピー: {stats['copied']}件")
+    print(
+        f"既存スキップ: {stats['existing']}件, "
+        f"マニフェスト登録済みスキップ: {stats['manifest_skipped']}件, "
+        f"除外: {stats['excluded']}件"
+    )
+    print(f"不正な項目: {stats['invalid']}件, エラー: {stats['errors']}件")
+    return stats
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Google Drive画像の安全な差分同期')
+    parser.add_argument('--json', required=True, help='リストファイル(JSON)のパス')
+    parser.add_argument('--output', required=True, help='出力フォルダのパス')
+    parser.add_argument('--exclude', default='', help='除外する語句')
+    parser.add_argument('--manifest', default='', help='本番の image-manifest.json')
+    parser.add_argument(
+        '--only-missing-manifest',
+        action='store_true',
+        help='マニフェストにカード番号がない画像だけを処理する',
+    )
+    parser.add_argument('--format', choices=('webp', 'jpg'), default='webp')
+    parser.add_argument('--quality', type=int, default=90)
+    parser.add_argument('--delay', type=float, default=1.0)
     args = parser.parse_args()
-    process_images(args.json, args.output, args.exclude)
+
+    if not 1 <= args.quality <= 100:
+        parser.error('--quality は1から100の範囲で指定してください')
+    if args.delay < 0:
+        parser.error('--delay は0以上で指定してください')
+
+    try:
+        stats = process_images(
+            json_path=args.json,
+            output_path=args.output,
+            exclude_keyword=args.exclude,
+            manifest_path=args.manifest,
+            only_missing_manifest=args.only_missing_manifest,
+            output_format=args.format,
+            quality=args.quality,
+            delay=args.delay,
+        )
+    except ValueError as error:
+        print(f'エラー: {error}')
+        return 1
+
+    return 1 if stats['errors'] or stats['invalid'] else 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

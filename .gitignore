@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+# GDrive image sync working files
+file_list.json
+temp_download/
+target_repo/
